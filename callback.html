@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Spotify Anmeldung</title>
+<title>Spotify wird verbunden</title>
 
 <style>
     body {
@@ -29,6 +29,7 @@
 
     #status {
         color: #ccc;
+        line-height: 1.6;
     }
 </style>
 </head>
@@ -36,36 +37,180 @@
 <body>
 
 <div class="box">
-    <h1>Spotify</h1>
-    <div id="status">Anmeldung wird verarbeitet...</div>
+    <h1>🎵 Hitster</h1>
+    <div id="status">Spotify wird verbunden...</div>
 </div>
 
 <script>
 
 const CLIENT_ID = "fc0ca59e363f454ca125c7dcdf6b723c";
 
-const params = new URLSearchParams(window.location.search);
+const REDIRECT_URI =
+    "https://frosch339.github.io/Hitster/callback.html";
 
-const error = params.get("error");
-const code = params.get("code");
+const status = document.getElementById("status");
 
-if (error) {
 
-    document.getElementById("status").textContent =
-        "Spotify-Anmeldung abgebrochen: " + error;
+async function exchangeCodeForToken(code) {
 
-} else if (code) {
+    const verifier =
+        localStorage.getItem("spotify_code_verifier");
 
-    document.getElementById("status").innerHTML =
-        "✅ Spotify-Anmeldung erfolgreich!<br><br>" +
-        "Die Verbindung wurde von Spotify zurückgegeben.";
+    if (!verifier) {
+        throw new Error(
+            "Der Spotify Code-Verifier wurde nicht gefunden."
+        );
+    }
 
-} else {
+    const response = await fetch(
+        "https://accounts.spotify.com/api/token",
+        {
+            method: "POST",
 
-    document.getElementById("status").textContent =
-        "Keine Spotify-Anmeldung gefunden.";
+            headers: {
+                "Content-Type":
+                    "application/x-www-form-urlencoded"
+            },
+
+            body: new URLSearchParams({
+                client_id: CLIENT_ID,
+                grant_type: "authorization_code",
+                code: code,
+                redirect_uri: REDIRECT_URI,
+                code_verifier: verifier
+            })
+        }
+    );
+
+    const data = await response.json();
+
+    if (!response.ok) {
+        throw new Error(
+            data.error_description ||
+            data.error ||
+            "Spotify-Anmeldung fehlgeschlagen."
+        );
+    }
+
+    /*
+       Access Token speichern
+    */
+
+    localStorage.setItem(
+        "spotify_access_token",
+        data.access_token
+    );
+
+    /*
+       Ablaufzeit speichern
+    */
+
+    localStorage.setItem(
+        "spotify_token_expires_at",
+        String(
+            Date.now() +
+            (data.expires_in * 1000)
+        )
+    );
+
+    /*
+       Refresh Token speichern
+
+       Spotify liefert bei einem Refresh
+       nicht zwingend einen neuen Refresh Token.
+       Deshalb behalten wir den alten.
+    */
+
+    if (data.refresh_token) {
+
+        localStorage.setItem(
+            "spotify_refresh_token",
+            data.refresh_token
+        );
+
+    }
+
+    /*
+       Code-Verifier wird nicht mehr benötigt
+    */
+
+    localStorage.removeItem(
+        "spotify_code_verifier"
+    );
+
+    return data;
 
 }
+
+
+async function main() {
+
+    const params =
+        new URLSearchParams(
+            window.location.search
+        );
+
+    const error =
+        params.get("error");
+
+    const code =
+        params.get("code");
+
+
+    if (error) {
+
+        status.innerHTML =
+            "❌ Spotify-Anmeldung abgebrochen.<br><br>" +
+            error;
+
+        return;
+    }
+
+
+    if (!code) {
+
+        status.innerHTML =
+            "❌ Kein Spotify-Anmeldecode gefunden.";
+
+        return;
+    }
+
+
+    try {
+
+        await exchangeCodeForToken(code);
+
+        status.innerHTML =
+            "✅ Spotify erfolgreich verbunden!<br><br>" +
+            "Du kannst jetzt zum Hitster-Spiel zurück.";
+
+        /*
+           Nach kurzer Pause zur Testseite
+        */
+
+        setTimeout(() => {
+
+            window.location.href =
+                "https://frosch339.github.io/Hitster/spotify.html";
+
+        }, 1200);
+
+    }
+
+    catch (error) {
+
+        console.error(error);
+
+        status.innerHTML =
+            "❌ Fehler beim Verbinden mit Spotify.<br><br>" +
+            error.message;
+
+    }
+
+}
+
+
+main();
 
 </script>
 
