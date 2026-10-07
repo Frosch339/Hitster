@@ -1,1 +1,514 @@
-<!DOCTYPE html> <html lang="de"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Hitster Karten</title> <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script> <style> @page { size: 65mm 65mm; margin: 0; } * { box-sizing: border-box; } body { margin: 0; padding: 20px; background: #e9e9e9; font-family: Arial, Helvetica, sans-serif; } /* ========================= KARTEN ========================= */ .card { width: 65mm; height: 65mm; margin: 20px auto; position: relative; overflow: hidden; border-radius: 3mm; page-break-after: always; } /* ========================= VORDERSEITE ========================= */ .front { display: flex; align-items: center; justify-content: center; /* Farbe wird über JavaScript gesetzt */ } /* QR-Bereich */ .qr-area { width: 42mm; height: 42mm; display: flex; align-items: center; justify-content: center; background: white; padding: 1.2mm; border-radius: 1mm; } /* QR-Code */ #qrcode { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; } #qrcode img, #qrcode canvas { width: 100% !important; height: 100% !important; } /* ========================= RÜCKSEITE ========================= */ .back { background: #050505; color: white; display: flex; flex-direction: column; position: relative; } /* Vinyl-Ringe */ .ring { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); border-radius: 50%; border-style: solid; pointer-events: none; } /* normale Ringe */ .ring1 { width: 130mm; height: 130mm; border-width: 1.3mm; border-color: #00b8a9; opacity: 0.75; } .ring2 { width: 115mm; height: 115mm; border-width: 1.5mm; border-color: #ff5c5c; opacity: 0.75; } .ring3 { width: 100mm; height: 100mm; border-width: 1.2mm; border-color: #ffc857; opacity: 0.75; } .ring4 { width: 85mm; height: 85mm; border-width: 1.5mm; border-color: #8b6cff; opacity: 0.8; } .ring5 { width: 70mm; height: 70mm; border-width: 1.3mm; border-color: #20c997; opacity: 0.8; } /* offene Ringe */ .open-ring { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); border-radius: 50%; border-style: solid; pointer-events: none; } .open1 { width: 145mm; height: 145mm; border-width: 1.4mm; border-color: #ff8a3d; border-left-color: transparent; border-bottom-color: transparent; transform: translate(-50%, -50%) rotate(25deg); } .open2 { width: 92mm; height: 92mm; border-width: 1.5mm; border-color: #00d4ff; border-right-color: transparent; border-top-color: transparent; transform: translate(-50%, -50%) rotate(-20deg); } .open3 { width: 60mm; height: 60mm; border-width: 1.4mm; border-color: #ff4fa3; border-left-color: transparent; border-top-color: transparent; transform: translate(-50%, -50%) rotate(45deg); } /* ========================= TEXT AUF RÜCKSEITE ========================= */ .artist { position: relative; z-index: 5; text-align: center; margin-top: 7mm; padding: 0 5mm; font-size: 5mm; font-weight: 700; line-height: 1.1; } .year { position: absolute; z-index: 5; top: 50%; left: 0; right: 0; transform: translateY(-50%); text-align: center; font-size: 17mm; font-weight: 900; letter-spacing: -0.5mm; } .title { position: absolute; z-index: 5; left: 4mm; right: 4mm; bottom: 6mm; text-align: center; font-size: 4.5mm; font-weight: 700; line-height: 1.15; } /* ========================= BILDSCHIRM-VORSCHAU ========================= */ @media screen { .card { box-shadow: 0 5px 15px rgba(0,0,0,0.25); } } /* ========================= DRUCK ========================= */ @media print { body { margin: 0; padding: 0; background: white; } .card { margin: 0; box-shadow: none; } } </style> </head> <body> <!-- ========================= VORDERSEITE ========================= --> <div class="card front" id="frontCard"> <div class="qr-area"> <div id="qrcode"></div> </div> </div> <!-- ========================= RÜCKSEITE ========================= --> <div class="card back"> <!-- Vinyl-Rillen --> <div class="ring ring1"></div> <div class="ring ring2"></div> <div class="ring ring3"></div> <div class="ring ring4"></div> <div class="ring ring5"></div> <!-- offene Ringe --> <div class="open-ring open1"></div> <div class="open-ring open2"></div> <div class="open-ring open3"></div> <!-- Kartentext --> <div class="artist"> Elvis Presley </div> <div class="year"> 1959 </div> <div class="title"> A Big Hunk o' Love </div> </div> <script> /* ========================= KARTENNUMMER ========================= */ const cardNumber = 1; /* ========================= FARBEN DER VORDERSEITEN ========================= */ const colors = [ "#4E8F8A", // Petrol "#91A88B", // Salbeigrün "#D8B85A", // warmes Gelb "#C8795B", // Terrakotta "#D86F6F", // Koralle "#8576A8", // Violett "#5E8FA8" // Blau ]; /* ========================= FARBE AUSWÄHLEN ========================= */ const frontCard = document.getElementById("frontCard"); const colorIndex = (cardNumber - 1) % colors.length; frontCard.style.backgroundColor = colors[colorIndex]; /* ========================= QR-CODE ========================= */ const baseURL = "https://frosch339.github.io/Hitster/?karte="; new QRCode(document.getElementById("qrcode"), { text: baseURL + cardNumber, width: 150, height: 150, correctLevel: QRCode.CorrectLevel.M }); </script> </body> </html>
+```html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hitster Karten</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<style>
+
+@page {
+  size: 65mm 65mm;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: #e9e9e9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================================
+   ALLGEMEINE KARTE
+========================================= */
+
+.card {
+  width: 65mm;
+  height: 65mm;
+  margin: 20px auto;
+
+  position: relative;
+  overflow: hidden;
+
+  border-radius: 3mm;
+
+  page-break-after: always;
+}
+
+
+/* =========================================
+   VORDERSEITE
+   SCHWARZ + QR + VINYL-RILLEN
+========================================= */
+
+.front {
+  background: #050505;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =========================================
+   VINYL-RILLEN
+========================================= */
+
+.ring {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  border-style: solid;
+
+  pointer-events: none;
+}
+
+
+/* große Ringe */
+
+.ring1 {
+  width: 70mm;
+  height: 70mm;
+
+  border-width: 1.2mm;
+  border-color: #00b8a9;
+
+  opacity: 0.85;
+}
+
+.ring2 {
+  width: 60mm;
+  height: 60mm;
+
+  border-width: 1.3mm;
+  border-color: #ff5c5c;
+
+  opacity: 0.85;
+}
+
+.ring3 {
+  width: 50mm;
+  height: 50mm;
+
+  border-width: 1.2mm;
+  border-color: #ffc857;
+
+  opacity: 0.9;
+}
+
+.ring4 {
+  width: 40mm;
+  height: 40mm;
+
+  border-width: 1.3mm;
+  border-color: #8b6cff;
+
+  opacity: 0.9;
+}
+
+
+/* =========================================
+   OFFENE RINGE
+========================================= */
+
+.open-ring {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  border-style: solid;
+
+  pointer-events: none;
+}
+
+.open1 {
+  width: 65mm;
+  height: 65mm;
+
+  border-width: 1.3mm;
+
+  border-color: #ff8a3d;
+
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(25deg);
+}
+
+.open2 {
+  width: 55mm;
+  height: 55mm;
+
+  border-width: 1.4mm;
+
+  border-color: #00d4ff;
+
+  border-right-color: transparent;
+  border-top-color: transparent;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(-20deg);
+}
+
+.open3 {
+  width: 45mm;
+  height: 45mm;
+
+  border-width: 1.3mm;
+
+  border-color: #ff4fa3;
+
+  border-left-color: transparent;
+  border-top-color: transparent;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(45deg);
+}
+
+
+/* =========================================
+   QR-CODE
+========================================= */
+
+.qr-area {
+
+  position: relative;
+
+  z-index: 10;
+
+  width: 38mm;
+  height: 38mm;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: white;
+
+  /*
+    Kleiner weißer Bereich für zuverlässiges
+    Scannen des QR-Codes.
+  */
+  padding: 1mm;
+
+  border-radius: 0.8mm;
+}
+
+#qrcode {
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#qrcode img,
+#qrcode canvas {
+
+  width: 100% !important;
+  height: 100% !important;
+
+  display: block;
+}
+
+
+/* =========================================
+   RÜCKSEITE
+   SALBEIGRÜN
+========================================= */
+
+.back {
+
+  background: #91A88B;
+
+  color: #050505;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+
+/* =========================================
+   INTERPRET
+========================================= */
+
+.artist {
+
+  position: relative;
+
+  z-index: 5;
+
+  text-align: center;
+
+  margin-top: 7mm;
+
+  padding: 0 5mm;
+
+  font-size: 5mm;
+
+  font-weight: 700;
+
+  line-height: 1.1;
+}
+
+
+/* =========================================
+   JAHR
+========================================= */
+
+.year {
+
+  position: absolute;
+
+  z-index: 5;
+
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  transform: translateY(-50%);
+
+  text-align: center;
+
+  font-size: 17mm;
+
+  font-weight: 900;
+
+  letter-spacing: -0.5mm;
+}
+
+
+/* =========================================
+   TITEL
+========================================= */
+
+.title {
+
+  position: absolute;
+
+  z-index: 5;
+
+  left: 4mm;
+  right: 4mm;
+
+  bottom: 6mm;
+
+  text-align: center;
+
+  font-size: 4.5mm;
+
+  font-weight: 700;
+
+  line-height: 1.15;
+}
+
+
+/* =========================================
+   KARTENNUMMER
+========================================= */
+
+.card-number {
+
+  position: absolute;
+
+  z-index: 10;
+
+  left: 2.5mm;
+  bottom: 2mm;
+
+  font-size: 2.4mm;
+
+  font-weight: 600;
+
+  color: #050505;
+
+  opacity: 0.65;
+}
+
+
+/* =========================================
+   VORSCHAU
+========================================= */
+
+@media screen {
+
+  .card {
+
+    box-shadow:
+      0 5px 15px rgba(0,0,0,0.25);
+
+  }
+
+}
+
+
+/* =========================================
+   DRUCK
+========================================= */
+
+@media print {
+
+  body {
+
+    margin: 0;
+    padding: 0;
+
+    background: white;
+
+  }
+
+  .card {
+
+    margin: 0;
+
+    box-shadow: none;
+
+  }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     VORDERSEITE
+========================================= -->
+
+<div class="card front">
+
+
+  <!-- Vinyl-Rillen -->
+
+  <div class="ring ring1"></div>
+  <div class="ring ring2"></div>
+  <div class="ring ring3"></div>
+  <div class="ring ring4"></div>
+
+
+  <!-- offene Ringe -->
+
+  <div class="open-ring open1"></div>
+  <div class="open-ring open2"></div>
+  <div class="open-ring open3"></div>
+
+
+  <!-- QR-Code -->
+
+  <div class="qr-area">
+
+    <div id="qrcode"></div>
+
+  </div>
+
+
+</div>
+
+
+
+<!-- =========================================
+     RÜCKSEITE
+========================================= -->
+
+<div class="card back">
+
+
+  <div class="artist">
+    Elvis Presley
+  </div>
+
+
+  <div class="year">
+    1959
+  </div>
+
+
+  <div class="title">
+    A Big Hunk o' Love
+  </div>
+
+
+  <div class="card-number">
+    #001
+  </div>
+
+
+</div>
+
+
+
+<script>
+
+
+/* =========================================
+   KARTENNUMMER
+========================================= */
+
+const cardNumber = 1;
+
+
+/* =========================================
+   QR-CODE
+========================================= */
+
+const baseURL =
+  "https://frosch339.github.io/Hitster/?karte=";
+
+
+new QRCode(
+
+  document.getElementById("qrcode"),
+
+  {
+
+    text: baseURL + cardNumber,
+
+    width: 150,
+
+    height: 150,
+
+    correctLevel:
+      QRCode.CorrectLevel.M
+
+  }
+
+);
+
+</script>
+
+
+</body>
+</html>
+```
