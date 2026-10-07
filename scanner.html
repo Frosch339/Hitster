@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Hitster QR Scanner</title>
+
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    body {
+
+      margin: 0;
+
+      min-height: 100vh;
+
+      background:
+        linear-gradient(
+          135deg,
+          #d4145a,
+          #8e2de2
+        );
+
+      font-family:
+        Arial,
+        sans-serif;
+
+      color: white;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      padding: 20px;
+
+    }
+
+
+    .scanner {
+
+      width: 100%;
+
+      max-width: 500px;
+
+      text-align: center;
+
+    }
+
+
+    h1 {
+
+      margin-top: 0;
+
+      margin-bottom: 10px;
+
+    }
+
+
+    .info {
+
+      margin-bottom: 20px;
+
+      opacity: 0.9;
+
+    }
+
+
+    #reader {
+
+      width: 100%;
+
+      background: black;
+
+      border-radius: 20px;
+
+      overflow: hidden;
+
+    }
+
+
+    .buttons {
+
+      display: flex;
+
+      gap: 10px;
+
+      margin-top: 20px;
+
+      justify-content: center;
+
+      flex-wrap: wrap;
+
+    }
+
+
+    button {
+
+      border: none;
+
+      border-radius: 12px;
+
+      padding: 14px 20px;
+
+      font-size: 16px;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+      background: white;
+
+      color: #333;
+
+    }
+
+
+    button:disabled {
+
+      opacity: 0.5;
+
+      cursor: default;
+
+    }
+
+
+    #status {
+
+      margin-top: 15px;
+
+      min-height: 24px;
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <div class="scanner">
+
+    <h1>📷 QR-Code scannen</h1>
+
+    <div class="info">
+      Halte den QR-Code vor die Kamera.
+    </div>
+
+
+    <div id="reader"></div>
+
+
+    <div class="buttons">
+
+      <button id="torch">
+        🔦 Licht an
+      </button>
+
+      <button id="stop">
+        ⛔ Kamera stoppen
+      </button>
+
+    </div>
+
+
+    <div id="status"></div>
+
+  </div>
+
+
+
+  <!-- QR-Code Bibliothek -->
+
+  <script src="https://unpkg.com/html5-qrcode"></script>
+
+
+  <script>
+
+
+    let scanner = null;
+
+    let currentTrack = null;
+
+    let torchOn = false;
+
+
+    const status =
+      document.getElementById("status");
+
+
+    /*
+     * QR-Code wurde erkannt
+     */
+
+    function onScanSuccess(decodedText) {
+
+      console.log(
+        "QR erkannt:",
+        decodedText
+      );
+
+
+      status.textContent =
+        "✅ QR-Code erkannt!";
+
+
+      /*
+       * Kamera stoppen
+       */
+
+      if (scanner) {
+
+        scanner
+          .stop()
+          .catch(
+            error =>
+              console.log(error)
+          );
+
+      }
+
+
+      /*
+       * Zur Karten-Adresse wechseln
+       */
+
+      if (
+        decodedText.includes(
+          "frosch339.github.io/Hitster"
+        )
+      ) {
+
+        window.location.href =
+          decodedText;
+
+      }
+
+      else {
+
+        alert(
+          "Das ist kein gültiger Hitster-QR-Code."
+        );
+
+        startScanner();
+
+      }
+
+    }
+
+
+
+    /*
+     * Scanner starten
+     */
+
+    async function startScanner() {
+
+      status.textContent =
+        "📷 Kamera wird gestartet...";
+
+
+      scanner =
+        new Html5Qrcode(
+          "reader"
+        );
+
+
+      try {
+
+        await scanner.start(
+
+          {
+            facingMode:
+              "environment"
+          },
+
+          {
+            fps: 10,
+
+            qrbox: {
+              width: 250,
+              height: 250
+            }
+
+          },
+
+          onScanSuccess
+
+        );
+
+
+        status.textContent =
+          "📷 Bereit zum Scannen";
+
+
+        /*
+         * Kamera-Track holen,
+         * um ggf. die Taschenlampe
+         * steuern zu können.
+         */
+
+        const video =
+          document.querySelector(
+            "#reader video"
+          );
+
+
+        if (video && video.srcObject) {
+
+          const tracks =
+            video.srcObject.getVideoTracks();
+
+
+          if (tracks.length > 0) {
+
+            currentTrack =
+              tracks[0];
+
+          }
+
+        }
+
+
+        /*
+         * Prüfen, ob Taschenlampe
+         * unterstützt wird.
+         */
+
+        if (
+          currentTrack &&
+          currentTrack
+            .getCapabilities
+        ) {
+
+          const capabilities =
+            currentTrack
+              .getCapabilities();
+
+
+          if (
+            !capabilities.torch
+          ) {
+
+            document.getElementById(
+              "torch"
+            ).disabled = true;
+
+
+            document.getElementById(
+              "torch"
+            ).textContent =
+              "🔦 Licht nicht verfügbar";
+
+          }
+
+        }
+
+      }
+
+      catch (error) {
+
+        console.error(error);
+
+
+        status.textContent =
+          "❌ Kamera konnte nicht gestartet werden.";
+
+
+        alert(
+          "Die Kamera konnte nicht gestartet werden.\n\n" +
+          "Bitte erlaube deinem Browser den Zugriff auf die Kamera."
+        );
+
+      }
+
+    }
+
+
+
+    /*
+     * Taschenlampe
+     */
+
+    document.getElementById(
+      "torch"
+    ).onclick = async () => {
+
+      if (!currentTrack) {
+
+        alert(
+          "Die Taschenlampe ist auf diesem Gerät oder in diesem Browser nicht verfügbar."
+        );
+
+        return;
+
+      }
+
+
+      try {
+
+        torchOn =
+          !torchOn;
+
+
+        await currentTrack.applyConstraints({
+
+          advanced: [
+            {
+              torch:
+                torchOn
+            }
+          ]
+
+        });
+
+
+        document.getElementById(
+          "torch"
+        ).textContent =
+          torchOn
+            ? "🔦 Licht aus"
+            : "🔦 Licht an";
+
+      }
+
+      catch (error) {
+
+        console.error(error);
+
+        alert(
+          "Die Taschenlampe wird von diesem Browser nicht unterstützt."
+        );
+
+      }
+
+    };
+
+
+
+    /*
+     * Kamera stoppen
+     */
+
+    document.getElementById(
+      "stop"
+    ).onclick = async () => {
+
+      if (!scanner) {
+        return;
+      }
+
+
+      try {
+
+        await scanner.stop();
+
+        status.textContent =
+          "⛔ Kamera gestoppt.";
+
+      }
+
+      catch (error) {
+
+        console.error(error);
+
+      }
+
+    };
+
+
+
+    /*
+     * Scanner automatisch starten
+     */
+
+    startScanner();
+
+  </script>
+
+
+</body>
+
+</html>
