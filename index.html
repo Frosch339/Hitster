@@ -784,12 +784,14 @@ async () => {
    SONG STARTEN
 ===================================================== */
 
-document.getElementById('play').onclick =
+  document.getElementById('play').onclick =
 async () => {
 
   const button =
     document.getElementById('play');
 
+  const pauseButton =
+    document.getElementById('pause');
 
   try {
 
@@ -800,17 +802,9 @@ async () => {
       "⏳ Song wird gestartet...";
 
 
-    /*
-     * Gültigen Token holen
-     */
-
     const token =
       await getSpotifyAccessToken();
 
-
-    /*
-     * Prüfen, ob Player bereit ist
-     */
 
     if (
       !spotifyPlayerReady ||
@@ -824,10 +818,6 @@ async () => {
     }
 
 
-    /*
-     * Browser-Audio aktivieren
-     */
-
     if (
       spotifyPlayer &&
       spotifyPlayer.activateElement
@@ -837,11 +827,6 @@ async () => {
 
     }
 
-
-    /*
-     * Song anhand von Interpret
-     * und Titel suchen
-     */
 
     const query =
       encodeURIComponent(
@@ -901,11 +886,6 @@ async () => {
     }
 
 
-    /*
-     * Möglichst genau den richtigen
-     * Interpreten auswählen.
-     */
-
     const track =
       tracks.find(
         t =>
@@ -928,11 +908,6 @@ async () => {
         .join(", ")
     );
 
-
-    /*
-     * Song auf unseren
-     * Browser-Player schicken
-     */
 
     const playResponse =
       await fetch(
@@ -994,6 +969,12 @@ async () => {
     button.textContent =
       "🎵 Song läuft";
 
+    pauseButton.disabled =
+      false;
+
+    pauseButton.textContent =
+      "⏸ Pause";
+
   }
 
   catch (error) {
@@ -1021,6 +1002,61 @@ async () => {
 
 };
 
+
+/*
+ * Pause / Weiter
+ */
+
+document.getElementById('pause').onclick =
+async () => {
+
+  const pauseButton =
+    document.getElementById('pause');
+
+  try {
+
+    if (!spotifyPlayer) {
+      return;
+    }
+
+    const state =
+      await spotifyPlayer.getCurrentState();
+
+    if (!state) {
+      return;
+    }
+
+
+    if (state.paused) {
+
+      await spotifyPlayer.resume();
+
+      pauseButton.textContent =
+        "⏸ Pause";
+
+    }
+
+    else {
+
+      await spotifyPlayer.pause();
+
+      pauseButton.textContent =
+        "▶️ Weiter";
+
+    }
+
+  }
+
+  catch (error) {
+
+    console.error(
+      "Pause/Weiter Fehler:",
+      error
+    );
+
+  }
+
+};
 
 /* =====================================================
    LÖSUNG AUFDECKEN
