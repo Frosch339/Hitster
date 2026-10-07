@@ -91,6 +91,10 @@ Song abspielen und erst danach die Lösung aufdecken.
   ⏸ Pause
 </button>
 
+  <button class="play" id="scan">
+  📷 Nächste Karte scannen
+</button>
+
 <button class="reveal" id="rev">
 🔓 Lösung aufdecken
 </button>
@@ -1057,6 +1061,10 @@ async () => {
   }
 
 };
+
+  document.getElementById('scan').onclick = () => {
+  window.location.href = './scanner.html';
+    };
 
 /* =====================================================
    LÖSUNG AUFDECKEN
