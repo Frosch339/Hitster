@@ -3,22 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Hitster – Karten Vorschau</title>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<title>Hitster Karte #001</title>
 
 <style>
 
+@page {
+  size: 65mm 65mm;
+  margin: 0;
+}
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 40px;
-    background: #222;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 30px;
+  background: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* =========================
@@ -26,231 +28,274 @@ body {
 ========================= */
 
 .card {
-    width: 63mm;
-    height: 88mm;
-    margin: 30px auto;
+  position: relative;
 
-    position: relative;
-    overflow: hidden;
+  width: 65mm;
+  height: 65mm;
 
-    border-radius: 4mm;
+  margin: 0 auto 30px;
 
-    background:
-        radial-gradient(circle at 50% 35%, #ff5aa8 0%, #e90068 38%, #9d004b 100%);
+  background: #080808;
 
-    box-shadow:
-        0 8px 25px rgba(0,0,0,0.5);
+  overflow: hidden;
 
-    color: white;
+  border-radius: 3mm;
+
+  box-shadow:
+    0 8px 25px rgba(0,0,0,0.25);
 }
 
-/* dekorative Kreise */
-
-.card::before {
-    content: "";
-    position: absolute;
-
-    width: 110mm;
-    height: 110mm;
-
-    left: -24mm;
-    top: 17mm;
-
-    border-radius: 50%;
-
-    border: 2mm solid rgba(255,255,255,0.10);
-
-    box-shadow:
-        0 0 0 6mm rgba(255,255,255,0.04),
-        0 0 0 12mm rgba(255,255,255,0.03);
-
-    transform: rotate(-20deg);
-}
-
-.card::after {
-    content: "♪";
-    position: absolute;
-
-    right: -5mm;
-    top: -10mm;
-
-    font-size: 55mm;
-    font-weight: bold;
-
-    color: rgba(255,255,255,0.08);
-
-    transform: rotate(15deg);
-}
 
 /* =========================
-   KARTENNUMMER
+   VINYL-LINIEN
 ========================= */
 
-.card-number {
-    position: absolute;
+.vinyl {
+  position: absolute;
 
-    top: 7mm;
-    left: 0;
-    right: 0;
+  width: 100%;
+  height: 100%;
 
-    text-align: center;
+  left: 0;
+  top: 0;
 
-    font-size: 7mm;
-    font-weight: 900;
-    letter-spacing: 0.5mm;
-
-    z-index: 5;
+  pointer-events: none;
 }
+
+
+/* einzelne Ringe */
+
+.ring {
+  position: absolute;
+
+  border-radius: 50%;
+
+  border-style: solid;
+
+  opacity: 0.85;
+}
+
+
+/* Farben */
+
+.r1 {
+  width: 125%;
+  height: 125%;
+  left: -12.5%;
+  top: -12.5%;
+
+  border-width: 1.2px;
+
+  border-color: #668f8a;
+}
+
+.r2 {
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+
+  border-width: 1px;
+
+  border-color: #c87968;
+}
+
+.r3 {
+  width: 96%;
+  height: 96%;
+  left: 2%;
+  top: 2%;
+
+  border-width: 1px;
+
+  border-color: #b59b58;
+}
+
+.r4 {
+  width: 84%;
+  height: 84%;
+  left: 8%;
+  top: 8%;
+
+  border-width: 1px;
+
+  border-color: #7c759b;
+}
+
+.r5 {
+  width: 72%;
+  height: 72%;
+  left: 14%;
+  top: 14%;
+
+  border-width: 1px;
+
+  border-color: #668f8a;
+}
+
+.r6 {
+  width: 60%;
+  height: 60%;
+  left: 20%;
+  top: 20%;
+
+  border-width: 1px;
+
+  border-color: #c87968;
+}
+
+.r7 {
+  width: 48%;
+  height: 48%;
+  left: 26%;
+  top: 26%;
+
+  border-width: 1px;
+
+  border-color: #b59b58;
+}
+
+.r8 {
+  width: 36%;
+  height: 36%;
+  left: 32%;
+  top: 32%;
+
+  border-width: 1px;
+
+  border-color: #7c759b;
+}
+
 
 /* =========================
-   MUSIKSYMBOL
+   QR-BEREICH
 ========================= */
 
-.music {
+.qr-area {
 
-    position: absolute;
+  position: absolute;
 
-    top: 20mm;
-    left: 50%;
+  left: 50%;
+  top: 50%;
 
-    transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 
-    width: 32mm;
-    height: 32mm;
+  width: 31mm;
+  height: 31mm;
 
-    border-radius: 50%;
+  background: white;
 
-    background: rgba(255,255,255,0.95);
+  padding: 3mm;
 
-    box-shadow:
-        0 3mm 7mm rgba(0,0,0,0.25);
+  display: flex;
 
-    z-index: 5;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 10;
 }
 
-.music::before {
-    content: "";
-
-    position: absolute;
-
-    width: 15mm;
-    height: 15mm;
-
-    border-radius: 50%;
-
-    background: #c9005b;
-
-    left: 8.5mm;
-    top: 8.5mm;
-}
-
-.music::after {
-    content: "♪";
-
-    position: absolute;
-
-    color: white;
-
-    font-size: 16mm;
-
-    left: 9mm;
-    top: 4mm;
-}
-
-/* =========================
-   QR CODE
-========================= */
-
-.qr-wrapper {
-
-    position: absolute;
-
-    bottom: 9mm;
-    left: 50%;
-
-    transform: translateX(-50%);
-
-    width: 35mm;
-    height: 35mm;
-
-    padding: 2mm;
-
-    background: white;
-
-    border-radius: 2mm;
-
-    z-index: 10;
-}
-
-#qr {
-    width: 31mm;
-    height: 31mm;
-}
-
-/* =========================
-   UNTERER TEXT
-========================= */
-
-.scan {
-
-    position: absolute;
-
-    bottom: 5mm;
-    left: 0;
-    right: 0;
-
-    text-align: center;
-
-    font-size: 3mm;
-    font-weight: bold;
-
-    z-index: 15;
-
-    transform: translateY(0);
-}
 
 /* =========================
    RÜCKSEITE
 ========================= */
 
-.answer-card {
+.back {
 
-    display: flex;
+  display: flex;
 
-    flex-direction: column;
+  flex-direction: column;
 
-    justify-content: center;
+  align-items: center;
 
-    align-items: center;
+  text-align: center;
 
-    text-align: center;
+  color: #f4f1ea;
 
-    padding: 8mm;
+  padding: 8mm 5mm;
 
 }
 
-.answer-card .small {
-    font-size: 4mm;
-    opacity: 0.85;
-    margin-bottom: 6mm;
+
+/* Interpret */
+
+.artist {
+
+  position: relative;
+
+  z-index: 10;
+
+  font-size: 5mm;
+
+  font-weight: 700;
+
+  letter-spacing: 0.4mm;
+
+  text-transform: uppercase;
+
+  margin-top: 1mm;
+
+  max-width: 90%;
 }
 
-.answer-card .artist {
-    font-size: 6mm;
-    font-weight: 900;
-    margin-bottom: 4mm;
+
+/* Jahr */
+
+.year {
+
+  position: relative;
+
+  z-index: 10;
+
+  font-size: 18mm;
+
+  line-height: 1;
+
+  font-weight: 900;
+
+  margin-top: 9mm;
+
+  margin-bottom: 7mm;
+
+  letter-spacing: -0.5mm;
 }
 
-.answer-card .title {
-    font-size: 5mm;
-    font-style: italic;
-    margin-bottom: 7mm;
+
+/* Song */
+
+.song {
+
+  position: relative;
+
+  z-index: 10;
+
+  font-size: 4.2mm;
+
+  line-height: 1.2;
+
+  font-weight: 600;
+
+  max-width: 90%;
 }
 
-.answer-card .year {
-    font-size: 10mm;
-    font-weight: 900;
+
+/* =========================
+   ÜBERSCHRIFTEN AUẞERHALB
+========================= */
+
+.preview-title {
+
+  text-align: center;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  margin-bottom: 15px;
+
+  color: #222;
 }
+
 
 /* =========================
    DRUCK
@@ -258,15 +303,29 @@ body {
 
 @media print {
 
-    body {
-        background: white;
-        padding: 0;
-    }
+  body {
 
-    .card {
-        margin: 0;
-        box-shadow: none;
-    }
+    padding: 0;
+
+    background: white;
+
+  }
+
+  .preview-title {
+
+    display: none;
+
+  }
+
+  .card {
+
+    margin: 0;
+
+    box-shadow: none;
+
+    border-radius: 0;
+
+  }
 
 }
 
@@ -276,22 +335,40 @@ body {
 
 <body>
 
+
+<div class="preview-title">
+  Vorderseite
+</div>
+
+
 <!-- =========================
      VORDERSEITE
 ========================= -->
 
 <div class="card">
 
-    <div class="card-number">
-        KARTE #001
-    </div>
+  <div class="vinyl">
 
-    <div class="music"></div>
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+    <div class="ring r4"></div>
+    <div class="ring r5"></div>
+    <div class="ring r6"></div>
+    <div class="ring r7"></div>
+    <div class="ring r8"></div>
 
-    <div class="qr-wrapper">
-        <div id="qr"></div>
-    </div>
+  </div>
 
+
+  <div class="qr-area" id="qrcode"></div>
+
+</div>
+
+
+
+<div class="preview-title">
+  Rückseite
 </div>
 
 
@@ -299,41 +376,63 @@ body {
      RÜCKSEITE
 ========================= -->
 
-<div class="card answer-card">
+<div class="card back">
 
-    <div class="small">
-        DIE LÖSUNG
-    </div>
+  <div class="vinyl">
 
-    <div class="artist">
-        Elvis Presley
-    </div>
+    <div class="ring r1"></div>
+    <div class="ring r2"></div>
+    <div class="ring r3"></div>
+    <div class="ring r4"></div>
+    <div class="ring r5"></div>
+    <div class="ring r6"></div>
+    <div class="ring r7"></div>
+    <div class="ring r8"></div>
 
-    <div class="title">
-        A Big Hunk o' Love
-    </div>
+  </div>
 
-    <div class="year">
-        1959
-    </div>
+
+  <div class="artist">
+    Elvis Presley
+  </div>
+
+
+  <div class="year">
+    1959
+  </div>
+
+
+  <div class="song">
+    A Big Hunk o' Love
+  </div>
 
 </div>
 
 
+
+<!-- QR-Code Bibliothek -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+
 <script>
 
-new QRCode(document.getElementById("qr"), {
+new QRCode(
+  document.getElementById("qrcode"),
+  {
+    text:
+      "https://frosch339.github.io/Hitster/?karte=1",
 
-    text: "https://frosch339.github.io/Hitster/?karte=1",
+    width: 90,
+    height: 90,
 
-    width: 117,
-    height: 117,
-
-    correctLevel: QRCode.CorrectLevel.M
-
-});
+    correctLevel:
+      QRCode.CorrectLevel.M
+  }
+);
 
 </script>
+
 
 </body>
 </html>
