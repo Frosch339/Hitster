@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spotify Anmeldung</title>
+
+<style>
+    body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #111;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    .box {
+        padding: 30px;
+        max-width: 500px;
+    }
+
+    h1 {
+        margin-bottom: 15px;
+    }
+
+    #status {
+        color: #ccc;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>Spotify</h1>
+    <div id="status">Anmeldung wird verarbeitet...</div>
+</div>
+
+<script>
+
+const CLIENT_ID = "fc0ca59e363f454ca125c7dcdf6b723c";
+
+const params = new URLSearchParams(window.location.search);
+
+const error = params.get("error");
+const code = params.get("code");
+
+if (error) {
+
+    document.getElementById("status").textContent =
+        "Spotify-Anmeldung abgebrochen: " + error;
+
+} else if (code) {
+
+    document.getElementById("status").innerHTML =
+        "✅ Spotify-Anmeldung erfolgreich!<br><br>" +
+        "Die Verbindung wurde von Spotify zurückgegeben.";
+
+} else {
+
+    document.getElementById("status").textContent =
+        "Keine Spotify-Anmeldung gefunden.";
+
+}
+
+</script>
+
+</body>
+</html>
