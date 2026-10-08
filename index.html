@@ -1121,7 +1121,93 @@ const songs = [
   { id: 1000, artist: "Elvis Presley", title: "A Big Hunk o' Love", year: 1959 }
 ];
 
+// =====================================================
+// ZUSÄTZLICHE SONGS
+// =====================================================
 
+const additionalSongs = [
+
+  // Hier kommen später die neuen Songs hinein.
+
+];
+
+
+// =====================================================
+// SONGS BEREINIGEN UND AUF 1000 AUFFÜLLEN
+// =====================================================
+
+const uniqueSongs = [];
+const usedSongs = new Set();
+
+
+// Bereits vorhandene Songs prüfen
+songs.forEach(song => {
+
+  const key =
+    song.artist.trim().toLowerCase() +
+    "||" +
+    song.title.trim().toLowerCase();
+
+  if (!usedSongs.has(key)) {
+
+    usedSongs.add(key);
+
+    uniqueSongs.push({
+      artist: song.artist,
+      title: song.title,
+      year: song.year
+    });
+
+  }
+
+});
+
+
+// Neue Songs hinzufügen
+additionalSongs.forEach(song => {
+
+  if (uniqueSongs.length >= 1000) {
+    return;
+  }
+
+  const key =
+    song.artist.trim().toLowerCase() +
+    "||" +
+    song.title.trim().toLowerCase();
+
+  if (!usedSongs.has(key)) {
+
+    usedSongs.add(key);
+
+    uniqueSongs.push({
+      artist: song.artist,
+      title: song.title,
+      year: song.year
+    });
+
+  }
+
+});
+
+
+// IDs sauber von 1 bis 1000 vergeben
+uniqueSongs.forEach((song, index) => {
+  song.id = index + 1;
+});
+
+
+// songs durch die neue Liste ersetzen
+songs.length = 0;
+
+uniqueSongs.forEach(song => {
+  songs.push(song);
+});
+
+
+// Kontrolle
+console.log("===== SONG-LISTE =====");
+console.log("Eindeutige Songs:", songs.length);
+console.log("Fehlend bis 1000:", Math.max(0, 1000 - songs.length));
 
 /* =====================================================
    KARTE ERMITTELN
@@ -1800,53 +1886,7 @@ document.getElementById('rev').onclick =
 
 };
 
-  // ===== SONG-LISTE BEREINIGEN =====
-
-const uniqueSongs = [];
-const usedSongs = new Set();
-
-songs.forEach(song => {
-
-  const key =
-    song.artist.trim().toLowerCase() +
-    "||" +
-    song.title.trim().toLowerCase();
-
-  if (!usedSongs.has(key)) {
-
-    usedSongs.add(key);
-
-    uniqueSongs.push({
-      ...song
-    });
-
-  }
-
-});
-
-// Neue fortlaufende Kartennummern vergeben
-
-uniqueSongs.forEach((song, index) => {
-  song.id = index + 1;
-});
-
-// Alte Liste durch bereinigte Liste ersetzen
-
-songs.length = 0;
-
-uniqueSongs.forEach(song => {
-  songs.push(song);
-});
-
-
-// Ergebnis in der Konsole anzeigen
-
-console.log("===== SONG-LISTE BEREINIGT =====");
-console.log("Ursprüngliche Einträge: 1000");
-console.log("Eindeutige Songs:", songs.length);
-console.log("Entfernte Duplikate:", 1000 - songs.length);
  
-
 </script>
 
 </body>
