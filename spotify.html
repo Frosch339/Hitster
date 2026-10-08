@@ -148,6 +148,10 @@ document.getElementById("login").addEventListener("click", async () => {
 
     });
 
+    localStorage.setItem(
+    "spotify_return_url",
+    window.location.href
+);
 
     window.location.href =
         "https://accounts.spotify.com/authorize?" +
