@@ -188,12 +188,30 @@ async function main() {
            Nach kurzer Pause zur Testseite
         */
 
-        setTimeout(() => {
+       setTimeout(() => {
 
-            window.location.href =
-                "https://frosch339.github.io/Hitster/spotify.html";
+    const returnUrl =
+        localStorage.getItem(
+            "spotify_return_url"
+        );
 
-        }, 1200);
+    if (returnUrl) {
+
+        localStorage.removeItem(
+            "spotify_return_url"
+        );
+
+        window.location.href =
+            returnUrl;
+
+    } else {
+
+        window.location.href =
+            "https://frosch339.github.io/Hitster/";
+
+    }
+
+}, 1200);
 
     }
 
