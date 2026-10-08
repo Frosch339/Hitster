@@ -2255,25 +2255,22 @@ async () => {
      * Player bereit
      */
 
-    spotifyPlayer.addListener(
-      "ready",
+spotifyPlayer.addListener(
+  "ready",
 
-      ({ device_id }) => {
+  ({ device_id }) => {
 
-        spotifyDeviceId =
-          device_id;
+    spotifyDeviceId = device_id;
 
-        spotifyPlayerReady =
-          true;
+    spotifyPlayerReady = true;
 
-        console.log(
-          "Spotify Player bereit:",
-          device_id
-        );
-
-      }
+    console.log(
+      "✅ Spotify Player bereit:",
+      device_id
     );
 
+  }
+);
 
     /*
      * Player nicht mehr verfügbar
