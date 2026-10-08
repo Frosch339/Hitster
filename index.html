@@ -2461,17 +2461,17 @@ const query =
     }
 
 
-    const track =
-      tracks.find(
-        t =>
-          t.artists?.some(
-            artist =>
-              artist.name
-                .toLowerCase() ===
-              s[0].toLowerCase()
-          )
-      ) ||
-      tracks[0];
+const track =
+  tracks.find(
+    t =>
+      t.artists?.some(
+        artist =>
+          artist.name
+            .toLowerCase() ===
+          s.artist.toLowerCase()
+      )
+  ) ||
+  tracks[0];
 
 
     console.log(
