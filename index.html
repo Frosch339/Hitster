@@ -1800,34 +1800,52 @@ document.getElementById('rev').onclick =
 
 };
 
-  // ===== DUPLIKAT-CHECKER =====
+  // ===== SONG-LISTE BEREINIGEN =====
 
-const seenSongs = {};
-const duplicates = [];
+const uniqueSongs = [];
+const usedSongs = new Set();
 
 songs.forEach(song => {
-  const key = song.artist.trim().toLowerCase() + "||" + song.title.trim().toLowerCase();
 
-  if (seenSongs[key]) {
-    duplicates.push({
-      id: song.id,
-      artist: song.artist,
-      title: song.title,
-      original: seenSongs[key]
+  const key =
+    song.artist.trim().toLowerCase() +
+    "||" +
+    song.title.trim().toLowerCase();
+
+  if (!usedSongs.has(key)) {
+
+    usedSongs.add(key);
+
+    uniqueSongs.push({
+      ...song
     });
-  } else {
-    seenSongs[key] = song.id;
+
   }
+
 });
 
-console.log("===== DUPLIKATE =====");
-console.log("Anzahl doppelte Einträge:", duplicates.length);
+// Neue fortlaufende Kartennummern vergeben
 
-duplicates.forEach(d => {
-  console.log(
-    `Karte #${d.id} → "${d.artist} - ${d.title}" ist bereits bei Karte #${d.original}`
-  );
+uniqueSongs.forEach((song, index) => {
+  song.id = index + 1;
 });
+
+// Alte Liste durch bereinigte Liste ersetzen
+
+songs.length = 0;
+
+uniqueSongs.forEach(song => {
+  songs.push(song);
+});
+
+
+// Ergebnis in der Konsole anzeigen
+
+console.log("===== SONG-LISTE BEREINIGT =====");
+console.log("Ursprüngliche Einträge: 1000");
+console.log("Eindeutige Songs:", songs.length);
+console.log("Entfernte Duplikate:", 1000 - songs.length);
+ 
 
 </script>
 
