@@ -2073,23 +2073,27 @@ async function getSpotifyAccessToken() {
     );
 
 
- if (!refreshToken) {
+if (!refreshToken) {
 
-  /*
-   * Spotify noch nicht verbunden.
-   * Aktuelle Karte merken und zur Anmeldung wechseln.
-   */
+  const currentCard =
+    new URLSearchParams(
+      window.location.search
+    ).get("karte");
 
-  localStorage.setItem(
-    "spotify_return_url",
-    window.location.href
-  );
+  if (currentCard) {
+
+    localStorage.setItem(
+      "spotify_return_url",
+      "https://frosch339.github.io/Hitster/?karte=" +
+      currentCard
+    );
+
+  }
 
   window.location.href =
     "https://frosch339.github.io/Hitster/spotify.html";
 
   return null;
-
 }
 
 
