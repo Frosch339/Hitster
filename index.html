@@ -2346,10 +2346,39 @@ async () => {
 
   catch (error) {
 
-    console.error(
-      "Spotify Player konnte nicht gestartet werden:",
-      error
+  console.error(
+    "Spotify Player konnte nicht gestartet werden:",
+    error
+  );
+
+  /*
+   * Keine Spotify-Verbindung vorhanden:
+   * Zur Spotify-Anmeldung weiterleiten.
+   */
+
+  if (
+    error.message.includes(
+      "Spotify muss erneut verbunden werden"
+    ) ||
+    error.message.includes(
+      "Spotify-Verbindung abgelaufen"
+    )
+  ) {
+
+    const currentUrl =
+      window.location.pathname +
+      window.location.search;
+
+    localStorage.setItem(
+      "spotify_return_url",
+      currentUrl
     );
+
+    window.location.href =
+      "https://frosch339.github.io/Hitster/spotify.html";
+
+  }
+
 
   }
 
