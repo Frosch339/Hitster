@@ -2073,13 +2073,24 @@ async function getSpotifyAccessToken() {
     );
 
 
-  if (!refreshToken) {
+ if (!refreshToken) {
 
-    throw new Error(
-      "Spotify muss erneut verbunden werden."
-    );
+  /*
+   * Spotify noch nicht verbunden.
+   * Aktuelle Karte merken und zur Anmeldung wechseln.
+   */
 
-  }
+  localStorage.setItem(
+    "spotify_return_url",
+    window.location.href
+  );
+
+  window.location.href =
+    "https://frosch339.github.io/Hitster/spotify.html";
+
+  return null;
+
+}
 
 
   const response =
