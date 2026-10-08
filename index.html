@@ -2404,11 +2404,10 @@ async () => {
     }
 
 
-    const query =
-      encodeURIComponent(
-        `artist:${s[0]} track:${s[1]}`
-      );
-
+const query =
+  encodeURIComponent(
+    `artist:${s.artist} track:${s.title}`
+  );
 
     const searchResponse =
       await fetch(
