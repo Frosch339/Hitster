@@ -1821,9 +1821,9 @@ window.songs = [
   },
   {
     "id": 304,
-    "artist": "Peggy Gou",
-    "title": "Starry Night",
-    "year": 2019
+    "artist": "Bonnie Tyler",
+    "title": "Holding Out for a Hero",
+    "year": 1984
   },
   {
     "id": 305,
@@ -2229,9 +2229,9 @@ window.songs = [
   },
   {
     "id": 372,
-    "artist": "Peggy Gou",
-    "title": "Starry Night",
-    "year": 2019
+    "artist": "Bonnie Tyler",
+    "title": "It's a Heartache",
+    "year": 1977
   },
   {
     "id": 373,
@@ -3801,9 +3801,9 @@ window.songs = [
   },
   {
     "id": 634,
-    "artist": "Lady Gaga",
-    "title": "Bad Romance",
-    "year": 2009
+    "artist": "Bonnie Tyler",
+    "title": "If You Were a Woman (And I Was a Man)",
+    "year": 1986
   },
   {
     "id": 635,
@@ -4443,9 +4443,9 @@ window.songs = [
   },
   {
     "id": 750,
-    "artist": "Outkast",
-    "title": "Hey Ya!",
-    "year": 2003
+    "artist": "Bonnie Tyler",
+    "title": "Faster Than the Speed of Night",
+    "year": 1983
   },
   {
     "id": 751,
@@ -5805,9 +5805,9 @@ window.songs = [
   },
   {
     "id": 977,
-    "artist": "Sabrina Carpenter",
-    "title": "Espresso",
-    "year": 2024
+    "artist": "Bonnie Tyler",
+    "title": "Total Eclipse of the Heart",
+    "year": 1983
   },
   {
     "id": 978,
