@@ -1695,9 +1695,9 @@ window.songs = [
   },
   {
     "id": 283,
-    "artist": "Ed Sheeran",
-    "title": "Bad Habits",
-    "year": 2021
+    "artist": "The Weeknd ft. Daft Punk",
+    "title": "Starboy",
+    "year": 2016
   },
   {
     "id": 284,
@@ -2007,9 +2007,9 @@ window.songs = [
   },
   {
     "id": 335,
-    "artist": "Fred again.. & Swedish House Mafia",
-    "title": "Turn On The Lights again..",
-    "year": 2022
+    "artist": "Peggy Gou",
+    "title": "(It Goes Like) Nanana",
+    "year": 2023
   },
   {
     "id": 336,
@@ -2169,9 +2169,9 @@ window.songs = [
   },
   {
     "id": 362,
-    "artist": "Bill Haley & His Comets",
-    "title": "See You Later, Alligator",
-    "year": 1956
+    "artist": "Jerry Lee Lewis",
+    "title": "Great Balls of Fire",
+    "year": 1957
   },
   {
     "id": 363,
@@ -2559,9 +2559,9 @@ window.songs = [
   },
   {
     "id": 427,
-    "artist": "Bill Haley & His Comets",
-    "title": "See You Later, Alligator",
-    "year": 1956
+    "artist": "Fats Domino",
+    "title": "Ain't That a Shame",
+    "year": 1955
   },
   {
     "id": 428,
@@ -3057,9 +3057,9 @@ window.songs = [
   },
   {
     "id": 510,
-    "artist": "Eminem",
-    "title": "Without Me",
-    "year": 2002
+    "artist": "Dr. Dre ft. Snoop Dogg",
+    "title": "The Next Episode",
+    "year": 1999
   },
   {
     "id": 511,
@@ -4101,9 +4101,9 @@ window.songs = [
   },
   {
     "id": 684,
-    "artist": "Outkast",
-    "title": "So Fresh, So Clean",
-    "year": 2000
+    "artist": "Jay-Z",
+    "title": "Izzo (H.O.V.A.)",
+    "year": 2001
   },
   {
     "id": 685,
@@ -4418,10 +4418,10 @@ window.songs = [
     "year": 1975
   },
   {
-    "id": 746,
-    "artist": "Depeche Mode",
-    "title": "Enjoy the Silence",
-    "year": 1990
+   "id": 746,
+    "artist": "New Order",
+    "title": "Blue Monday",
+    "year": 1983
   },
   {
     "id": 747,
@@ -5943,9 +5943,9 @@ window.songs = [
   },
   {
     "id": 1000,
-    "artist": "Fred again.. & Skrillex & Flowdan",
-    "title": "Rumble",
-    "year": 2023
+    "artist": "Fisher",
+    "title": "Losing It",
+    "year": 2018
   }
   ];
 
