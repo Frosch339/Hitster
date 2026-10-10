@@ -1220,6 +1220,1206 @@ window.songs = [
     "year": 2016
   },
   {
+    "id": 204,
+    "artist": "The Rolling Stones",
+    "title": "Paint It Black",
+    "year": 1966
+  },
+  {
+    "id": 205,
+    "artist": "Billie Eilish",
+    "title": "Bad Guy",
+    "year": 2019
+  },
+  {
+    "id": 206,
+    "artist": "Keimzeit",
+    "title": "Kling Klang",
+    "year": 1993
+  },
+  {
+    "id": 207,
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "title": "Uptown Funk",
+    "year": 2014
+  },
+  {
+    "id": 208,
+    "artist": "Bee Gees",
+    "title": "Stayin' Alive",
+    "year": 1977
+  },
+  {
+    "id": 209,
+    "artist": "PeterLicht",
+    "title": "Sonnendeck",
+    "year": 2001
+  },
+  {
+    "id": 210,
+    "artist": "Survivor",
+    "title": "Eye of the Tiger",
+    "year": 1982
+  },
+  {
+    "id": 211,
+    "artist": "Matthias Reim",
+    "title": "Verdammt, ich lieb' Dich",
+    "year": 1990
+  },
+  {
+    "id": 212,
+    "artist": "Taylor Swift",
+    "title": "Shake It Off",
+    "year": 2014
+  },
+  {
+    "id": 213,
+    "artist": "Spliff",
+    "title": "Carbonara",
+    "year": 1982
+  },
+  {
+    "id": 214,
+    "artist": "Lynyrd Skynyrd",
+    "title": "Sweet Home Alabama",
+    "year": 1974
+  },
+  {
+    "id": 215,
+    "artist": "Nicole",
+    "title": "Ein bisschen Frieden",
+    "year": 1982
+  },
+  {
+    "id": 216,
+    "artist": "Eminem",
+    "title": "Without Me",
+    "year": 2002
+  },
+  {
+    "id": 217,
+    "artist": "Camila Cabello",
+    "title": "Havana",
+    "year": 2017
+  },
+  {
+    "id": 218,
+    "artist": "Marius Müller-Westernhagen",
+    "title": "Johnny Walker",
+    "year": 1978
+  },
+  {
+    "id": 219,
+    "artist": "The Cranberries",
+    "title": "Zombie",
+    "year": 1994
+  },
+  {
+    "id": 220,
+    "artist": "Hubert Kah",
+    "title": "Sternenhimmel",
+    "year": 1982
+  },
+  {
+    "id": 221,
+    "artist": "Ben E. King",
+    "title": "Stand by Me",
+    "year": 1961
+  },
+  {
+    "id": 222,
+    "artist": "The Killers",
+    "title": "Mr. Brightside",
+    "year": 2004
+  },
+  {
+    "id": 223,
+    "artist": "Schrei nach Liebe",
+    "title": "Die Ärzte",
+    "year": 1993
+  },
+  {
+    "id": 224,
+    "artist": "Robbie Williams",
+    "title": "Angels",
+    "year": 1997
+  },
+  {
+    "id": 225,
+    "artist": "Justin Timberlake",
+    "title": "Can't Stop the Feeling!",
+    "year": 2016
+  },
+  {
+    "id": 226,
+    "artist": "Gianna Nannini",
+    "title": "Bello e impossibile",
+    "year": 1986
+  },
+  {
+    "id": 227,
+    "artist": "Münchener Freiheit",
+    "title": "Ohne dich (schlaf ich heut nacht nicht ein)",
+    "year": 1985
+  },
+  {
+    "id": 228,
+    "artist": "Miley Cyrus",
+    "title": "Wrecking Ball",
+    "year": 2013
+  },
+  {
+    "id": 229,
+    "artist": "Die Ärzte",
+    "title": "Rebell",
+    "year": 1998
+  },
+  {
+    "id": 230,
+    "artist": "Wham!",
+    "title": "Wake Me Up Before You Go-Go",
+    "year": 1984
+  },
+  {
+    "id": 231,
+    "artist": "Toto",
+    "title": "Africa",
+    "year": 1982
+  },
+  {
+    "id": 232,
+    "artist": "Carly Rae Jepsen",
+    "title": "Call Me Maybe",
+    "year": 2012
+  },
+  {
+    "id": 233,
+    "artist": "John Denver",
+    "title": "Take Me Home, Country Roads",
+    "year": 1971
+  },
+  {
+    "id": 234,
+    "artist": "Eagles",
+    "title": "Hotel California",
+    "year": 1976
+  },
+  {
+    "id": 235,
+    "artist": "Trude Herr",
+    "title": "Ich will keine Schokolade",
+    "year": 1960
+  },
+  {
+    "id": 236,
+    "artist": "Walk the Moon",
+    "title": "Shut Up and Dance",
+    "year": 2014
+  },
+  {
+    "id": 237,
+    "artist": "Andreas Gabalier",
+    "title": "Hulapalu",
+    "year": 2015
+  },
+  {
+    "id": 238,
+    "artist": "S.T.S.",
+    "title": "Fürstenfeld",
+    "year": 1984
+  },
+  {
+    "id": 239,
+    "artist": "Culcha Candela",
+    "title": "Monsta",
+    "year": 2009
+  },
+  {
+    "id": 240,
+    "artist": "Bryan Adams",
+    "title": "Summer of '69",
+    "year": 1984
+  },
+  {
+    "id": 241,
+    "artist": "Imagine Dragons",
+    "title": "Radioactive",
+    "year": 2012
+  },
+  {
+    "id": 242,
+    "artist": "Extrabreit",
+    "title": "Flieger, grüß mir die Sonne",
+    "year": 1980
+  },
+  {
+    "id": 243,
+    "artist": "Amy Winehouse",
+    "title": "Back to Black",
+    "year": 2006
+  },
+  {
+    "id": 244,
+    "artist": "Bellini",
+    "title": "Samba de Janeiro",
+    "year": 1997
+  },
+  {
+    "id": 245,
+    "artist": "Meghan Trainor",
+    "title": "All About That Bass",
+    "year": 2014
+  },
+  {
+    "id": 246,
+    "artist": "Herbert Grönemeyer",
+    "title": "Mensch",
+    "year": 2002
+  },
+  {
+    "id": 247,
+    "artist": "Violent Femmes",
+    "title": "Blister in the Sun",
+    "year": 1983
+  },
+  {
+    "id": 248,
+    "artist": "Bilderbuch",
+    "title": "Bungalow",
+    "year": 2017
+  },
+  {
+    "id": 249,
+    "artist": "Achim Reichel",
+    "title": "Aloha Heja He",
+    "year": 1991
+  },
+  {
+    "id": 250,
+    "artist": "Geier Sturzflug",
+    "title": "Bruttosozialprodukt",
+    "year": 1982
+  },
+  {
+    "id": 251,
+    "artist": "Tones and I",
+    "title": "Dance Monkey",
+    "year": 2019
+  },
+  {
+    "id": 252,
+    "artist": "Kings of Leon",
+    "title": "Sex on Fire",
+    "year": 2008
+  },
+  {
+    "id": 253,
+    "artist": "Heinz Rudolf Kunze",
+    "title": "Dein ist mein ganzes Herz",
+    "year": 1985
+  },
+  {
+    "id": 254,
+    "artist": "Alcazar",
+    "title": "Crying at the Discoteque",
+    "year": 2000
+  },
+  {
+    "id": 255,
+    "artist": "Tim Bendzko",
+    "title": "Nur noch kurz die Welt retten",
+    "year": 2011
+  },
+  {
+    "id": 256,
+    "artist": "Pitbull ft. Ke$ha",
+    "title": "Timber",
+    "year": 2013
+  },
+  {
+    "id": 257,
+    "artist": "Bon Jovi",
+    "title": "It's My Life",
+    "year": 2000
+  },
+  {
+    "id": 258,
+    "artist": "Alligatoah",
+    "title": "Willst du",
+    "year": 2013
+  },
+  {
+    "id": 259,
+    "artist": "Klaus Lage Band",
+    "title": "1000 und 1 Nacht (Zoom!)",
+    "year": 1984
+  },
+  {
+    "id": 260,
+    "artist": "Los Del Río",
+    "title": "Macarena",
+    "year": 1993
+  },
+  {
+    "id": 261,
+    "artist": "Elton John & Dua Lipa",
+    "title": "Cold Heart (PNAU Remix)",
+    "year": 2021
+  },
+  {
+    "id": 262,
+    "artist": "Tauchen-Prokopetz",
+    "title": "Codo (...düse im Sauseschritt)",
+    "year": 1983
+  },
+  {
+    "id": 263,
+    "artist": "Macklemore & Ryan Lewis",
+    "title": "Can't Hold Us",
+    "year": 2011
+  },
+  {
+    "id": 264,
+    "artist": "Rammstein",
+    "title": "Du hast",
+    "year": 1997
+  },
+  {
+    "id": 265,
+    "artist": "Beyoncé",
+    "title": "Single Ladies (Put a Ring on It)",
+    "year": 2008
+  },
+  {
+    "id": 266,
+    "artist": "ATB",
+    "title": "9pm (Till I Come)",
+    "year": 1998
+  },
+  {
+    "id": 267,
+    "artist": "Loona",
+    "title": "Bailando",
+    "year": 1998
+  },
+  {
+    "id": 268,
+    "artist": "LEA",
+    "title": "Leiser",
+    "year": 2017
+  },
+  {
+    "id": 269,
+    "artist": "Faithless",
+    "title": "Insomnia",
+    "year": 1995
+  },
+  {
+    "id": 270,
+    "artist": "Jonas Brothers",
+    "title": "Sucker",
+    "year": 2019
+  },
+  {
+    "id": 271,
+    "artist": "Avril Lavigne",
+    "title": "Complicated",
+    "year": 2002
+  },
+  {
+    "id": 272,
+    "artist": "Falco",
+    "title": "Jeanny",
+    "year": 1985
+  },
+  {
+    "id": 273,
+    "artist": "Sia",
+    "title": "Cheap Thrills",
+    "year": 2016
+  },
+  {
+    "id": 274,
+    "artist": "Joachim Witt",
+    "title": "Goldener Reiter",
+    "year": 1981
+  },
+  {
+    "id": 275,
+    "artist": "Gestört aber GeiL",
+    "title": "Ich & Du",
+    "year": 2015
+  },
+  {
+    "id": 276,
+    "artist": "Snow Patrol",
+    "title": "Chasing Cars",
+    "year": 2006
+  },
+  {
+    "id": 277,
+    "artist": "Axel Fischer",
+    "title": "Amsterdam",
+    "year": 2008
+  },
+  {
+    "id": 278,
+    "artist": "Dua Lipa",
+    "title": "Don't Start Now",
+    "year": 2019
+  },
+  {
+    "id": 279,
+    "artist": "Billy Joel",
+    "title": "Uptown Girl",
+    "year": 1983
+  },
+  {
+    "id": 280,
+    "artist": "Marteria",
+    "title": "Kids (2013)",
+    "year": 2013
+  },
+  {
+    "id": 281,
+    "artist": "AnnenMayKantereit",
+    "title": "Pocahontas",
+    "year": 2016
+  },
+  {
+    "id": 282,
+    "artist": "Natalie Imbruglia",
+    "title": "Torn",
+    "year": 1997
+  },
+  {
+    "id": 283,
+    "artist": "Rammstein",
+    "title": "Sonne",
+    "year": 2001
+  },
+  {
+    "id": 284,
+    "artist": "Alice Merton",
+    "title": "No Roots",
+    "year": 2016
+  },
+  {
+    "id": 285,
+    "artist": "Fools Garden",
+    "title": "Lemon Tree",
+    "year": 1995
+  },
+  {
+    "id": 286,
+    "artist": "Foster the People",
+    "title": "Pumped Up Kicks",
+    "year": 2010
+  },
+  {
+    "id": 287,
+    "artist": "Twenty One Pilots",
+    "title": "Stressed Out",
+    "year": 2015
+  },
+  {
+    "id": 288,
+    "artist": "OneRepublic",
+    "title": "Counting Stars",
+    "year": 2013
+  },
+  {
+    "id": 289,
+    "artist": "Tokio Hotel",
+    "title": "Durch den Monsun",
+    "year": 2005
+  },
+  {
+    "id": 290,
+    "artist": "Lorde",
+    "title": "Royals",
+    "year": 2013
+  },
+  {
+    "id": 291,
+    "artist": "Sportfreunde Stiller",
+    "title": "Ein Kompliment",
+    "year": 2002
+  },
+  {
+    "id": 292,
+    "artist": "Sportfreunde Stiller",
+    "title": "54, '74, '90, 2006",
+    "year": 2006
+  },
+  {
+    "id": 293,
+    "artist": "Clean Bandit",
+    "title": "Rather Be",
+    "year": 2014
+  },
+  {
+    "id": 294,
+    "artist": "Udo Lindenberg ft. Clueso",
+    "title": "Cello",
+    "year": 2011
+  },
+  {
+    "id": 295,
+    "artist": "Bruno Mars",
+    "title": "Locked Out of Heaven",
+    "year": 2012
+  },
+  {
+    "id": 296,
+    "artist": "Cassandra Steen ft. Adel Tawil",
+    "title": "Stadt",
+    "year": 2009
+  },
+  {
+    "id": 297,
+    "artist": "Revolverheld ft. Marta Jandová",
+    "title": "Halt dich an mir fest",
+    "year": 2010
+  },
+  {
+    "id": 298,
+    "artist": "Revolverheld",
+    "title": "Spinner",
+    "year": 2010
+  },
+  {
+    "id": 299,
+    "artist": "Robin Thicke",
+    "title": "Blurred Lines",
+    "year": 2013
+  },
+  {
+    "id": 300,
+    "artist": "Sam Smith",
+    "title": "Stay With Me",
+    "year": 2014
+  },
+  {
+    "id": 301,
+    "artist": "Ellie Goulding",
+    "title": "Love Me Like You Do",
+    "year": 2015
+  },
+  {
+    "id": 302,
+    "artist": "Joris",
+    "title": "Herz über Kopf",
+    "year": 2015
+  },
+  {
+    "id": 303,
+    "artist": "OMI",
+    "title": "Cheerleader (Felix Jaehn Remix)",
+    "year": 2014
+  },
+  {
+    "id": 304,
+    "artist": "Glasperlenspiel",
+    "title": "Geiles Leben",
+    "year": 2015
+  },
+  {
+    "id": 305,
+    "artist": "Alan Walker",
+    "title": "Faded",
+    "year": 2015
+  },
+  {
+    "id": 306,
+    "artist": "Stereoact ft. Kerstin Ott",
+    "title": "Die immer lacht",
+    "year": 2016
+  },
+  {
+    "id": 307,
+    "artist": "Rag'n'Bone Man",
+    "title": "Human",
+    "year": 2016
+  },
+  {
+    "id": 308,
+    "artist": "Max Giesinger",
+    "title": "80 Millionen",
+    "year": 2016
+  },
+  {
+    "id": 309,
+    "artist": "Wincent Weiss",
+    "title": "Musik sein",
+    "year": 2016
+  },
+  {
+    "id": 310,
+    "artist": "Gestört aber GeiL ft. LEA",
+    "title": "Wohin willst du",
+    "year": 2017
+  },
+  {
+    "id": 311,
+    "artist": "Dynoro & Gigi D'Agostino",
+    "title": "In my Mind",
+    "year": 2018
+  },
+  {
+    "id": 312,
+    "artist": "Namika",
+    "title": "Je ne parle pas français",
+    "year": 2018
+  },
+  {
+    "id": 313,
+    "artist": "Juju ft. Henning May",
+    "title": "Vermissen",
+    "year": 2019
+  },
+  {
+    "id": 314,
+    "artist": "Topic & A7S",
+    "title": "Breaking Me",
+    "year": 2019
+  },
+  {
+    "id": 315,
+    "artist": "Mark Forster",
+    "title": "Übermorgen",
+    "year": 2020
+  },
+  {
+    "id": 316,
+    "artist": "Ed Sheeran",
+    "title": "Bad Habits",
+    "year": 2021
+  },
+  {
+    "id": 317,
+    "artist": "Nathan Evans",
+    "title": "Wellerman",
+    "year": 2021
+  },
+  {
+    "id": 318,
+    "artist": "Evanescence",
+    "title": "Bring Me to Life",
+    "year": 2003
+  },
+  {
+    "id": 319,
+    "artist": "Justin Timberlake",
+    "title": "Cry Me a River",
+    "year": 2002
+  },
+  {
+    "id": 320,
+    "artist": "P!nk",
+    "title": "Get the Party Started",
+    "year": 2001
+  },
+  {
+    "id": 321,
+    "artist": "Alicia Keys",
+    "title": "Fallin'",
+    "year": 2001
+  },
+  {
+    "id": 322,
+    "artist": "Las Ketchup",
+    "title": "Ketchup Song (Asereje)",
+    "year": 2002
+  },
+  {
+    "id": 323,
+    "artist": "Kylie Minogue",
+    "title": "Can't Get You Out of My Head",
+    "year": 2001
+  },
+  {
+    "id": 324,
+    "artist": "Aqua",
+    "title": "Barbie Girl",
+    "year": 1997
+  },
+  {
+    "id": 325,
+    "artist": "Will Smith",
+    "title": "Men in Black",
+    "year": 1997
+  },
+  {
+    "id": 326,
+    "artist": "The Verve",
+    "title": "Bitter Sweet Symphony",
+    "year": 1997
+  },
+  {
+    "id": 327,
+    "artist": "No Doubt",
+    "title": "Don't Speak",
+    "year": 1995
+  },
+  {
+    "id": 328,
+    "artist": "Ace of Base",
+    "title": "All That She Wants",
+    "year": 1992
+  },
+  {
+    "id": 329,
+    "artist": "U2",
+    "title": "One",
+    "year": 1991
+  },
+  {
+    "id": 330,
+    "artist": "Sinéad O'Connor",
+    "title": "Nothing Compares 2 U",
+    "year": 1990
+  },
+  {
+    "id": 331,
+    "artist": "Phil Collins",
+    "title": "Another Day in Paradise",
+    "year": 1989
+  },
+  {
+    "id": 332,
+    "artist": "Tracy Chapman",
+    "title": "Fast Car",
+    "year": 1988
+  },
+  {
+    "id": 333,
+    "artist": "George Michael",
+    "title": "Faith",
+    "year": 1987
+  },
+  {
+    "id": 334,
+    "artist": "Rick Astley",
+    "title": "Never Gonna Give You Up",
+    "year": 1987
+  },
+  {
+    "id": 335,
+    "artist": "Whitney Houston",
+    "title": "I Wanna Dance with Somebody",
+    "year": 1987
+  },
+  {
+    "id": 336,
+    "artist": "Europe",
+    "title": "The Final Countdown",
+    "year": 1986
+  },
+  {
+    "id": 337,
+    "artist": "Run-D.M.C. ft. Aerosmith",
+    "title": "Walk This Way",
+    "year": 1986
+  },
+  {
+    "id": 338,
+    "artist": "Opus",
+    "title": "Live Is Life",
+    "year": 1984
+  },
+  {
+    "id": 339,
+    "artist": "Tina Turner",
+    "title": "What's Love Got to Do with It",
+    "year": 1984
+  },
+  {
+    "id": 340,
+    "artist": "Cyndi Lauper",
+    "title": "Time After Time",
+    "year": 1983
+  },
+  {
+    "id": 341,
+    "artist": "Eurythmics",
+    "title": "Sweet Dreams (Are Made of This)",
+    "year": 1983
+  },
+  {
+    "id": 342,
+    "artist": "Dexys Midnight Runners",
+    "title": "Come On Eileen",
+    "year": 1982
+  },
+  {
+    "id": 343,
+    "artist": "Soft Cell",
+    "title": "Tainted Love",
+    "year": 1981
+  },
+  {
+    "id": 344,
+    "artist": "Kim Carnes",
+    "title": "Bette Davis Eyes",
+    "year": 1981
+  },
+  {
+    "id": 345,
+    "artist": "The Buggles",
+    "title": "Video Killed the Radio Star",
+    "year": 1979
+  },
+  {
+    "id": 346,
+    "artist": "John Travolta & Olivia Newton-John",
+    "title": "You're the One That I Want",
+    "year": 1978
+  },
+  {
+    "id": 347,
+    "artist": "Boney M.",
+    "title": "Rivers of Babylon",
+    "year": 1978
+  },
+  {
+    "id": 348,
+    "artist": "ABBA",
+    "title": "Knowing Me, Knowing You",
+    "year": 1977
+  },
+  {
+    "id": 349,
+    "artist": "Rod Stewart",
+    "title": "Maggie May",
+    "year": 1971
+  },
+  {
+    "id": 350,
+    "artist": "Simon & Garfunkel",
+    "title": "Bridge over Troubled Water",
+    "year": 1970
+  },
+  {
+    "id": 351,
+    "artist": "The Beatles",
+    "title": "Let It Be",
+    "year": 1970
+  },
+  {
+    "id": 352,
+    "artist": "The Archies",
+    "title": "Sugar, Sugar",
+    "year": 1969
+  },
+  {
+    "id": 353,
+    "artist": "Louis Armstrong",
+    "title": "What a Wonderful World",
+    "year": 1967
+  },
+  {
+    "id": 354,
+    "artist": "The Beach Boys",
+    "title": "Good Vibrations",
+    "year": 1966
+  },
+  {
+    "id": 355,
+    "artist": "The Righteous Brothers",
+    "title": "Unchained Melody",
+    "year": 1965
+  },
+  {
+    "id": 356,
+    "artist": "The Animals",
+    "title": "The House of the Rising Sun",
+    "year": 1964
+  },
+  {
+    "id": 357,
+    "artist": "Chubby Checker",
+    "title": "The Twist",
+    "year": 1960
+  },
+  {
+    "id": 358,
+    "artist": "Bill Haley & His Comets",
+    "title": "Rock Around the Clock",
+    "year": 1954
+  },
+  {
+    "id": 359,
+    "artist": "Dean Martin",
+    "title": "That's Amore",
+    "year": 1953
+  },
+  {
+    "id": 360,
+    "artist": "Edith Piaf",
+    "title": "La Vie en rose",
+    "year": 1947
+  },
+  {
+    "id": 361,
+    "artist": "Billie Eilish",
+    "title": "What Was I Made For?",
+    "year": 2023
+  },
+  {
+    "id": 362,
+    "artist": "Olivia Rodrigo",
+    "title": "Drivers License",
+    "year": 2021
+  },
+  {
+    "id": 363,
+    "artist": "Pashanim",
+    "title": "Airwaves",
+    "year": 2020
+  },
+  {
+    "id": 364,
+    "artist": "Luciano",
+    "title": "Beautiful Girl",
+    "year": 2022
+  },
+  {
+    "id": 365,
+    "artist": "Ayliva",
+    "title": "Sie weiß",
+    "year": 2023
+  },
+  {
+    "id": 366,
+    "artist": "Linkin Park",
+    "title": "The Emptiness Machine",
+    "year": 2024
+  },
+  {
+    "id": 367,
+    "artist": "Sabrina Carpenter",
+    "title": "Espresso",
+    "year": 2024
+  },
+  {
+    "id": 368,
+    "artist": "Chappell Roan",
+    "title": "Good Luck, Babe!",
+    "year": 2024
+  },
+  {
+    "id": 369,
+    "artist": "Lady Gaga & Bruno Mars",
+    "title": "Die With A Smile",
+    "year": 2024
+  },
+  {
+    "id": 370,
+    "artist": "Shirin David",
+    "title": "Bauch Beine Po",
+    "year": 2024
+  },
+  {
+    "id": 371,
+    "artist": "Die Toten Hosen",
+    "title": "Steh auf, wenn du am Boden bist",
+    "year": 2002
+  },
+  {
+    "id": 372,
+    "artist": "Sido",
+    "title": "Liebe",
+    "year": 2015
+  },
+  {
+    "id": 373,
+    "artist": "Zartmann & Ski Aggu",
+    "title": "Wie du manchmal fehlst",
+    "year": 2024
+  },
+  {
+    "id": 374,
+    "artist": "Marteria",
+    "title": "Lila Wolken",
+    "year": 2012
+  },
+  {
+    "id": 375,
+    "artist": "Culcha Candela",
+    "title": "Hamma!",
+    "year": 2007
+  },
+  {
+    "id": 376,
+    "artist": "Ich + Ich",
+    "title": "Vom selben Stern",
+    "year": 2007
+  },
+  {
+    "id": 377,
+    "artist": "Silbermond",
+    "title": "Symphonie",
+    "year": 2004
+  },
+  {
+    "id": 378,
+    "artist": "Wir sind Helden",
+    "title": "Guten Tag",
+    "year": 2002
+  },
+  {
+    "id": 379,
+    "artist": "Xavier Naidoo",
+    "title": "Dieser Weg",
+    "year": 2005
+  },
+  {
+    "id": 380,
+    "artist": "DJ Ötzi",
+    "title": "Hey Baby",
+    "year": 2000
+  },
+  {
+    "id": 381,
+    "artist": "DJ Ötzi & Nik P.",
+    "title": "Ein Stern (der deinen Namen trägt)",
+    "year": 2007
+  },
+  {
+    "id": 382,
+    "artist": "Sido",
+    "title": "Mein Block",
+    "year": 2004
+  },
+  {
+    "id": 383,
+    "artist": "Sido",
+    "title": "Fuffies im Club",
+    "year": 2004
+  },
+  {
+    "id": 384,
+    "artist": "Bushido",
+    "title": "Sonnenbank Flavour",
+    "year": 2006
+  },
+  {
+    "id": 385,
+    "artist": "Kool Savas",
+    "title": "King of Rap",
+    "year": 2000
+  },
+  {
+    "id": 386,
+    "artist": "Deichkind",
+    "title": "Remmidemmi (Yippie Yippie Yeah)",
+    "year": 2006
+  },
+  {
+    "id": 387,
+    "artist": "Peter Fox",
+    "title": "Alles neu",
+    "year": 2008
+  },
+  {
+    "id": 388,
+    "artist": "Linkin Park",
+    "title": "In the End",
+    "year": 2001
+  },
+  {
+    "id": 389,
+    "artist": "The White Stripes",
+    "title": "Seven Nation Army",
+    "year": 2003
+  },
+  {
+    "id": 390,
+    "artist": "Outkast",
+    "title": "Hey Ya!",
+    "year": 2003
+  },
+  {
+    "id": 391,
+    "artist": "Lady Gaga",
+    "title": "Poker Face",
+    "year": 2008
+  },
+  {
+    "id": 392,
+    "artist": "Rihanna",
+    "title": "Umbrella",
+    "year": 2007
+  },
+  {
+    "id": 393,
+    "artist": "Shakira",
+    "title": "Hips Don't Lie",
+    "year": 2006
+  },
+  {
+    "id": 394,
+    "artist": "Beyoncé",
+    "title": "Crazy in Love",
+    "year": 2003
+  },
+  {
+    "id": 395,
+    "artist": "50 Cent",
+    "title": "In Da Club",
+    "year": 2003
+  },
+  {
+    "id": 396,
+    "artist": "Eminem",
+    "title": "Lose Yourself",
+    "year": 2002
+  },
+  {
+    "id": 397,
+    "artist": "Cher",
+    "title": "Believe",
+    "year": 1998
+  },
+  {
+    "id": 398,
+    "artist": "Lou Bega",
+    "title": "Mambo No. 5",
+    "year": 1999
+  },
+  {
+    "id": 399,
+    "artist": "Ricky Martin",
+    "title": "Livin' la Vida Loca",
+    "year": 1999
+  },
+  {
+    "id": 400,
+    "artist": "Whitney Houston",
+    "title": "I Will Always Love You",
+    "year": 1992
+  },
+  {
+    "id": 401,
+    "artist": "Céline Dion",
+    "title": "My Heart Will Go On",
+    "year": 1997
+  },
+  {
+    "id": 402,
+    "artist": "Wolfgang Petry",
+    "title": "Wahnsinn",
+    "year": 1983
+  },
+  {
+    "id": 403,
+    "artist": "Wolfgang Petry",
+    "title": "Verlieben, verloren, vergessen, verzeihen",
+    "year": 1992
+  },
+  {
     "id": 404,
     "artist": "AC/DC",
     "title": "Thunderstruck",
