@@ -3750,5 +3750,2255 @@ window.songs = [
     "artist": "Imagine Dragons",
     "title": "Believer",
     "year": 2017
+  },
+  {
+    "id": 626,
+    "artist": "Guns N' Roses",
+    "title": "November Rain",
+    "year": 1991
+  },
+  {
+    "id": 627,
+    "artist": "Billie Eilish",
+    "title": "Birds of a Feather",
+    "year": 2024
+  },
+  {
+    "id": 628,
+    "artist": "ABBA",
+    "title": "The Winner Takes It All",
+    "year": 1980
+  },
+  {
+    "id": 629,
+    "artist": "Katy Perry",
+    "title": "Teenage Dream",
+    "year": 2010
+  },
+  {
+    "id": 630,
+    "artist": "Herbert Grönemeyer",
+    "title": "Männer",
+    "year": 1984
+  },
+  {
+    "id": 631,
+    "artist": "Dua Lipa",
+    "title": "Houdini",
+    "year": 2023
+  },
+  {
+    "id": 632,
+    "artist": "R.E.M.",
+    "title": "Everybody Hurts",
+    "year": 1992
+  },
+  {
+    "id": 633,
+    "artist": "Peter Fox",
+    "title": "Schwarz zu Blau",
+    "year": 2008
+  },
+  {
+    "id": 634,
+    "artist": "David Bowie",
+    "title": "Space Oddity",
+    "year": 1969
+  },
+  {
+    "id": 635,
+    "artist": "Avicii",
+    "title": "The Nights",
+    "year": 2014
+  },
+  {
+    "id": 636,
+    "artist": "Falco",
+    "title": "Vienna Calling",
+    "year": 1985
+  },
+  {
+    "id": 637,
+    "artist": "Rihanna",
+    "title": "We Found Love",
+    "year": 2011
+  },
+  {
+    "id": 638,
+    "artist": "Die Ärzte",
+    "title": "Schrei nach Liebe",
+    "year": 1993
+  },
+  {
+    "id": 639,
+    "artist": "Coldplay",
+    "title": "The Scientist",
+    "year": 2002
+  },
+  {
+    "id": 640,
+    "artist": "Seeed",
+    "title": "Dickes B",
+    "year": 2001
+  },
+  {
+    "id": 641,
+    "artist": "Taylor Swift",
+    "title": "Love Story",
+    "year": 2008
+  },
+  {
+    "id": 642,
+    "artist": "Michael Jackson",
+    "title": "Man in the Mirror",
+    "year": 1987
+  },
+  {
+    "id": 643,
+    "artist": "Apache 207",
+    "title": "Bläulich",
+    "year": 2020
+  },
+  {
+    "id": 644,
+    "artist": "Queen",
+    "title": "Radio Ga Ga",
+    "year": 1984
+  },
+  {
+    "id": 645,
+    "artist": "Pink Floyd",
+    "title": "Wish You Were Here",
+    "year": 1975
+  },
+  {
+    "id": 646,
+    "artist": "Ed Sheeran",
+    "title": "Perfect",
+    "year": 2017
+  },
+  {
+    "id": 647,
+    "artist": "Nena",
+    "title": "Nur geträumt",
+    "year": 1982
+  },
+  {
+    "id": 648,
+    "artist": "The Rolling Stones",
+    "title": "Sympathy for the Devil",
+    "year": 1968
+  },
+  {
+    "id": 649,
+    "artist": "Lady Gaga",
+    "title": "Born This Way",
+    "year": 2011
+  },
+  {
+    "id": 650,
+    "artist": "Sido",
+    "title": "Tausend Tattoos",
+    "year": 2018
+  },
+  {
+    "id": 651,
+    "artist": "Eminem ft. Dido",
+    "title": "Stan",
+    "year": 2000
+  },
+  {
+    "id": 652,
+    "artist": "AnnenMayKantereit x Giant Rooks",
+    "title": "Tom's Diner",
+    "year": 2019
+  },
+  {
+    "id": 653,
+    "artist": "Bon Jovi",
+    "title": "Bed of Roses",
+    "year": 1992
+  },
+  {
+    "id": 654,
+    "artist": "Nina Chuba",
+    "title": "Mangos mit Esprit",
+    "year": 2023
+  },
+  {
+    "id": 655,
+    "artist": "Oasis",
+    "title": "Live Forever",
+    "year": 1994
+  },
+  {
+    "id": 656,
+    "artist": "Udo Lindenberg",
+    "title": "Horizont",
+    "year": 1986
+  },
+  {
+    "id": 657,
+    "artist": "The Weeknd",
+    "title": "Die For You",
+    "year": 2016
+  },
+  {
+    "id": 658,
+    "artist": "Mark Forster",
+    "title": "Bauch und Kopf",
+    "year": 2014
+  },
+  {
+    "id": 659,
+    "artist": "Linkin Park",
+    "title": "Numb",
+    "year": 2003
+  },
+  {
+    "id": 660,
+    "artist": "Cro",
+    "title": "Du",
+    "year": 2012
+  },
+  {
+    "id": 661,
+    "artist": "AC/DC",
+    "title": "Back in Black",
+    "year": 1980
+  },
+  {
+    "id": 662,
+    "artist": "Harry Styles",
+    "title": "Adore You",
+    "year": 2019
+  },
+  {
+    "id": 663,
+    "artist": "Die Toten Hosen",
+    "title": "Tage wie diese",
+    "year": 2012
+  },
+  {
+    "id": 664,
+    "artist": "Adele",
+    "title": "Someone Like You",
+    "year": 2011
+  },
+  {
+    "id": 665,
+    "artist": "Peter Maffay",
+    "title": "So bist du",
+    "year": 1979
+  },
+  {
+    "id": 666,
+    "artist": "Shakira",
+    "title": "Whenever, Wherever",
+    "year": 2001
+  },
+  {
+    "id": 667,
+    "artist": "Culcha Candela",
+    "title": "Somma im Kiez",
+    "year": 2009
+  },
+  {
+    "id": 668,
+    "artist": "Britney Spears",
+    "title": "Oops!... I Did It Again",
+    "year": 2000
+  },
+  {
+    "id": 669,
+    "artist": "Clueso",
+    "title": "Flugmodus",
+    "year": 2020
+  },
+  {
+    "id": 670,
+    "artist": "Nirvana",
+    "title": "Heart-Shaped Box",
+    "year": 1993
+  },
+  {
+    "id": 671,
+    "artist": "Marius Müller-Westernhagen",
+    "title": "Lass uns leben",
+    "year": 1992
+  },
+  {
+    "id": 672,
+    "artist": "Bruno Mars",
+    "title": "Just the Way You Are",
+    "year": 2010
+  },
+  {
+    "id": 673,
+    "artist": "Fettes Brot",
+    "title": "An Tagen wie diesen",
+    "year": 2005
+  },
+  {
+    "id": 674,
+    "artist": "Beyoncé",
+    "title": "Texas Hold 'Em",
+    "year": 2024
+  },
+  {
+    "id": 675,
+    "artist": "Spider Murphy Gang",
+    "title": "Wo bist du?",
+    "year": 1982
+  },
+  {
+    "id": 676,
+    "artist": "Billie Eilish",
+    "title": "Lunch",
+    "year": 2024
+  },
+  {
+    "id": 677,
+    "artist": "Depeche Mode",
+    "title": "Policy of Truth",
+    "year": 1990
+  },
+  {
+    "id": 678,
+    "artist": "Johannes Oerding",
+    "title": "An guten Tagen",
+    "year": 2019
+  },
+  {
+    "id": 679,
+    "artist": "A-ha",
+    "title": "The Sun Always Shines on T.V.",
+    "year": 1985
+  },
+  {
+    "id": 680,
+    "artist": "Max Giesinger",
+    "title": "Legenden",
+    "year": 2018
+  },
+  {
+    "id": 681,
+    "artist": "The Police",
+    "title": "Roxanne",
+    "year": 1978
+  },
+  {
+    "id": 682,
+    "artist": "LEA",
+    "title": "Zu dir",
+    "year": 2018
+  },
+  {
+    "id": 683,
+    "artist": "Outkast",
+    "title": "Ms. Jackson",
+    "year": 2000
+  },
+  {
+    "id": 684,
+    "artist": "Revolverheld",
+    "title": "Mit dir chilln",
+    "year": 2005
+  },
+  {
+    "id": 685,
+    "artist": "Spice Girls",
+    "title": "2 Become 1",
+    "year": 1996
+  },
+  {
+    "id": 686,
+    "artist": "Kraftklub",
+    "title": "Blau",
+    "year": 2022
+  },
+  {
+    "id": 687,
+    "artist": "Daft Punk",
+    "title": "Around the World",
+    "year": 1997
+  },
+  {
+    "id": 688,
+    "artist": "Wincent Weiss",
+    "title": "Wer wenn nicht wir",
+    "year": 2021
+  },
+  {
+    "id": 689,
+    "artist": "Gigi D'Agostino",
+    "title": "The Riddle",
+    "year": 1999
+  },
+  {
+    "id": 690,
+    "artist": "Silbermond",
+    "title": "Leichtes Gepäck",
+    "year": 2015
+  },
+  {
+    "id": 691,
+    "artist": "Elton John",
+    "title": "I'm Still Standing",
+    "year": 1983
+  },
+  {
+    "id": 692,
+    "artist": "Alligatoah",
+    "title": "Nachbeben",
+    "year": 2023
+  },
+  {
+    "id": 693,
+    "artist": "The Killers",
+    "title": "Somebody Told Me",
+    "year": 2004
+  },
+  {
+    "id": 694,
+    "artist": "Juli",
+    "title": "Elektrisches Gefühl",
+    "year": 2010
+  },
+  {
+    "id": 695,
+    "artist": "George Michael",
+    "title": "Careless Whisper",
+    "year": 1984
+  },
+  {
+    "id": 696,
+    "artist": "Sdp",
+    "title": "Die schönste Galerie der Welt",
+    "year": 2019
+  },
+  {
+    "id": 697,
+    "artist": "Amy Winehouse",
+    "title": "Tears Dry on Their Own",
+    "year": 2006
+  },
+  {
+    "id": 698,
+    "artist": "Bosse",
+    "title": "Schönste Zeit",
+    "year": 2013
+  },
+  {
+    "id": 699,
+    "artist": "Phil Collins",
+    "title": "Against All Odds",
+    "year": 1984
+  },
+  {
+    "id": 700,
+    "artist": "Ayliva",
+    "title": "Lieb mich",
+    "year": 2024
+  },
+  {
+    "id": 701,
+    "artist": "Fleetwood Mac",
+    "title": "Dreams",
+    "year": 1977
+  },
+  {
+    "id": 702,
+    "artist": "Snap!",
+    "title": "Welcome to Tomorrow",
+    "year": 1994
+  },
+  {
+    "id": 703,
+    "artist": "Martin Garrix",
+    "title": "Animals",
+    "year": 2013
+  },
+  {
+    "id": 704,
+    "artist": "4 Non Blondes",
+    "title": "What's Up?",
+    "year": 1993
+  },
+  {
+    "id": 705,
+    "artist": "Billie Eilish",
+    "title": "Chihiro",
+    "year": 2024
+  },
+  {
+    "id": 706,
+    "artist": "Die Fantastischen Vier",
+    "title": "MfG - Mit freundlichen Grüßen",
+    "year": 1999
+  },
+  {
+    "id": 707,
+    "artist": "Calvin Harris & Rihanna",
+    "title": "This Is What You Came For",
+    "year": 2016
+  },
+  {
+    "id": 708,
+    "artist": "Scorpions",
+    "title": "Still Loving You",
+    "year": 1984
+  },
+  {
+    "id": 709,
+    "artist": "TLC",
+    "title": "No Scrubs",
+    "year": 1999
+  },
+  {
+    "id": 710,
+    "artist": "Apache 207",
+    "title": "200 km/h",
+    "year": 2019
+  },
+  {
+    "id": 711,
+    "artist": "Gigi D'Agostino",
+    "title": "Bla Bla Bla",
+    "year": 1999
+  },
+  {
+    "id": 712,
+    "artist": "The Bloodhound Gang",
+    "title": "The Bad Touch",
+    "year": 1999
+  },
+  {
+    "id": 713,
+    "artist": "Herbert Grönemeyer",
+    "title": "Alkohol",
+    "year": 1984
+  },
+  {
+    "id": 714,
+    "artist": "Rane",
+    "title": "Lady (Hear Me Tonight)",
+    "year": 2000
+  },
+  {
+    "id": 715,
+    "artist": "No Doubt",
+    "title": "Spiderwebs",
+    "year": 1995
+  },
+  {
+    "id": 716,
+    "artist": "Cro",
+    "title": "Einmal um die Welt",
+    "year": 2012
+  },
+  {
+    "id": 717,
+    "artist": "Swedish House Mafia ft. John Martin",
+    "title": "Don't You Worry Child",
+    "year": 2012
+  },
+  {
+    "id": 718,
+    "artist": "Fugees",
+    "title": "Ready or Not",
+    "year": 1996
+  },
+  {
+    "id": 719,
+    "artist": "Nena",
+    "title": "? (Fragezeichen)",
+    "year": 1984
+  },
+  {
+    "id": 720,
+    "artist": "Sabrina Carpenter",
+    "title": "Please Please Please",
+    "year": 2024
+  },
+  {
+    "id": 721,
+    "artist": "Eminem",
+    "title": "Cleanin' Out My Closet",
+    "year": 2002
+  },
+  {
+    "id": 722,
+    "artist": "Mr. President",
+    "title": "Coco Jamboo",
+    "year": 1996
+  },
+  {
+    "id": 723,
+    "artist": "Mark Forster",
+    "title": "194 Länder",
+    "year": 2018
+  },
+  {
+    "id": 724,
+    "artist": "Tiësto",
+    "title": "The Business",
+    "year": 2020
+  },
+  {
+    "id": 725,
+    "artist": "Oasis",
+    "title": "Supersonic",
+    "year": 1994
+  },
+  {
+    "id": 726,
+    "artist": "Spider Murphy Gang",
+    "title": "Mit'n Radl in die Stadt",
+    "year": 1980
+  },
+  {
+    "id": 727,
+    "artist": "Chappell Roan",
+    "title": "Hot To Go!",
+    "year": 2023
+  },
+  {
+    "id": 728,
+    "artist": "Culture Beat",
+    "title": "Inside Out",
+    "year": 1995
+  },
+  {
+    "id": 729,
+    "artist": "Die Toten Hosen",
+    "title": "Alles aus Liebe",
+    "year": 1993
+  },
+  {
+    "id": 730,
+    "artist": "Alan Walker",
+    "title": "Sing Me to Sleep",
+    "year": 2016
+  },
+  {
+    "id": 731,
+    "artist": "Spice Girls",
+    "title": "Stop",
+    "year": 1997
+  },
+  {
+    "id": 732,
+    "artist": "Peter Fox",
+    "title": "Stadtaffe",
+    "year": 2008
+  },
+  {
+    "id": 733,
+    "artist": "Avicii ft. Aloe Blacc",
+    "title": "SOS",
+    "year": 2019
+  },
+  {
+    "id": 734,
+    "artist": "Sido",
+    "title": "Mit dir",
+    "year": 2019
+  },
+  {
+    "id": 735,
+    "artist": "R.E.M.",
+    "title": "Man on the Moon",
+    "year": 1992
+  },
+  {
+    "id": 736,
+    "artist": "Harry Styles",
+    "title": "Golden",
+    "year": 2019
+  },
+  {
+    "id": 737,
+    "artist": "Die Ärzte",
+    "title": "Hurra",
+    "year": 1995
+  },
+  {
+    "id": 738,
+    "artist": "David Guetta & Bebe Rexha",
+    "title": "I'm Good (Blue)",
+    "year": 2022
+  },
+  {
+    "id": 739,
+    "artist": "Britney Spears",
+    "title": "Sometimes",
+    "year": 1999
+  },
+  {
+    "id": 740,
+    "artist": "Alligatoah & Sido",
+    "title": "Monopoly",
+    "year": 2018
+  },
+  {
+    "id": 741,
+    "artist": "The Cardigans",
+    "title": "Lovefool",
+    "year": 1996
+  },
+  {
+    "id": 742,
+    "artist": "Wincent Weiss",
+    "title": "Kaum erwarten",
+    "year": 2019
+  },
+  {
+    "id": 743,
+    "artist": "Fred again.. & Swedish House Mafia",
+    "title": "Turn On The Lights again..",
+    "year": 2022
+  },
+  {
+    "id": 744,
+    "artist": "Marius Müller-Westernhagen",
+    "title": "Wieder hier",
+    "year": 1998
+  },
+  {
+    "id": 745,
+    "artist": "Taylor Swift",
+    "title": "Bad Blood",
+    "year": 2014
+  },
+  {
+    "id": 746,
+    "artist": "Loona",
+    "title": "Hijo de la Luna",
+    "year": 1998
+  },
+  {
+    "id": 747,
+    "artist": "Clueso",
+    "title": "Neuanfang",
+    "year": 2016
+  },
+  {
+    "id": 748,
+    "artist": "Marshmello & Bastille",
+    "title": "Happier",
+    "year": 2018
+  },
+  {
+    "id": 749,
+    "artist": "Fettes Brot",
+    "title": "Viele Wege führen nach Rom",
+    "year": 1995
+  },
+  {
+    "id": 750,
+    "artist": "Dua Lipa",
+    "title": "Physical",
+    "year": 2020
+  },
+  {
+    "id": 751,
+    "artist": "Kygo & Whitney Houston",
+    "title": "Higher Love",
+    "year": 2019
+  },
+  {
+    "id": 752,
+    "artist": "Deichkind",
+    "title": "Leider geil",
+    "year": 2012
+  },
+  {
+    "id": 753,
+    "artist": "Backstreet Boys",
+    "title": "Quit Playing Games (With My Heart)",
+    "year": 1996
+  },
+  {
+    "id": 754,
+    "artist": "The Weeknd",
+    "title": "Sacrifice",
+    "year": 2022
+  },
+  {
+    "id": 755,
+    "artist": "Marteria",
+    "title": "Verstrahlt",
+    "year": 2010
+  },
+  {
+    "id": 756,
+    "artist": "Armin van Buuren",
+    "title": "Blah Blah Blah",
+    "year": 2018
+  },
+  {
+    "id": 757,
+    "artist": "Tic Tac Toe",
+    "title": "Ich find' dich scheiße",
+    "year": 1995
+  },
+  {
+    "id": 758,
+    "artist": "Coldplay",
+    "title": "Fix You",
+    "year": 2005
+  },
+  {
+    "id": 759,
+    "artist": "Robin Schulz ft. Jasmine Thompson",
+    "title": "Sun Goes Down",
+    "year": 2014
+  },
+  {
+    "id": 760,
+    "artist": "Absolute Beginner",
+    "title": "Füchse",
+    "year": 1998
+  },
+  {
+    "id": 761,
+    "artist": "Miley Cyrus",
+    "title": "Malibu",
+    "year": 2017
+  },
+  {
+    "id": 762,
+    "artist": "Scooter",
+    "title": "Hyper Hyper",
+    "year": 1994
+  },
+  {
+    "id": 763,
+    "artist": "Silbermond",
+    "title": "Krieger des Lichts",
+    "year": 2009
+  },
+  {
+    "id": 764,
+    "artist": "Zedd ft. Foxes",
+    "title": "Clarity",
+    "year": 2012
+  },
+  {
+    "id": 765,
+    "artist": "Fools Garden",
+    "title": "Wild Days",
+    "year": 1995
+  },
+  {
+    "id": 766,
+    "artist": "Ayliva",
+    "title": "Weißt du noch",
+    "year": 2023
+  },
+  {
+    "id": 767,
+    "artist": "Lost Frequencies",
+    "title": "Are You With Me",
+    "year": 2014
+  },
+  {
+    "id": 768,
+    "artist": "Nina Chuba",
+    "title": "Fieber",
+    "year": 2023
+  },
+  {
+    "id": 769,
+    "artist": "Faithless",
+    "title": "Salva Mea",
+    "year": 1995
+  },
+  {
+    "id": 770,
+    "artist": "Juli",
+    "title": "Dieses Leben",
+    "year": 2006
+  },
+  {
+    "id": 771,
+    "artist": "Oliver Heldens & Becky Hill",
+    "title": "Gecko (Overdrive)",
+    "year": 2014
+  },
+  {
+    "id": 772,
+    "artist": "Sdp ft. 257ers",
+    "title": "Ne Leiche",
+    "year": 2010
+  },
+  {
+    "id": 773,
+    "artist": "Paul van Dyk",
+    "title": "For An Angel",
+    "year": 1994
+  },
+  {
+    "id": 774,
+    "artist": "Bosse",
+    "title": "Der letzte Tanz",
+    "year": 2020
+  },
+  {
+    "id": 775,
+    "artist": "Fisher",
+    "title": "Losing It",
+    "year": 2018
+  }
+  {
+    "id": 776,
+    "artist": "Fleetwood Mac",
+    "title": "Don't Stop",
+    "year": 1977
+  },
+  {
+    "id": 777,
+    "artist": "Faith No More",
+    "title": "Epic",
+    "year": 1989
+  },
+  {
+    "id": 778,
+    "artist": "Röyksopp",
+    "title": "Eple",
+    "year": 2001
+  },
+  {
+    "id": 779,
+    "artist": "Corona",
+    "title": "The Rhythm of the Night",
+    "year": 1993
+  },
+  {
+    "id": 780,
+    "artist": "The Chemical Brothers",
+    "title": "Galvanize",
+    "year": 2005
+  },
+  {
+    "id": 781,
+    "artist": "Peter Fox ft. Inéz",
+    "title": "Zukunft Pink",
+    "year": 2022
+  },
+  {
+    "id": 782,
+    "artist": "Robert Miles",
+    "title": "Children",
+    "year": 1995
+  },
+  {
+    "id": 783,
+    "artist": "Spin Doctors",
+    "title": "Two Princes",
+    "year": 1991
+  },
+  {
+    "id": 784,
+    "artist": "Gigi D'Agostino",
+    "title": "Another Way",
+    "year": 1999
+  },
+  {
+    "id": 785,
+    "artist": "Sublime",
+    "title": "Santeria",
+    "year": 1996
+  },
+  {
+    "id": 786,
+    "artist": "Alan Walker ft. Au/Ra & Tomine Harket",
+    "title": "Darkside",
+    "year": 2018
+  },
+  {
+    "id": 787,
+    "artist": "The Cranberries",
+    "title": "Ode to My Family",
+    "year": 1994
+  },
+  {
+    "id": 788,
+    "artist": "Eric Prydz",
+    "title": "Call on Me",
+    "year": 2004
+  },
+  {
+    "id": 789,
+    "artist": "Die Ärzte",
+    "title": "Mach die Augen zu",
+    "year": 1993
+  },
+  {
+    "id": 790,
+    "artist": "Swedish House Mafia",
+    "title": "One (Your Name)",
+    "year": 2010
+  },
+  {
+    "id": 791,
+    "artist": "La Bouche",
+    "title": "Be My Lover",
+    "year": 1995
+  },
+  {
+    "id": 792,
+    "artist": "Avicii",
+    "title": "Waiting For Love",
+    "year": 2015
+  },
+  {
+    "id": 793,
+    "artist": "Nirvana",
+    "title": "In Bloom",
+    "year": 1991
+  },
+  {
+    "id": 794,
+    "artist": "Calvin Harris ft. Ellie Goulding",
+    "title": "Outside",
+    "year": 2014
+  },
+  {
+    "id": 795,
+    "artist": "Fettes Brot",
+    "title": "Da draußen",
+    "year": 1999
+  },
+  {
+    "id": 796,
+    "artist": "Dr. Alban",
+    "title": "It's My Life",
+    "year": 1992
+  },
+  {
+    "id": 797,
+    "artist": "David Guetta ft. Kelly Rowland",
+    "title": "When Love Takes Over",
+    "year": 2009
+  },
+  {
+    "id": 798,
+    "artist": "No Doubt",
+    "title": "Ex-Girlfriend",
+    "year": 2000
+  },
+  {
+    "id": 799,
+    "artist": "Marteria",
+    "title": "Bengalische Tiger",
+    "year": 2014
+  },
+  {
+    "id": 800,
+    "artist": "Culture Beat",
+    "title": "Got to Get It",
+    "year": 1993
+  },
+  {
+    "id": 801,
+    "artist": "Martin Solveig & Dragonette",
+    "title": "Hello",
+    "year": 2010
+  },
+  {
+    "id": 802,
+    "artist": "Die Fantastischen Vier",
+    "title": "Tag am Meer",
+    "year": 1993
+  },
+  {
+    "id": 803,
+    "artist": "Tiësto & Ava Max",
+    "title": "The Motto",
+    "year": 2021
+  },
+  {
+    "id": 804,
+    "artist": "Spice Girls",
+    "title": "Say You'll Be There",
+    "year": 1996
+  },
+  {
+    "id": 805,
+    "artist": "Cascada",
+    "title": "Everytime We Touch",
+    "year": 2005
+  },
+  {
+    "id": 806,
+    "artist": "Sido ft. Monchi",
+    "title": "Leben vor dem Tod",
+    "year": 2019
+  },
+  {
+    "id": 807,
+    "artist": "Alice Deejay",
+    "title": "Better Off Alone",
+    "year": 1999
+  },
+  {
+    "id": 808,
+    "artist": "Oasis",
+    "title": "Roll With It",
+    "year": 1995
+  },
+  {
+    "id": 809,
+    "artist": "Paul & Fritz Kalkbrenner",
+    "title": "Sky and Sand",
+    "year": 2008
+  },
+  {
+    "id": 810,
+    "artist": "Nena",
+    "title": "Rette mich",
+    "year": 1984
+  },
+  {
+    "id": 811,
+    "artist": "Darude",
+    "title": "Sandstorm",
+    "year": 1999
+  },
+  {
+    "id": 812,
+    "artist": "Cro",
+    "title": "Whatever",
+    "year": 2013
+  },
+  {
+    "id": 813,
+    "artist": "Faithless",
+    "title": "We Come 1",
+    "year": 2001
+  },
+  {
+    "id": 814,
+    "artist": "Die Toten Hosen",
+    "title": "Hier kommt Alex (Unplugged)",
+    "year": 2005
+  },
+  {
+    "id": 815,
+    "artist": "Scooter",
+    "title": "Move Your Ass!",
+    "year": 1995
+  },
+  {
+    "id": 816,
+    "artist": "Harry Styles",
+    "title": "Late Night Talking",
+    "year": 2022
+  },
+  {
+    "id": 817,
+    "artist": "ATB",
+    "title": "The Fields of Love",
+    "year": 2000
+  },
+  {
+    "id": 818,
+    "artist": "Sheryl Crow",
+    "title": "All I Wanna Do",
+    "year": 1993
+  },
+  {
+    "id": 819,
+    "artist": "Robin Schulz ft. Francesco Yates",
+    "title": "Sugar",
+    "year": 2015
+  },
+  {
+    "id": 820,
+    "artist": "Absolute Beginner ft. Samy Deluxe",
+    "title": "Füchse",
+    "year": 1999
+  },
+  {
+    "id": 821,
+    "artist": "Meduza ft. Goodboys",
+    "title": "Piece of Your Heart",
+    "year": 2019
+  },
+  {
+    "id": 822,
+    "artist": "Scorpions",
+    "title": "Tease Me Please Me",
+    "year": 1990
+  },
+  {
+    "id": 823,
+    "artist": "Gala",
+    "title": "Freed from Desire",
+    "year": 1996
+  },
+  {
+    "id": 824,
+    "artist": "Alligatoah",
+    "title": "Lass liegen",
+    "year": 2015
+  },
+  {
+    "id": 825,
+    "artist": "Haddaway",
+    "title": "Life",
+    "year": 1993
+  },
+  {
+    "id": 826,
+    "artist": "Marshmello ft. Khalid",
+    "title": "Silence",
+    "year": 2017
+  },
+  {
+    "id": 827,
+    "artist": "Herbert Grönemeyer",
+    "title": "Kinder an die Macht",
+    "year": 1986
+  },
+  {
+    "id": 828,
+    "artist": "The Prodigy",
+    "title": "Firestarter",
+    "year": 1996
+  },
+  {
+    "id": 829,
+    "artist": "Wincent Weiss",
+    "title": "Frische Luft",
+    "year": 2017
+  },
+  {
+    "id": 830,
+    "artist": "Members of Mayday",
+    "title": "Sonic Empire",
+    "year": 1997
+  },
+  {
+    "id": 831,
+    "artist": "Taylor Swift",
+    "title": "You Belong With Me",
+    "year": 2008
+  },
+  {
+    "id": 832,
+    "artist": "Eiffel 65",
+    "title": "Too Much of Heaven",
+    "year": 2000
+  },
+  {
+    "id": 833,
+    "artist": "Silbermond",
+    "title": "B96",
+    "year": 2015
+  },
+  {
+    "id": 834,
+    "artist": "Benny Benassi",
+    "title": "Satisfaction",
+    "year": 2003
+  },
+  {
+    "id": 835,
+    "artist": "Britney Spears",
+    "title": "(You Drive Me) Crazy",
+    "year": 1999
+  },
+  {
+    "id": 836,
+    "artist": "Jax Jones ft. RAYE",
+    "title": "You Don't Know Me",
+    "year": 2016
+  },
+  {
+    "id": 837,
+    "artist": "Clueso",
+    "title": "Zu schnell vorbei",
+    "year": 2011
+  },
+  {
+    "id": 838,
+    "artist": "Raye ft. 070 Shake",
+    "title": "Escapism.",
+    "year": 2022
+  },
+  {
+    "id": 839,
+    "artist": "Juli",
+    "title": "Regen und Meer",
+    "year": 2004
+  },
+  {
+    "id": 840,
+    "artist": "Daft Punk",
+    "title": "Da Funk",
+    "year": 1995
+  },
+  {
+    "id": 841,
+    "artist": "Sdp",
+    "title": "Millionen Liebeslieder",
+    "year": 2017
+  },
+  {
+    "id": 842,
+    "artist": "Riton & Nightcrawlers",
+    "title": "Friday",
+    "year": 2021
+  },
+  {
+    "id": 843,
+    "artist": "Marius Müller-Westernhagen",
+    "title": "Krieg",
+    "year": 1992
+  },
+  {
+    "id": 844,
+    "artist": "The Cardigans",
+    "title": "My Favourite Game",
+    "year": 1998
+  },
+  {
+    "id": 845,
+    "artist": "Lost Frequencies ft. Calum Scott",
+    "title": "Where Are You Now",
+    "year": 2021
+  },
+  {
+    "id": 846,
+    "artist": "Bosse",
+    "title": "Alles ist jetzt",
+    "year": 2018
+  },
+  {
+    "id": 847,
+    "artist": "Oliver Heldens",
+    "title": "Gecko",
+    "year": 2013
+  },
+  {
+    "id": 848,
+    "artist": "Nina Chuba",
+    "title": "Femminello",
+    "year": 2023
+  },
+  {
+    "id": 849,
+    "artist": "Underworld",
+    "title": "Born Slippy (.Nuxx)",
+    "year": 1996
+  },
+  {
+    "id": 850,
+    "artist": "Ayliva",
+    "title": "Bei Nacht",
+    "year": 2022
+  },
+    {
+    "id": 851,
+    "artist": "Fleetwood Mac",
+    "title": "Little Lies",
+    "year": 1987
+  },
+  {
+    "id": 852,
+    "artist": "The Chemical Brothers",
+    "title": "Hey Boy Hey Girl",
+    "year": 1999
+  },
+  {
+    "id": 853,
+    "artist": "Faithless",
+    "title": "Tarantula",
+    "year": 2001
+  },
+  {
+    "id": 854,
+    "artist": "Culture Beat",
+    "title": "Crying in the Rain",
+    "year": 1995
+  },
+  {
+    "id": 855,
+    "artist": "Calvin Harris & Disciples",
+    "title": "How Deep Is Your Love",
+    "year": 2015
+  },
+  {
+    "id": 856,
+    "artist": "Die Ärzte",
+    "title": "Manchmal haben Frauen...",
+    "year": 2000
+  },
+  {
+    "id": 857,
+    "artist": "Alan Walker ft. Gavin James",
+    "title": "Tired",
+    "year": 2017
+  },
+  {
+    "id": 858,
+    "artist": "No Doubt",
+    "title": "Hella Good",
+    "year": 2001
+  },
+  {
+    "id": 859,
+    "artist": "Avicii",
+    "title": "Hey Brother",
+    "year": 2013
+  },
+  {
+    "id": 860,
+    "artist": "Fettes Brot",
+    "title": "Schwule Mädchen",
+    "year": 2001
+  },
+  {
+    "id": 861,
+    "artist": "Gigi D'Agostino & LA VISION",
+    "title": "Hollywood",
+    "year": 2020
+  },
+  {
+    "id": 862,
+    "artist": "Dr. Alban",
+    "title": "Sing Hallelujah!",
+    "year": 1993
+  },
+  {
+    "id": 863,
+    "artist": "David Guetta & Showtek ft. Vassy",
+    "title": "Bad",
+    "year": 2014
+  },
+  {
+    "id": 864,
+    "artist": "Nirvana",
+    "title": "About a Girl",
+    "year": 1989
+  },
+  {
+    "id": 865,
+    "artist": "Marteria x Casper",
+    "title": "Chardonnay & Cannabis",
+    "year": 2018
+  },
+  {
+    "id": 866,
+    "artist": "Martin Solveig ft. ALMA",
+    "title": "All Stars",
+    "year": 2017
+  },
+  {
+    "id": 867,
+    "artist": "Die Fantastischen Vier",
+    "title": "Ernten was wir säen",
+    "year": 2007
+  },
+  {
+    "id": 868,
+    "artist": "Tiësto",
+    "title": "Red Lights",
+    "year": 2013
+  },
+  {
+    "id": 869,
+    "artist": "Spice Girls",
+    "title": "Viva Forever",
+    "year": 1997
+  },
+  {
+    "id": 870,
+    "artist": "Cascada",
+    "title": "Evacuate the Dancefloor",
+    "year": 2009
+  },
+  {
+    "id": 871,
+    "artist": "Sido",
+    "title": "Das Buch",
+    "year": 2019
+  },
+  {
+    "id": 872,
+    "artist": "Oasis",
+    "title": "Cigarettes & Alcohol",
+    "year": 1994
+  },
+  {
+    "id": 873,
+    "artist": "Paul Kalkbrenner",
+    "title": "Feed Your Head",
+    "year": 2015
+  },
+  {
+    "id": 874,
+    "artist": "Nena",
+    "title": "Feuer und Flamme",
+    "year": 1985
+  },
+  {
+    "id": 875,
+    "artist": "Darude",
+    "title": "Feel The Beat",
+    "year": 2000
+  },
+  {
+    "id": 876,
+    "artist": "Cro",
+    "title": "Unendlichkeit",
+    "year": 2017
+  },
+  {
+    "id": 877,
+    "artist": "Swedish House Mafia ft. Tinie Tempah",
+    "title": "Miami 2 Ibiza",
+    "year": 2010
+  },
+  {
+    "id": 878,
+    "artist": "Die Toten Hosen",
+    "title": "Eisgekühlter Bommerlunder",
+    "year": 1983
+  },
+  {
+    "id": 879,
+    "artist": "Scooter",
+    "title": "Endless Summer",
+    "year": 1995
+  },
+  {
+    "id": 880,
+    "artist": "Harry Styles",
+    "title": "Lights Up",
+    "year": 2019
+  },
+  {
+    "id": 881,
+    "artist": "ATB",
+    "title": "Ecstasy",
+    "year": 2004
+  },
+  {
+    "id": 882,
+    "artist": "Robin Schulz ft. Akon",
+    "title": "Heatwave",
+    "year": 2016
+  },
+  {
+    "id": 883,
+    "artist": "Beginner",
+    "title": "Es war einmal...",
+    "year": 2016
+  },
+  {
+    "id": 884,
+    "artist": "Meduza x Dermot Kennedy",
+    "title": "Paradise",
+    "year": 2020
+  },
+  {
+    "id": 885,
+    "artist": "Scorpions",
+    "title": "Alien Nation",
+    "year": 1993
+  },
+  {
+    "id": 886,
+    "artist": "Gala",
+    "title": "Let a Boy Cry",
+    "year": 1997
+  },
+  {
+    "id": 887,
+    "artist": "Alligatoah & Santiano",
+    "title": "Wie Zuhause",
+    "year": 2018
+  },
+  {
+    "id": 888,
+    "artist": "Haddaway",
+    "title": "Fly Away",
+    "year": 1995
+  },
+  {
+    "id": 889,
+    "artist": "Marshmello & Anne-Marie",
+    "title": "FRIENDS",
+    "year": 2018
+  },
+  {
+    "id": 890,
+    "artist": "Herbert Grönemeyer",
+    "title": "Bleibt alles anders",
+    "year": 1998
+  },
+  {
+    "id": 891,
+    "artist": "The Prodigy",
+    "title": "Breathe",
+    "year": 1996
+  },
+  {
+    "id": 892,
+    "artist": "Wincent Weiss",
+    "title": "Hier mit dir",
+    "year": 2018
+  },
+  {
+    "id": 893,
+    "artist": "Members of Mayday",
+    "title": "10 IN 01",
+    "year": 2001
+  },
+  {
+    "id": 894,
+    "artist": "Taylor Swift",
+    "title": "We Are Never Ever Getting Back Together",
+    "year": 2012
+  },
+  {
+    "id": 895,
+    "artist": "Eiffel 65",
+    "title": "Lucky (In My Life)",
+    "year": 2001
+  },
+  {
+    "id": 896,
+    "artist": "Silbermond",
+    "title": "Irkendwas bleibt",
+    "year": 2009
+  },
+  {
+    "id": 897,
+    "artist": "Benny Benassi ft. Gary Go",
+    "title": "Cinema",
+    "year": 2011
+  },
+  {
+    "id": 898,
+    "artist": "Britney Spears",
+    "title": "Stronger",
+    "year": 2000
+  },
+  {
+    "id": 899,
+    "artist": "Jax Jones ft. Demi Lovato & Stefflon Don",
+    "title": "Instruction",
+    "year": 2017
+  },
+  {
+    "id": 900,
+    "artist": "Clueso",
+    "title": "Achterbahn",
+    "year": 2016
+  },
+  {
+    "id": 901,
+    "artist": "Daft Punk ft. Julian Casablancas",
+    "title": "Instant Crush",
+    "year": 2013
+  },
+  {
+    "id": 902,
+    "artist": "Sdp",
+    "title": "Die Nacht von Freitag auf Montag",
+    "year": 2015
+  },
+  {
+    "id": 903,
+    "artist": "Marius Müller-Westernhagen",
+    "title": "Es geht mir gut",
+    "year": 1998
+  },
+  {
+    "id": 904,
+    "artist": "The Cardigans",
+    "title": "Erase / Rewind",
+    "year": 1998
+  },
+  {
+    "id": 905,
+    "artist": "Lost Frequencies ft. James Blunt",
+    "title": "Melody",
+    "year": 2018
+  },
+  {
+    "id": 906,
+    "artist": "Bosse",
+    "title": "So oder so",
+    "year": 2013
+  },
+  {
+    "id": 907,
+    "artist": "Nina Chuba",
+    "title": "Ich hass dich",
+    "year": 2022
+  },
+  {
+    "id": 908,
+    "artist": "Ayliva",
+    "title": "Schmetterlinge",
+    "year": 2022
+  },
+  {
+    "id": 909,
+    "artist": "Alice Deejay",
+    "title": "Back in My Life",
+    "year": 1999
+  },
+  {
+    "id": 910,
+    "artist": "The Cranberries",
+    "title": "Animal Instinct",
+    "year": 1999
+  },
+  {
+    "id": 911,
+    "artist": "Eric Prydz",
+    "title": "Pjanoo",
+    "year": 2008
+  },
+  {
+    "id": 912,
+    "artist": "Robert Miles",
+    "title": "Fable",
+    "year": 1996
+  },
+  {
+    "id": 913,
+    "artist": "Spin Doctors",
+    "title": "Little Miss Can't Be Wrong",
+    "year": 1992
+  },
+  {
+    "id": 914,
+    "artist": "La Bouche",
+    "title": "Sweet Dreams",
+    "year": 1994
+  },
+  {
+    "id": 915,
+    "artist": "Corona",
+    "title": "Baby Baby",
+    "year": 1995
+  },
+  {
+    "id": 916,
+    "artist": "Dr. Alban",
+    "title": "Look Who's Talking!",
+    "year": 1994
+  },
+  {
+    "id": 917,
+    "artist": "Gala",
+    "title": "Come into My Life",
+    "year": 1997
+  },
+  {
+    "id": 918,
+    "artist": "Scooter",
+    "title": "Friends",
+    "year": 1995
+  },
+  {
+    "id": 919,
+    "artist": "Members of Mayday",
+    "title": "Great",
+    "year": 1997
+  },
+  {
+    "id": 920,
+    "artist": "Alice Deejay",
+    "title": "Will I Ever",
+    "year": 2000
+  },
+  {
+    "id": 921,
+    "artist": "Eiffel 65",
+    "title": "80's Stars",
+    "year": 2001
+  },
+  {
+    "id": 922,
+    "artist": "Corona",
+    "title": "Try Me Out",
+    "year": 1995
+  },
+  {
+    "id": 923,
+    "artist": "La Bouche",
+    "title": "Fallin' in Love",
+    "year": 1995
+  },
+  {
+    "id": 924,
+    "artist": "Robert Miles",
+    "title": "One and One",
+    "year": 1996
+  },
+  {
+    "id": 925,
+    "artist": "Juli",
+    "title": "Wir beide",
+    "year": 2006
+  },
+    {
+    "id": 926,
+    "artist": "Fleetwood Mac",
+    "title": "Go Your Own Way",
+    "year": 1977
+  },
+  {
+    "id": 927,
+    "artist": "The Chemical Brothers",
+    "title": "Block Rockin' Beats",
+    "year": 1997
+  },
+  {
+    "id": 928,
+    "artist": "Faithless",
+    "title": "One Step Too Far",
+    "year": 2002
+  },
+  {
+    "id": 929,
+    "artist": "Culture Beat",
+    "title": "World in Your Hands",
+    "year": 1993
+  },
+  {
+    "id": 930,
+    "artist": "Calvin Harris & Sam Smith",
+    "title": "Promises",
+    "year": 2018
+  },
+  {
+    "id": 931,
+    "artist": "Die Ärzte",
+    "title": "Deine Schuld",
+    "year": 2003
+  },
+  {
+    "id": 932,
+    "artist": "Alan Walker ft. Sophia Somajo",
+    "title": "Diamond Heart",
+    "year": 2018
+  },
+  {
+    "id": 933,
+    "artist": "No Doubt",
+    "title": "Running",
+    "year": 2001
+  },
+  {
+    "id": 934,
+    "artist": "Avicii ft. Rita Ora",
+    "title": "Lonely Together",
+    "year": 2017
+  },
+  {
+    "id": 935,
+    "artist": "Fettes Brot",
+    "title": "Bettina, zieh dir bitte etwas an",
+    "year": 2008
+  },
+  {
+    "id": 936,
+    "artist": "Gigi D'Agostino",
+    "title": "Super (1999)",
+    "year": 2000
+  },
+  {
+    "id": 937,
+    "artist": "Dr. Alban",
+    "title": "Away from Home",
+    "year": 1994
+  },
+  {
+    "id": 938,
+    "artist": "David Guetta ft. Zara Larsson",
+    "title": "This One's for You",
+    "year": 2016
+  },
+  {
+    "id": 939,
+    "artist": "Nirvana",
+    "title": "The Man Who Sold the World",
+    "year": 1993
+  },
+  {
+    "id": 940,
+    "artist": "Marteria x Casper",
+    "title": "Champion Sound",
+    "year": 2018
+  },
+  {
+    "id": 941,
+    "artist": "Martin Solveig & GTA",
+    "title": "Intoxicated",
+    "year": 2015
+  },
+  {
+    "id": 942,
+    "artist": "Die Fantastischen Vier",
+    "title": "25",
+    "year": 2014
+  },
+  {
+    "id": 943,
+    "artist": "Tiësto ft. John Legend",
+    "title": "Summer Nights",
+    "year": 2016
+  },
+  {
+    "id": 944,
+    "artist": "Spice Girls",
+    "title": "Mama",
+    "year": 1996
+  },
+  {
+    "id": 945,
+    "artist": "Cascada",
+    "title": "Miracle",
+    "year": 2004
+  },
+  {
+    "id": 946,
+    "artist": "Sido",
+    "title": "Melatonin",
+    "year": 2019
+  },
+  {
+    "id": 947,
+    "artist": "Oasis",
+    "title": "Some Might Say",
+    "year": 1995
+  },
+  {
+    "id": 948,
+    "artist": "Paul Kalkbrenner",
+    "title": "Aaron",
+    "year": 2008
+  },
+  {
+    "id": 949,
+    "artist": "Nena",
+    "title": "Haus der drei Sonnen",
+    "year": 1985
+  },
+  {
+    "id": 950,
+    "artist": "Darude",
+    "title": "Out of Control",
+    "year": 2000
+  },
+  {
+    "id": 951,
+    "artist": "Cro",
+    "title": "Computermusik",
+    "year": 2017
+  },
+  {
+    "id": 952,
+    "artist": "Swedish House Mafia",
+    "title": "Save the World",
+    "year": 2011
+  },
+  {
+    "id": 953,
+    "artist": "Die Toten Hosen",
+    "title": "Unter den Wolken",
+    "year": 2017
+  },
+  {
+    "id": 954,
+    "artist": "Scooter",
+    "title": "Back in the U.K.",
+    "year": 1996
+  },
+  {
+    "id": 955,
+    "artist": "Harry Styles",
+    "title": "Cherry",
+    "year": 2019
+  },
+  {
+    "id": 956,
+    "artist": "ATB",
+    "title": "Let U Go",
+    "year": 2001
+  },
+  {
+    "id": 957,
+    "artist": "Robin Schulz ft. David Guetta",
+    "title": "Shed a Light",
+    "year": 2016
+  },
+  {
+    "id": 958,
+    "artist": "Beginner",
+    "title": "Ahnma",
+    "year": 2016
+  },
+  {
+    "id": 959,
+    "artist": "Meduza x OneRepublic",
+    "title": "Sunshine",
+    "year": 2021
+  },
+  {
+    "id": 960,
+    "artist": "Scorpions",
+    "title": "White Dove",
+    "year": 1994
+  },
+  {
+    "id": 961,
+    "artist": "Gala",
+    "title": "Everyone Has Inside",
+    "year": 1996
+  },
+  {
+    "id": 962,
+    "artist": "Alligatoah",
+    "title": "Nicht wecken",
+    "year": 2022
+  },
+  {
+    "id": 963,
+    "artist": "Haddaway",
+    "title": "Catch a Fire",
+    "year": 1995
+  },
+  {
+    "id": 964,
+    "artist": "Marshmello x Jonas Brothers",
+    "title": "Leave Before You Love Me",
+    "year": 2021
+  },
+  {
+    "id": 965,
+    "artist": "Herbert Grönemeyer",
+    "title": "Tumult",
+    "year": 2018
+  },
+  {
+    "id": 966,
+    "artist": "The Prodigy",
+    "title": "Smack My Bitch Up",
+    "year": 1997
+  },
+  {
+    "id": 967,
+    "artist": "Wincent Weiss",
+    "title": "Morgen",
+    "year": 2022
+  },
+  {
+    "id": 968,
+    "artist": "Members of Mayday",
+    "title": "Culture Flash",
+    "year": 2002
+  },
+  {
+    "id": 969,
+    "artist": "Taylor Swift",
+    "title": "I Knew You Were Trouble",
+    "year": 2012
+  },
+  {
+    "id": 970,
+    "artist": "Eiffel 65",
+    "title": "Blue (Da Ba Dee) [Gabry Ponte Remix]",
+    "year": 1998
+  },
+  {
+    "id": 971,
+    "artist": "Silbermond",
+    "title": "In meiner Erinnerung",
+    "year": 2019
+  },
+  {
+    "id": 972,
+    "artist": "Benny Benassi",
+    "title": "Who's Your Daddy?",
+    "year": 2005
+  },
+  {
+    "id": 973,
+    "artist": "Britney Spears",
+    "title": "I'm a Slave 4 U",
+    "year": 2001
+  },
+  {
+    "id": 974,
+    "artist": "Jax Jones ft. Years & Years",
+    "title": "Play",
+    "year": 2018
+  },
+  {
+    "id": 975,
+    "artist": "Clueso",
+    "title": "Tanzen",
+    "year": 2020
+  },
+  {
+    "id": 976,
+    "artist": "Daft Punk ft. Todd Edwards",
+    "title": "Fragments of Time",
+    "year": 2013
+  },
+  {
+    "id": 977,
+    "artist": "Sdp",
+    "title": "Viva la Evolution",
+    "year": 2019
+  },
+  {
+    "id": 978,
+    "artist": "Marius Müller-Westernhagen",
+    "title": "Halt mich",
+    "year": 1988
+  },
+  {
+    "id": 979,
+    "artist": "The Cardigans",
+    "title": "Carnival",
+    "year": 1995
+  },
+  {
+    "id": 980,
+    "artist": "Lost Frequencies ft. NNEKA",
+    "title": "Leave a Light On",
+    "year": 2024
+  },
+  {
+    "id": 981,
+    "artist": "Bosse",
+    "title": "Sunnyside",
+    "year": 2021
+  },
+  {
+    "id": 982,
+    "artist": "Nina Chuba",
+    "title": "Nicht klein beigeben",
+    "year": 2024
+  },
+  {
+    "id": 983,
+    "artist": "Ayliva",
+    "title": "Hässlich",
+    "year": 2023
+  },
+  {
+    "id": 984,
+    "artist": "Alice Deejay",
+    "title": "The Lonely One",
+    "year": 2000
+  },
+  {
+    "id": 985,
+    "artist": "The Cranberries",
+    "title": "Just My Imagination",
+    "year": 1999
+  },
+  {
+    "id": 986,
+    "artist": "Eric Prydz",
+    "title": "Generate",
+    "year": 2015
+  },
+  {
+    "id": 987,
+    "artist": "Robert Miles",
+    "title": "Freedom",
+    "year": 1997
+  },
+  {
+    "id": 988,
+    "artist": "Spin Doctors",
+    "title": "Jimmy Olsen's Blues",
+    "year": 1991
+  },
+  {
+    "id": 989,
+    "artist": "La Bouche",
+    "title": "You Won't Forget Me",
+    "year": 1997
+  },
+  {
+    "id": 990,
+    "artist": "Corona",
+    "title": "I Don't Wanna Be a Star",
+    "year": 1995
+  },
+  {
+    "id": 991,
+    "artist": "Dr. Alban",
+    "title": "This Is the Night",
+    "year": 1997
+  },
+  {
+    "id": 992,
+    "artist": "Gala",
+    "title": "Suddenly",
+    "year": 1997
+  },
+  {
+    "id": 993,
+    "artist": "Scooter",
+    "title": "Break It Up",
+    "year": 1996
+  },
+  {
+    "id": 994,
+    "artist": "Members of Mayday",
+    "title": "Soundtropolis",
+    "year": 1999
+  },
+  {
+    "id": 995,
+    "artist": "Alice Deejay",
+    "title": "Celebrate Our Love",
+    "year": 2000
+  },
+  {
+    "id": 996,
+    "artist": "Eiffel 65",
+    "title": "Back in Time",
+    "year": 2001
+  },
+  {
+    "id": 997,
+    "artist": "Corona",
+    "title": "The Power of Love",
+    "year": 1997
+  },
+  {
+    "id": 998,
+    "artist": "La Bouche",
+    "title": "A Moment of Love",
+    "year": 1997
+  },
+  {
+    "id": 999,
+    "artist": "Robert Miles",
+    "title": "Landscape",
+    "year": 1996
+  },
+  {
+    "id": 1000,
+    "artist": "Juli",
+    "title": "Fahrrad",
+    "year": 2010
   }
 ];
