@@ -3840,8 +3840,8 @@ window.songs = [
     "artist": "Post Malone",
     "title": "Circles",
     "year": 2019
-  };
-{
+  },
+  {
     "id": 641,
     "artist": "ABBA",
     "title": "Mamma Mia",
