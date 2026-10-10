@@ -1539,9 +1539,9 @@ window.songs = [
   },
   {
     "id": 257,
-    "artist": "Avicii",
-    "title": "Hey Brother",
-    "year": 2013
+    "artist": "Kygo ft. Conrad Sewell",
+    "title": "Firestone",
+    "year": 2014
   },
   {
     "id": 258,
@@ -1965,15 +1965,15 @@ window.songs = [
   },
   {
     "id": 328,
-    "artist": "Nirvana",
-    "title": "Lithium",
-    "year": 1991
+    "artist": "Soundgarden",
+    "title": "Black Hole Sun",
+    "year": 1994
   },
   {
     "id": 329,
-    "artist": "Lady Gaga",
-    "title": "Born This Way",
-    "year": 2011
+    "artist": "Katy Perry",
+    "title": "Firework",
+    "year": 2010
   },
   {
     "id": 330,
@@ -2007,9 +2007,9 @@ window.songs = [
   },
   {
     "id": 335,
-    "artist": "Fisher",
-    "title": "Take It Off",
-    "year": 2023
+    "artist": "Fred again.. & Swedish House Mafia",
+    "title": "Turn On The Lights again..",
+    "year": 2022
   },
   {
     "id": 336,
@@ -2265,9 +2265,9 @@ window.songs = [
   },
   {
     "id": 378,
-    "artist": "Die Ärzte",
-    "title": "Schrei nach Liebe",
-    "year": 1993
+    "artist": "Sportfreunde Stiller",
+    "title": "Ein Kompliment",
+    "year": 2002
   },
   {
     "id": 379,
@@ -2421,9 +2421,9 @@ window.songs = [
   },
   {
     "id": 404,
-    "artist": "David Guetta ft. Kelly Rowland",
-    "title": "When Love Takes Over",
-    "year": 2009
+    "artist": "Calvin Harris",
+    "title": "Feel So Close",
+    "year": 2011
   },
   {
     "id": 405,
@@ -2487,9 +2487,9 @@ window.songs = [
   },
   {
     "id": 415,
-    "artist": "Gigi D'Agostino",
-    "title": "La Passion",
-    "year": 2000
+    "artist": "Darude",
+    "title": "Sandstorm",
+    "year": 1999
   },
   {
     "id": 416,
@@ -2541,9 +2541,9 @@ window.songs = [
   },
   {
     "id": 424,
-    "artist": "Outkast",
-    "title": "So Fresh, So Clean",
-    "year": 2000
+    "artist": "Snoop Dogg ft. Pharrell",
+    "title": "Beautiful",
+    "year": 2003
   },
   {
     "id": 425,
@@ -2553,9 +2553,9 @@ window.songs = [
   },
   {
     "id": 426,
-    "artist": "Gigi D'Agostino",
-    "title": "L'Amour Toujours",
-    "year": 1999
+    "artist": "Mau P",
+    "title": "Drugs From Amsterdam",
+    "year": 2022
   },
   {
     "id": 427,
@@ -3279,9 +3279,9 @@ window.songs = [
   },
   {
     "id": 547,
-    "artist": "David Guetta ft. Kelly Rowland",
-    "title": "When Love Takes Over",
-    "year": 2009
+    "artist": "Martin Solveig & Dragonette",
+    "title": "Hello",
+    "year": 2010
   },
   {
     "id": 548,
@@ -3951,9 +3951,9 @@ window.songs = [
   },
   {
     "id": 659,
-    "artist": "Gigi D'Agostino",
-    "title": "L'Amour Toujours",
-    "year": 1999
+    "artist": "Paul van Dyk",
+    "title": "For An Angel",
+    "year": 1998
   },
   {
     "id": 660,
@@ -4065,15 +4065,15 @@ window.songs = [
   },
   {
     "id": 678,
-    "artist": "Rihanna ft. Jay-Z",
-    "title": "Umbrella",
-    "year": 2007
+    "artist": "Beyoncé",
+    "title": "Single Ladies (Put a Ring on It)",
+    "year": 2008
   },
   {
     "id": 679,
-    "artist": "Billie Eilish",
-    "title": "Bad Guy",
-    "year": 2019
+    "artist": "Lorde",
+    "title": "Royals",
+    "year": 2013
   },
   {
     "id": 680,
@@ -4347,9 +4347,9 @@ window.songs = [
   },
   {
     "id": 734,
-    "artist": "Scorpions",
-    "title": "Wind of Change",
-    "year": 1990
+    "artist": "Europe",
+    "title": "The Final Countdown",
+    "year": 1986
   },
   {
     "id": 735,
@@ -4491,9 +4491,9 @@ window.songs = [
   },
   {
     "id": 758,
-    "artist": "Liquido",
-    "title": "Narcotic",
-    "year": 1998
+    "artist": "Blur",
+    "title": "Song 2",
+    "year": 1997
   },
   {
     "id": 759,
@@ -5331,9 +5331,9 @@ window.songs = [
   },
   {
     "id": 898,
-    "artist": "Scorpions",
-    "title": "Rock You Like a Hurricane",
-    "year": 1984
+    "artist": "Def Leppard",
+    "title": "Pour Some Sugar on Me",
+    "year": 1987
   },
   {
     "id": 899,
@@ -5829,15 +5829,15 @@ window.songs = [
   },
   {
     "id": 981,
-    "artist": "Michael Jackson",
-    "title": "Bad",
-    "year": 1987
+    "artist": "Prince",
+    "title": "Purple Rain",
+    "year": 1984
   },
   {
     "id": 982,
-    "artist": "Billie Eilish",
-    "title": "Ocean Eyes",
-    "year": 2016
+    "artist": "Lana Del Rey",
+    "title": "Video Games",
+    "year": 2011
   },
   {
     "id": 983,
@@ -5871,9 +5871,9 @@ window.songs = [
   },
   {
     "id": 988,
-    "artist": "David Guetta ft. Kelly Rowland",
-    "title": "When Love Takes Over",
-    "year": 2009
+    "artist": "Avicii ft. Aloe Blacc",
+    "title": "Wake Me Up",
+    "year": 2013
   },
   {
     "id": 989,
