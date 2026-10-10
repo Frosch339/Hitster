@@ -4650,7 +4650,7 @@ window.songs = [
     "artist": "Fisher",
     "title": "Losing It",
     "year": 2018
-  }
+  },
   {
     "id": 776,
     "artist": "Fleetwood Mac",
