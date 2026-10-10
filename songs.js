@@ -3594,7 +3594,7 @@ window.songs = [
     "artist": "Ed Sheeran",
     "title": "Galway Girl",
     "year": 2017
-  }
+  },
     {
     "id": 604,
     "artist": "The Smiths",
