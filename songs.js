@@ -3600,7 +3600,7 @@ window.songs = [
     "artist": "Fred again.. & The Blessed Madonna",
     "title": "Marea (we’ve lost dancing)",
     "year": 2021
-  }
+  },
 {
     "id": 601,
     "artist": "Deep Purple",
