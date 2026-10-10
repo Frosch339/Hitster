@@ -575,6 +575,17 @@ async () => {
 
     }
 
+    if (!s || !s.artist || !s.title) {
+
+  throw new Error(
+
+    "Kein Song für Karte " + n +
+
+    " gefunden. Bitte songs.js und Kartennummer prüfen."
+
+  );
+
+}
 
 const query =
   encodeURIComponent(
