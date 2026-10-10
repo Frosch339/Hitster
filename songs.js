@@ -3945,9 +3945,9 @@ window.songs = [
   },
   {
     "id": 658,
-    "artist": "Mark Forster",
-    "title": "Bauch und Kopf",
-    "year": 2014
+    "artist": "Nelly Furtado",
+    "title": "Maneater",
+    "year": 2006
   },
   {
     "id": 659,
@@ -5553,9 +5553,9 @@ window.songs = [
   },
     {
     "id": 926,
-    "artist": "Fleetwood Mac",
-    "title": "Go Your Own Way",
-    "year": 1977
+    "artist": "Nelly Furtado",
+    "title": "Say It Right",
+    "year": 2006
   },
   {
     "id": 927,
