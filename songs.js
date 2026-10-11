@@ -471,9 +471,9 @@ window.songs = [
   },
   {
     "id": 79,
-    "artist": "Billie Eilish",
-    "title": "What Was I Made For?",
-    "year": 2023
+    "artist": "Crazy Town",
+    "title": "Butterfly",
+    "year": 2000
   },
   {
     "id": 80,
@@ -633,9 +633,9 @@ window.songs = [
   },
   {
     "id": 106,
-    "artist": "Bill Haley & His Comets",
-    "title": "See You Later, Alligator",
-    "year": 1956
+    "artist": "Fool's Garden",
+    "title": "Lemon Tree",
+    "year": 1995
   },
   {
     "id": 107,
@@ -728,10 +728,10 @@ window.songs = [
     "year": 1959
   },
   {
-    "id": 122,
-    "artist": "Dua Lipa",
-    "title": "Don't Start Now",
-    "year": 2019
+   "id": 122,
+    "artist": "Sommer Ray",
+    "title": "Midnight Drive",
+    "year": 2025
   },
   {
     "id": 123,
@@ -837,9 +837,9 @@ window.songs = [
   },
   {
     "id": 140,
-    "artist": "Billie Eilish",
-    "title": "Lunch",
-    "year": 2024
+    "artist": "Wheatus",
+    "title": "Teenage Dirtbag",
+    "year": 2000
   },
   {
     "id": 141,
@@ -867,9 +867,9 @@ window.songs = [
   },
   {
     "id": 145,
-    "artist": "Lady Gaga & Bruno Mars",
-    "title": "Die With A Smile",
-    "year": 2024
+    "artist": "Danzel",
+    "title": "Pump It Up!",
+    "year": 2004
   },
   {
     "id": 146,
@@ -903,9 +903,9 @@ window.songs = [
   },
   {
     "id": 151,
-    "artist": "Chappell Roan",
-    "title": "Pink Pony Club",
-    "year": 2020
+    "artist": "DNCE",
+    "title": "Cake by the Ocean",
+    "year": 2015
   },
   {
     "id": 152,
@@ -939,9 +939,9 @@ window.songs = [
   },
   {
     "id": 157,
-    "artist": "Bill Haley & His Comets",
-    "title": "Razzle Dazzle",
-    "year": 1955
+    "artist": "Babylon Zoo",
+    "title": "Spaceman",
+    "year": 1996
   },
   {
     "id": 158,
@@ -1077,9 +1077,9 @@ window.songs = [
   },
   {
     "id": 180,
-    "artist": "Billie Eilish",
-    "title": "Chihiro",
-    "year": 2024
+    "artist": "Santana ft. Rob Thomas",
+    "title": "Smooth",
+    "year": 1999
   },
   {
     "id": 181,
@@ -1143,9 +1143,9 @@ window.songs = [
   },
   {
     "id": 191,
-    "artist": "Chappell Roan",
-    "title": "Casual",
-    "year": 2022
+    "artist": "OMI",
+    "title": "Cheerleader (Felix Jaehn Remix)",
+    "year": 2014
   },
   {
     "id": 192,
@@ -1215,9 +1215,9 @@ window.songs = [
   },
   {
     "id": 203,
-    "artist": "Benny Goodman",
-    "title": "Sing, Sing, Sing",
-    "year": 1937
+    "artist": "a-ha",
+    "title": "Take On Me",
+    "year": 1985
   },
   {
     "id": 204,
@@ -1262,10 +1262,10 @@ window.songs = [
     "year": 1975
   },
   {
-    "id": 211,
-    "artist": "David Guetta ft. Kid Cudi",
-    "title": "Memories",
-    "year": 2009
+    "id": 221,
+    "artist": "Laufey",
+    "title": "From The Start",
+    "year": 2023
   },
   {
     "id": 212,
@@ -1281,9 +1281,9 @@ window.songs = [
   },
   {
     "id": 214,
-    "artist": "Johnny Cash",
-    "title": "Man in Black",
-    "year": 1971
+    "artist": "Icona Pop ft. Charli XCX",
+    "title": "I Love It",
+    "year": 2012
   },
   {
     "id": 215,
@@ -1299,9 +1299,9 @@ window.songs = [
   },
   {
     "id": 217,
-    "artist": "Billie Holiday",
-    "title": "Strange Fruit",
-    "year": 1939
+    "artist": "Eric Prydz",
+    "title": "Call on Me",
+    "year": 2004
   },
   {
     "id": 218,
@@ -1377,9 +1377,9 @@ window.songs = [
   },
   {
     "id": 230,
-    "artist": "Bill Haley & His Comets",
-    "title": "Skinny Minnie",
-    "year": 1958
+    "artist": "Scatman John",
+    "title": "Scatman (Ski-Ba-Bop-Ba-Dop-Bop)",
+    "year": 1994
   },
   {
     "id": 231,
@@ -1407,9 +1407,9 @@ window.songs = [
   },
   {
     "id": 235,
-    "artist": "Chappell Roan",
-    "title": "Red Wine Supernova",
-    "year": 2023
+    "artist": "MAGIC!",
+    "title": "Rude",
+    "year": 2013
   },
   {
     "id": 236,
@@ -1437,9 +1437,9 @@ window.songs = [
   },
   {
     "id": 240,
-    "artist": "Linkin Park",
-    "title": "Over Each Other",
-    "year": 2024
+    "artist": "Blu Cantrell",
+    "title": "Hit 'Em Up Style (Oops!)",
+    "year": 2001
   },
   {
     "id": 241,
@@ -1449,8 +1449,8 @@ window.songs = [
   },
   {
     "id": 242,
-    "artist": "Dua Lipa",
-    "title": "Training Season",
+    "artist": "Central Cee & Lil Baby",
+    "title": "BAND4BAND",
     "year": 2024
   },
   {
@@ -1467,9 +1467,9 @@ window.songs = [
   },
   {
     "id": 245,
-    "artist": "Johnny Cash",
-    "title": "Get Rhythm",
-    "year": 1956
+    "artist": "Of Monsters and Men",
+    "title": "Little Talks",
+    "year": 2011
   },
   {
     "id": 246,
@@ -1485,9 +1485,9 @@ window.songs = [
   },
   {
     "id": 248,
-    "artist": "Guns N' Roses",
-    "title": "Civil War",
-    "year": 1990
+    "artist": "Passenger",
+    "title": "Holes",
+    "year": 2013
   },
   {
     "id": 249,
@@ -1509,9 +1509,9 @@ window.songs = [
   },
   {
     "id": 252,
-    "artist": "Die Toten Hosen",
-    "title": "Alles aus Liebe",
-    "year": 1993
+    "artist": "Mark Ambor",
+    "title": "Belong Together",
+    "year": 2024
   },
   {
     "id": 253,
@@ -1527,9 +1527,9 @@ window.songs = [
   },
   {
     "id": 255,
-    "artist": "Chappell Roan",
-    "title": "My Kink Is Karma",
-    "year": 2022
+    "artist": "Ylvis",
+    "title": "The Fox (What Does the Fox Say?)",
+    "year": 2013
   },
   {
     "id": 256,
@@ -1545,15 +1545,15 @@ window.songs = [
   },
   {
     "id": 258,
-    "artist": "Bill Haley & His Comets",
-    "title": "Burn That Candle",
-    "year": 1955
+    "artist": "Rednex",
+    "title": "Cotton Eye Joe",
+    "year": 1994
   },
   {
     "id": 259,
-    "artist": "Lady Gaga",
-    "title": "Alejandro",
-    "year": 2009
+    "artist": "Yves Larock",
+    "title": "Rise Up",
+    "year": 2007
   },
   {
     "id": 260,
@@ -1683,9 +1683,9 @@ window.songs = [
   },
   {
     "id": 281,
-    "artist": "Linkin Park",
-    "title": "Bleed It Out",
-    "year": 2007
+    "artist": "Afroman",
+    "title": "Because I Got High",
+    "year": 2001
   },
   {
     "id": 282,
@@ -1695,15 +1695,15 @@ window.songs = [
   },
   {
     "id": 283,
-    "artist": "The Weeknd ft. Daft Punk",
-    "title": "Starboy",
-    "year": 2016
+    "artist": "David Kushner",
+    "title": "Daylight",
+    "year": 2023
   },
   {
     "id": 284,
-    "artist": "Bill Haley & His Comets",
-    "title": "Dim, Dim the Lights",
-    "year": 1954
+    "artist": "Crash Test Dummies",
+    "title": "Mmm Mmm Mmm Mmm",
+    "year": 1993
   },
   {
     "id": 285,
@@ -1719,15 +1719,15 @@ window.songs = [
   },
   {
     "id": 287,
-    "artist": "Billie Eilish",
-    "title": "Happier Than Ever",
-    "year": 2021
+    "artist": "Lou Bega",
+    "title": "Mambo No. 5",
+    "year": 1999
   },
   {
     "id": 288,
-    "artist": "Chappell Roan",
-    "title": "Femininomenon",
-    "year": 2023
+    "artist": "Baauer",
+    "title": "Harlem Shake",
+    "year": 2013
   },
   {
     "id": 289,
@@ -1743,9 +1743,9 @@ window.songs = [
   },
   {
     "id": 291,
-    "artist": "Die Toten Hosen",
-    "title": "Altes Fieber",
-    "year": 2012
+    "artist": "Benson Boone",
+    "title": "Beautiful Things",
+    "year": 2024
   },
   {
     "id": 292,
@@ -1791,9 +1791,9 @@ window.songs = [
   },
   {
     "id": 299,
-    "artist": "Daft Punk",
-    "title": "Lose Yourself to Dance",
-    "year": 2013
+    "artist": "Raye ft. 070 Shake",
+    "title": "Escapism.",
+    "year": 2022
   },
   {
     "id": 300,
@@ -1827,9 +1827,9 @@ window.songs = [
   },
   {
     "id": 305,
-    "artist": "50 Cent",
-    "title": "Window Shopper",
-    "year": 2005
+    "artist": "Carl Douglas",
+    "title": "Kung Fu Fighting",
+    "year": 1974
   },
   {
     "id": 306,
@@ -1935,9 +1935,9 @@ window.songs = [
   },
   {
     "id": 323,
-    "artist": "Bill Haley & His Comets",
-    "title": "Mambo Rock",
-    "year": 1955
+    "artist": "Haddaway",
+    "title": "What Is Love",
+    "year": 1993
   },
   {
     "id": 324,
@@ -1977,9 +1977,9 @@ window.songs = [
   },
   {
     "id": 330,
-    "artist": "Benny Goodman",
-    "title": "Stompin' at the Savoy",
-    "year": 1936
+    "artist": "Europe",
+    "title": "The Final Countdown",
+    "year": 1986
   },
   {
     "id": 331,
@@ -2025,9 +2025,9 @@ window.songs = [
   },
   {
     "id": 338,
-    "artist": "50 Cent",
-    "title": "Outta Control",
-    "year": 2005
+    "artist": "Zager and Evans",
+    "title": "In the Year 2525",
+    "year": 1969
   },
   {
     "id": 339,
@@ -2067,9 +2067,9 @@ window.songs = [
   },
   {
     "id": 345,
-    "artist": "Green Day",
-    "title": "Wake Me Up When September Ends",
-    "year": 2004
+    "artist": "Vance Joy",
+    "title": "Riptide",
+    "year": 2013
   },
   {
     "id": 346,
@@ -2115,15 +2115,15 @@ window.songs = [
   },
   {
     "id": 353,
-    "artist": "Linkin Park",
-    "title": "One Step Closer",
-    "year": 2000
+    "artist": "Truth Hurts ft. Rakim",
+    "title": "Addictive",
+    "year": 2002
   },
   {
     "id": 354,
-    "artist": "Billie Eilish",
-    "title": "NDA",
-    "year": 2021
+    "artist": "Baha Men",
+    "title": "Who Let the Dogs Out",
+    "year": 2000
   },
   {
     "id": 355,
@@ -2163,9 +2163,9 @@ window.songs = [
   },
   {
     "id": 361,
-    "artist": "Linkin Park",
-    "title": "Burn It Down",
-    "year": 2012
+    "artist": "Panjabi MC",
+    "title": "Mundian To Bach Ke",
+    "year": 2002
   },
   {
     "id": 362,
@@ -2193,9 +2193,9 @@ window.songs = [
   },
   {
     "id": 366,
-    "artist": "Benny Goodman",
-    "title": "Moonglow",
-    "year": 1934
+    "artist": "Desireless",
+    "title": "Voyage Voyage",
+    "year": 1986
   },
   {
     "id": 367,
@@ -2211,9 +2211,9 @@ window.songs = [
   },
   {
     "id": 369,
-    "artist": "Andrea Berg",
-    "title": "Mosaik",
-    "year": 2019
+    "artist": "Toni Basil",
+    "title": "Mickey",
+    "year": 1981
   },
   {
     "id": 370,
@@ -2234,10 +2234,10 @@ window.songs = [
     "year": 1977
   },
   {
-    "id": 373,
-    "artist": "50 Cent",
-    "title": "Ayo Technology",
-    "year": 2007
+    id": 373,
+    "artist": "Norman Greenbaum",
+    "title": "Spirit in the Sky",
+    "year": 1969
   },
   {
     "id": 374,
@@ -2295,9 +2295,9 @@ window.songs = [
   },
   {
     "id": 383,
-    "artist": "Blink-182",
-    "title": "First Date",
-    "year": 2001
+    "artist": "Foster the People",
+    "title": "Pumped Up Kicks",
+    "year": 2010
   },
   {
     "id": 384,
@@ -2337,9 +2337,9 @@ window.songs = [
   },
   {
     "id": 390,
-    "artist": "Billie Eilish",
-    "title": "Bury a Friend",
-    "year": 2019
+    "artist": "Emilia",
+    "title": "Big Big World",
+    "year": 1998
   },
   {
     "id": 391,
@@ -2349,9 +2349,9 @@ window.songs = [
   },
   {
     "id": 392,
-    "artist": "Eminem",
-    "title": "Cleanin' Out My Closet",
-    "year": 2002
+    "artist": "Teddy Swims",
+    "title": "The Door",
+    "year": 2024
   },
   {
     "id": 393,
@@ -2397,9 +2397,9 @@ window.songs = [
   },
   {
     "id": 400,
-    "artist": "Lady Gaga",
-    "title": "Paparazzi",
-    "year": 2009
+    "artist": "Ida Corr vs Fedde Le Grand",
+    "title": "Let Me Think About It",
+    "year": 2007
   },
   {
     "id": 401,
@@ -2409,9 +2409,9 @@ window.songs = [
   },
   {
     "id": 402,
-    "artist": "Benny Goodman",
-    "title": "Goody Goody",
-    "year": 1936
+    "artist": "Rick Astley",
+    "title": "Never Gonna Give You Up",
+    "year": 1987
   },
   {
     "id": 403,
@@ -2433,9 +2433,9 @@ window.songs = [
   },
   {
     "id": 406,
-    "artist": "Andrea Berg",
-    "title": "Ich schieß dich auf den Mond",
-    "year": 2011
+    "artist": "Soft Cell",
+    "title": "Tainted Love",
+    "year": 1981
   },
   {
     "id": 407,
@@ -2499,9 +2499,9 @@ window.songs = [
   },
   {
     "id": 417,
-    "artist": "Blink-182",
-    "title": "The Rock Show",
-    "year": 2001
+    "artist": "Edward Maya ft. Vika Jigulina",
+    "title": "Stereo Love",
+    "year": 2009
   },
   {
     "id": 418,
@@ -2577,9 +2577,9 @@ window.songs = [
   },
   {
     "id": 430,
-    "artist": "Billie Eilish",
-    "title": "No Time to Die",
-    "year": 2020
+    "artist": "Meredith Brooks",
+    "title": "Bitch",
+    "year": 1997
   },
   {
     "id": 431,
@@ -2589,9 +2589,9 @@ window.songs = [
   },
   {
     "id": 432,
-    "artist": "Eminem",
-    "title": "Beautiful",
-    "year": 2009
+    "artist": "Ravyn Lenae",
+    "title": "One Wish",
+    "year": 2025
   },
   {
     "id": 433,
@@ -2667,9 +2667,9 @@ window.songs = [
   },
   {
     "id": 445,
-    "artist": "Andrea Berg",
-    "title": "Viel zu schön um wahr zu sein",
-    "year": 2016
+    "artist": "Lipps Inc.",
+    "title": "Funkytown",
+    "year": 1979
   },
   {
     "id": 446,
@@ -2709,9 +2709,9 @@ window.songs = [
   },
   {
     "id": 452,
-    "artist": "Blink-182",
-    "title": "One More Time",
-    "year": 2023
+    "artist": "Guru Josh Project",
+    "title": "Infinity 2008",
+    "year": 2008
   },
   {
     "id": 453,
@@ -2733,9 +2733,9 @@ window.songs = [
   },
   {
     "id": 456,
-    "artist": "Billie Holiday",
-    "title": "Solitude",
-    "year": 1941
+    "artist": "O-Zone",
+    "title": "Dragostea Din Tei",
+    "year": 2003
   },
   {
     "id": 457,
@@ -2781,9 +2781,9 @@ window.songs = [
   },
   {
     "id": 464,
-    "artist": "Benny Goodman",
-    "title": "And the Angels Sing",
-    "year": 1939
+    "artist": "Bobby McFerrin",
+    "title": "Don't Worry, Be Happy",
+    "year": 1988
   },
   {
     "id": 465,
@@ -2811,8 +2811,8 @@ window.songs = [
   },
   {
     "id": 469,
-    "artist": "Bruno Mars",
-    "title": "Locked Out of Heaven",
+    "artist": "PSY",
+    "title": "Gangnam Style",
     "year": 2012
   },
   {
@@ -2889,9 +2889,9 @@ window.songs = [
   },
   {
     "id": 482,
-    "artist": "Andrea Berg",
-    "title": "Seemann, deine Heimat ist das Meer",
-    "year": 2013
+    "artist": "Anita Ward",
+    "title": "Ring My Bell",
+    "year": 1979
   },
   {
     "id": 483,
@@ -2931,9 +2931,9 @@ window.songs = [
   },
   {
     "id": 489,
-    "artist": "Billie Holiday",
-    "title": "God Bless the Child",
-    "year": 1941
+    "artist": "The Calling",
+    "title": "Wherever You Will Go",
+    "year": 2001
   },
   {
     "id": 490,
@@ -2967,9 +2967,9 @@ window.songs = [
   },
   {
     "id": 495,
-    "artist": "Benny Goodman",
-    "title": "Don't Be That Way",
-    "year": 1938
+    "artist": "Kaoma",
+    "title": "Lambada",
+    "year": 1989
   },
   {
     "id": 496,
@@ -2997,9 +2997,9 @@ window.songs = [
   },
   {
     "id": 500,
-    "artist": "Bruno Mars",
-    "title": "Uptown Funk",
-    "year": 2014
+    "artist": "Carly Rae Jepsen",
+    "title": "Call Me Maybe",
+    "year": 2011
   },
   {
     "id": 501,
@@ -3069,9 +3069,9 @@ window.songs = [
   },
   {
     "id": 512,
-    "artist": "Billie Eilish",
-    "title": "Therefore I Am",
-    "year": 2020
+    "artist": "Eagle-Eye Cherry",
+    "title": "Save Tonight",
+    "year": 1997
   },
   {
     "id": 513,
@@ -3099,9 +3099,9 @@ window.songs = [
   },
   {
     "id": 517,
-    "artist": "Coldplay",
-    "title": "Speed of Sound",
-    "year": 2005
+    "artist": "Gayle",
+    "title": "abcdefu",
+    "year": 2021
   },
   {
     "id": 518,
@@ -3111,15 +3111,15 @@ window.songs = [
   },
   {
     "id": 519,
-    "artist": "Katy Perry",
-    "title": "Hot n Cold",
-    "year": 2008
+    "artist": "Owl City",
+    "title": "Fireflies",
+    "year": 2009
   },
   {
     "id": 520,
-    "artist": "Green Day",
-    "title": "Good Riddance (Time of Your Life)",
-    "year": 1997
+    "artist": "American Authors",
+    "title": "Best Day of My Life",
+    "year": 2013
   },
   {
     "id": 521,
@@ -3135,9 +3135,9 @@ window.songs = [
   },
   {
     "id": 523,
-    "artist": "Billie Holiday",
-    "title": "Gloomy Sunday",
-    "year": 1941
+    "artist": "Las Ketchup",
+    "title": "The Ketchup Song (Aserejé)",
+    "year": 2002
   },
   {
     "id": 524,
@@ -3171,9 +3171,9 @@ window.songs = [
   },
   {
     "id": 529,
-    "artist": "Benny Goodman",
-    "title": "Jersey Bounce",
-    "year": 1942
+    "artist": "DNA ft. Suzanne Vega",
+    "title": "Tom's Diner",
+    "year": 1990
   },
   {
     "id": 530,
@@ -3261,21 +3261,21 @@ window.songs = [
   },
   {
     "id": 544,
-    "artist": "Blink-182",
-    "title": "Dammit",
-    "year": 1997
+    "artist": "Peter Bjorn and John",
+    "title": "Young Folks",
+    "year": 2006
   },
   {
     "id": 545,
-    "artist": "Green Day",
-    "title": "When I Come Around",
-    "year": 1994
+    "artist": "Walk the Moon",
+    "title": "Shut Up and Dance",
+    "year": 2014
   },
   {
     "id": 546,
-    "artist": "Katy Perry",
-    "title": "Last Friday Night (T.G.I.F.)",
-    "year": 2011
+    "artist": "Edward Maya & Vika Jigulina",
+    "title": "This Is My Life",
+    "year": 2010
   },
   {
     "id": 547,
@@ -3291,9 +3291,9 @@ window.songs = [
   },
   {
     "id": 549,
-    "artist": "Lady Gaga",
-    "title": "Marry the Night",
-    "year": 2011
+    "artist": "Kid Cudi vs Crookers",
+    "title": "Day 'n' Nite",
+    "year": 2008
   },
   {
     "id": 550,
@@ -3315,9 +3315,9 @@ window.songs = [
   },
   {
     "id": 553,
-    "artist": "Billie Eilish",
-    "title": "All the Good Girls Go to Hell",
-    "year": 2019
+    "artist": "Los Del Rio",
+    "title": "Macarena",
+    "year": 1995
   },
   {
     "id": 554,
@@ -3339,9 +3339,9 @@ window.songs = [
   },
   {
     "id": 557,
-    "artist": "Avicii",
-    "title": "You Make Me",
-    "year": 2013
+    "artist": "Kajagoogoo",
+    "title": "Too Shy",
+    "year": 1983
   },
   {
     "id": 558,
@@ -3351,9 +3351,9 @@ window.songs = [
   },
   {
     "id": 559,
-    "artist": "Bill Haley & His Comets",
-    "title": "Rockin' Through the Rye",
-    "year": 1956
+    "artist": "4 Non Blondes",
+    "title": "What's Up?",
+    "year": 1992
   },
   {
     "id": 560,
@@ -3375,9 +3375,9 @@ window.songs = [
   },
   {
     "id": 563,
-    "artist": "Benny Goodman",
-    "title": "Taking a Chance on Love",
-    "year": 1940
+    "artist": "Chesney Hawkes",
+    "title": "The One and Only",
+    "year": 1991
   },
   {
     "id": 564,
@@ -3399,9 +3399,9 @@ window.songs = [
   },
   {
     "id": 567,
-    "artist": "Deep Purple",
-    "title": "Perfect Strangers",
-    "year": 1984
+    "artist": "Artemas",
+    "title": "I Like the Way You Kiss Me",
+    "year": 2024
   },
   {
     "id": 568,
@@ -3411,9 +3411,9 @@ window.songs = [
   },
   {
     "id": 569,
-    "artist": "Chuck Berry",
-    "title": "Maybellene",
-    "year": 1955
+    "artist": "Dynoro & Gigi D'Agostino",
+    "title": "In My Mind",
+    "year": 2018
   },
   {
     "id": 570,
@@ -3513,9 +3513,9 @@ window.songs = [
   },
   {
     "id": 586,
-    "artist": "Billie Eilish",
-    "title": "L'Amour De Ma Vie",
-    "year": 2024
+    "artist": "Chumbawamba",
+    "title": "Tubthumping",
+    "year": 1997
   },
   {
     "id": 587,
@@ -3531,15 +3531,15 @@ window.songs = [
   },
   {
     "id": 589,
-    "artist": "Lady Gaga",
-    "title": "Disease",
-    "year": 2024
+    "artist": "Estelle ft. Kanye West",
+    "title": "American Boy",
+    "year": 2008
   },
   {
     "id": 590,
-    "artist": "Coldplay",
-    "title": "Feelslikeimfallinginlove",
-    "year": 2024
+    "artist": "Glass Animals",
+    "title": "Heat Waves",
+    "year": 2020
   },
   {
     "id": 591,
@@ -3549,21 +3549,21 @@ window.songs = [
   },
   {
     "id": 592,
-    "artist": "Katy Perry",
-    "title": "Lifetimes",
-    "year": 2024
+    "artist": "Yolanda Be Cool vs DCUP",
+    "title": "We No Speak Americano",
+    "year": 2010
   },
   {
     "id": 593,
-    "artist": "Green Day",
-    "title": "The American Dream Is Killing Me",
-    "year": 2023
+    "artist": "Capital Cities",
+    "title": "Safe and Sound",
+    "year": 2011
   },
   {
     "id": 594,
-    "artist": "Blink-182",
-    "title": "Edging",
-    "year": 2022
+    "artist": "Gnarls Barkley",
+    "title": "Crazy",
+    "year": 2006
   },
   {
     "id": 595,
@@ -3585,9 +3585,9 @@ window.songs = [
   },
   {
     "id": 598,
-    "artist": "Avicii",
-    "title": "SOS",
-    "year": 2019
+    "artist": "Nena",
+    "title": "99 Luftballons",
+    "year": 1983
   },
   {
     "id": 599,
@@ -3603,9 +3603,9 @@ window.songs = [
   },
   {
     "id": 601,
-    "artist": "Deep Purple",
-    "title": "Child in Time",
-    "year": 1970
+    "artist": "Teddy Swims",
+    "title": "Lose Control",
+    "year": 2023
   },
   {
     "id": 602,
@@ -3735,9 +3735,9 @@ window.songs = [
   },
   {
     "id": 623,
-    "artist": "Daft Punk",
-    "title": "Technologic",
-    "year": 2005
+    "artist": "Oliver Tree & Robin Schulz",
+    "title": "Miss You",
+    "year": 2022
   },
   {
      "id": 624,
@@ -3765,9 +3765,9 @@ window.songs = [
   },
   {
     "id": 628,
-    "artist": "Johnny Cash",
-    "title": "Cry! Cry! Cry!",
-    "year": 1955
+    "artist": "Alex Clare",
+    "title": "Too Close",
+    "year": 2011
   },
   {
     "id": 629,
@@ -3777,9 +3777,9 @@ window.songs = [
   },
   {
     "id": 630,
-    "artist": "Avicii",
-    "title": "I Could Be the One",
-    "year": 2012
+    "artist": "Rockwell",
+    "title": "Somebody's Watching Me",
+    "year": 1984
   },
   {
     "id": 631,
@@ -3915,9 +3915,9 @@ window.songs = [
   },
   {
     "id": 653,
-    "artist": "50 Cent ft. Olivia",
-    "title": "Candy Shop",
-    "year": 2005
+    "artist": "Mungo Jerry",
+    "title": "In the Summertime",
+    "year": 1970
   },
   {
     "id": 654,
@@ -5336,16 +5336,16 @@ window.songs = [
     "year": 1974
   },
   {
-    "id": 890,
-    "artist": "Bruno Mars",
-    "title": "Treasure",
-    "year": 2012
+   "id": 890,
+    "artist": "Gotye ft. Kimbra",
+    "title": "Somebody That I Used to Know",
+    "year": 2011
   },
   {
     "id": 891,
-    "artist": "Chuck Berry",
-    "title": "School Days",
-    "year": 1957
+    "artist": "Desiigner",
+    "title": "Panda",
+    "year": 2015
   },
   {
     "id": 892,
@@ -5835,15 +5835,15 @@ window.songs = [
   },
   {
     "id": 973,
-    "artist": "Bill Haley & His Comets",
-    "title": "Rudy's Rock",
-    "year": 1956
+    "artist": "Right Said Fred",
+    "title": "I'm Too Sexy",
+    "year": 1991
   },
   {
     "id": 974,
-    "artist": "Linkin Park",
-    "title": "Breaking the Habit",
-    "year": 2004
+    "artist": "Kevin Lyttle",
+    "title": "Turn Me On",
+    "year": 2003
   },
   {
     "id": 975,
@@ -5913,21 +5913,21 @@ window.songs = [
   },
   {
     "id": 986,
-    "artist": "Lady Gaga",
-    "title": "Stupid Love",
-    "year": 2020
+    "artist": "Sam Sparro",
+    "title": "Black and Gold",
+    "year": 2008
   },
   {
     "id": 987,
-    "artist": "Coldplay",
-    "title": "Yellow",
-    "year": 2000
+    "artist": "SAINt JHN",
+    "title": "Roses (Imanbek Remix)",
+    "year": 2019
   },
   {
     "id": 988,
-    "artist": "Avicii ft. Aloe Blacc",
-    "title": "Wake Me Up",
-    "year": 2013
+    "artist": "Dexys Midnight Runners",
+    "title": "Come On Eileen",
+    "year": 1982
   },
   {
     "id": 989,
@@ -5937,9 +5937,9 @@ window.songs = [
   },
   {
     "id": 990,
-    "artist": "Green Day",
-    "title": "Minority",
-    "year": 2000
+    "artist": "Kiesza",
+    "title": "Hideaway",
+    "year": 2014
   },
   {
     "id": 991,
@@ -5949,9 +5949,9 @@ window.songs = [
   },
   {
     "id": 992,
-    "artist": "Avicii",
-    "title": "The Days",
-    "year": 2014
+    "artist": "Opus",
+    "title": "Live Is Life",
+    "year": 1984
   },
   {
     "id": 993,
@@ -5961,9 +5961,9 @@ window.songs = [
   },
   {
     "id": 994,
-    "artist": "Guns N' Roses",
-    "title": "Yesterdays",
-    "year": 1992
+    "artist": "Lorde",
+    "title": "Royals",
+    "year": 2013
   },
   {
     "id": 995,
@@ -5979,9 +5979,9 @@ window.songs = [
   },
   {
     "id": 997,
-    "artist": "Johnny Cash",
-    "title": "Ghost Riders in the Sky",
-    "year": 1979
+    "artist": "Martin Solveig ft. Dragonette",
+    "title": "Hello",
+    "year": 2010
   },
   {
     "id": 998,
@@ -5991,9 +5991,9 @@ window.songs = [
   },
   {
     "id": 999,
-    "artist": "Chappell Roan",
-    "title": "Guilty Pleasure",
-    "year": 2023
+    "artist": "Passenger",
+    "title": "Let Her Go",
+    "year": 2012
   },
   {
     "id": 1000,
