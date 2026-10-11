@@ -4141,6 +4141,62 @@ window.songs = [
     "title": "99 Problems",
     "year": 2004
   },
+    [
+  {
+    "id": 691,
+    "artist": "Cream",
+    "title": "Sunshine of Your Love",
+    "year": 1967
+  },
+  {
+    "id": 692,
+    "artist": "The Byrds",
+    "title": "Mr. Tambourine Man",
+    "year": 1965
+  },
+  {
+    "id": 693,
+    "artist": "Ray Charles",
+    "title": "Georgia on My Mind",
+    "year": 1960
+  },
+  {
+    "id": 694,
+    "artist": "The Righteous Brothers",
+    "title": "You've Lost That Lovin' Feelin'",
+    "year": 1964
+  },
+  {
+    "id": 695,
+    "artist": "Janis Joplin",
+    "title": "Piece of My Heart",
+    "year": 1968
+  },
+  {
+    "id": 696,
+    "artist": "Buffalo Springfield",
+    "title": "For What It's Worth",
+    "year": 1966
+  },
+  {
+    "id": 697,
+    "artist": "Otis Redding",
+    "title": "Try a Little Tenderness",
+    "year": 1966
+  },
+  {
+    "id": 698,
+    "artist": "Booker T. & the M.G.'s",
+    "title": "Green Onions",
+    "year": 1962
+  },
+  {
+    "id": 699,
+    "artist": "The Spencer Davis Group",
+    "title": "Gimme Some Lovin'",
+    "year": 1966
+  },
+]
   {
     "id": 700,
     "artist": "Bee Gees",
