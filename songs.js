@@ -201,9 +201,9 @@ window.songs = [
   },
   {
     "id": 34,
-    "artist": "Peggy Gou",
-    "title": "Starry Night",
-    "year": 2019
+    "artist": "Billy Idol",
+    "title": "Rebel Yell",
+    "year": 1983
   },
   {
     "id": 35,
@@ -639,9 +639,9 @@ window.songs = [
   },
   {
     "id": 107,
-    "artist": "The White Stripes",
-    "title": "Icht Catch",
-    "year": 2005
+    "artist": "Wham!",
+    "title": "Wake Me Up Before You Go-Go",
+    "year": 1984
   },
   {
     "id": 108,
@@ -1287,9 +1287,9 @@ window.songs = [
   },
   {
     "id": 215,
-    "artist": "Fred again.. ft. Romy & HAAi",
-    "title": "Lights Out",
-    "year": 2022
+    "artist": "Laura Branigan",
+    "title": "Self Control",
+    "year": 1984
   },
   {
     "id": 216,
@@ -3165,9 +3165,9 @@ window.songs = [
   },
   {
     "id": 528,
-    "artist": "Whitney Houston",
-    "title": "I'm Every Woman",
-    "year": 1992
+    "artist": "Cyndi Lauper",
+    "title": "Time After Time",
+    "year": 1983
   },
   {
     "id": 529,
@@ -3369,9 +3369,9 @@ window.songs = [
   },
   {
     "id": 562,
-    "artist": "Whitney Houston",
-    "title": "Run to You",
-    "year": 1993
+    "artist": "Phil Collins",
+    "title": "In the Air Tonight",
+    "year": 1981
   },
   {
     "id": 563,
@@ -3795,9 +3795,9 @@ window.songs = [
   },
   {
     "id": 633,
-    "artist": "Peggy Gou",
-    "title": "Gou Talk",
-    "year": 1983
+    "artist": "Tina Turner",
+    "title": "What's Love Got to Do with It",
+    "year": 1984
   },
   {
     "id": 634,
@@ -4077,9 +4077,9 @@ window.songs = [
   },
   {
     "id": 680,
-    "artist": "Fred again..",
-    "title": "Adore U",
-    "year": 2023
+    "artist": "Falco",
+    "title": "Der Kommissar",
+    "year": 1981
   },
   {
     "id": 681,
