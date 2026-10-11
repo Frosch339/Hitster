@@ -1971,9 +1971,9 @@ window.songs = [
   },
   {
     "id": 329,
-    "artist": "The Rolling Stones",
-    "title": "Paint It, Black",
-    "year": 1966
+    "artist": "Creedence Clearwater Revival",
+    "title": "Bad Moon Rising",
+    "year": 1969
   },
   {
     "id": 330,
@@ -3741,9 +3741,9 @@ window.songs = [
   },
   {
      "id": 624,
-    "artist": "The Beatles",
-    "title": "Hey Jude",
-    "year": 1968
+    "artist": "Aretha Franklin",
+    "title": "Respect",
+    "year": 1967
   },
   {
     "id": 625,
@@ -5943,9 +5943,9 @@ window.songs = [
   },
   {
     "id": 1000,
-    "artist": "The Beach Boys",
-    "title": "Good Vibrations",
-    "year": 1966
+    "artist": "The Temptations",
+    "title": "My Girl",
+    "year": 1964
   }
   ];
 
