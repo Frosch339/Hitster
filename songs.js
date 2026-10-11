@@ -6001,9 +6001,8 @@ window.songs = [
     "artist": "The Temptations",
     "title": "My Girl",
     "year": 1964
-  },
-  ]
-
+  }
+];
 
 
 
