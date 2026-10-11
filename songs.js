@@ -4196,7 +4196,6 @@ window.songs = [
     "title": "Gimme Some Lovin'",
     "year": 1966
   },
-]
   {
     "id": 700,
     "artist": "Bee Gees",
