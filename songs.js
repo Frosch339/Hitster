@@ -1971,9 +1971,9 @@ window.songs = [
   },
   {
     "id": 329,
-    "artist": "Katy Perry",
-    "title": "Firework",
-    "year": 2010
+    "artist": "The Rolling Stones",
+    "title": "Paint It, Black",
+    "year": 1966
   },
   {
     "id": 330,
@@ -2007,9 +2007,9 @@ window.songs = [
   },
   {
     "id": 335,
-    "artist": "Peggy Gou",
-    "title": "(It Goes Like) Nanana",
-    "year": 2023
+    "artist": "The Doors",
+    "title": "Light My Fire",
+    "year": 1967
   },
   {
     "id": 336,
@@ -3357,9 +3357,9 @@ window.songs = [
   },
   {
     "id": 560,
-    "artist": "Fred again.. & Baby Keem",
-    "title": "leavemealone",
-    "year": 2023
+    "artist": "The Jimi Hendrix Experience",
+    "title": "Purple Haze",
+    "year": 1967
   },
  {
     "id": 561,
@@ -3740,10 +3740,10 @@ window.songs = [
     "year": 2005
   },
   {
-    "id": 624,
-    "artist": "Dr. Dre ft. Snoop Dogg",
-    "title": "The Next Episode",
-    "year": 1999
+     "id": 624,
+    "artist": "The Beatles",
+    "title": "Hey Jude",
+    "year": 1968
   },
   {
     "id": 625,
@@ -3927,9 +3927,9 @@ window.songs = [
   },
   {
     "id": 655,
-    "artist": "Scorpions",
-    "title": "Send Me an Angel",
-    "year": 1990
+    "artist": "Simon & Garfunkel",
+    "title": "The Sound of Silence",
+    "year": 1965
   },
   {
     "id": 656,
@@ -4653,9 +4653,9 @@ window.songs = [
   },
   {
     "id": 785,
-    "artist": "Ram Jam",
-    "title": "Black Betty",
-    "year": 1977
+    "artist": "The Monkees",
+    "title": "I'm a Believer",
+    "year": 1966
   },
   {
     "id": 786,
@@ -5685,9 +5685,9 @@ window.songs = [
   },
   {
     "id": 957,
-    "artist": "Beyoncé",
-    "title": "Single Ladies (Put a Ring on It)",
-    "year": 2008
+    "artist": "The Animals",
+    "title": "House of the Rising Sun",
+    "year": 1964
   },
   {
     "id": 958,
@@ -5943,9 +5943,9 @@ window.songs = [
   },
   {
     "id": 1000,
-    "artist": "Fisher",
-    "title": "Losing It",
-    "year": 2018
+    "artist": "The Beach Boys",
+    "title": "Good Vibrations",
+    "year": 1966
   }
   ];
 
