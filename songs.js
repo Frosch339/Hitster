@@ -2401,7 +2401,7 @@ window.songs = [
     "title": "Paparazzi",
     "year": 2009
   },
-{
+  {
     "id": 401,
     "artist": "Coldplay",
     "title": "A Sky Full of Stars",
@@ -2641,7 +2641,7 @@ window.songs = [
     "title": "Applause",
     "year": 2013
   },
-{
+  {
     "id": 441,
     "artist": "Coldplay",
     "title": "Paradise",
