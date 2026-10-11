@@ -423,9 +423,9 @@ window.songs = [
   },
   {
     "id": 71,
-    "artist": "Die Ärzte",
-    "title": "Schrei nach Liebe",
-    "year": 1993
+    "artist": "KC Rebell",
+    "title": "Alles & Nichts",
+    "year": 2015
   },
   {
     "id": 72,
@@ -669,9 +669,9 @@ window.songs = [
   },
   {
     "id": 112,
-    "artist": "Die Ärzte",
-    "title": "Zu spät",
-    "year": 1984
+    "artist": "Kollegah",
+    "title": "King",
+    "year": 2014
   },
   {
     "id": 113,
@@ -969,9 +969,9 @@ window.songs = [
   },
   {
     "id": 162,
-    "artist": "Billie Eilish",
-    "title": "Everything I Wanted",
-    "year": 2019
+    "artist": "Kollegah",
+    "title": "Alpha",
+    "year": 2014
   },
   {
     "id": 163,
@@ -1269,9 +1269,9 @@ window.songs = [
   },
   {
     "id": 212,
-    "artist": "Die Toten Hosen",
-    "title": "Hier kommt Alex",
-    "year": 1988
+    "artist": "Bushido",
+    "title": "Sonnenbank Flavour",
+    "year": 2006
   },
   {
     "id": 213,
@@ -1695,9 +1695,9 @@ window.songs = [
   },
   {
     "id": 283,
-    "artist": "David Kushner",
-    "title": "Daylight",
-    "year": 2023
+    "artist": "Farid Bang",
+    "title": "Mütter in der Trennungsphase",
+    "year": 2014
   },
   {
     "id": 284,
@@ -1791,9 +1791,9 @@ window.songs = [
   },
   {
     "id": 299,
-    "artist": "Raye ft. 070 Shake",
-    "title": "Escapism.",
-    "year": 2022
+    "artist": "Kollegah",
+    "title": "Alpha",
+    "year": 2014
   },
   {
     "id": 300,
@@ -1845,9 +1845,9 @@ window.songs = [
   },
   {
     "id": 308,
-    "artist": "Purple Disco Machine",
-    "title": "In the Dark",
-    "year": 2022
+    "artist": "Bushido",
+    "title": "Sonny Black",
+    "year": 2014
   },
   {
     "id": 309,
@@ -1953,9 +1953,9 @@ window.songs = [
   },
   {
     "id": 326,
-    "artist": "Die Toten Hosen",
-    "title": "Wünsch DIR was",
-    "year": 1993
+    "artist": "KC Rebell",
+    "title": "Fata Morgana",
+    "year": 2015
   },
   {
     "id": 327,
@@ -2277,9 +2277,9 @@ window.songs = [
   },
   {
     "id": 380,
-    "artist": "Green Day",
-    "title": "Holiday",
-    "year": 2004
+    "artist": "Kollegah & Farid Bang",
+    "title": "JBG 3 Intro",
+    "year": 2017
   },
   {
     "id": 381,
@@ -2469,9 +2469,9 @@ window.songs = [
   },
   {
     "id": 412,
-    "artist": "Die Ärzte",
-    "title": "1/2 Lovesong",
-    "year": 1998
+    "artist": "Kollegah",
+    "title": "Du bist Boss",
+    "year": 2014
   },
   {
     "id": 413,
@@ -2625,9 +2625,9 @@ window.songs = [
   },
   {
     "id": 438,
-    "artist": "Die Toten Hosen",
-    "title": "Draussen vor der Tür",
-    "year": 2012
+    "artist": "Shindy",
+    "title": "ROSE",
+    "year": 2019
   },
   {
     "id": 439,
@@ -2894,10 +2894,10 @@ window.songs = [
     "year": 1979
   },
   {
-    "id": 483,
-    "artist": "The White Stripes",
-    "title": "Hotel Yorba",
-    "year": 2001
+    "id": 438,
+    "artist": "KC Rebell",
+    "title": "Ghetto Aristoteles",
+    "year": 2015
   },
   {
     "id": 484,
@@ -3081,9 +3081,9 @@ window.songs = [
   },
   {
     "id": 514,
-    "artist": "Die Toten Hosen",
-    "title": "Bonnie & Clyde",
-    "year": 1996
+    "artist": "Kollegah",
+    "title": "Bossaura",
+    "year": 2015
   },
   {
     "id": 515,
@@ -3303,9 +3303,9 @@ window.songs = [
   },
   {
     "id": 551,
-    "artist": "Die Toten Hosen",
-    "title": "Unter den Wolken",
-    "year": 2017
+    "artist": "Farid Bang",
+    "title": "Asozialer Platinrapper",
+    "year": 2018
   },
   {
     "id": 552,
@@ -3519,9 +3519,9 @@ window.songs = [
   },
   {
     "id": 587,
-    "artist": "Die Toten Hosen",
-    "title": "Feiern im Regen",
-    "year": 2019
+    "artist": "Bushido",
+    "title": "Electro Ghetto",
+    "year": 2004
   },
   {
     "id": 588,
@@ -3603,9 +3603,9 @@ window.songs = [
   },
   {
     "id": 601,
-    "artist": "Teddy Swims",
-    "title": "Lose Control",
-    "year": 2023
+    "artist": "Shindy",
+    "title": "Statement",
+    "year": 2015
   },
   {
     "id": 602,
@@ -3621,9 +3621,9 @@ window.songs = [
   },
   {
     "id": 604,
-    "artist": "Chuck Berry",
-    "title": "No Particular Place to Go",
-    "year": 1964
+    "artist": "Farid Bang",
+    "title": "Lutsch",
+    "year": 2014
   },
   {
     "id": 605,
@@ -3735,9 +3735,9 @@ window.songs = [
   },
   {
     "id": 623,
-    "artist": "Oliver Tree & Robin Schulz",
-    "title": "Miss You",
-    "year": 2022
+    "artist": "Shindy",
+    "title": "JFK",
+    "year": 2013
   },
   {
      "id": 624,
@@ -3783,9 +3783,9 @@ window.songs = [
   },
   {
     "id": 631,
-    "artist": "Die Ärzte",
-    "title": "Mach die Augen zu",
-    "year": 1993
+    "artist": "Farid Bang",
+    "title": "Killa",
+    "year": 2014
   },
   {
     "id": 632,
@@ -4491,9 +4491,9 @@ window.songs = [
   },
   {
     "id": 749,
-    "artist": "Die Toten Hosen",
-    "title": "Zehn kleine Jägermeister",
-    "year": 1996
+    "artist": "KC Rebell",
+    "title": "Murcielago",
+    "year": 2016
   },
   {
     "id": 750,
@@ -5331,9 +5331,9 @@ window.songs = [
   },
   {
     "id": 889,
-    "artist": "Deep Purple",
-    "title": "Burn",
-    "year": 1974
+    "artist": "Bushido",
+    "title": "Vom Bordstein bis zur Skyline",
+    "year": 2003
   },
   {
    "id": 890,
@@ -5931,9 +5931,9 @@ window.songs = [
   },
   {
     "id": 989,
-    "artist": "Katy Perry",
-    "title": "Part of me",
-    "year": 2012
+    "artist": "Shindy",
+    "title": "Affalterbach",
+    "year": 2019
   },
   {
     "id": 990,
