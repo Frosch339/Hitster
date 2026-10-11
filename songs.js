@@ -1971,9 +1971,9 @@ window.songs = [
   },
   {
     "id": 329,
-    "artist": "Creedence Clearwater Revival",
-    "title": "Bad Moon Rising",
-    "year": 1969
+    "artist": "The Mamas & the Papas",
+    "title": "California Dreamin'",
+    "year": 1965
   },
   {
     "id": 330,
@@ -3740,10 +3740,10 @@ window.songs = [
     "year": 2005
   },
   {
-     "id": 624,
-    "artist": "Aretha Franklin",
-    "title": "Respect",
-    "year": 1967
+     "id": 1043,
+    "artist": "Steppenwolf",
+    "title": "Born to Be Wild",
+    "year": 1968
   },
   {
     "id": 625,
