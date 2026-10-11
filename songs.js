@@ -961,7 +961,7 @@ window.songs = [
     "title": "Bad Dreams",
     "year": 2024
   },
-{
+  {
     "id": 161,
     "artist": "Oasis",
     "title": "Wonderwall",
@@ -1201,7 +1201,7 @@ window.songs = [
     "title": "Hammer to the Heart",
     "year": 2024
   },
-{
+  {
     "id": 201,
     "artist": "Red Hot Chili Peppers",
     "title": "Californication",
@@ -1441,7 +1441,7 @@ window.songs = [
     "title": "Over Each Other",
     "year": 2024
   },
-{
+  {
     "id": 241,
     "artist": "Green Day",
     "title": "Basket Case",
@@ -1681,7 +1681,7 @@ window.songs = [
     "title": "leavemealone",
     "year": 2023
   },
-{
+  {
     "id": 281,
     "artist": "Linkin Park",
     "title": "Bleed It Out",
@@ -1921,7 +1921,7 @@ window.songs = [
     "title": "Firework",
     "year": 2010
   },
- {
+  {
     "id": 321,
     "artist": "Coldplay",
     "title": "Viva La Vida",
@@ -2161,7 +2161,7 @@ window.songs = [
     "title": "Style",
     "year": 2014
   },
- {
+  {
     "id": 361,
     "artist": "Linkin Park",
     "title": "Burn It Down",
@@ -2341,7 +2341,7 @@ window.songs = [
     "title": "Bury a Friend",
     "year": 2019
   },
- {
+  {
     "id": 391,
     "artist": "Sabrina Carpenter",
     "title": "Feather",
@@ -3121,7 +3121,7 @@ window.songs = [
     "title": "Good Riddance (Time of Your Life)",
     "year": 1997
   },
-{
+  {
     "id": 521,
     "artist": "Vera Lynn",
     "title": "There'll Always Be an England",
@@ -3601,7 +3601,7 @@ window.songs = [
     "title": "Marea (we’ve lost dancing)",
     "year": 2021
   },
-{
+  {
     "id": 601,
     "artist": "Deep Purple",
     "title": "Child in Time",
@@ -4081,7 +4081,7 @@ window.songs = [
     "title": "Adore U",
     "year": 2023
   },
-{
+  {
     "id": 681,
     "artist": "Peter Maffay",
     "title": "So bist du",
@@ -4141,7 +4141,6 @@ window.songs = [
     "title": "99 Problems",
     "year": 2004
   },
-    [
   {
     "id": 691,
     "artist": "Cream",
@@ -4322,7 +4321,7 @@ window.songs = [
     "title": "La Passion",
     "year": 2000
   },
-{
+  {
     "id": 721,
     "artist": "Donna Summer",
     "title": "Hot Stuff",
@@ -4562,7 +4561,7 @@ window.songs = [
     "title": "Dream On",
     "year": 1973
   },
-{
+  {
     "id": 761,
     "artist": "Thin Lizzy",
     "title": "The Boys Are Back in Town",
@@ -4802,7 +4801,7 @@ window.songs = [
     "title": "Good Girls Don't",
     "year": 1979
   },
-{
+  {
     "id": 801,
     "artist": "Lou Bega",
     "title": "I Got a Girl",
@@ -5042,7 +5041,7 @@ window.songs = [
     "title": "Just Take My Heart",
     "year": 1991
   },
-{
+  {
     "id": 841,
     "artist": "Lou Bega",
     "title": "Tricky, Tricky",
@@ -5402,7 +5401,7 @@ window.songs = [
     "title": "Fire Water Burn",
     "year": 1996
   },
-{
+  {
     "id": 901,
     "artist": "ABBA",
     "title": "Chiquitita",
