@@ -729,9 +729,9 @@ window.songs = [
   },
   {
    "id": 122,
-    "artist": "Sommer Ray",
-    "title": "Midnight Drive",
-    "year": 2025
+    "artist": "Zedd",
+    "title": "Clarity",
+    "year": 2012
   },
   {
     "id": 123,
@@ -1192,7 +1192,7 @@ window.songs = [
   {
     "id": 199,
     "artist": "Luke Combs",
-    "title": " Beer Never Broke My Heart",
+    "title": "Beer Never Broke My Heart",
     "year": 2019
   },
   {
@@ -1263,9 +1263,9 @@ window.songs = [
   },
   {
     "id": 221,
-    "artist": "Laufey",
-    "title": "From The Start",
-    "year": 2023
+    "artist": "Alan Walker",
+    "title": "Faded",
+    "year": 2015
   },
   {
     "id": 212,
@@ -1449,9 +1449,9 @@ window.songs = [
   },
   {
     "id": 242,
-    "artist": "Central Cee & Lil Baby",
-    "title": "BAND4BAND",
-    "year": 2024
+    "artist": "Axwell /\ Ingrosso",
+    "title": "More Than You Know",
+    "year": 2017
   },
   {
     "id": 243,
@@ -1509,9 +1509,9 @@ window.songs = [
   },
   {
     "id": 252,
-    "artist": "Mark Ambor",
-    "title": "Belong Together",
-    "year": 2024
+    "artist": "Alesso",
+    "title": "Heroes (We Could Be)",
+    "year": 2014
   },
   {
     "id": 253,
@@ -1743,9 +1743,9 @@ window.songs = [
   },
   {
     "id": 291,
-    "artist": "Benson Boone",
-    "title": "Beautiful Things",
-    "year": 2024
+    "artist": "Armin van Buuren",
+    "title": "This Is What It Feels Like",
+    "year": 2013
   },
   {
     "id": 292,
@@ -2141,7 +2141,7 @@ window.songs = [
     "id": 357,
     "artist": "Michael Jackson",
     "title": "Man in the Mirror",
-    "year": 1897
+    "year": 1987
   },
   {
     "id": 358,
@@ -2349,9 +2349,9 @@ window.songs = [
   },
   {
     "id": 392,
-    "artist": "Teddy Swims",
-    "title": "The Door",
-    "year": 2024
+    "artist": "Zedd & Alessia Cara",
+    "title": "Stay",
+    "year": 2017
   },
   {
     "id": 393,
@@ -2589,9 +2589,9 @@ window.songs = [
   },
   {
     "id": 432,
-    "artist": "Ravyn Lenae",
-    "title": "One Wish",
-    "year": 2025
+    "artist": "Alan Walker",
+    "title": "Alone",
+    "year": 2016
   },
   {
     "id": 433,
@@ -2894,7 +2894,7 @@ window.songs = [
     "year": 1979
   },
   {
-    "id": 438,
+    "id": 483,
     "artist": "KC Rebell",
     "title": "Ghetto Aristoteles",
     "year": 2015
@@ -3591,9 +3591,9 @@ window.songs = [
   },
   {
     "id": 599,
-    "artist": "Nirvana",
-    "title": "Sliver",
-    "year": 1990
+    "artist": "Sebastian Ingrosso",
+    "title": "Reload",
+    "year": 2013
   },
   {
     "id": 600,
@@ -5937,9 +5937,9 @@ window.songs = [
   },
   {
     "id": 990,
-    "artist": "Kiesza",
-    "title": "Hideaway",
-    "year": 2014
+    "artist": "Alesso",
+    "title": "Years",
+    "year": 2012
   },
   {
     "id": 991,
