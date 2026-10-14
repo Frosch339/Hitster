@@ -507,9 +507,9 @@ window.songs = [
   },
   {
     "id": 85,
-    "artist": "Avicii",
-    "title": "Wake Me Up",
-    "year": 2013
+    "artist": "The Cranberries",
+    "title": "Zombie",
+    "year": 1994
   },
   {
     "id": 86,
@@ -759,9 +759,9 @@ window.songs = [
   },
   {
     "id": 127,
-    "artist": "AC/DC",
-    "title": "Thunderstruck",
-    "year": 1990
+    "artist": "Talk Talk",
+    "title": "Such a Shame",
+    "year": 1984
   },
   {
     "id": 128,
@@ -1155,9 +1155,9 @@ window.songs = [
   },
   {
     "id": 193,
-    "artist": "Avicii",
-    "title": "Hey Brother",
-    "year": 2013
+    "artist": "Propaganda",
+    "title": "Duel",
+    "year": 1985
   },
   {
     "id": 194,
@@ -2241,9 +2241,9 @@ window.songs = [
   },
   {
     "id": 374,
-    "artist": "Bon Jovi",
-    "title": "Bad Medicine",
-    "year": 1988
+    "artist": "The Smashing Pumpkins",
+    "title": "1979",
+    "year": 1995
   },
   {
     "id": 375,
@@ -2445,9 +2445,9 @@ window.songs = [
   },
   {
     "id": 408,
-    "artist": "Bon Jovi",
-    "title": "Runaway",
-    "year": 1984
+    "artist": "Franz Ferdinand",
+    "title": "Take Me Out",
+    "year": 2004
   },
   {
     "id": 409,
