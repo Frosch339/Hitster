@@ -111,9 +111,9 @@ window.songs = [
   },
   {
     "id": 19,
-    "artist": "Fleetwood Mac",
-    "title": "Tusk",
-    "year": 1979
+    "artist": "The Doobie Brothers",
+    "title": "Long Train Runnin'",
+    "year": 1973
   },
   {
     "id": 20,
@@ -375,9 +375,9 @@ window.songs = [
   },
   {
     "id": 63,
-    "artist": "Fleetwood Mac",
-    "title": "Landslide",
-    "year": 1975
+    "artist": "The Mamas & the Papas",
+    "title": "Monday, Monday",
+    "year": 1966
   },
   {
     "id": 64,
@@ -699,9 +699,9 @@ window.songs = [
   },
   {
     "id": 117,
-    "artist": "Dr. Dre ft. Eminem",
-    "title": "Forgot About Dre",
-    "year": 1999
+    "artist": "Alphaville",
+    "title": "Forever Young",
+    "year": 1984
   },
   {
     "id": 118,
@@ -1011,9 +1011,9 @@ window.songs = [
   },
   {
     "id": 169,
-    "artist": "Ed Sheeran",
-    "title": "Thinking Out Loud",
-    "year": 2014
+    "artist": "Ben E. King",
+    "title": "Stand by Me",
+    "year": 1961
   },
   {
     "id": 170,
@@ -1101,9 +1101,9 @@ window.songs = [
   },
   {
     "id": 184,
-    "artist": "Fleetwood Mac",
-    "title": "Rhiannon",
-    "year": 1975
+    "artist": "Bob Marley & The Wailers",
+    "title": "Three Little Birds",
+    "year": 1977
   },
   {
     "id": 185,
@@ -1263,9 +1263,9 @@ window.songs = [
   },
   {
     "id": 221,
-    "artist": "Alan Walker",
-    "title": "Faded",
-    "year": 2015
+    "artist": "Tears for Fears",
+    "title": "Everybody Wants to Rule the World",
+    "year": 1985
   },
   {
     "id": 212,
@@ -1305,9 +1305,9 @@ window.songs = [
   },
   {
     "id": 218,
-    "artist": "Ed Sheeran",
-    "title": "Photograph",
-    "year": 2014
+    "artist": "Toto",
+    "title": "Africa",
+    "year": 1982
   },
   {
     "id": 219,
@@ -1461,9 +1461,9 @@ window.songs = [
   },
   {
     "id": 244,
-    "artist": "Gigi D'Agostino",
-    "title": "Bla Bla Bla",
-    "year": 1999
+    "artist": "Mickie Krause",
+    "title": "Schatzi schenk mir ein Foto",
+    "year": 2010
   },
   {
     "id": 245,
@@ -1473,9 +1473,9 @@ window.songs = [
   },
   {
     "id": 246,
-    "artist": "Ed Sheeran",
-    "title": "Castle on the Hill",
-    "year": 2017
+    "artist": "Bill Withers",
+    "title": "Ain't No Sunshine",
+    "year": 1971
   },
   {
     "id": 247,
@@ -1791,9 +1791,9 @@ window.songs = [
   },
   {
     "id": 299,
-    "artist": "Kollegah",
-    "title": "Alpha",
-    "year": 2014
+    "artist": "Hannah Montana",
+    "title": "The Best of Both Worlds",
+    "year": 2006
   },
   {
     "id": 300,
@@ -1875,9 +1875,9 @@ window.songs = [
   },
   {
     "id": 313,
-    "artist": "Gigi D'Agostino",
-    "title": "The Riddle",
-    "year": 1999
+    "artist": "The Supremes",
+    "title": "Baby Love",
+    "year": 1964
   },
   {
     "id": 314,
@@ -1887,9 +1887,9 @@ window.songs = [
   },
   {
     "id": 315,
-    "artist": "Eminem",
-    "title": "Not Afraid",
-    "year": 2010
+    "artist": "Crowded House",
+    "title": "Don't Dream It's Over",
+    "year": 1986
   },
   {
     "id": 316,
@@ -1929,9 +1929,9 @@ window.songs = [
   },
   {
     "id": 322,
-    "artist": "Dua Lipa",
-    "title": "New Rules",
-    "year": 2017
+    "artist": "Radiohead",
+    "title": "Creep",
+    "year": 1992
   },
   {
     "id": 323,
@@ -2037,9 +2037,9 @@ window.songs = [
   },
   {
     "id": 340,
-    "artist": "Helene Fischer",
-    "title": "Null auf 100",
-    "year": 2021
+    "artist": "Jason Le Dude",
+    "title": "Ficken",
+    "year": 2017
   },
   {
     "id": 341,
@@ -2073,9 +2073,9 @@ window.songs = [
   },
   {
     "id": 346,
-    "artist": "Gigi D'Agostino",
-    "title": "Fly",
-    "year": 1996
+    "artist": "Limp Bizkit",
+    "title": "Behind Blue Eyes",
+    "year": 2003
   },
   {
     "id": 347,
@@ -2145,9 +2145,9 @@ window.songs = [
   },
   {
     "id": 358,
-    "artist": "Fleetwood Mac",
-    "title": "Sara",
-    "year": 1979
+    "artist": "Bob Marley & The Wailers",
+    "title": "No Woman, No Cry",
+    "year": 1974
   },
   {
     "id": 359,
@@ -2246,10 +2246,10 @@ window.songs = [
     "year": 1995
   },
   {
-    "id": 375,
-    "artist": "Helene Fischer",
-    "title": "Volle Kraft voraus",
-    "year": 2021
+    "id": 409,
+    "artist": "Van Morrison",
+    "title": "Brown Eyed Girl",
+    "year": 1967
   },
   {
     "id": 376,
@@ -2283,9 +2283,9 @@ window.songs = [
   },
   {
     "id": 381,
-    "artist": "Gigi D'Agostino",
-    "title": "Another Way",
-    "year": 1999
+    "artist": "Survivor",
+    "title": "Eye of the Tiger",
+    "year": 1982
   },
   {
     "id": 382,
@@ -2361,9 +2361,9 @@ window.songs = [
   },
   {
     "id": 394,
-    "artist": "Fleetwood Mac",
-    "title": "Big Love",
-    "year": 1987
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "year": 1973
   },
   {
     "id": 395,
@@ -2379,9 +2379,9 @@ window.songs = [
   },
   {
     "id": 397,
-    "artist": "Dua Lipa",
-    "title": "Love Again",
-    "year": 2020
+    "artist": "Bryan Adams",
+    "title": "Summer of '69",
+    "year": 1984
   },
   {
     "id": 398,
@@ -2451,9 +2451,9 @@ window.songs = [
   },
   {
     "id": 409,
-    "artist": "Helene Fischer",
-    "title": "Marathon",
-    "year": 2013
+    "artist": "The Proclaimers",
+    "title": "I'm Gonna Be (500 Miles)",
+    "year": 1988
   },
   {
     "id": 410,
@@ -2943,9 +2943,9 @@ window.songs = [
   },
   {
     "id": 491,
-    "artist": "Gorillaz",
-    "title": "DARE",
-    "year": 2005
+    "artist": "Mausio",
+    "title": "Krustenf!cker",
+    "year": 2017
   },
   {
     "id": 492,
@@ -3021,9 +3021,9 @@ window.songs = [
   },
   {
     "id": 504,
-    "artist": "Frank Sinatra",
-    "title": "Strangers in the Night",
-    "year": 1966
+    "artist": "Tyga",
+    "title": "Taste",
+    "year": 2018
   },
   {
     "id": 505,
@@ -3147,9 +3147,9 @@ window.songs = [
   },
   {
     "id": 525,
-    "artist": "Gorillaz",
-    "title": "On Melancholy Hill",
-    "year": 2010
+    "artist": "DJ Robin & Schürze",
+    "title": "Layla",
+    "year": 2022
   },
   {
     "id": 526,
@@ -3224,10 +3224,10 @@ window.songs = [
     "year": 1964
   },
   {
-    "id": 538,
-    "artist": "Frank Sinatra",
-    "title": "New York, New York",
-    "year": 1979
+    "id": 572,
+    "artist": "Men Without Hats",
+    "title": "The Safety Dance",
+    "year": 1982
   },
   {
     "id": 539,
@@ -3327,9 +3327,9 @@ window.songs = [
   },
   {
     "id": 555,
-    "artist": "Eminem",
-    "title": "Sing for the Moment",
-    "year": 2002
+    "artist": "Bronski Beat",
+    "title": "Smalltown Boy",
+    "year": 1984
   },
   {
     "id": 556,
@@ -3429,9 +3429,9 @@ window.songs = [
   },
   {
     "id": 572,
-    "artist": "Frank Sinatra",
-    "title": "That's Life",
-    "year": 1966
+    "artist": "Redbone",
+    "title": "Come and Get Your Love",
+    "year": 1973
   },
   {
     "id": 573,
@@ -3489,9 +3489,9 @@ window.songs = [
   },
   {
     "id": 582,
-    "artist": "Gorillaz",
-    "title": "Saturnz Barz",
-    "year": 2017
+    "artist": "Tobee",
+    "title": "Lotusblume",
+    "year": 2014
   },
   {
     "id": 583,
@@ -3573,9 +3573,9 @@ window.songs = [
   },
   {
     "id": 596,
-    "artist": "Eminem",
-    "title": "Houdini",
-    "year": 2024
+    "artist": "Kings of Leon",
+    "title": "Sex on Fire",
+    "year": 2008
   },
   {
     "id": 597,
@@ -3639,9 +3639,9 @@ window.songs = [
   },
   {
     "id": 607,
-    "artist": "Frank Sinatra",
-    "title": "Theme from New York, New York",
-    "year": 1980
+    "artist": "America",
+    "title": "A Horse with No Name",
+    "year": 1971
   },
   {
     "id": 608,
@@ -4317,9 +4317,9 @@ window.songs = [
   },
   {
     "id": 720,
-    "artist": "Gigi D'Agostino",
-    "title": "La Passion",
-    "year": 2000
+    "artist": "Tyga",
+    "title": "Ayy Macarena",
+    "year": 2019
   },
   {
     "id": 721,
@@ -4551,9 +4551,9 @@ window.songs = [
   },
   {
     "id": 759,
-    "artist": "Coldplay",
-    "title": "Clocks",
-    "year": 2002
+    "artist": "Simon & Garfunkel",
+    "title": "Mrs. Robinson",
+    "year": 1968
   },
   {
     "id": 760,
@@ -5283,15 +5283,15 @@ window.songs = [
   },
   {
     "id": 881,
-    "artist": "Eurythmics",
-    "title": "Missionary Man",
-    "year": 1986
+    "artist": "Chiddy Bang",
+    "title": "Opposite of Adults",
+    "year": 2010
   },
   {
     "id": 882,
-    "artist": "Gorillaz",
-    "title": "Dirty Harry",
-    "year": 2005
+    "artist": "Specktakel",
+    "title": "Mama Laudaaa",
+    "year": 2018
   },
   {
     "id": 883,
@@ -5361,9 +5361,9 @@ window.songs = [
   },
   {
     "id": 894,
-    "artist": "Frank Sinatra",
-    "title": "Come Fly with Me",
-    "year": 1958
+    "artist": "Amy Macdonald",
+    "title": "This Is the Life",
+    "year": 2007
   },
   {
     "id": 895,
@@ -5847,9 +5847,9 @@ window.songs = [
   },
   {
     "id": 975,
-    "artist": "Helene Fischer",
-    "title": "Phänomen",
-    "year": 2011
+    "artist": "Mausio",
+    "title": "Zwischen Genie und Wahnsinn",
+    "year": 2021
   },
   {
     "id": 976,
@@ -5985,9 +5985,9 @@ window.songs = [
   },
   {
     "id": 998,
-    "artist": "Dua Lipa",
-    "title": "Break My Heart",
-    "year": 2020
+    "artist": "Dire Straits",
+    "title": "Sultans of Swing",
+    "year": 1978
   },
   {
     "id": 999,
