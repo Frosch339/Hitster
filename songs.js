@@ -165,9 +165,9 @@ window.songs = [
   },
   {
     "id": 28,
-    "artist": "Taylor Swift",
-    "title": "Cardigan",
-    "year": 2020
+    "artist": "The Ronettes",
+    "title": "Be My Baby",
+    "year": 1963
   },
   {
     "id": 29,
@@ -765,9 +765,9 @@ window.songs = [
   },
   {
     "id": 128,
-    "artist": "Rihanna",
-    "title": "Umbrella",
-    "year": 2007
+    "artist": "MC Hammer",
+    "title": "U Can't Touch This",
+    "year": 1990
   },
   {
     "id": 129,
@@ -1041,9 +1041,9 @@ window.songs = [
   },
   {
     "id": 174,
-    "artist": "Sabrina Carpenter",
-    "title": "Bed Chem",
-    "year": 2024
+    "artist": "Juice WRLD",
+    "title": "Lucid Dreams",
+    "year": 2018
   },
   {
     "id": 175,
@@ -1167,9 +1167,9 @@ window.songs = [
   },
   {
     "id": 195,
-    "artist": "Taylor Swift",
-    "title": "Lover",
-    "year": 2019
+    "artist": "The Beach Boys",
+    "title": "Surfin' U.S.A.",
+    "year": 1963
   },
   {
     "id": 196,
@@ -1209,9 +1209,9 @@ window.songs = [
   },
   {
     "id": 202,
-    "artist": "Taylor Swift",
-    "title": "You Belong With Me",
-    "year": 2008
+    "artist": "Lesley Gore",
+    "title": "You Don't Own Me",
+    "year": 1963
   },
   {
     "id": 203,
@@ -1251,9 +1251,9 @@ window.songs = [
   },
   {
     "id": 209,
-    "artist": "Sabrina Carpenter",
-    "title": "Sharpest Tool",
-    "year": 2024
+    "artist": "Martin Garrix feat. Bonn",
+    "title": "High on Life",
+    "year": 2018
   },
   {
     "id": 210,
@@ -1521,9 +1521,9 @@ window.songs = [
   },
   {
     "id": 254,
-    "artist": "Marteria feat. Yassin & Miss Platnum",
-    "title": "Lila Wolken",
-    "year": 2012
+    "artist": "George Michael",
+    "title": "Faith",
+    "year": 1988
   },
   {
     "id": 255,
@@ -1593,9 +1593,9 @@ window.songs = [
   },
   {
     "id": 266,
-    "artist": "Jay-Z ft. Rihanna",
-    "title": "Run This Town",
-    "year": 2009
+    "artist": "Tom Petty",
+    "title": "Free Fallin'",
+    "year": 1989
   },
   {
     "id": 267,
@@ -1659,9 +1659,9 @@ window.songs = [
   },
   {
     "id": 277,
-    "artist": "Swedish House Mafia",
-    "title": "One (Your Name)",
-    "year": 2010
+    "artist": "Cat Stevens",
+    "title": "Father and Son",
+    "year": 1970
   },
   {
     "id": 278,
@@ -1851,9 +1851,9 @@ window.songs = [
   },
   {
     "id": 309,
-    "artist": "Swedish House Mafia",
-    "title": "Moth To A Flame",
-    "year": 2021
+    "artist": "Free",
+    "title": "All Right Now",
+    "year": 1970
   },
   {
     "id": 310,
@@ -1989,9 +1989,9 @@ window.songs = [
   },
   {
     "id": 332,
-    "artist": "Teddy Swims",
-    "title": "Goodbye's Been Good to You",
-    "year": 2024
+    "artist": "The Beach Boys",
+    "title": "Surfin' Safari",
+    "year": 1962
   },
   {
     "id": 333,
@@ -2127,9 +2127,9 @@ window.songs = [
   },
   {
     "id": 355,
-    "artist": "Sabrina Carpenter",
-    "title": "Juno",
-    "year": 2024
+    "artist": "Zedd, Maren Morris & Grey",
+    "title": "The Middle",
+    "year": 2018
   },
   {
     "id": 356,
@@ -2157,9 +2157,9 @@ window.songs = [
   },
   {
     "id": 360,
-    "artist": "Taylor Swift",
-    "title": "Style",
-    "year": 2014
+    "artist": "Lesley Gore",
+    "title": "It's My Party",
+    "year": 1963
   },
   {
     "id": 361,
@@ -2198,16 +2198,16 @@ window.songs = [
     "year": 1986
   },
   {
-    "id": 332,
+    "id": 367,
     "artist": "Auli'i Cravalho",
     "title": "How Far I'll Go",
     "year": 2016
   },
   {
     "id": 368,
-    "artist": "Teddy Swims",
-    "title": "Emergency Services",
-    "year": 2022
+    "artist": "The Isley Brothers",
+    "title": "Twist and Shout",
+    "year": 1962
   },
   {
     "id": 369,
@@ -2259,9 +2259,9 @@ window.songs = [
   },
   {
     "id": 377,
-    "artist": "Swedish House Mafia",
-    "title": "Greyhound",
-    "year": 2012
+    "artist": "Black Sabbath",
+    "title": "Paranoid",
+    "year": 1970
   },
   {
     "id": 378,
@@ -2271,9 +2271,9 @@ window.songs = [
   },
   {
     "id": 379,
-    "artist": "Shakira",
-    "title": "La Tortura",
-    "year": 2005
+    "artist": "Elton John",
+    "title": "Your Song",
+    "year": 1970
   },
   {
     "id": 380,
@@ -2313,9 +2313,9 @@ window.songs = [
   },
   {
     "id": 386,
-    "artist": "Ray Charles",
-    "title": "I Got a Woman",
-    "year": 1954
+    "artist": "Roxette",
+    "title": "Listen to Your Heart",
+    "year": 1989
   },
   {
     "id": 387,
@@ -2373,9 +2373,9 @@ window.songs = [
   },
   {
     "id": 396,
-    "artist": "Taylor Swift",
-    "title": "Bad Blood",
-    "year": 2014
+    "artist": "Otis Redding",
+    "title": "(Sittin' On) The Dock of the Bay",
+    "year": 1968
   },
   {
     "id": 397,
@@ -2463,9 +2463,9 @@ window.songs = [
   },
   {
     "id": 411,
-    "artist": "Swedish House Mafia",
-    "title": "Antidote",
-    "year": 2011
+    "artist": "James Brown",
+    "title": "Get Up (I Feel Like Being a) Sex Machine",
+    "year": 1970
   },
   {
     "id": 412,
@@ -2475,9 +2475,9 @@ window.songs = [
   },
   {
     "id": 413,
-    "artist": "Shakira ft. Wyclef Jean",
-    "title": "Hips Don't Lie",
-    "year": 2006
+    "artist": "T. Rex",
+    "title": "Telegram Sam",
+    "year": 1972
   },
   {
     "id": 414,
@@ -2517,9 +2517,9 @@ window.songs = [
   },
   {
     "id": 420,
-    "artist": "Ray Charles",
-    "title": "Mess Around",
-    "year": 1953
+    "artist": "Roxette",
+    "title": "The Look",
+    "year": 1989
   },
   {
     "id": 421,
@@ -2583,9 +2583,9 @@ window.songs = [
   },
   {
     "id": 431,
-    "artist": "Sabrina Carpenter",
-    "title": "Nonsense",
-    "year": 2022
+    "artist": "Marshmello & Bastille",
+    "title": "Happier",
+    "year": 2018
   },
   {
     "id": 432,
@@ -2613,9 +2613,9 @@ window.songs = [
   },
   {
     "id": 436,
-    "artist": "Taylor Swift",
-    "title": "I Knew You Were Trouble",
-    "year": 2012
+    "artist": "Aretha Franklin",
+    "title": "I Say a Little Prayer",
+    "year": 1968
   },
   {
     "id": 437,
@@ -2685,15 +2685,15 @@ window.songs = [
   },
   {
     "id": 448,
-    "artist": "Swedish House Mafia",
-    "title": "Lioness",
-    "year": 2024
+    "artist": "The Who",
+    "title": "Won't Get Fooled Again",
+    "year": 1971
   },
   {
     "id": 449,
-    "artist": "Shakira & Maluma",
-    "title": "Chantaje",
-    "year": 2016
+    "artist": "America",
+    "title": "A Horse with No Name",
+    "year": 1972
   },
   {
     "id": 450,
@@ -2721,9 +2721,9 @@ window.songs = [
   },
   {
     "id": 454,
-    "artist": "Ray Charles",
-    "title": "Unchain My Heart",
-    "year": 1961
+    "artist": "Enya",
+    "title": "Orinoco Flow",
+    "year": 1988
   },
   {
     "id": 455,
@@ -2871,9 +2871,9 @@ window.songs = [
   },
   {
     "id": 479,
-    "artist": "Sabrina Carpenter",
-    "title": "Lie to Girls",
-    "year": 2024
+    "artist": "Vanilla Ice",
+    "title": "Ice Ice Baby",
+    "year": 1990
   },
   {
     "id": 480,
@@ -2907,15 +2907,15 @@ window.songs = [
   },
   {
     "id": 485,
-    "artist": "Swedish House Mafia",
-    "title": "Ray of Solar",
-    "year": 2023
+    "artist": "Carly ",
+    "title": "You're So Vain",
+    "year": 1972
   },
   {
     "id": 486,
-    "artist": "Shakira",
-    "title": "Empire",
-    "year": 2014
+    "artist": "Don McLean",
+    "title": "American Pie",
+    "year": 1972
   },
   {
     "id": 487,
@@ -2925,9 +2925,9 @@ window.songs = [
   },
   {
     "id": 488,
-    "artist": "Ray Charles",
-    "title": "Crying Time",
-    "year": 1966
+    "artist": "Rainhard Fendrich",
+    "title": "Macho Macho",
+    "year": 1988
   },
   {
     "id": 489,
@@ -3075,9 +3075,9 @@ window.songs = [
   },
   {
     "id": 513,
-    "artist": "Taylor Swift",
-    "title": "Mine",
-    "year": 2010
+    "artist": "The Doors",
+    "title": "Roadhouse Blues",
+    "year": 1969
   },
   {
     "id": 514,
@@ -3129,9 +3129,9 @@ window.songs = [
   },
   {
     "id": 522,
-    "artist": "Ray Charles",
-    "title": "I Can't Stop Loving You",
-    "year": 1962
+    "artist": "Bobby McFerrin",
+    "title": "Don't Worry, Be Happy",
+    "year": 1988
   },
   {
     "id": 523,
@@ -3249,9 +3249,9 @@ window.songs = [
   },
   {
     "id": 542,
-    "artist": "Scorpions",
-    "title": "Send Me an Angel",
-    "year": 1990
+    "artist": "Elton John",
+    "title": "Rocket Man",
+    "year": 1972
   },
   {
     "id": 543,
@@ -3309,9 +3309,9 @@ window.songs = [
   },
   {
     "id": 552,
-    "artist": "Taylor Swift",
-    "title": "Love Story",
-    "year": 2008
+    "artist": "The Jackson 5",
+    "title": "ABC",
+    "year": 1969
   },
   {
     "id": 553,
@@ -3333,9 +3333,9 @@ window.songs = [
   },
   {
     "id": 556,
-    "artist": "Sabrina Carpenter",
-    "title": "Thumbs",
-    "year": 2016
+    "artist": "Wilson Phillips",
+    "title": "Hold On",
+    "year": 1990
   },
   {
     "id": 557,
@@ -3453,9 +3453,9 @@ window.songs = [
   },
   {
     "id": 576,
-    "artist": "Scorpions",
-    "title": "Big City Nights",
-    "year": 1984
+    "artist": "David Bowie",
+    "title": "Starman",
+    "year": 1972
   },
   {
     "id": 577,
@@ -3471,9 +3471,9 @@ window.songs = [
   },
   {
     "id": 579,
-    "artist": "Ray Charles",
-    "title": "Shake a Tail Feather",
-    "year": 1965
+    "artist": "Milli Vanilli",
+    "title": "Girl You Know It's True",
+    "year": 1988
   },
   {
     "id": 580,
@@ -3507,9 +3507,9 @@ window.songs = [
   },
   {
     "id": 585,
-    "artist": "Taylor Swift",
-    "title": "Karma",
-    "year": 2022
+    "artist": "Creedence Clearwater Revival",
+    "title": "Bad Moon Rising",
+    "year": 1969
   },
   {
     "id": 586,
@@ -3579,9 +3579,9 @@ window.songs = [
   },
   {
     "id": 597,
-    "artist": "Sabrina Carpenter",
-    "title": "Slim Pickins",
-    "year": 2024
+    "artist": "Mariah Carey",
+    "title": "Vision of Love",
+    "year": 1990
   },
   {
     "id": 598,
@@ -3663,9 +3663,9 @@ window.songs = [
   },
   {
     "id": 611,
-    "artist": "Scorpions",
-    "title": "Passion Rules the Game",
-    "year": 1988
+    "artist": "Lukas Graham",
+    "title": "Love Someone",
+    "year": 2018
   },
   {
     "id": 612,
@@ -5877,9 +5877,9 @@ window.songs = [
   },
   {
     "id": 980,
-    "artist": "Taylor Swift",
-    "title": "Fortnight",
-    "year": 2024
+    "artist": "Creedence Clearwater Revival",
+    "title": "Fortunate Son",
+    "year": 1969
   },
   {
     "id": 981,
