@@ -1767,9 +1767,9 @@ window.songs = [
   },
   {
     "id": 295,
-    "artist": "Lady Gaga",
-    "title": "Just Dance",
-    "year": 2008
+    "artist": "Sting",
+    "title": "Fields of Gold",
+    "year": 1993
   },
   {
     "id": 296,
@@ -2637,9 +2637,9 @@ window.songs = [
   },
   {
     "id": 440,
-    "artist": "Lady Gaga",
-    "title": "Applause",
-    "year": 2013
+    "artist": "MIKA",
+    "title": "Grace Kelly",
+    "year": 2007
   },
   {
     "id": 441,
@@ -2973,15 +2973,15 @@ window.songs = [
   },
   {
     "id": 496,
-    "artist": "Kendrick Lamar",
-    "title": "DNA.",
-    "year": 2017
+    "artist": "Alicia Keys",
+    "title": "If I Ain't Got You",
+    "year": 2003
   },
   {
     "id": 497,
-    "artist": "Howard Carpendale",
-    "title": "Deine Spuren im Sand",
-    "year": 1975
+    "artist": "Bachman-Turner Overdrive",
+    "title": "You Ain't Seen Nothing Yet",
+    "year": 1974
   },
   {
     "id": 498,
@@ -3177,15 +3177,15 @@ window.songs = [
   },
   {
     "id": 530,
-    "artist": "Kendrick Lamar",
-    "title": "All The Stars",
-    "year": 2018
+    "artist": "Billy Joel",
+    "title": "We Didn't Start the Fire",
+    "year": 1989
   },
   {
     "id": 531,
-    "artist": "Howard Carpendale",
-    "title": "Nachts, wenn alles schläft",
-    "year": 1979
+    "artist": "A Flock of Seagulls",
+    "title": "I Ran (So Far Away)",
+    "year": 1982
   },
   {
     "id": 532,
@@ -3237,9 +3237,9 @@ window.songs = [
   },
   {
     "id": 540,
-    "artist": "Justin Bieber",
-    "title": "Baby",
-    "year": 2010
+    "artist": "Lenny Kravitz",
+    "title": "Fly Away",
+    "year": 1998
   },
   {
     "id": 541,
@@ -3381,15 +3381,15 @@ window.songs = [
   },
   {
     "id": 564,
-    "artist": "Kendrick Lamar",
-    "title": "Alright",
-    "year": 2015
+    "artist": "Ne-Yo",
+    "title": "So Sick",
+    "year": 2005
   },
   {
     "id": 565,
-    "artist": "Howard Carpendale",
-    "title": "Tür an Tür mit Alice",
-    "year": 1977
+    "artist": "Sia",
+    "title": "Chandelier",
+    "year": 2014
   },
   {
     "id": 566,
@@ -3441,9 +3441,9 @@ window.songs = [
   },
   {
     "id": 574,
-    "artist": "Justin Bieber",
-    "title": "Stay",
-    "year": 2021
+    "artist": "The Offspring",
+    "title": "Pretty Fly (For a White Guy)",
+    "year": 1998
   },
   {
     "id": 575,
@@ -3651,9 +3651,9 @@ window.songs = [
   },
   {
     "id": 609,
-    "artist": "Justin Bieber",
-    "title": "Intentions",
-    "year": 2020
+    "artist": "The Fray",
+    "title": "How to Save a Life",
+    "year": 2005
   },
   {
     "id": 610,
@@ -5313,15 +5313,15 @@ window.songs = [
   },
   {
     "id": 886,
-    "artist": "Kendrick Lamar",
-    "title": "Loyalty",
-    "year": 2017
+    "artist": "Ne-Yo",
+    "title": "Closer",
+    "year": 2008
   },
   {
     "id": 887,
-    "artist": "Howard Carpendale",
-    "title": "Samstag Nacht",
-    "year": 1984
+    "artist": "Tracy Chapman",
+    "title": "Fast Car",
+    "year": 1988
   },
   {
     "id": 888,
@@ -5373,9 +5373,9 @@ window.songs = [
   },
   {
     "id": 896,
-    "artist": "Justin Bieber",
-    "title": "Ghost",
-    "year": 2021
+    "artist": "The Goo Goo Dolls",
+    "title": "Iris",
+    "year": 1998
   },
   {
     "id": 897,
