@@ -2079,9 +2079,9 @@ window.songs = [
   },
   {
     "id": 347,
-    "artist": "Vera Lynn",
-    "title": "A Nightingale Sang in Berkeley Square",
-    "year": 1940
+    "artist": "Drake",
+    "title": "God's Plan",
+    "year": 2018
   },
   {
     "id": 348,
@@ -2289,9 +2289,9 @@ window.songs = [
   },
   {
     "id": 382,
-    "artist": "Vera Lynn",
-    "title": "Land of Hope and Glory",
-    "year": 1941
+    "artist": "The Chainsmokers feat. Halsey",
+    "title": "Closer",
+    "year": 2016
   },
   {
     "id": 383,
@@ -2493,9 +2493,9 @@ window.songs = [
   },
   {
     "id": 416,
-    "artist": "Topic feat. A7S",
-    "title": "Breaking Me",
-    "year": 2020
+    "artist": "Disco Lines & Tinashe",
+    "title": "No Broke Boys",
+    "year": 2025
   },
   {
     "id": 417,
@@ -3243,9 +3243,9 @@ window.songs = [
   },
   {
     "id": 541,
-    "artist": "Wolfgang Petry",
-    "title": "Du bist ein Wunder",
-    "year": 1989
+    "artist": "Jonas Brothers",
+    "title": "What a Man Gotta Do",
+    "year": 2020
   },
   {
     "id": 542,
@@ -3447,9 +3447,9 @@ window.songs = [
   },
   {
     "id": 575,
-    "artist": "Wolfgang Petry",
-    "title": "Weiß der Geier",
-    "year": 1998
+    "artist": "CYRIL",
+    "title": "Stumblin' In",
+    "year": 2023
   },
   {
     "id": 576,
@@ -3657,9 +3657,9 @@ window.songs = [
   },
   {
     "id": 610,
-    "artist": "Wolfgang Petry",
-    "title": "Gianna (Liebe im Auto)",
-    "year": 1978
+    "artist": "Kygo & Whitney Houston",
+    "title": "Higher Love",
+    "year": 2019
   },
   {
     "id": 611,
@@ -5379,9 +5379,9 @@ window.songs = [
   },
   {
     "id": 897,
-    "artist": "Wolfgang Petry",
-    "title": "Sieben Tage, sieben Nächte",
-    "year": 1993
+    "artist": "Sabrina Carpenter",
+    "title": "Manchild",
+    "year": 2026
   },
   {
     "id": 898,
