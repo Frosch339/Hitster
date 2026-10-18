@@ -717,9 +717,9 @@ window.songs = [
   },
   {
     "id": 120,
-    "artist": "Teddy Swims",
-    "title": "The Door",
-    "year": 2024
+    "artist": "Kim Wilde",
+    "title": "Kids in America",
+    "year": 1981
   },
 {
     "id": 121,
@@ -957,9 +957,9 @@ window.songs = [
   },
   {
     "id": 160,
-    "artist": "Teddy Swims",
-    "title": "Bad Dreams",
-    "year": 2024
+    "artist": "Whitesnake",
+    "title": "Here I Go Again",
+    "year": 1987
   },
   {
     "id": 161,
@@ -1197,9 +1197,9 @@ window.songs = [
   },
   {
     "id": 200,
-    "artist": "Teddy Swims",
-    "title": "Hammer to the Heart",
-    "year": 2024
+    "artist": "Münchener Freiheit",
+    "title": "Ohne dich (schlaf' ich geh'n nicht ein)",
+    "year": 1985
   },
   {
     "id": 201,
@@ -1401,9 +1401,9 @@ window.songs = [
   },
   {
     "id": 234,
-    "artist": "The Beatles",
-    "title": "Help!",
-    "year": 1965
+    "artist": "Ray Parker Jr.",
+    "title": "Ghostbusters",
+    "year": 1984
   },
   {
     "id": 235,
@@ -1533,9 +1533,9 @@ window.songs = [
   },
   {
     "id": 256,
-    "artist": "The Beatles",
-    "title": "A Hard Day's Night",
-    "year": 1964
+    "artist": "Irene Cara",
+    "title": "Flashdance... What a Feeling",
+    "year": 1983
   },
   {
     "id": 257,
@@ -1575,9 +1575,9 @@ window.songs = [
   },
   {
     "id": 263,
-    "artist": "Teddy Swims",
-    "title": "What More Can I Say",
-    "year": 2023
+    "artist": "Lionel Richie",
+    "title": "All Night Long (All Night)",
+    "year": 1983
   },
   {
     "id": 264,
@@ -1785,9 +1785,9 @@ window.songs = [
   },
   {
     "id": 298,
-    "artist": "Teddy Swims",
-    "title": "Apple Pie",
-    "year": 2023
+    "artist": "Spider Murphy Gang",
+    "title": "Skandal im Sperrbezirk",
+    "year": 1982
   },
   {
     "id": 299,
@@ -3027,9 +3027,9 @@ window.songs = [
   },
   {
     "id": 505,
-    "artist": "The Cure",
-    "title": "Lullaby",
-    "year": 1989
+    "artist": "Phil Collins & Philip Bailey",
+    "title": "Easy Lover",
+    "year": 1984
   },
   {
     "id": 506,
@@ -3231,9 +3231,9 @@ window.songs = [
   },
   {
     "id": 539,
-    "artist": "The Cure",
-    "title": "Close to Me",
-    "year": 1985
+    "artist": "Van Halen",
+    "title": "Jump",
+    "year": 1984
   },
   {
     "id": 540,
@@ -3423,9 +3423,9 @@ window.songs = [
   },
   {
     "id": 571,
-    "artist": "The Kinks",
-    "title": "Waterloo Sunset",
-    "year": 1967
+    "artist": "Starship",
+    "title": "We Built This City",
+    "year": 1985
   },
   {
     "id": 572,
@@ -3435,9 +3435,9 @@ window.songs = [
   },
   {
     "id": 573,
-    "artist": "The Cure",
-    "title": "A Forest",
-    "year": 1980
+    "artist": "Daryl Hall & John Oates",
+    "title": "Maneater",
+    "year": 1982
   },
   {
     "id": 574,
@@ -3633,9 +3633,9 @@ window.songs = [
   },
   {
     "id": 606,
-    "artist": "The Kinks",
-    "title": "Tired of Waiting for You",
-    "year": 1965
+    "artist": "Stevie Wonder",
+    "title": "I Just Called to Say I Love You",
+    "year": 1984
   },
   {
     "id": 607,
@@ -3645,9 +3645,9 @@ window.songs = [
   },
   {
     "id": 608,
-    "artist": "The Cure",
-    "title": "In Between Days",
-    "year": 1985
+    "artist": "Culture Club",
+    "title": "Do You Really Want to Hurt Me",
+    "year": 1982
   },
   {
     "id": 609,
@@ -5355,9 +5355,9 @@ window.songs = [
   },
   {
     "id": 893,
-    "artist": "The Kinks",
-    "title": "Dead End Street",
-    "year": 1966
+    "artist": "Yes",
+    "title": "Owner of a Lonely Heart",
+    "year": 1983
   },
   {
     "id": 894,
@@ -5367,9 +5367,9 @@ window.songs = [
   },
   {
     "id": 895,
-    "artist": "The Cure",
-    "title": "The Lovecats",
-    "year": 1983
+    "artist": "Bronski Beat",
+    "title": "Why?",
+    "year": 1984
   },
   {
     "id": 896,
@@ -5973,9 +5973,9 @@ window.songs = [
   },
   {
     "id": 996,
-    "artist": "The Beatles",
-    "title": "Something",
-    "year": 1969
+    "artist": "Kate Bush",
+    "title": "Running Up That Hill (A Deal with God)",
+    "year": 1982
   },
   {
     "id": 997,
