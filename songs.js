@@ -99,9 +99,9 @@ window.songs = [
   },
   {
     "id": 17,
-    "artist": "Luke Combs",
-    "title": "Beautiful Crazy",
-    "year": 2018
+    "artist": "T-Pain",
+    "title": "Bartender",
+    "year": 2007
   },
   {
     "id": 18,
@@ -693,9 +693,9 @@ window.songs = [
   },
   {
     "id": 116,
-    "artist": "Luke Combs",
-    "title": "Fast Car",
-    "year": 2023
+    "artist": "T-Pain ft. B.o.B",
+    "title": "Up Down (Do This All Day)",
+    "year": 2013
   },
   {
     "id": 117,
@@ -951,9 +951,9 @@ window.songs = [
   },
   {
     "id": 159,
-    "artist": "Luke Combs",
-    "title": "Forever After All",
-    "year": 2020
+    "artist": "The Beach Boys",
+    "title": "California Girls",
+    "year": 1965
   },
   {
     "id": 160,
@@ -1029,9 +1029,9 @@ window.songs = [
   },
   {
     "id": 172,
-    "artist": "Michael Jackson",
-    "title": "Black or White",
-    "year": 1991
+    "artist": "Jessie J, Ariana Grande & Nicki Minaj",
+    "title": "Bang Bang",
+    "year": 2014
   },
   {
     "id": 173,
@@ -1191,9 +1191,9 @@ window.songs = [
   },
   {
     "id": 199,
-    "artist": "Luke Combs",
-    "title": "Beer Never Broke My Heart",
-    "year": 2019
+    "artist": "Stevie Wonder",
+    "title": "Superstition",
+    "year": 1972
   },
   {
     "id": 200,
@@ -1365,15 +1365,15 @@ window.songs = [
   },
   {
     "id": 228,
-    "artist": "Metallica",
-    "title": "The Unforgiven",
-    "year": 1991
+    "artist": "Sinéad O'Connor",
+    "title": "Nothing Compares 2 U",
+    "year": 1990
   },
   {
     "id": 229,
-    "artist": "Luke Combs",
-    "title": "When It Rains It Pours",
-    "year": 2017
+    "artist": "The Eagles",
+    "title": "Hotel California",
+    "year": 1976
   },
   {
     "id": 230,
@@ -1563,15 +1563,15 @@ window.songs = [
   },
   {
     "id": 261,
-    "artist": "Metallica",
-    "title": "Whiskey in the Jar",
-    "year": 1998
+    "artist": "Christina Aguilera",
+    "title": "Genie in a Bottle",
+    "year": 1999
   },
   {
     "id": 262,
-    "artist": "Luke Combs",
-    "title": "Lovin' on You",
-    "year": 2020
+    "artist": "Tina Turner",
+    "title": "The Best",
+    "year": 1989
   },
   {
     "id": 263,
@@ -1773,15 +1773,15 @@ window.songs = [
   },
   {
     "id": 296,
-    "artist": "Metallica",
-    "title": "For Whom the Bell Tolls",
-    "year": 1984
+    "artist": "Kay One feat. Emory",
+    "title": "V.I.P.",
+    "year": 2012
   },
   {
     "id": 297,
-    "artist": "Luke Combs",
-    "title": "The Kind of Love We Make",
-    "year": 2022
+    "artist": "Billy Idol",
+    "title": "White Wedding",
+    "year": 1982
   },
   {
     "id": 298,
@@ -1983,9 +1983,9 @@ window.songs = [
   },
   {
     "id": 331,
-    "artist": "Luke Combs",
-    "title": "Hurricane",
-    "year": 2016
+    "artist": "Idina Menzel",
+    "title": "Let It Go",
+    "year": 2013
   },
   {
     "id": 332,
@@ -2139,9 +2139,9 @@ window.songs = [
   },
   {
     "id": 357,
-    "artist": "Michael Jackson",
-    "title": "Man in the Mirror",
-    "year": 1987
+    "artist": "Jessie J feat. B.o.B",
+    "title": "Price Tag",
+    "year": 2011
   },
   {
     "id": 358,
@@ -2198,10 +2198,10 @@ window.songs = [
     "year": 1986
   },
   {
-    "id": 367,
-    "artist": "Luke Combs",
-    "title": "One Number Away",
-    "year": 2017
+    "id": 332,
+    "artist": "Auli'i Cravalho",
+    "title": "How Far I'll Go",
+    "year": 2016
   },
   {
     "id": 368,
@@ -2354,10 +2354,10 @@ window.songs = [
     "year": 2017
   },
   {
-    "id": 393,
-    "artist": "Michael Jackson",
-    "title": "Bad",
-    "year": 1987
+    "id": 928,
+    "artist": "Dolly Parton",
+    "title": "Jolene",
+    "year": 1974
   },
   {
     "id": 394,
@@ -2565,9 +2565,9 @@ window.songs = [
   },
   {
     "id": 428,
-    "artist": "Nirvana",
-    "title": "You Know You're Right",
-    "year": 2002
+    "artist": "Marvin Gaye",
+    "title": "Let's Get It On",
+    "year": 1973
   },
   {
     "id": 429,
@@ -2595,9 +2595,9 @@ window.songs = [
   },
   {
     "id": 433,
-    "artist": "Michael Jackson",
-    "title": "Heal the World",
-    "year": 1991
+    "artist": "Dolly Parton",
+    "title": "9 to 5",
+    "year": 1980
   },
   {
     "id": 434,
@@ -2985,9 +2985,9 @@ window.songs = [
   },
   {
     "id": 498,
-    "artist": "Marianne Rosenberg",
-    "title": "Lieder der Nacht",
-    "year": 1976
+    "artist": "Fine Young Cannibals",
+    "title": "She Drives Me Crazy",
+    "year": 1989
   },
   {
     "id": 499,
@@ -3062,10 +3062,10 @@ window.songs = [
     "year": 1999
   },
   {
-    "id": 511,
-    "artist": "Michael Jackson",
-    "title": "Earth Song",
-    "year": 1995
+    ""id": 511,
+    "artist": "Genesis",
+    "title": "That's All",
+    "year": 1983
   },
   {
     "id": 512,
@@ -3189,9 +3189,9 @@ window.songs = [
   },
   {
     "id": 532,
-    "artist": "Marianne Rosenberg",
-    "title": "Marleen",
-    "year": 1976
+    "artist": "Gary Numan",
+    "title": "Cars",
+    "year": 1979
   },
   {
     "id": 533,
@@ -3321,9 +3321,9 @@ window.songs = [
   },
   {
     "id": 554,
-    "artist": "Michael Jackson",
-    "title": "Remember the Time",
-    "year": 1991
+    "artist": "Genesis",
+    "title": "Invisible Touch",
+    "year": 1986
   },
   {
     "id": 555,
@@ -3345,9 +3345,9 @@ window.songs = [
   },
   {
     "id": 558,
-    "artist": "Nirvana",
-    "title": "Rape Me",
-    "year": 1993
+    "artist": "Marvin Gaye & Tammi Terrell",
+    "title": "Ain't No Mountain High Enough",
+    "year": 1967
   },
   {
     "id": 559,
@@ -3393,9 +3393,9 @@ window.songs = [
   },
   {
     "id": 566,
-    "artist": "Marianne Rosenberg",
-    "title": "Fremder Mann",
-    "year": 1971
+    "artist": "Rockwell",
+    "title": "Somebody's Watching Me",
+    "year": 1984
   },
   {
     "id": 567,
@@ -3501,9 +3501,9 @@ window.songs = [
   },
   {
     "id": 584,
-    "artist": "Michael Jackson",
-    "title": "You Rock My World",
-    "year": 2001
+    "artist": "Phil Collins",
+    "title": "Another Day in Paradise",
+    "year": 1989
   },
   {
     "id": 585,
@@ -3723,15 +3723,15 @@ window.songs = [
   },
   {
     "id": 621,
-    "artist": "Metallica",
-    "title": "The Memory Remains",
-    "year": 1997
+    "artist": "Kay One",
+    "title": "Prince of Belvedair",
+    "year": 2012
   },
   {
     "id": 622,
-    "artist": "Luke Combs",
-    "title": "Going, Going, Gone",
-    "year": 2022
+    "artist": "Toto",
+    "title": "Hold the Line",
+    "year": 1978
   },
   {
     "id": 623,
@@ -5325,9 +5325,9 @@ window.songs = [
   },
   {
     "id": 888,
-    "artist": "Marianne Rosenberg",
-    "title": "Herz aus Glas",
-    "year": 1979
+    "artist": "Real Life",
+    "title": "Send Me an Angel",
+    "year": 1983
   },
   {
     "id": 889,
@@ -5955,9 +5955,9 @@ window.songs = [
   },
   {
     "id": 993,
-    "artist": "Nirvana",
-    "title": "Drain You",
-    "year": 1991
+    "artist": "Marvin Gaye",
+    "title": "Sexual Healing",
+    "year": 1982
   },
   {
     "id": 994,
