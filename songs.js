@@ -1083,9 +1083,9 @@ window.songs = [
   },
   {
     "id": 181,
-    "artist": "The Rolling Stones",
-    "title": "Start Me Up",
-    "year": 1981
+    "artist": "U2",
+    "title": "With or Without You",
+    "year": 1987
   },
   {
     "id": 182,
@@ -1389,9 +1389,9 @@ window.songs = [
   },
   {
     "id": 232,
-    "artist": "The Rolling Stones",
-    "title": "Angie",
-    "year": 1973
+    "artist": "Bruce Springsteen",
+    "title": "Hungry Heart",
+    "year": 1980
   },
   {
     "id": 233,
@@ -1515,9 +1515,9 @@ window.songs = [
   },
   {
     "id": 253,
-    "artist": "The Rolling Stones",
-    "title": "Sympathy for the Devil",
-    "year": 1968
+    "artist": "Bruce Springsteen",
+    "title": "Dancing in the Dark",
+    "year": 1984
   },
   {
     "id": 254,
@@ -1713,9 +1713,9 @@ window.songs = [
   },
   {
     "id": 286,
-    "artist": "The Weeknd",
-    "title": "The Hills",
-    "year": 2015
+    "artist": "Seal",
+    "title": "Crazy",
+    "year": 1990
   },
   {
     "id": 287,
@@ -2307,9 +2307,9 @@ window.songs = [
   },
   {
     "id": 385,
-    "artist": "The Police",
-    "title": "De Do Do Do, De Da Da Da",
-    "year": 1980
+    "artist": "Alphaville",
+    "title": "Big in Japan",
+    "year": 1984
   },
   {
     "id": 386,
@@ -2511,9 +2511,9 @@ window.songs = [
   },
   {
     "id": 419,
-    "artist": "The Police",
-    "title": "Walking on the Moon",
-    "year": 1979
+    "artist": "Tears for Fears",
+    "title": "Shout",
+    "year": 1984
   },
   {
     "id": 420,
@@ -2715,9 +2715,9 @@ window.songs = [
   },
   {
     "id": 453,
-    "artist": "The Police",
-    "title": "Don't Stand So Close to Me",
-    "year": 1980
+    "artist": "Haddaway",
+    "title": "What Is Love",
+    "year": 1993
   },
   {
     "id": 454,
@@ -3015,9 +3015,9 @@ window.songs = [
   },
   {
     "id": 503,
-    "artist": "The Kinks",
-    "title": "Sunny Afternoon",
-    "year": 1966
+    "artist": "Bryan Adams",
+    "title": "Heaven",
+    "year": 1984
   },
   {
     "id": 504,
@@ -3567,9 +3567,9 @@ window.songs = [
   },
   {
     "id": 595,
-    "artist": "The Police",
-    "title": "Synchronicity II",
-    "year": 1983
+    "artist": "Robert Palmer",
+    "title": "Addicted to Love",
+    "year": 1986
   },
   {
     "id": 596,
@@ -3746,10 +3746,10 @@ window.songs = [
     "year": 1968
   },
   {
-    "id": 625,
-    "artist": "The Rolling Stones",
-    "title": "Brown Sugar",
-    "year": 1971
+    "id": 1177,
+    "artist": "Bruce Springsteen",
+    "title": "Born in the U.S.A.",
+    "year": 1984
   },
   {
     "id": 626,
@@ -3789,9 +3789,9 @@ window.songs = [
   },
   {
     "id": 632,
-    "artist": "The Weeknd",
-    "title": "In Your Eyes",
-    "year": 2020
+    "artist": "Seal",
+    "title": "Kiss from a Rose",
+    "year": 1994
   },
   {
     "id": 633,
@@ -5943,9 +5943,9 @@ window.songs = [
   },
   {
     "id": 991,
-    "artist": "The Police",
-    "title": "King of Pain",
-    "year": 1983
+    "artist": "Human League",
+    "title": "Don't You Want Me",
+    "year": 1981
   },
   {
     "id": 992,
@@ -5966,10 +5966,10 @@ window.songs = [
     "year": 2013
   },
   {
-    "id": 995,
-    "artist": "The Rolling Stones",
-    "title": "Wild Horses",
-    "year": 1971
+    "id": 1170,
+    "artist": "Bryan Adams",
+    "title": "(Everything I Do) I Do It for You",
+    "year": 1991
   },
   {
     "id": 996,
