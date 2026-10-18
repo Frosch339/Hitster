@@ -753,9 +753,9 @@ window.songs = [
   },
   {
     "id": 126,
-    "artist": "Peter Fox",
-    "title": "Zukunft Pink",
-    "year": 2022
+    "artist": "Falco",
+    "title": "Rock Me Amadeus",
+    "year": 1985
   },
   {
     "id": 127,
@@ -831,9 +831,9 @@ window.songs = [
   },
   {
     "id": 139,
-    "artist": "Nirvana",
-    "title": "Lithium",
-    "year": 1991
+    "artist": "K.Maro",
+    "title": "Femme Like U",
+    "year": 2004
   },
   {
     "id": 140,
@@ -891,9 +891,9 @@ window.songs = [
   },
   {
     "id": 149,
-    "artist": "Outkast",
-    "title": "So Fresh, So Clean",
-    "year": 2000
+    "artist": "Galantis",
+    "title": "Peanut Butter Jelly",
+    "year": 2015
   },
   {
     "id": 150,
@@ -993,9 +993,9 @@ window.songs = [
   },
   {
     "id": 166,
-    "artist": "Peter Fox",
-    "title": "Schüttel deinen Speck",
-    "year": 2008
+    "artist": "S.T.S.",
+    "title": "Großvater",
+    "year": 1984
   },
   {
     "id": 167,
@@ -1071,9 +1071,9 @@ window.songs = [
   },
   {
     "id": 179,
-    "artist": "Nirvana",
-    "title": "Heart-Shaped Box",
-    "year": 1993
+    "artist": "Ellie Goulding",
+    "title": "Lights",
+    "year": 2011
   },
   {
     "id": 180,
@@ -1131,9 +1131,9 @@ window.songs = [
   },
   {
     "id": 189,
-    "artist": "Outkast",
-    "title": "Roses",
-    "year": 2003
+    "artist": "Kid Cudi feat. MGMT & Ratatat",
+    "title": "Pursuit Of Happiness",
+    "year": 2009
   },
   {
     "id": 190,
@@ -1383,9 +1383,9 @@ window.songs = [
   },
   {
     "id": 231,
-    "artist": "Outkast",
-    "title": "ATLiens",
-    "year": 1996
+    "artist": "Charles McDonald",
+    "title": "You Are My Sunshine",
+    "year": 2017
   },
   {
     "id": 232,
@@ -1521,9 +1521,9 @@ window.songs = [
   },
   {
     "id": 254,
-    "artist": "Rammstein",
-    "title": "Amerika",
-    "year": 2004
+    "artist": "Marteria feat. Yassin & Miss Platnum",
+    "title": "Lila Wolken",
+    "year": 2012
   },
   {
     "id": 255,
@@ -1557,9 +1557,9 @@ window.songs = [
   },
   {
     "id": 260,
-    "artist": "Outkast",
-    "title": "B.O.B.",
-    "year": 2000
+    "artist": "Mariah Carey",
+    "title": "Emotions",
+    "year": 1991
   },
   {
     "id": 261,
@@ -1653,9 +1653,9 @@ window.songs = [
   },
   {
     "id": 276,
-    "artist": "Nirvana",
-    "title": "In Bloom",
-    "year": 1991
+    "artist": "Ellie Goulding",
+    "title": "Love Me Like You Do",
+    "year": 2015
   },
   {
     "id": 277,
@@ -1749,21 +1749,21 @@ window.songs = [
   },
   {
     "id": 292,
-    "artist": "Outkast",
-    "title": "The Way You Move",
-    "year": 2003
+    "artist": "Mariah Carey",
+    "title": "All I Want for Christmas Is You",
+    "year": 1994
   },
   {
     "id": 293,
-    "artist": "Rammstein",
-    "title": "Ich will",
-    "year": 2001
+    "artist": "Shania Twain",
+    "title": "You're Still the One",
+    "year": 1997
   },
   {
     "id": 294,
-    "artist": "Nirvana",
-    "title": "All Apologies",
-    "year": 1993
+    "artist": "Keri Hilson",
+    "title": "I Like",
+    "year": 2009
   },
   {
     "id": 295,
@@ -1959,9 +1959,9 @@ window.songs = [
   },
   {
     "id": 327,
-    "artist": "Rammstein",
-    "title": "Deutschland",
-    "year": 2019
+    "artist": "Shania Twain",
+    "title": "Man! I Feel Like a Woman!",
+    "year": 1997
   },
   {
     "id": 328,
@@ -2187,9 +2187,9 @@ window.songs = [
   },
   {
     "id": 365,
-    "artist": "Rammstein",
-    "title": "Radio",
-    "year": 2019
+    "artist": "Atomic Kitten",
+    "title": "Whole Again",
+    "year": 2001
   },
   {
     "id": 366,
@@ -2391,9 +2391,9 @@ window.songs = [
   },
   {
     "id": 399,
-    "artist": "Nirvana",
-    "title": "About a Girl",
-    "year": 1989
+    "artist": "Keri Hilson feat. Kanye West & Ne-Yo",
+    "title": "Knock You Down",
+    "year": 2009
   },
   {
     "id": 400,
@@ -2631,9 +2631,9 @@ window.songs = [
   },
   {
     "id": 439,
-    "artist": "Peter Fox",
-    "title": "Toskana Fanboys",
-    "year": 2023
+    "artist": "Madonna",
+    "title": "Like a Prayer",
+    "year": 1989
   },
   {
     "id": 440,
@@ -2949,9 +2949,9 @@ window.songs = [
   },
   {
     "id": 492,
-    "artist": "Peter Schilling",
-    "title": "Hitze der Nacht",
-    "year": 1984
+    "artist": "Lighthouse Family",
+    "title": "High",
+    "year": 1997
   },
   {
     "id": 493,
@@ -2966,10 +2966,10 @@ window.songs = [
     "year": 1988
   },
   {
-    "id": 495,
-    "artist": "Kaoma",
-    "title": "Lambada",
-    "year": 1989
+    "id": 459,
+    "artist": "Atomic Kitten",
+    "title": "Whole Again",
+    "year": 2001
   },
   {
     "id": 496,
@@ -3008,10 +3008,10 @@ window.songs = [
     "year": 1956
   },
   {
-    "id": 502,
-    "artist": "Oasis",
-    "title": "Champagne Supernova",
-    "year": 1995
+    "id": 946,
+    "artist": "Laura Branigan",
+    "title": "Gloria",
+    "year": 1982
   },
   {
     "id": 503,
@@ -3051,9 +3051,9 @@ window.songs = [
   },
   {
     "id": 509,
-    "artist": "Paul Kalkbrenner",
-    "title": "Aaron",
-    "year": 2008
+    "artist": "Pitbull feat. John Ryan",
+    "title": "Fireball",
+    "year": 2014
   },
   {
     "id": 510,
@@ -3087,9 +3087,9 @@ window.songs = [
   },
   {
     "id": 515,
-    "artist": "Peter Fox",
-    "title": "Ein Auge blau",
-    "year": 2023
+    "artist": "Madonna",
+    "title": "Material Girl",
+    "year": 1985
   },
   {
     "id": 516,
@@ -3153,9 +3153,9 @@ window.songs = [
   },
   {
     "id": 526,
-    "artist": "Peter Schilling",
-    "title": "Region der Gefühle",
-    "year": 1985
+    "artist": "Alan Walker, Sabrina Carpenter & Farruko",
+    "title": "On My Way",
+    "year": 2019
   },
   {
     "id": 527,
@@ -3213,9 +3213,9 @@ window.songs = [
   },
   {
     "id": 536,
-    "artist": "Oasis",
-    "title": "Live Forever",
-    "year": 1994
+    "artist": "Uncle Kracker feat. Dobie Gray",
+    "title": "Drift Away",
+    "year": 2002
   },
   {
     "id": 537,
@@ -3255,9 +3255,9 @@ window.songs = [
   },
   {
     "id": 543,
-    "artist": "Paul Kalkbrenner",
-    "title": "No Goodbye",
-    "year": 2019
+    "artist": "Pitbull feat. Chris Brown",
+    "title": "International Love",
+    "year": 2012
   },
   {
     "id": 544,
@@ -3297,9 +3297,9 @@ window.songs = [
   },
   {
     "id": 550,
-    "artist": "Peter Fox",
-    "title": "Vergessen wie",
-    "year": 2023
+    "artist": "Madonna",
+    "title": "Like a Virgin",
+    "year": 1984
   },
   {
     "id": 551,
@@ -3417,9 +3417,9 @@ window.songs = [
   },
   {
     "id": 570,
-    "artist": "Oasis",
-    "title": "Supersonic",
-    "year": 1994
+    "artist": "Uncle Kracker",
+    "title": "Follow Me",
+    "year": 2000
   },
   {
     "id": 571,
@@ -3459,9 +3459,9 @@ window.songs = [
   },
   {
     "id": 577,
-    "artist": "Paul Kalkbrenner",
-    "title": "Altes Kamuffel",
-    "year": 2008
+    "artist": "Pitbull feat. Ne-Yo, Afrojack & Nayer",
+    "title": "Give Me Everything",
+    "year": 2011
   },
   {
     "id": 578,
@@ -3495,9 +3495,9 @@ window.songs = [
   },
   {
     "id": 583,
-    "artist": "Peter Schilling",
-    "title": "Sonne, Mond und Sterne",
-    "year": 1986
+    "artist": "Peter Cornelius",
+    "title": "Segel im Wind",
+    "year": 1981
   },
   {
     "id": 584,
@@ -3525,9 +3525,9 @@ window.songs = [
   },
   {
     "id": 588,
-    "artist": "Peter Fox",
-    "title": "Toxische Liebe",
-    "year": 2023
+    "artist": "Lily Allen",
+    "title": "Fuck You",
+    "year": 2009
   },
   {
     "id": 589,
@@ -3627,9 +3627,9 @@ window.songs = [
   },
   {
     "id": 605,
-    "artist": "Oasis",
-    "title": "Roll With It",
-    "year": 1995
+    "artist": "James Morrison feat. Nelly Furtado",
+    "title": "Broken Strings",
+    "year": 2008
   },
   {
     "id": 606,
@@ -3669,9 +3669,9 @@ window.songs = [
   },
   {
     "id": 612,
-    "artist": "Paul Kalkbrenner",
-    "title": "Partytruck",
-    "year": 2020
+    "artist": "Jennifer Lopez feat. Pitbull",
+    "title": "On the Floor",
+    "year": 2011
   },
   {
     "id": 613,
@@ -3717,9 +3717,9 @@ window.songs = [
   },
   {
     "id": 620,
-    "artist": "Peter Schilling",
-    "title": "The Different Story (World of Lust and Crime)",
-    "year": 1989
+    "artist": "Peter Cornelius",
+    "title": "Du entschuldige - i kenn di",
+    "year": 1980
   },
   {
     "id": 621,
@@ -4851,9 +4851,9 @@ window.songs = [
   },
   {
     "id": 809,
-    "artist": "Maroon 5",
-    "title": "Makes Me Wonder",
-    "year": 2007
+    "artist": "Maroon 5 feat. Wiz Khalifa",
+    "title": "Payphone",
+    "year": 2012
   },
   {
     "id": 810,
@@ -4948,8 +4948,8 @@ window.songs = [
   {
     "id": 825,
     "artist": "Aerosmith",
-    "title": "Walk This Way",
-    "year": 1975
+    "title": "I Don't Want to Miss a Thing",
+    "year": 1998
   },
   {
     "id": 826,
@@ -5349,9 +5349,9 @@ window.songs = [
   },
   {
     "id": 892,
-    "artist": "Oasis",
-    "title": "Stop Crying Your Heart Out",
-    "year": 2002
+    "artist": "Mattafix",
+    "title": "Big City Life",
+    "year": 2005
   },
   {
     "id": 893,
@@ -5391,9 +5391,9 @@ window.songs = [
   },
   {
     "id": 899,
-    "artist": "Paul Kalkbrenner",
-    "title": "Graf Zahl",
-    "year": 2008
+    "artist": "Jennifer Lopez",
+    "title": "Ain't Your Mama",
+    "year": 2016
   },
   {
     "id": 900,
@@ -5871,9 +5871,9 @@ window.songs = [
   },
   {
     "id": 979,
-    "artist": "Peter Schilling",
-    "title": "Ich vermisse dich",
-    "year": 1994
+    "artist": "S.T.S.",
+    "title": "Irgendwann bleib i dann dort",
+    "year": 1981
   },
   {
     "id": 980,
@@ -5907,9 +5907,9 @@ window.songs = [
   },
   {
     "id": 985,
-    "artist": "Peter Fox",
-    "title": "Weiße Fahnen",
-    "year": 2023
+    "artist": "Lily Allen",
+    "title": "Not Fair",
+    "year": 2009
   },
   {
     "id": 986,
