@@ -1065,9 +1065,9 @@ window.songs = [
   },
   {
     "id": 178,
-    "artist": "The Weeknd",
-    "title": "Can't Feel My Face",
-    "year": 2015
+    "artist": "Justin Bieber feat. Daniel Caesar & Giveon",
+    "title": "Peaches",
+    "year": 2021
   },
   {
     "id": 179,
@@ -1311,9 +1311,9 @@ window.songs = [
   },
   {
     "id": 219,
-    "artist": "The Weeknd",
-    "title": "Die For You",
-    "year": 2016
+    "artist": "Olivia Rodrigo",
+    "title": "good 4 u",
+    "year": 2021
   },
   {
     "id": 220,
@@ -1491,9 +1491,9 @@ window.songs = [
   },
   {
     "id": 249,
-    "artist": "The Weeknd",
-    "title": "Heartless",
-    "year": 2019
+    "artist": "Olivia Rodrigo",
+    "title": "drivers license",
+    "year": 2021
   },
   {
     "id": 250,
@@ -1611,9 +1611,9 @@ window.songs = [
   },
   {
     "id": 269,
-    "artist": "The White Stripes",
-    "title": "The Hardest Button to Button",
-    "year": 2003
+    "artist": "Leony",
+    "title": "Remedy",
+    "year": 2022
   },
   {
     "id": 270,
@@ -1815,9 +1815,9 @@ window.songs = [
   },
   {
     "id": 303,
-    "artist": "The White Stripes",
-    "title": "Blue Orchid",
-    "year": 2005
+    "artist": "Zara Larsson",
+    "title": "Midnight Sun",
+    "year": 2025
   },
   {
     "id": 304,
@@ -2013,9 +2013,9 @@ window.songs = [
   },
   {
     "id": 336,
-    "artist": "The White Stripes",
-    "title": "Fell In Love With a Girl",
-    "year": 2001
+    "artist": "Kenya Grace",
+    "title": "Strangers",
+    "year": 2023
   },
   {
     "id": 337,
@@ -2223,9 +2223,9 @@ window.songs = [
   },
   {
     "id": 371,
-    "artist": "The White Stripes",
-    "title": "The Denial Twist",
-    "year": 2005
+    "artist": "Tate McRae",
+    "title": "greedy",
+    "year": 2023
   },
   {
     "id": 372,
@@ -2439,9 +2439,9 @@ window.songs = [
   },
   {
     "id": 407,
-    "artist": "The White Stripes",
-    "title": "Dead Leaves and the Dirty Ground",
-    "year": 2001
+    "artist": "Tiësto & Ava Max",
+    "title": "The Motto",
+    "year": 2021
   },
   {
     "id": 408,
@@ -2493,9 +2493,9 @@ window.songs = [
   },
   {
     "id": 416,
-    "artist": "Vera Lynn",
-    "title": "Auf Wiederseh'n, Sweetheart",
-    "year": 1952
+    "artist": "Topic feat. A7S",
+    "title": "Breaking Me",
+    "year": 2020
   },
   {
     "id": 417,
@@ -2673,9 +2673,9 @@ window.songs = [
   },
   {
     "id": 446,
-    "artist": "The White Stripes",
-    "title": "We're Going to Be Friends",
-    "year": 2001
+    "artist": "Shouse",
+    "title": "Love Tonight",
+    "year": 2017
   },
   {
     "id": 447,
@@ -2703,9 +2703,9 @@ window.songs = [
   },
   {
     "id": 451,
-    "artist": "Vera Lynn",
-    "title": "The Anniversary Waltz",
-    "year": 1941
+    "artist": "Ava Max",
+    "title": "Kings & Queens",
+    "year": 2020
   },
   {
     "id": 452,
@@ -2919,9 +2919,9 @@ window.songs = [
   },
   {
     "id": 487,
-    "artist": "Vera Lynn",
-    "title": "Yours",
-    "year": 1941
+    "artist": "Jason Lemm",
+    "title": "Ficken II",
+    "year": 2021
   },
   {
     "id": 488,
@@ -2955,9 +2955,9 @@ window.songs = [
   },
   {
     "id": 493,
-    "artist": "Udo Jürgens",
-    "title": "Mit 66 Jahren",
-    "year": 1977
+    "artist": "Doja Cat",
+    "title": "Woman",
+    "year": 2021
   },
   {
     "id": 494,
@@ -3123,9 +3123,9 @@ window.songs = [
   },
   {
     "id": 521,
-    "artist": "Vera Lynn",
-    "title": "There'll Always Be an England",
-    "year": 1939
+    "artist": "Ariana Grande",
+    "title": "positions",
+    "year": 2020
   },
   {
     "id": 522,
@@ -3159,9 +3159,9 @@ window.songs = [
   },
   {
     "id": 527,
-    "artist": "Udo Jürgens",
-    "title": "Vielen Dank für die Blumen",
-    "year": 1981
+    "artist": "Shakira & Burna Boy",
+    "title": "Dai Dai",
+    "year": 2026
   },
   {
     "id": 528,
@@ -3363,9 +3363,9 @@ window.songs = [
   },
  {
     "id": 561,
-    "artist": "Udo Jürgens",
-    "title": "Ich war noch niemals in New York",
-    "year": 1982
+    "artist": "Billie Eilish",
+    "title": "BIRDS OF A FEATHER",
+    "year": 2024
   },
   {
     "id": 562,
@@ -3477,9 +3477,9 @@ window.songs = [
   },
   {
     "id": 580,
-    "artist": "Vera Lynn",
-    "title": "The Forces' Sweetheart",
-    "year": 1942
+    "artist": "Coldplay x BTS",
+    "title": "My Universe",
+    "year": 2021
   },
   {
     "id": 581,
@@ -3819,9 +3819,9 @@ window.songs = [
   },
   {
     "id": 637,
-    "artist": "The White Stripes",
-    "title": "I Just Don't Know What to Do with Myself",
-    "year": 2003
+    "artist": "Sam Smith & Kim Petras",
+    "title": "Unholy",
+    "year": 2022
   },
   {
     "id": 638,
@@ -5295,9 +5295,9 @@ window.songs = [
   },
   {
     "id": 883,
-    "artist": "Udo Jürgens",
-    "title": "Merci, Chérie",
-    "year": 1966
+    "artist": "HUNTR/X",
+    "title": "Golden",
+    "year": 2025
   },
   {
     "id": 884,
