@@ -885,9 +885,9 @@ window.songs = [
   },
   {
     "id": 148,
-    "artist": "Linkin Park",
-    "title": "Heavy Is the Crown",
-    "year": 2024
+    "artist": "Fugees",
+    "title": "Killing Me Softly With His Song",
+    "year": 1996
   },
   {
     "id": 149,
@@ -1125,9 +1125,9 @@ window.songs = [
   },
   {
     "id": 188,
-    "artist": "Linkin Park",
-    "title": "Crawling",
-    "year": 2000
+    "artist": "Inner Circle",
+    "title": "Sweat (A La La La La Long)",
+    "year": 1992
   },
   {
     "id": 189,
@@ -1275,9 +1275,9 @@ window.songs = [
   },
   {
     "id": 213,
-    "artist": "Linkin Park",
-    "title": "Faint",
-    "year": 2003
+    "artist": "Stromae",
+    "title": "Alors on danse",
+    "year": 2009
   },
   {
     "id": 214,
