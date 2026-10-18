@@ -1262,7 +1262,7 @@ window.songs = [
     "year": 1975
   },
   {
-    "id": 221,
+    "id": 211,
     "artist": "Tears for Fears",
     "title": "Everybody Wants to Rule the World",
     "year": 1985
@@ -2246,7 +2246,7 @@ window.songs = [
     "year": 1995
   },
   {
-    "id": 409,
+    "id": 375,
     "artist": "Van Morrison",
     "title": "Brown Eyed Girl",
     "year": 1967
@@ -2354,7 +2354,7 @@ window.songs = [
     "year": 2017
   },
   {
-    "id": 928,
+    "id": 393,
     "artist": "Dolly Parton",
     "title": "Jolene",
     "year": 1974
@@ -2966,7 +2966,7 @@ window.songs = [
     "year": 1988
   },
   {
-    "id": 459,
+    "id": 495,
     "artist": "Atomic Kitten",
     "title": "Whole Again",
     "year": 2001
@@ -3008,7 +3008,7 @@ window.songs = [
     "year": 1956
   },
   {
-    "id": 946,
+    "id": 502,
     "artist": "Laura Branigan",
     "title": "Gloria",
     "year": 1982
@@ -3224,7 +3224,7 @@ window.songs = [
     "year": 2010
   },
   {
-    "id": 572,
+    "id": 538,
     "artist": "Men Without Hats",
     "title": "The Safety Dance",
     "year": 1982
@@ -3746,7 +3746,7 @@ window.songs = [
     "year": 1968
   },
   {
-    "id": 1177,
+    "id": 625,
     "artist": "Bruce Springsteen",
     "title": "Born in the U.S.A.",
     "year": 1984
@@ -5966,7 +5966,7 @@ window.songs = [
     "year": 2013
   },
   {
-    "id": 1170,
+    "id": 995,
     "artist": "Bryan Adams",
     "title": "(Everything I Do) I Do It for You",
     "year": 1991
