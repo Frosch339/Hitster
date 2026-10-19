@@ -1192,8 +1192,8 @@ window.songs = [
   {
     "id": 199,
     "artist": "Stevie Wonder",
-    "title": "Superstition",
-    "year": 1972
+    "title": "Part-Time Lover",
+    "year": 1985
   },
   {
     "id": 200,
@@ -2146,8 +2146,8 @@ window.songs = [
   {
     "id": 358,
     "artist": "Bob Marley & The Wailers",
-    "title": "No Woman, No Cry",
-    "year": 1974
+    "title": "Could You Be Loved",
+    "year": 1980
   },
   {
     "id": 359,
@@ -2439,9 +2439,9 @@ window.songs = [
   },
   {
     "id": 407,
-    "artist": "Tiësto & Ava Max",
-    "title": "The Motto",
-    "year": 2021
+    "artist": "Alannah Myles",
+    "title": "Black Velvet",
+    "year": 1989
   },
   {
     "id": 408,
@@ -2715,9 +2715,9 @@ window.songs = [
   },
   {
     "id": 453,
-    "artist": "Haddaway",
-    "title": "What Is Love",
-    "year": 1993
+    "artist": "Berlin",
+    "title": "Take My Breath Away",
+    "year": 1986
   },
   {
     "id": 454,
@@ -2967,9 +2967,9 @@ window.songs = [
   },
   {
     "id": 495,
-    "artist": "Atomic Kitten",
-    "title": "Whole Again",
-    "year": 2001
+    "artist": "George Harrison",
+    "title": "Got My Mind Set on You",
+    "year": 1987
   },
   {
     "id": 496,
@@ -3129,9 +3129,9 @@ window.songs = [
   },
   {
     "id": 522,
-    "artist": "Bobby McFerrin",
-    "title": "Don't Worry, Be Happy",
-    "year": 1988
+    "artist": "Pet Shop Boys",
+    "title": "It's a Sin",
+    "year": 1987
   },
   {
     "id": 523,
@@ -3363,9 +3363,9 @@ window.songs = [
   },
  {
     "id": 561,
-    "artist": "Billie Eilish",
-    "title": "BIRDS OF A FEATHER",
-    "year": 2024
+    "artist": "Kenny Loggins",
+    "title": "Footloose",
+    "year": 1984
   },
   {
     "id": 562,
@@ -3507,9 +3507,9 @@ window.songs = [
   },
   {
     "id": 585,
-    "artist": "Creedence Clearwater Revival",
-    "title": "Bad Moon Rising",
-    "year": 1969
+    "artist": "Kenny Loggins",
+    "title": "Danger Zone",
+    "year": 1986
   },
   {
     "id": 586,
@@ -3639,9 +3639,9 @@ window.songs = [
   },
   {
     "id": 607,
-    "artist": "America",
-    "title": "A Horse with No Name",
-    "year": 1971
+    "artist": "John Farnham",
+    "title": "You're the Voice",
+    "year": 1986
   },
   {
     "id": 608,
@@ -3711,9 +3711,9 @@ window.songs = [
   },
   {
     "id": 619,
-    "artist": "Aretha Franklin",
-    "title": "I Say a Little Prayer",
-    "year": 1968
+    "artist": "Sade",
+    "title": "Smooth Operator",
+    "year": 1984
   },
   {
     "id": 620,
@@ -3777,9 +3777,9 @@ window.songs = [
   },
   {
     "id": 630,
-    "artist": "Rockwell",
-    "title": "Somebody's Watching Me",
-    "year": 1984
+    "artist": "Joan Jett & the Blackhearts",
+    "title": "I Love Rock 'n Roll",
+    "year": 1981
   },
   {
     "id": 631,
@@ -3975,9 +3975,9 @@ window.songs = [
   },
   {
     "id": 663,
-    "artist": "Gnarls Barkley",
-    "title": "Crazy",
-    "year": 2006
+    "artist": "Michael Sembello",
+    "title": "Maniac",
+    "year": 1983
   },
   {
     "id": 664,
@@ -4059,9 +4059,9 @@ window.songs = [
   },
   {
     "id": 677,
-    "artist": "Haddaway",
-    "title": "What Is Love",
-    "year": 1993
+    "artist": "Alice Cooper",
+    "title": "Poison",
+    "year": 1989
   },
   {
     "id": 678,
@@ -4203,9 +4203,9 @@ window.songs = [
   },
   {
     "id": 701,
-    "artist": "4 Non Blondes",
-    "title": "What's Up?",
-    "year": 1992
+    "artist": "Pat Benatar",
+    "title": "Love Is a Battlefield",
+    "year": 1983
   },
   {
     "id": 702,
@@ -4221,9 +4221,9 @@ window.songs = [
   },
   {
     "id": 704,
-    "artist": "Scatman John",
-    "title": "Scatman (Ski-Ba-Bop-Ba-Dop-Bop)",
-    "year": 1994
+    "artist": "The Pointer Sisters",
+    "title": "I'm So Excited",
+    "year": 1982
   },
   {
     "id": 705,
@@ -4239,9 +4239,9 @@ window.songs = [
   },
   {
     "id": 707,
-    "artist": "Fugees",
-    "title": "Killing Me Softly With His Song",
-    "year": 1996
+    "artist": "Kim Carnes",
+    "title": "Bette Davis Eyes",
+    "year": 1981
   },
   {
     "id": 708,
@@ -4401,8 +4401,8 @@ window.songs = [
   },
   {
     "id": 734,
-    "artist": "Europe",
-    "title": "The Final Countdown",
+    "artist": "Modern Talking",
+    "title": "Brother Louie",
     "year": 1986
   },
   {
@@ -4581,9 +4581,9 @@ window.songs = [
   },
   {
     "id": 764,
-    "artist": "Carl Douglas",
-    "title": "Kung Fu Fighting",
-    "year": 1974
+    "artist": "Tiffany",
+    "title": "I Think We're Alone Now",
+    "year": 1987
   },
   {
     "id": 765,
@@ -5961,9 +5961,9 @@ window.songs = [
   },
   {
     "id": 994,
-    "artist": "Lorde",
-    "title": "Royals",
-    "year": 2013
+    "artist": "The Weather Girls",
+    "title": "It's Raining Men",
+    "year": 1982
   },
   {
     "id": 995,
