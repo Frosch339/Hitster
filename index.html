@@ -644,7 +644,7 @@ const wantedTitle = normalizeSpotifyTitle(s.title);
 const exactTitleTracks = tracks.filter(
   t => normalizeSpotifyTitle(t.name) === wantedTitle
 );
-    );
+  
 
     const track = exactTitleTracks.find(t =>
       (t.artists || []).some(a =>
