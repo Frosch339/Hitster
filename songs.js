@@ -99,7 +99,7 @@ window.songs = [
   },
   {
     "id": 17,
-    "artist": "T-Pain",
+    "artist": "T-Pain feat. Akon",
     "title": "Bartender",
     "year": 2007
   },
@@ -116,10 +116,10 @@ window.songs = [
     "year": 1973
   },
   {
-    "id": 20,
-    "artist": "Dr. Dre ft. Snoop Dogg",
-    "title": "Still D.R.E.",
-    "year": 1999
+    "id": 214,
+    "artist": "Will Smith",
+    "title": "Gettin' Jiggy wit It",
+    "year": 1997
   },
   {
     "id": 21,
@@ -382,7 +382,7 @@ window.songs = [
   {
     "id": 64,
     "artist": "Diddy ft. Faith Evans",
-    "title": "I'll Be Missing You",
+    "title": "Ill Be Missing You",
     "year": 1997
   },
   {
@@ -525,7 +525,7 @@ window.songs = [
   },
   {
     "id": 88,
-    "artist": "Mackelmore & Ryan Lewis",
+    "artist": "Macklemore & Ryan Lewis",
     "title": "Thrift Shop",
     "year": 2012
   },
@@ -549,14 +549,14 @@ window.songs = [
   },
   {
     "id": 92,
-    "artist": "Eminem ft. Rihanna",
+    "artist": "Eminem & Rihanna",
     "title": "Love the Way You Lie",
     "year": 2010
   },
   {
     "id": 93,
-    "artist": "Pink Floyd",
-    "title": "Another Brick in the Wall",
+    "artist": "The Buggles",
+    "title": "Video Killed the Radio Star",
     "year": 1979
   },
   {
@@ -579,8 +579,8 @@ window.songs = [
   },
   {
     "id": 97,
-    "artist": "David Guetta ft. Sia",
-    "title": "Titanium",
+    "artist": "David Guetta",
+    "title": "Titanium (ft. Sia)",
     "year": 2011
   },
   {
