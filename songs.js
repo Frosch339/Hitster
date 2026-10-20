@@ -579,8 +579,8 @@ window.songs = [
   },
   {
     "id": 97,
-    "artist": "David Guetta",
-    "title": "Titanium (ft. Sia)",
+    "artist": "David Guetta ft. Sia",
+    "title": "Titanium",
     "year": 2011
   },
   {
