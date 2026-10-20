@@ -659,8 +659,11 @@ console.log("Spotify-Treffer:", tracks.map(t => ({
 })));
 
 const exactTitleTracks = tracks.filter(t => {
-  const titleMatches =
-    normalizeSpotifyTitle(t.name) === wantedTitle;
+ const spotifyTitle = normalizeSpotifyTitle(t.name);
+
+const titleMatches =
+  spotifyTitle === wantedTitle ||
+  spotifyTitle.startsWith(wantedTitle + " ");
 
   const isLiveVersion =
     /\blive\b/i.test(t.name) ||
