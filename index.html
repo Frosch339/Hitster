@@ -636,9 +636,14 @@ async () => {
 const tracks = searchData.tracks?.items || [];
 
 const normalizeSpotifyTitle = value =>
-  normalizeSpotifyText(value)
+  normalizeSpotifyText(
+    String(value || "")
+      .replace(
+        /\s*(?:-\s*|\(\s*|\[\s*)remaster(?:ed)?(?:\s+\d{4})?\s*\)?\]?$/i,
+        ""
+      )
+  )
     .replace(/\s+(?:feat|ft|featuring)\.?\s+.*$/, "")
-    .replace(/\s*-\s*remaster(?:ed)?(?:\s+\d{4})?$/, "")
     .trim();
 
 const wantedTitle = normalizeSpotifyTitle(s.title);
