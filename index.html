@@ -642,6 +642,8 @@ const normalizeSpotifyTitle = value =>
         /\s*(?:-\s*|\(\s*|\[\s*)remaster(?:ed)?(?:\s+\d{4})?\s*\)?\]?$/i,
         ""
       )
+      .replace(/\s*\(\s*Who Loves Me\s*\)\s*$/i, "")
+      .replace(/\s*-\s*(?:Mono|Single Version|Radio Edit)\s*$/i, "")
   )
     .replace(/\s+(?:feat|ft|featuring)\.?\s+.*$/, "")
     .trim();
