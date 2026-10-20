@@ -669,6 +669,19 @@ const exactTitleTracks = tracks.filter(t => {
   return titleMatches && !isLiveVersion;
 });
 
+console.log("DEBUG - Gesuchter Titel:", wantedTitle);
+console.log("DEBUG - Erkannte Interpreten:", creditedArtists);
+console.log("DEBUG - Titeltreffer nach Filter:");
+
+console.table(exactTitleTracks.map(t => ({
+  spotifyTitle: t.name,
+  normalizedTitle: normalizeSpotifyTitle(t.name),
+  spotifyArtist: (t.artists || []).map(a => a.name).join(", "),
+  normalizedArtist: (t.artists || [])
+    .map(a => normalizeSpotifyText(a.name)).join(", "),
+  album: t.album?.name
+})));
+    
 const track = exactTitleTracks.find(t =>
   (t.artists || []).some(a => {
     const spotifyArtist = normalizeSpotifyText(a.name);
