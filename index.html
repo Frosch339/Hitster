@@ -603,10 +603,10 @@ async () => {
       .trim();
 
     const creditedArtists = [
-      ...artistCredit
-        .split(/\s*(?:,|&)\s*|\s+(?:ft|feat|featuring)\.?\s+/i)
-        .map(normalizeSpotifyText)
-    ].filter(Boolean);
+  ...artistCredit
+    .split(/\s*,\s*|\s+(?:ft|feat|featuring)\.?\s+/i)
+    .map(normalizeSpotifyText)
+].filter(Boolean);
 
     const query = encodeURIComponent(
       `track:${s.title} artist:${leadArtist}`
