@@ -634,10 +634,16 @@ async () => {
 
     const tracks = searchData.tracks?.items || [];
 
-    const wantedTitle = normalizeSpotifyText(s.title);
+    const normalizeSpotifyTitle = value =>
+  normalizeSpotifyText(value)
+    .replace(/\s+(?:feat|ft|featuring)\s+.*$/, "")
+    .trim();
 
-    const exactTitleTracks = tracks.filter(
-      t => normalizeSpotifyText(t.name) === wantedTitle
+const wantedTitle = normalizeSpotifyTitle(s.title);
+
+const exactTitleTracks = tracks.filter(
+  t => normalizeSpotifyTitle(t.name) === wantedTitle
+);
     );
 
     const track = exactTitleTracks.find(t =>
