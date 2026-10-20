@@ -375,7 +375,7 @@ window.songs = [
   },
   {
     "id": 63,
-    "artist": "The Mamas & the Papas",
+    "artist": "The Mamas & The Papas",
     "title": "Monday, Monday",
     "year": 1966
   },
@@ -1971,7 +1971,7 @@ window.songs = [
   },
   {
     "id": 329,
-    "artist": "The Mamas & the Papas",
+    "artist": "The Mamas & The Papas",
     "title": "California Dreamin'",
     "year": 1965
   },
