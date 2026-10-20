@@ -670,9 +670,13 @@ const exactTitleTracks = tracks.filter(t => {
 });
 
 const track = exactTitleTracks.find(t =>
-  (t.artists || []).some(a =>
-    creditedArtists.includes(normalizeSpotifyText(a.name))
-  )
+  (t.artists || []).some(a => {
+    const spotifyArtist = normalizeSpotifyText(a.name);
+
+    return creditedArtists.some(creditedArtist =>
+      spotifyArtist === normalizeSpotifyText(creditedArtist)
+    );
+  })
 );
 
 if (!track) {
