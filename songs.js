@@ -160,7 +160,7 @@ window.songs = [
   {
     "id": 27,
     "artist": "Whitney Houston",
-    "title": "I Wanna Dance with Somebody",
+    "title": "I Wanna Dance with Somebody (Who Loves Me)",
     "year": 1987
   },
   {
