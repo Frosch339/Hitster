@@ -633,7 +633,7 @@ window.songs = [
   },
   {
     "id": 106,
-    "artist": "Fool's Garden",
+    "artist": "Fools Garden",
     "title": "Lemon Tree",
     "year": 1995
   },
