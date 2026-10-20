@@ -632,36 +632,40 @@ async () => {
       );
     }
 
-    const tracks = searchData.tracks?.items || [];
+    
+const tracks = searchData.tracks?.items || [];
 
-    const normalizeSpotifyTitle = value =>
+const normalizeSpotifyTitle = value =>
   normalizeSpotifyText(value)
-    .replace(/\s+(?:feat|ft|featuring)\s+.*$/, "")
+    .replace(/\s+(?:feat|ft|featuring)\.?\s+.*$/, "")
     .trim();
 
 const wantedTitle = normalizeSpotifyTitle(s.title);
 
-const exactTitleTracks = tracks.filter(
-  t => normalizeSpotifyTitle(t.name) === wantedTitle
+const exactTitleTracks = tracks.filter(t => {
+  const titleMatches =
+    normalizeSpotifyTitle(t.name) === wantedTitle;
+
+  const isLiveVersion =
+    /\blive\b/i.test(t.name) ||
+    /\blive\b/i.test(t.album?.name || "");
+
+  return titleMatches && !isLiveVersion;
+});
+
+const track = exactTitleTracks.find(t =>
+  (t.artists || []).some(a =>
+    creditedArtists.includes(normalizeSpotifyText(a.name))
+  )
 );
-  
 
-    const track = exactTitleTracks.find(t =>
-      (t.artists || []).some(a =>
-        creditedArtists.includes(normalizeSpotifyText(a.name))
-      )
-    );
-
-    if (!track) {
-      throw new Error(
-        "Kein eindeutiger Songtitel gefunden: " +
-        s.artist + " – " + s.title +
-        ". Bitte manuell prüfen."
-      );
-    }
-
-    
-      track.artists
+if (!track) {
+  throw new Error(
+    "Keine passende Studioaufnahme gefunden: " +
+    s.artist + " – " + s.title +
+    ". Bitte manuell prüfen."
+  );
+}
 
 
     console.log(
