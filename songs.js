@@ -1132,7 +1132,7 @@ window.songs = [
   {
     "id": 189,
     "artist": "Kid Cudi feat. MGMT & Ratatat",
-    "title": "Pursuit Of Happiness",
+    "title": "Pursuit Of Happiness (Nightmare)",
     "year": 2009
   },
   {
