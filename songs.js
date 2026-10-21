@@ -867,9 +867,9 @@ window.songs = [
   },
   {
     "id": 145,
-    "artist": "Danzel",
-    "title": "Pump It Up!",
-    "year": 2004
+    "artist": "Chubby Checker",
+    "title": "Let's Twist Again",
+    "year": 1961
   },
   {
     "id": 146,
