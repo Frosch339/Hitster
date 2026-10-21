@@ -807,9 +807,9 @@ window.songs = [
   },
   {
     "id": 135,
-    "artist": "Queen",
-    "title": "We Will Rock You",
-    "year": 1977
+    "artist": "Queen & David Bowie",
+    "title": "Under Pressure",
+    "year": 1981
   },
   {
     "id": 136,
@@ -1797,9 +1797,9 @@ window.songs = [
   },
   {
     "id": 300,
-    "artist": "Andrea Berg",
-    "title": "Ja ich will",
-    "year": 2019
+    "artist": "Mickie Krause, Lorenz Büffel, Kings of Günter & Immer Hansi",
+    "title": "Baila Baila",
+    "year": 2025
   },
   {
     "id": 301,
@@ -1996,8 +1996,8 @@ window.songs = [
   {
     "id": 333,
     "artist": "Andrea Berg",
-    "title": "Diese Nacht ist jede Sünde wert",
-    "year": 2016
+    "title": "Die Gefühle haben Schweigepflicht",
+    "year": 1995
   },
   {
     "id": 334,
@@ -2331,9 +2331,9 @@ window.songs = [
   },
   {
     "id": 389,
-    "artist": "Avicii",
-    "title": "Addicted To You",
-    "year": 2013
+    "artist": "Tim Berg",
+    "title": "Seek Bromance (Avicii's Vocal Edit)",
+    "year": 2010
   },
   {
     "id": 390,
@@ -4683,9 +4683,9 @@ window.songs = [
   },
   {
     "id": 781,
-    "artist": "Usher",
-    "title": "Burn",
-    "year": 2004
+    "artist": "Usher feat. will.i.am",
+    "title": "OMG",
+    "year": 2010
   },
   {
     "id": 782,
@@ -4876,8 +4876,8 @@ window.songs = [
   {
     "id": 813,
     "artist": "Loona",
-    "title": "Mamboleo",
-    "year": 1999
+    "title": "Vamos a la playa",
+    "year": 2010
   },
   {
     "id": 814,
@@ -4995,9 +4995,9 @@ window.songs = [
   },
   {
     "id": 833,
-    "artist": "Kanye West",
-    "title": "Stronger",
-    "year": 2007
+    "artist": "Jay-Z & Kanye West",
+    "title": "Niggas in Paris",
+    "year": 2011
   },
   {
     "id": 834,
@@ -5020,8 +5020,8 @@ window.songs = [
   {
     "id": 837,
     "artist": "Die Fantastischen Vier",
-    "title": "Tag am Meer",
-    "year": 1993
+    "title": "Die Da!?!",
+    "year": 1992
   },
   {
     "id": 838,
@@ -5229,9 +5229,9 @@ window.songs = [
   },
   {
     "id": 872,
-    "artist": "Usher",
-    "title": "Caught Up",
-    "year": 2004
+    "artist": "Usher feat. Pitbull",
+    "title": "DJ Got Us Fallin' in Love",
+    "year": 2010
   },
   {
     "id": 873,
@@ -5302,8 +5302,8 @@ window.songs = [
   {
     "id": 884,
     "artist": "Whitney Houston",
-    "title": "Saving All My Love for You",
-    "year": 1985
+    "title": "I Have Nothing",
+    "year": 1993
   },
   {
     "id": 885,
@@ -5769,9 +5769,9 @@ window.songs = [
   },
   {
     "id": 962,
-    "artist": "Eiffel 65",
-    "title": "Lucky (In My Life)",
-    "year": 2001
+    "artist": "Vengaboys",
+    "title": "Boom, Boom, Boom, Boom!!",
+    "year": 1998
   },
   {
     "id": 963,
@@ -5818,8 +5818,8 @@ window.songs = [
   {
     "id": 970,
     "artist": "Aerosmith",
-    "title": "Rag Doll",
-    "year": 1987
+    "title": "Crazy",
+    "year": 1993
   },
   {
     "id": 971,
