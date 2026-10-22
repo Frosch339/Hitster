@@ -152,12 +152,6 @@ window.songs = [
     "year": 2015
   },
   {
-    "id": 26,
-    "artist": "Johnny Cash",
-    "title": "Hurt",
-    "year": 2003
-  },
-  {
     "id": 27,
     "artist": "Whitney Houston",
     "title": "I Wanna Dance with Somebody (Who Loves Me)",
@@ -181,23 +175,11 @@ window.songs = [
     "title": "Rock Around the Clock",
     "year": 1954
   },
-  {
-    "id": 31,
-    "artist": "Die Ärzte",
-    "title": "Männer sind Schweine",
-    "year": 1997
-  },
-  {
+   {
     "id": 32,
     "artist": "The Weeknd",
     "title": "Blinding Lights",
     "year": 2020
-  },
-  {
-    "id": 33,
-    "artist": "Linkin Park",
-    "title": "The Emptiness Machine",
-    "year": 2025
   },
   {
     "id": 34,
@@ -530,12 +512,6 @@ window.songs = [
     "year": 2012
   },
   {
-    "id": 89,
-    "artist": "Sabrina Carpenter",
-    "title": "Please Please Please",
-    "year": 2024
-  },
-  {
     "id": 90,
     "artist": "Billie Eilish",
     "title": "Ocean Eyes",
@@ -800,12 +776,6 @@ window.songs = [
     "year": 1990
   },
   {
-    "id": 134,
-    "artist": "Sabrina Carpenter",
-    "title": "Taste",
-    "year": 2024
-  },
-  {
     "id": 135,
     "artist": "Queen & David Bowie",
     "title": "Under Pressure",
@@ -871,13 +841,7 @@ window.songs = [
     "title": "Let's Twist Again",
     "year": 1961
   },
-  {
-    "id": 146,
-    "artist": "Johnny Cash",
-    "title": "Folsom Prison Blues",
-    "year": 1955
-  },
-  {
+   {
     "id": 147,
     "artist": "Daft Punk",
     "title": "Around the World",
@@ -944,12 +908,6 @@ window.songs = [
     "year": 1996
   },
   {
-    "id": 158,
-    "artist": "Metallica",
-    "title": "Master of Puppets",
-    "year": 1986
-  },
-  {
     "id": 159,
     "artist": "The Beach Boys",
     "title": "California Girls",
@@ -997,13 +955,7 @@ window.songs = [
     "title": "Großvater",
     "year": 1984
   },
-  {
-    "id": 167,
-    "artist": "Guns N' Roses",
-    "title": "November Rain",
-    "year": 1991
-  },
-  {
+   {
     "id": 168,
     "artist": "Rihanna",
     "title": "Only Girl (In the World)",
@@ -1105,23 +1057,12 @@ window.songs = [
     "title": "Three Little Birds",
     "year": 1977
   },
-  {
-    "id": 185,
-    "artist": "Bruno Mars",
-    "title": "24K Magic",
-    "year": 2016
-  },
+ 
   {
     "id": 186,
     "artist": "Elvis Presley",
     "title": "Jailhouse Rock",
     "year": 1957
-  },
-  {
-    "id": 187,
-    "artist": "Daft Punk ft. Julian Casablancas",
-    "title": "Instant Crush",
-    "year": 2013
   },
   {
     "id": 188,
@@ -1183,13 +1124,7 @@ window.songs = [
     "title": "Johnny B. Goode",
     "year": 1958
   },
-  {
-    "id": 198,
-    "artist": "Metallica",
-    "title": "Sad But True",
-    "year": 1991
-  },
-  {
+   {
     "id": 199,
     "artist": "Stevie Wonder",
     "title": "Part-Time Lover",
@@ -1321,13 +1256,7 @@ window.songs = [
     "title": "Engel",
     "year": 1997
   },
-  {
-    "id": 221,
-    "artist": "Dua Lipa",
-    "title": "Dance The Night",
-    "year": 2023
-  },
-  {
+   {
     "id": 222,
     "artist": "Elvis Presley",
     "title": "Can't Help Falling in Love",
@@ -1356,12 +1285,6 @@ window.songs = [
     "artist": "Howard Carpendale",
     "title": "Hello Again",
     "year": 1984
-  },
-  {
-    "id": 227,
-    "artist": "Lady Gaga",
-    "title": "Born This Way",
-    "year": 2011
   },
   {
     "id": 228,
@@ -1394,12 +1317,6 @@ window.songs = [
     "year": 1980
   },
   {
-    "id": 233,
-    "artist": "Fisher & Aatig",
-    "title": "Take It Off",
-    "year": 2023
-  },
-  {
     "id": 234,
     "artist": "Ray Parker Jr.",
     "title": "Ghostbusters",
@@ -1411,13 +1328,7 @@ window.songs = [
     "title": "Rude",
     "year": 2013
   },
-  {
-    "id": 236,
-    "artist": "Guns N' Roses",
-    "title": "Don't Cry",
-    "year": 1991
-  },
-  {
+   {
     "id": 237,
     "artist": "Avicii",
     "title": "Waiting For Love",
@@ -1604,12 +1515,6 @@ window.songs = [
     "year": 2008
   },
   {
-    "id": 268,
-    "artist": "Fisher",
-    "title": "Take It Off",
-    "year": 2023
-  },
-  {
     "id": 269,
     "artist": "Leony",
     "title": "Remedy",
@@ -1646,12 +1551,6 @@ window.songs = [
     "year": 2017
   },
   {
-    "id": 275,
-    "artist": "Purple Disco Machine & Kungs",
-    "title": "Substitution",
-    "year": 2023
-  },
-  {
     "id": 276,
     "artist": "Ellie Goulding",
     "title": "Love Me Like You Do",
@@ -1663,13 +1562,7 @@ window.songs = [
     "title": "Father and Son",
     "year": 1970
   },
-  {
-    "id": 278,
-    "artist": "Die Ärzte",
-    "title": "Westerland",
-    "year": 1988
-  },
-  {
+   {
     "id": 279,
     "artist": "Shakira",
     "title": "Whenever, Wherever",
@@ -1807,13 +1700,7 @@ window.songs = [
     "title": "Schwarz zu Blau",
     "year": 2008
   },
-  {
-    "id": 302,
-    "artist": "Fisher",
-    "title": "You Little Beauty",
-    "year": 2019
-  },
-  {
+   {
     "id": 303,
     "artist": "Zara Larsson",
     "title": "Midnight Sun",
@@ -1855,25 +1742,13 @@ window.songs = [
     "title": "All Right Now",
     "year": 1970
   },
-  {
-    "id": 310,
-    "artist": "Die Ärzte",
-    "title": "Manchmal haben Frauen...",
-    "year": 2000
-  },
-  {
+   {
     "id": 311,
     "artist": "Shakira",
     "title": "She Wolf",
     "year": 2009
   },
-  {
-    "id": 312,
-    "artist": "Green Day",
-    "title": "American Idiot",
-    "year": 2004
-  },
-  {
+   {
     "id": 313,
     "artist": "The Supremes",
     "title": "Baby Love",
@@ -1915,13 +1790,7 @@ window.songs = [
     "title": "Georgia on My Mind",
     "year": 1960
   },
-  {
-    "id": 320,
-    "artist": "Katy Perry",
-    "title": "Firework",
-    "year": 2010
-  },
-  {
+   {
     "id": 321,
     "artist": "Coldplay",
     "title": "Viva La Vida",
@@ -2041,29 +1910,11 @@ window.songs = [
     "title": "Ficken",
     "year": 2017
   },
-  {
-    "id": 341,
-    "artist": "Purple Disco Machine",
-    "title": "Honey Boy",
-    "year": 2024
-  },
-  {
+   {
     "id": 342,
     "artist": "Swedish House Mafia",
     "title": "Save the World",
     "year": 2011
-  },
-  {
-    "id": 343,
-    "artist": "Die Ärzte",
-    "title": "Lasse redn",
-    "year": 2007
-  },
-  {
-    "id": 344,
-    "artist": "Shakira",
-    "title": "Loca",
-    "year": 2010
   },
   {
     "id": 345,
@@ -2107,13 +1958,7 @@ window.songs = [
     "title": "Hit the Road Jack",
     "year": 1961
   },
-  {
-    "id": 352,
-    "artist": "Katy Perry",
-    "title": "Roar",
-    "year": 2013
-  },
-  {
+   {
     "id": 353,
     "artist": "Truth Hurts ft. Rakim",
     "title": "Addictive",
@@ -2215,13 +2060,7 @@ window.songs = [
     "title": "Mickey",
     "year": 1981
   },
-  {
-    "id": 370,
-    "artist": "Fisher",
-    "title": "Just Feels Tight",
-    "year": 2021
-  },
-  {
+   {
     "id": 371,
     "artist": "Tate McRae",
     "title": "greedy",
@@ -2251,13 +2090,7 @@ window.songs = [
     "title": "Brown Eyed Girl",
     "year": 1967
   },
-  {
-    "id": 376,
-    "artist": "Purple Disco Machine",
-    "title": "Body Funk",
-    "year": 2017
-  },
-  {
+   {
     "id": 377,
     "artist": "Black Sabbath",
     "title": "Paranoid",
@@ -2323,12 +2156,7 @@ window.songs = [
     "title": "Teenage Dream",
     "year": 2010
   },
-  {
-    "id": 388,
-    "artist": "Coldplay",
-    "title": "Fix You",
-    "year": 2005
-  },
+ 
   {
     "id": 389,
     "artist": "Tim Berg",
@@ -2340,12 +2168,6 @@ window.songs = [
     "artist": "Emilia",
     "title": "Big Big World",
     "year": 1998
-  },
-  {
-    "id": 391,
-    "artist": "Sabrina Carpenter",
-    "title": "Feather",
-    "year": 2023
   },
   {
     "id": 392,
@@ -2456,12 +2278,6 @@ window.songs = [
     "year": 1988
   },
   {
-    "id": 410,
-    "artist": "Purple Disco Machine",
-    "title": "Dished (Male Stripper)",
-    "year": 2018
-  },
-  {
     "id": 411,
     "artist": "James Brown",
     "title": "Get Up (I Feel Like Being a) Sex Machine",
@@ -2472,18 +2288,6 @@ window.songs = [
     "artist": "Kollegah",
     "title": "Du bist Boss",
     "year": 2014
-  },
-  {
-    "id": 413,
-    "artist": "T. Rex",
-    "title": "Telegram Sam",
-    "year": 1972
-  },
-  {
-    "id": 414,
-    "artist": "Green Day",
-    "title": "21 Guns",
-    "year": 2009
   },
   {
     "id": 415,
@@ -2503,12 +2307,7 @@ window.songs = [
     "title": "Stereo Love",
     "year": 2009
   },
-  {
-    "id": 418,
-    "artist": "Depeche Mode",
-    "title": "Wrong",
-    "year": 2009
-  },
+ 
   {
     "id": 419,
     "artist": "Tears for Fears",
@@ -2617,13 +2416,7 @@ window.songs = [
     "title": "I Say a Little Prayer",
     "year": 1968
   },
-  {
-    "id": 437,
-    "artist": "Dua Lipa",
-    "title": "Illusion",
-    "year": 2024
-  },
-  {
+   {
     "id": 438,
     "artist": "Shindy",
     "title": "ROSE",
@@ -2803,24 +2596,13 @@ window.songs = [
     "title": "Ich bin wie du",
     "year": 1975
   },
-  {
-    "id": 468,
-    "artist": "Deep Purple",
-    "title": "Hush",
-    "year": 1968
-  },
-  {
+    {
     "id": 469,
     "artist": "PSY",
     "title": "Gangnam Style",
     "year": 2012
   },
-  {
-    "id": 470,
-    "artist": "Chuck Berry",
-    "title": "You Never Can Tell",
-    "year": 1964
-  },
+  
   {
     "id": 471,
     "artist": "Oasis",
@@ -2935,13 +2717,7 @@ window.songs = [
     "title": "Wherever You Will Go",
     "year": 2001
   },
-  {
-    "id": 490,
-    "artist": "Eurythmics",
-    "title": "Who's That Girl?",
-    "year": 1983
-  },
-  {
+   {
     "id": 491,
     "artist": "Mausio",
     "title": "Krustenf!cker",
@@ -2990,23 +2766,12 @@ window.songs = [
     "year": 1989
   },
   {
-    "id": 499,
-    "artist": "Deep Purple",
-    "title": "Black Night",
-    "year": 1970
-  },
-  {
     "id": 500,
     "artist": "Carly Rae Jepsen",
     "title": "Call Me Maybe",
     "year": 2011
   },
-  {
-    "id": 501,
-    "artist": "Chuck Berry",
-    "title": "Roll Over Beethoven",
-    "year": 1956
-  },
+  
   {
     "id": 502,
     "artist": "Laura Branigan",
@@ -3193,24 +2958,14 @@ window.songs = [
     "title": "Cars",
     "year": 1979
   },
-  {
-    "id": 533,
-    "artist": "Deep Purple",
-    "title": "Highway Star",
-    "year": 1972
-  },
+  
   {
     "id": 534,
     "artist": "Bruno Mars",
     "title": "That's What I Like",
     "year": 2016
   },
-  {
-    "id": 535,
-    "artist": "Chuck Berry",
-    "title": "Sweet Little Sixteen",
-    "year": 1958
-  },
+ 
   {
     "id": 536,
     "artist": "Uncle Kracker feat. Dobie Gray",
@@ -3480,12 +3235,6 @@ window.songs = [
     "artist": "Coldplay x BTS",
     "title": "My Universe",
     "year": 2021
-  },
-  {
-    "id": 581,
-    "artist": "Eurythmics",
-    "title": "Love Is a Stranger",
-    "year": 1982
   },
   {
     "id": 582,
@@ -3895,13 +3644,7 @@ window.songs = [
     "title": "Rhythm Is a Dancer",
     "year": 1992
   },
-  {
-    "id": 650,
-    "artist": "Justin Timberlake",
-    "title": "Cry Me a River",
-    "year": 2002
-  },
-  {
+   {
     "id": 651,
     "artist": "The Clash",
     "title": "London Calling",
@@ -4009,13 +3752,7 @@ window.songs = [
     "title": "Insomnia",
     "year": 1995
   },
-  {
-    "id": 669,
-    "artist": "Kanye West",
-    "title": "Gold Digger",
-    "year": 2005
-  },
-  {
+   {
     "id": 670,
     "artist": "The Knack",
     "title": "My Sharona",
@@ -4110,12 +3847,6 @@ window.songs = [
     "artist": "Kansas",
     "title": "Dust in the Wind",
     "year": 1977
-  },
-  {
-    "id": 686,
-    "artist": "Lou Bega",
-    "title": "Mambo No. 5 (A Little Bit of...)",
-    "year": 1999
   },
   {
     "id": 687,
@@ -4280,12 +4011,6 @@ window.songs = [
     "year": 1993
   },
   {
-    "id": 714,
-    "artist": "Robbie Williams",
-    "title": "Angels",
-    "year": 1997
-  },
-  {
     "id": 715,
     "artist": "Supertramp",
     "title": "The Logical Song",
@@ -4448,12 +4173,6 @@ window.songs = [
     "year": 2000
   },
   {
-    "id": 742,
-    "artist": "Meat Loaf",
-    "title": "Paradise by the Dashboard Light",
-    "year": 1977
-  },
-  {
     "id": 743,
     "artist": "Eiffel 65",
     "title": "Blue (Da Ba Dee)",
@@ -4495,12 +4214,7 @@ window.songs = [
     "title": "Murcielago",
     "year": 2016
   },
-  {
-    "id": 750,
-    "artist": "Bonnie Tyler",
-    "title": "Faster Than the Speed of Night",
-    "year": 1983
-  },
+  
   {
     "id": 751,
     "artist": "John Paul Young",
@@ -4513,12 +4227,7 @@ window.songs = [
     "title": "God Is a DJ",
     "year": 1998
   },
-  {
-    "id": 753,
-    "artist": "Craig David",
-    "title": "7 Days",
-    "year": 2000
-  },
+ 
   {
     "id": 754,
     "artist": "Earth, Wind & Fire",
@@ -4567,13 +4276,7 @@ window.songs = [
     "title": "The Boys Are Back in Town",
     "year": 1976
   },
-  {
-    "id": 762,
-    "artist": "Red Hot Chili Peppers",
-    "title": "Under the Bridge",
-    "year": 1991
-  },
-  {
+   {
     "id": 763,
     "artist": "Alicia Keys",
     "title": "Fallin'",
@@ -4585,12 +4288,7 @@ window.songs = [
     "title": "I Think We're Alone Now",
     "year": 1987
   },
-  {
-    "id": 765,
-    "artist": "Bloodhound Gang",
-    "title": "Along Comes Mary",
-    "year": 1999
-  },
+ 
   {
     "id": 766,
     "artist": "Amy Winehouse",
@@ -4658,12 +4356,6 @@ window.songs = [
     "year": 1974
   },
   {
-    "id": 777,
-    "artist": "R.E.M.",
-    "title": "Shiny Happy People",
-    "year": 1991
-  },
-  {
     "id": 778,
     "artist": "Gwen Stefani ft. Akon",
     "title": "The Sweet Escape",
@@ -4717,13 +4409,7 @@ window.songs = [
     "title": "Ready or Not",
     "year": 1996
   },
-  {
-    "id": 787,
-    "artist": "Kelly Clarkson",
-    "title": "Behind These Hazel Eyes",
-    "year": 2004
-  },
-  {
+   {
     "id": 788,
     "artist": "Blondie",
     "title": "Call Me",
@@ -4765,13 +4451,7 @@ window.songs = [
     "title": "Lust for Life",
     "year": 1977
   },
-  {
-    "id": 795,
-    "artist": "Die Fantastischen Vier",
-    "title": "MFG",
-    "year": 1999
-  },
-  {
+   {
     "id": 796,
     "artist": "Mary J. Blige",
     "title": "Be Without You",
@@ -4800,18 +4480,6 @@ window.songs = [
     "artist": "The Knack",
     "title": "Good Girls Don't",
     "year": 1979
-  },
-  {
-    "id": 801,
-    "artist": "Lou Bega",
-    "title": "I Got a Girl",
-    "year": 1999
-  },
-  {
-    "id": 802,
-    "artist": "The Killers",
-    "title": "When You Were Young",
-    "year": 2006
   },
   {
     "id": 803,
@@ -4861,13 +4529,7 @@ window.songs = [
     "title": "Irreplaceable",
     "year": 2006
   },
-  {
-    "id": 811,
-    "artist": "Natalie Imbruglia",
-    "title": "Big Mistake",
-    "year": 1998
-  },
-  {
+   {
     "id": 812,
     "artist": "Gerry Rafferty",
     "title": "Right Down the Line",
@@ -4891,13 +4553,7 @@ window.songs = [
     "title": "I'd Do Anything for Love (But I Won't Do That)",
     "year": 1993
   },
-  {
-    "id": 816,
-    "artist": "Eiffel 65",
-    "title": "Move Your Body",
-    "year": 1999
-  },
-  {
+   {
     "id": 817,
     "artist": "Shaggy ft. Rikrok",
     "title": "Angel",
@@ -4910,28 +4566,10 @@ window.songs = [
     "year": 1978
   },
   {
-    "id": 819,
-    "artist": "T. Rex",
-    "title": "Children of the Revolution",
-    "year": 1972
-  },
-  {
     "id": 820,
     "artist": "John Paul Young",
     "title": "Standing in the Rain",
     "year": 1977
-  },
-  {
-    "id": 821,
-    "artist": "Craig David",
-    "title": "Fill Me In",
-    "year": 2000
-  },
-  {
-    "id": 822,
-    "artist": "Mr. President",
-    "title": "Give 'A' Little Love",
-    "year": 1996
   },
   {
     "id": 823,
@@ -4950,12 +4588,6 @@ window.songs = [
     "artist": "Aerosmith",
     "title": "I Don't Want to Miss a Thing",
     "year": 1998
-  },
-  {
-    "id": 826,
-    "artist": "Thin Lizzy",
-    "title": "Whiskey in the Jar",
-    "year": 1972
   },
   {
     "id": 827,
@@ -5024,30 +4656,6 @@ window.songs = [
     "year": 1992
   },
   {
-    "id": 838,
-    "artist": "Smokie",
-    "title": "Needles and Pins",
-    "year": 1977
-  },
-  {
-    "id": 839,
-    "artist": "Fugees",
-    "title": "Fu-Gee-La",
-    "year": 1995
-  },
-  {
-    "id": 840,
-    "artist": "Mr. Big",
-    "title": "Just Take My Heart",
-    "year": 1991
-  },
-  {
-    "id": 841,
-    "artist": "Lou Bega",
-    "title": "Tricky, Tricky",
-    "year": 1999
-  },
-  {
     "id": 842,
     "artist": "The Killers",
     "title": "Human",
@@ -5057,25 +4665,13 @@ window.songs = [
     "id": 843,
     "artist": "Peter Maffay",
     "title": "Du",
-    "year": 1970
-  },
-  {
-    "id": 844,
-    "artist": "Ace of Base",
-    "title": "Don't Turn Around",
-    "year": 1994
+    "year": 1970   
   },
   {
     "id": 845,
     "artist": "Nelly",
     "title": "Hot in Herre",
     "year": 2002
-  },
-  {
-    "id": 846,
-    "artist": "Rod Stewart",
-    "title": "Maggie May",
-    "year": 1971
   },
   {
     "id": 847,
@@ -5102,12 +4698,6 @@ window.songs = [
     "year": 2008
   },
   {
-    "id": 851,
-    "artist": "Natalie Imbruglia",
-    "title": "Smoke",
-    "year": 1998
-  },
-  {
     "id": 852,
     "artist": "Gerry Rafferty",
     "title": "Night Owl",
@@ -5126,53 +4716,17 @@ window.songs = [
     "year": 2004
   },
   {
-    "id": 855,
-    "artist": "Meat Loaf",
-    "title": "Bat Out of Hell",
-    "year": 1977
-  },
-  {
-    "id": 856,
-    "artist": "Eiffel 65",
-    "title": "Too Much of Heaven",
-    "year": 2000
-  },
-  {
     "id": 857,
     "artist": "Shaggy",
     "title": "Boombastic",
     "year": 1995
   },
   {
-    "id": 858,
-    "artist": "Hot Chocolate",
-    "title": "So You Win Again",
-    "year": 1977
-  },
-  {
-    "id": 859,
-    "artist": "T. Rex",
-    "title": "20th Century Boy",
-    "year": 1973
-  },
-  {
     "id": 860,
     "artist": "John Paul Young",
     "title": "Lost in Your Love",
     "year": 1978
-  },
-  {
-    "id": 861,
-    "artist": "Craig David",
-    "title": "Walking Away",
-    "year": 2000
-  },
-  {
-    "id": 862,
-    "artist": "Mr. President",
-    "title": "JoJo Action",
-    "year": 1997
-  },
+  }, 
   {
     "id": 863,
     "artist": "Snoop Dogg",
@@ -5180,28 +4734,10 @@ window.songs = [
     "year": 2003
   },
   {
-    "id": 864,
-    "artist": "Sweet",
-    "title": "Block Buster!",
-    "year": 1973
-  },
-  {
-    "id": 865,
-    "artist": "Aerosmith",
-    "title": "Sweet Emotion",
-    "year": 1975
-  },
-  {
     "id": 866,
     "artist": "Gli Italiani Di Ieri",
     "title": "Tarantella Napoletana",
     "year": 1852
-  },
-  {
-    "id": 867,
-    "artist": "Red Hot Chili Peppers",
-    "title": "Scar Tissue",
-    "year": 1999
   },
   {
     "id": 868,
@@ -5246,40 +4782,10 @@ window.songs = [
     "year": 2003
   },
   {
-    "id": 875,
-    "artist": "Robbie Williams",
-    "title": "Let Me Entertain You",
-    "year": 1997
-  },
-  {
     "id": 876,
     "artist": "Avril Lavigne",
     "title": "My Happy Ending",
     "year": 2004
-  },
-  {
-    "id": 877,
-    "artist": "Die Fantastischen Vier",
-    "title": "Zu geil für diese Welt",
-    "year": 1992
-  },
-  {
-    "id": 878,
-    "artist": "Smokie",
-    "title": "It's Your Life",
-    "year": 1977
-  },
-  {
-    "id": 879,
-    "artist": "Fugees",
-    "title": "Vocab",
-    "year": 1994
-  },
-  {
-    "id": 880,
-    "artist": "Mr. Big",
-    "title": "Green-Tinted Sixties Mind",
-    "year": 1991
   },
   {
     "id": 881,
@@ -5396,12 +4902,6 @@ window.songs = [
     "year": 2016
   },
   {
-    "id": 900,
-    "artist": "Bloodhound Gang",
-    "title": "Fire Water Burn",
-    "year": 1996
-  },
-  {
     "id": 901,
     "artist": "ABBA",
     "title": "Chiquitita",
@@ -5432,30 +4932,12 @@ window.songs = [
     "year": 1995
   },
   {
-    "id": 906,
-    "artist": "Pink",
-    "title": "Raise Your Glass",
-    "year": 2010
-  },
-  {
-    "id": 907,
-    "artist": "Electric Light Orchestra",
-    "title": "Evil Woman",
-    "year": 1975
-  },
-  {
     "id": 908,
     "artist": "Snap!",
     "title": "Ooops Up",
     "year": 1990
   },
-  {
-    "id": 909,
-    "artist": "Justin Timberlake",
-    "title": "Can't Stop the Feeling!",
-    "year": 2016
-  },
-  {
+   {
     "id": 910,
     "artist": "The Clash",
     "title": "Rock the Casbah",
@@ -5478,12 +4960,6 @@ window.songs = [
     "artist": "Boston",
     "title": "Don't Look Back",
     "year": 1978
-  },
-  {
-    "id": 914,
-    "artist": "R.E.M.",
-    "title": "The One I Love",
-    "year": 1987
   },
   {
     "id": 915,
@@ -5600,12 +5076,6 @@ window.songs = [
     "year": 1977
   },
   {
-    "id": 934,
-    "artist": "The Killers",
-    "title": "All These Things That I've Done",
-    "year": 2004
-  },
-  {
     "id": 935,
     "artist": "Ram Jam",
     "title": "Too Bad on Your Birthday",
@@ -5628,12 +5098,6 @@ window.songs = [
     "artist": "4 Non Blondes",
     "title": "Spaceman",
     "year": 1993
-  },
-  {
-    "id": 939,
-    "artist": "Kelly Clarkson",
-    "title": "Stronger (What Doesn't Kill You)",
-    "year": 2011
   },
   {
     "id": 940,
@@ -5684,12 +5148,6 @@ window.songs = [
     "year": 1998
   },
   {
-    "id": 948,
-    "artist": "Smokie",
-    "title": "Mexican Girl",
-    "year": 1978
-  },
-  {
     "id": 949,
     "artist": "Ace of Base",
     "title": "Beautiful Life",
@@ -5725,13 +5183,7 @@ window.songs = [
     "title": "The Shoop Shoop Song (It's in His Kiss)",
     "year": 1990
   },
-  {
-    "id": 955,
-    "artist": "Nickelback",
-    "title": "Burn It to the Ground",
-    "year": 2008
-  },
-  {
+   {
     "id": 956,
     "artist": "Maroon 5",
     "title": "Misery",
@@ -5742,18 +5194,6 @@ window.songs = [
     "artist": "The Animals",
     "title": "House of the Rising Sun",
     "year": 1964
-  },
-  {
-    "id": 958,
-    "artist": "Natalie Imbruglia",
-    "title": "Wishing I Was There",
-    "year": 1998
-  },
-  {
-    "id": 959,
-    "artist": "Loona",
-    "title": "Latino Lover",
-    "year": 2000
   },
   {
     "id": 960,
@@ -5779,31 +5219,7 @@ window.songs = [
     "title": "Oh Carolina",
     "year": 1993
   },
-  {
-    "id": 964,
-    "artist": "Hot Chocolate",
-    "title": "It Started With a Kiss",
-    "year": 1982
-  },
-  {
-    "id": 965,
-    "artist": "T. Rex",
-    "title": "Ride a White Swan",
-    "year": 1970
-  },
-  {
-    "id": 966,
-    "artist": "Craig David",
-    "title": "What's Your Flava?",
-    "year": 2002
-  },
-  {
-    "id": 967,
-    "artist": "Mr. President",
-    "title": "Up'n Away",
-    "year": 1994
-  },
-  {
+   {
     "id": 968,
     "artist": "Snoop Dogg ft. Pharrell",
     "title": "Let's Get Blown",
@@ -5820,12 +5236,6 @@ window.songs = [
     "artist": "Aerosmith",
     "title": "Crazy",
     "year": 1993
-  },
-  {
-    "id": 971,
-    "artist": "Thin Lizzy",
-    "title": "Dancing in the Moonlight",
-    "year": 1977
   },
   {
     "id": 972,
@@ -5851,13 +5261,7 @@ window.songs = [
     "title": "Zwischen Genie und Wahnsinn",
     "year": 2021
   },
-  {
-    "id": 976,
-    "artist": "Eminem",
-    "title": "Just Lose It",
-    "year": 2004
-  },
-  {
+   {
     "id": 977,
     "artist": "Bonnie Tyler",
     "title": "Total Eclipse of the Heart",
