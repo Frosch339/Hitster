@@ -362,12 +362,6 @@ window.songs = [
     "year": 1982
   },
   {
-    "id": 68,
-    "artist": "Raffa FL",
-    "title": "Ritmo",
-    "year": 2022
-  },
-  {
     "id": 69,
     "artist": "The Beatles",
     "title": "Hey Jude",
@@ -524,12 +518,6 @@ window.songs = [
     "year": 1963
   },
   {
-    "id": 97,
-    "artist": "David Guetta ft. Sia",
-    "title": "Titanium",
-    "year": 2011
-  },
-  {
     "id": 98,
     "artist": "Rammstein",
     "title": "Du hast",
@@ -594,12 +582,6 @@ window.songs = [
     "artist": "Ed Sheeran",
     "title": "Perfect",
     "year": 2017
-  },
-  {
-    "id": 110,
-    "artist": "Fred again.. ft. Obongjayar",
-    "title": "adore u",
-    "year": 2023
   },
   {
     "id": 111,
@@ -720,12 +702,6 @@ window.songs = [
     "artist": "The Andrews Sisters",
     "title": "Boogie Woogie Bugle Boy",
     "year": 1941
-  },
-  {
-    "id": 131,
-    "artist": "David Guetta & Bebe Rexha",
-    "title": "I'm Good (Blue)",
-    "year": 2022
   },
   {
     "id": 132,
@@ -864,12 +840,6 @@ window.songs = [
     "artist": "Fred again.. & Swedish House Mafia",
     "title": "Turn On The Lights again..",
     "year": 2022
-  },
-  {
-    "id": 157,
-    "artist": "Babylon Zoo",
-    "title": "Spaceman",
-    "year": 1996
   },
   {
     "id": 159,
@@ -1047,12 +1017,6 @@ window.songs = [
     "year": 1972
   },
   {
-    "id": 193,
-    "artist": "Propaganda",
-    "title": "Duel",
-    "year": 1985
-  },
-  {
     "id": 194,
     "artist": "Die Ärzte",
     "title": "Junge",
@@ -1064,13 +1028,7 @@ window.songs = [
     "title": "Surfin' U.S.A.",
     "year": 1963
   },
-  {
-    "id": 196,
-    "artist": "Fred again.. ft. The Streets",
-    "title": "Mike (desert island duvet)",
-    "year": 2023
-  },
-  {
+   {
     "id": 197,
     "artist": "Chuck Berry",
     "title": "Johnny B. Goode",
@@ -1294,9 +1252,9 @@ window.songs = [
   },
   {
     "id": 240,
-    "artist": "Blu Cantrell",
-    "title": "Hit 'Em Up Style (Oops!)",
-    "year": 2001
+    "artist": "Blu Cantrell feat. Sean Paul",
+    "title": "Breathe",
+    "year": 2003
   },
   {
     "id": 241,
@@ -1456,12 +1414,6 @@ window.songs = [
     "year": 2022
   },
   {
-    "id": 270,
-    "artist": "Ella Fitzgerald",
-    "title": "A-Tisket, A-Tasket",
-    "year": 1938
-  },
-  {
     "id": 272,
     "artist": "50 Cent",
     "title": "Just A Lil Bit",
@@ -1496,12 +1448,6 @@ window.songs = [
     "artist": "Shakira",
     "title": "Whenever, Wherever",
     "year": 2001
-  },
-  {
-    "id": 280,
-    "artist": "Fred again.. & Baby Keem",
-    "title": "leavemealone",
-    "year": 2023
   },
   {
     "id": 281,
@@ -1804,7 +1750,7 @@ window.songs = [
   },
   {
     "id": 340,
-    "artist": "Jason Le Dude",
+    "artist": "Jason Lemm",
     "title": "Ficken",
     "year": 2017
   },
@@ -1917,12 +1863,6 @@ window.songs = [
     "year": 2014
   },
   {
-    "id": 364,
-    "artist": "David Guetta ft. Flo Rida & Nicki Minaj",
-    "title": "Where Them Girls At",
-    "year": 2011
-  },
-  {
     "id": 365,
     "artist": "Atomic Kitten",
     "title": "Whole Again",
@@ -1936,9 +1876,9 @@ window.songs = [
   },
   {
     "id": 367,
-    "artist": "Auli'i Cravalho",
+    "artist": "Da Tweekaz",
     "title": "How Far I'll Go",
-    "year": 2016
+    "year": 2017
   },
   {
     "id": 368,
@@ -2003,7 +1943,7 @@ window.songs = [
   {
     "id": 380,
     "artist": "Kollegah & Farid Bang",
-    "title": "JBG 3 Intro",
+    "title": "Sturmmaske auf",
     "year": 2017
   },
   {
@@ -2225,18 +2165,6 @@ window.songs = [
     "year": 2005
   },
   {
-    "id": 426,
-    "artist": "Mau P",
-    "title": "Drugs From Amsterdam",
-    "year": 2022
-  },
-  {
-    "id": 427,
-    "artist": "Fats Domino",
-    "title": "Ain't That a Shame",
-    "year": 1955
-  },
-  {
     "id": 428,
     "artist": "Marvin Gaye",
     "title": "Let's Get It On",
@@ -2279,12 +2207,6 @@ window.songs = [
     "year": 1987
   },
   {
-    "id": 435,
-    "artist": "Fred again.. & Anderson .Paak",
-    "title": "places to be",
-    "year": 2024
-  },
-  {
     "id": 436,
     "artist": "Aretha Franklin",
     "title": "I Say a Little Prayer",
@@ -2315,22 +2237,10 @@ window.songs = [
     "year": 2011
   },
   {
-    "id": 442,
-    "artist": "Ella Fitzgerald & Louis Armstrong",
-    "title": "Dream a Little Dream of Me",
-    "year": 1950
-  },
-  {
     "id": 443,
     "artist": "Tiësto & Charli XCX",
     "title": "Hot In It",
     "year": 2022
-  },
-  {
-    "id": 444,
-    "artist": "David Guetta & Afrojack",
-    "title": "Hero",
-    "year": 2021
   },
   {
     "id": 445,
@@ -2507,13 +2417,7 @@ window.songs = [
     "title": "Ice Ice Baby",
     "year": 1990
   },
-  {
-    "id": 480,
-    "artist": "Fred again.. & Skrillex & Flowdan",
-    "title": "Rumble",
-    "year": 2023
-  },
-  {
+ {
     "id": 482,
     "artist": "Anita Ward",
     "title": "Ring My Bell",
@@ -2533,7 +2437,7 @@ window.songs = [
   },
   {
     "id": 485,
-    "artist": "Carly ",
+    "artist": "Carly Simon",
     "title": "You're So Vain",
     "year": 1972
   },
@@ -2749,12 +2653,6 @@ window.songs = [
     "year": 1985
   },
   {
-    "id": 525,
-    "artist": "DJ Robin & Schürze",
-    "title": "Layla",
-    "year": 2022
-  },
-  {
     "id": 526,
     "artist": "Alan Walker, Sabrina Carpenter & Farruko",
     "title": "On My Way",
@@ -2789,12 +2687,6 @@ window.songs = [
     "artist": "A Flock of Seagulls",
     "title": "I Ran (So Far Away)",
     "year": 1982
-  },
-  {
-    "id": 532,
-    "artist": "Gary Numan",
-    "title": "Cars",
-    "year": 1979
   },
   {
     "id": 536,
@@ -2855,18 +2747,6 @@ window.songs = [
     "artist": "Walk the Moon",
     "title": "Shut Up and Dance",
     "year": 2014
-  },
-  {
-    "id": 546,
-    "artist": "Edward Maya & Vika Jigulina",
-    "title": "This Is My Life",
-    "year": 2010
-  },
-  {
-    "id": 547,
-    "artist": "Martin Solveig & Dragonette",
-    "title": "Hello",
-    "year": 2010
   },
   {
     "id": 548,
@@ -3162,13 +3042,7 @@ window.songs = [
     "title": "Reload",
     "year": 2013
   },
-  {
-    "id": 600,
-    "artist": "Fred again.. & The Blessed Madonna",
-    "title": "Marea (we’ve lost dancing)",
-    "year": 2021
-  },
-  {
+   {
     "id": 601,
     "artist": "Shindy",
     "title": "Statement",
@@ -3311,12 +3185,6 @@ window.songs = [
     "artist": "Village People",
     "title": "In the Navy",
     "year": 1979
-  },
-  {
-    "id": 628,
-    "artist": "Alex Clare",
-    "title": "Too Close",
-    "year": 2011
   },
   {
     "id": 629,
@@ -3479,12 +3347,6 @@ window.songs = [
     "artist": "R.E.M.",
     "title": "Losing My Religion",
     "year": 1991
-  },
-  {
-    "id": 659,
-    "artist": "Paul van Dyk",
-    "title": "For An Angel",
-    "year": 1998
   },
   {
     "id": 660,
@@ -3655,22 +3517,10 @@ window.songs = [
     "year": 1964
   },
   {
-    "id": 695,
-    "artist": "Janis Joplin",
-    "title": "Piece of My Heart",
-    "year": 1968
-  },
-  {
     "id": 696,
     "artist": "Buffalo Springfield",
     "title": "For What It's Worth",
     "year": 1966
-  },
-  {
-    "id": 698,
-    "artist": "Booker T. & the M.G.'s",
-    "title": "Green Onions",
-    "year": 1962
   },
   {
     "id": 700,
@@ -3913,12 +3763,6 @@ window.songs = [
     "year": 1975
   },
   {
-   "id": 746,
-    "artist": "New Order",
-    "title": "Blue Monday",
-    "year": 1983
-  },
-  {
     "id": 747,
     "artist": "Black Eyed Peas",
     "title": "Where Is The Love?",
@@ -4065,12 +3909,6 @@ window.songs = [
     "year": 1974
   },
   {
-    "id": 778,
-    "artist": "Gwen Stefani ft. Akon",
-    "title": "The Sweet Escape",
-    "year": 2006
-  },
-  {
     "id": 779,
     "artist": "Supertramp",
     "title": "Breakfast in America",
@@ -4125,12 +3963,6 @@ window.songs = [
     "year": 2005
   },
   {
-    "id": 792,
-    "artist": "Absolute Beginner ft. Samy Deluxe",
-    "title": "Füchse",
-    "year": 1998
-  },
-   {
     "id": 797,
     "artist": "Smokie",
     "title": "Lay Back in the Arms of Someone",
@@ -4407,12 +4239,6 @@ window.songs = [
     "year": 1993
   },
   {
-    "id": 885,
-    "artist": "Benny Goodman",
-    "title": "Let's Dance",
-    "year": 1935
-  },
-  {
     "id": 886,
     "artist": "Ne-Yo",
     "title": "Closer",
@@ -4483,12 +4309,6 @@ window.songs = [
     "artist": "Sabrina Carpenter",
     "title": "Manchild",
     "year": 2026
-  },
-  {
-    "id": 898,
-    "artist": "Def Leppard",
-    "title": "Pour Some Sugar on Me",
-    "year": 1987
   },
   {
     "id": 899,
@@ -4771,12 +4591,6 @@ window.songs = [
     "artist": "Lana Del Rey",
     "title": "Video Games",
     "year": 2011
-  },
-  {
-    "id": 983,
-    "artist": "Fred again.. & Skrillex",
-    "title": "Baby again..",
-    "year": 2023
   },
   {
     "id": 984,
