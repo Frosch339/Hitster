@@ -3144,11 +3144,12 @@ window.songs = [
     "title": "Sex on Fire",
     "year": 2008
   },
- }
+  {
     "id": 597,
     "artist": "Mariah Carey",
     "title": "Obsessed",
     "year": 2009
+  },
   {
     "id": 598,
     "artist": "Nena",
