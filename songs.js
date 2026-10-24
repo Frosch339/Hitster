@@ -699,9 +699,9 @@ window.songs = [
   },
   {
     "id": 130,
-    "artist": "The Andrews Sisters",
-    "title": "Boogie Woogie Bugle Boy",
-    "year": 1941
+    "artist": "Manfred Mann",
+    "title": "Do Wah Diddy Diddy",
+    "year": 1964
   },
   {
     "id": 132,
@@ -1684,9 +1684,9 @@ window.songs = [
   },
   {
     "id": 328,
-    "artist": "Soundgarden",
-    "title": "Black Hole Sun",
-    "year": 1994
+    "artist": "The Archies",
+    "title": "Sugar, Sugar",
+    "year": 1969
   },
   {
     "id": 329,
@@ -1738,8 +1738,8 @@ window.songs = [
   },
   {
     "id": 338,
-    "artist": "Zager and Evans",
-    "title": "In the Year 2525",
+    "artist": "Elvis Presley",
+    "title": "Suspicious Minds",
     "year": 1969
   },
   {
@@ -1804,9 +1804,9 @@ window.songs = [
   },
    {
     "id": 353,
-    "artist": "Truth Hurts ft. Rakim",
-    "title": "Addictive",
-    "year": 2002
+    "artist": "Dion",
+    "title": "The Wanderer",
+    "year": 1961
   },
   {
     "id": 354,
@@ -1888,9 +1888,9 @@ window.songs = [
   },
   {
     "id": 369,
-    "artist": "Toni Basil",
-    "title": "Mickey",
-    "year": 1981
+    "artist": "Joe Cocker & Jennifer Warnes",
+    "title": "Up Where We Belong",
+    "year": 1982
   },
    {
     "id": 371,
@@ -1912,9 +1912,9 @@ window.songs = [
   },
   {
     "id": 374,
-    "artist": "The Smashing Pumpkins",
-    "title": "1979",
-    "year": 1995
+    "artist": "The Tokens",
+    "title": "The Lion Sleeps Tonight",
+    "year": 1961
   },
   {
     "id": 375,
@@ -2063,9 +2063,9 @@ window.songs = [
   },
   {
     "id": 403,
-    "artist": "Tiësto & Karol G",
-    "title": "Don't Be Shy",
-    "year": 2021
+    "artist": "Connie Francis",
+    "title": "Pretty Little Baby",
+    "year": 1962
   },
   {
     "id": 404,
@@ -2238,9 +2238,9 @@ window.songs = [
   },
   {
     "id": 443,
-    "artist": "Tiësto & Charli XCX",
-    "title": "Hot In It",
-    "year": 2022
+    "artist": "Roy Orbison",
+    "title": "Oh, Pretty Woman",
+    "year": 1964
   },
   {
     "id": 445,
@@ -2389,9 +2389,9 @@ window.songs = [
   },
   {
     "id": 474,
-    "artist": "The Cure",
-    "title": "Boys Don't Cry",
-    "year": 1979
+    "artist": "Nancy Sinatra & Frank Sinatra",
+    "title": "Somethin' Stupid",
+    "year": 1967
   },
   {
     "id": 475,
@@ -2822,9 +2822,9 @@ window.songs = [
   },
   {
     "id": 560,
-    "artist": "The Jimi Hendrix Experience",
-    "title": "Purple Haze",
-    "year": 1967
+    "artist": "Jimmy Cliff",
+    "title": "You Can Get It If You Really Want",
+    "year": 1970
   },
  {
     "id": 561,
@@ -3506,15 +3506,15 @@ window.songs = [
   },
   {
     "id": 692,
-    "artist": "The Byrds",
-    "title": "Mr. Tambourine Man",
-    "year": 1965
+    "artist": "Dick Brave & the Backbeats",
+    "title": "Take Good Care of My Baby",
+    "year": 2003
   },
   {
     "id": 694,
     "artist": "The Righteous Brothers",
-    "title": "You've Lost That Lovin' Feelin'",
-    "year": 1964
+    "title": "Unchained Melody",
+    "year": 1965
   },
   {
     "id": 696,
@@ -4036,9 +4036,9 @@ window.songs = [
   },
    {
     "id": 817,
-    "artist": "Shaggy ft. Rikrok",
-    "title": "Angel",
-    "year": 2000
+    "artist": "Sonny & Cher",
+    "title": "I Got You Babe",
+    "year": 1965
   },
   {
     "id": 818,
@@ -4605,10 +4605,10 @@ window.songs = [
     "year": 2009
   },
   {
-    "id": 986,
-    "artist": "Sam Sparro",
-    "title": "Black and Gold",
-    "year": 2008
+    id": 986,
+    "artist": "Scott McKenzie",
+    "title": "San Francisco (Be Sure to Wear Flowers in Your Hair)",
+    "year": 1967
   },
   {
     "id": 987,
