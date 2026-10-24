@@ -938,6 +938,12 @@ window.songs = [
     "year": 2022
   },
   {
+    "id": 157,
+    "artist": "John Travolta & Olivia Newton-John",
+    "title": "You're the One That I Want",
+    "year": 1978
+  },
+  {
     "id": 159,
     "artist": "The Beach Boys",
     "title": "California Girls",
@@ -1196,6 +1202,12 @@ window.songs = [
     "title": "High on Life",
     "year": 2018
   },
+  {
+    "id": 210,
+    "artist": "Kiss",
+    "title": "I Was Made for Lovin' You",
+    "year": 1979
+  },
    {
     "id": 211,
     "artist": "Tears for Fears",
@@ -1256,6 +1268,12 @@ window.songs = [
     "title": "Engel",
     "year": 1997
   },
+  {
+    "id": 221,
+    "artist": "Patrick Hernandez",
+    "title": "Born to Be Alive",
+    "year": 1979
+  },
    {
     "id": 222,
     "artist": "Elvis Presley",
@@ -1285,6 +1303,12 @@ window.songs = [
     "artist": "Howard Carpendale",
     "title": "Hello Again",
     "year": 1984
+  },
+  {
+    "id": 227,
+    "artist": "Cass Elliot",
+    "title": "Make Your Own Kind of Music",
+    "year": 1969
   },
   {
     "id": 228,
@@ -1327,6 +1351,12 @@ window.songs = [
     "artist": "MAGIC!",
     "title": "Rude",
     "year": 2013
+  },
+  {
+    "id": 236,
+    "artist": "Billy Ocean",
+    "title": "Love Really Hurts Without You",
+    "year": 1976
   },
    {
     "id": 237,
@@ -1394,7 +1424,12 @@ window.songs = [
     "title": "Disturbia",
     "year": 2008
   },
-  
+  {
+    "id": 248,
+    "artist": "Baccara",
+    "title": "Yes Sir, I Can Boogie",
+    "year": 1977
+  },
   {
     "id": 249,
     "artist": "Olivia Rodrigo",
@@ -1510,6 +1545,12 @@ window.songs = [
     "year": 2022
   },
   {
+    "id": 270,
+    "artist": "Bob Seger",
+    "title": "Old Time Rock & Roll",
+    "year": 1978
+  },
+  {
     "id": 272,
     "artist": "50 Cent",
     "title": "Just A Lil Bit",
@@ -1528,6 +1569,12 @@ window.songs = [
     "year": 2017
   },
   {
+    "id": 275,
+    "artist": "Bob Dylan",
+    "title": "Knockin' on Heaven's Door",
+    "year": 1973
+  },
+  {
     "id": 276,
     "artist": "Ellie Goulding",
     "title": "Love Me Like You Do",
@@ -1538,6 +1585,12 @@ window.songs = [
     "artist": "Cat Stevens",
     "title": "Father and Son",
     "year": 1970
+  },
+  {
+    "id": 278,
+    "artist": "Belinda Carlisle",
+    "title": "Heaven Is a Place on Earth",
+    "year": 1987
   },
    {
     "id": 279,
@@ -1592,6 +1645,12 @@ window.songs = [
     "artist": "Baauer",
     "title": "Harlem Shake",
     "year": 2013
+  },
+  {
+    "id": 289,
+    "artist": "Commodores",
+    "title": "Easy",
+    "year": 1977
   },
   {
     "id": 290,
@@ -1707,11 +1766,23 @@ window.songs = [
     "title": "All Right Now",
     "year": 1970
   },
+  {
+    "id": 310,
+    "artist": "John Travolta & Olivia Newton-John",
+    "title": "Summer Nights",
+    "year": 1978
+  },
    {
     "id": 311,
     "artist": "Shakira",
     "title": "She Wolf",
     "year": 2009
+  },
+  {
+    "id": 312,
+    "artist": "Matthew Wilder",
+    "title": "Break My Stride",
+    "year": 1983
   },
    {
     "id": 313,
@@ -1736,7 +1807,14 @@ window.songs = [
     "artist": "The Police",
     "title": "Roxanne",
     "year": 1978
-  },   {
+  },  
+  {
+    "id": 320,
+    "artist": "Daryl Hall & John Oates",
+    "title": "Rich Girl",
+    "year": 1976
+  },
+   {
     "id": 321,
     "artist": "Coldplay",
     "title": "Viva La Vida",
@@ -1833,6 +1911,12 @@ window.songs = [
     "year": 2023
   },
   {
+    "id": 337,
+    "artist": "Daryl Hall & John Oates",
+    "title": "Rich Girl",
+    "year": 1976
+  },
+  {
     "id": 338,
     "artist": "Elvis Presley",
     "title": "Suspicious Minds",
@@ -1849,6 +1933,12 @@ window.songs = [
     "artist": "Jason Lemm",
     "title": "Ficken",
     "year": 2017
+  },
+  {
+    "id": 341,
+    "artist": "Cutting Crew",
+    "title": "(I Just) Died in Your Arms",
+    "year": 1986
   },
    {
     "id": 342,
@@ -3402,6 +3492,12 @@ window.songs = [
     "title": "Rhythm Is a Dancer",
     "year": 1992
   },
+  {
+    "id": 650,
+    "artist": "Chicago",
+    "title": "If You Leave Me Now",
+    "year": 1976
+  },
    {
     "id": 652,
     "artist": "No Doubt",
@@ -3445,6 +3541,12 @@ window.songs = [
     "year": 1991
   },
   {
+    "id": 659,
+    "artist": "Steve Miller Band",
+    "title": "The Joker",
+    "year": 1973
+  },
+  {
     "id": 660,
     "artist": "The Black Eyed Peas",
     "title": "I Gotta Feeling",
@@ -3469,6 +3571,12 @@ window.songs = [
     "year": 1983
   },
   {
+    "id": 664,
+    "artist": "Eric Clapton",
+    "title": "Cocaine",
+    "year": 1977
+  },
+  {
     "id": 665,
     "artist": "Spice Girls",
     "title": "Wannabe",
@@ -3491,6 +3599,12 @@ window.songs = [
     "artist": "Faithless",
     "title": "Insomnia",
     "year": 1995
+  },
+  {
+    "id": 669,
+    "artist": "Nazareth",
+    "title": "Love Hurts",
+    "year": 1974
   },
    {
     "id": 670,
@@ -3558,6 +3672,12 @@ window.songs = [
     "title": "Der Kommissar",
     "year": 1981
   },
+  {
+    "id": 681,
+    "artist": "Status Quo",
+    "title": "Rockin' All Over the World",
+    "year": 1977
+  },
    {
     "id": 682,
     "artist": "Sean Paul",
@@ -3607,10 +3727,22 @@ window.songs = [
     "year": 2003
   },
   {
+    "id": 693,
+    "artist": "Sister Sledge",
+    "title": "We Are Family",
+    "year": 1979
+  },
+  {
     "id": 694,
     "artist": "The Righteous Brothers",
     "title": "Unchained Melody",
     "year": 1965
+  },
+  {
+    "id": 695,
+    "artist": "The Outfield",
+    "title": "Your Love",
+    "year": 1985
   },
   {
     "id": 696,
@@ -3666,6 +3798,12 @@ window.songs = [
     "title": "Bette Davis Eyes",
     "year": 1981
   },
+  {
+    "id": 708,
+    "artist": "Dead or Alive",
+    "title": "You Spin Me Round (Like a Record)",
+    "year": 1984
+  },
    {
     "id": 709,
     "artist": "Iggy Pop",
@@ -3685,10 +3823,22 @@ window.songs = [
     "year": 2006
   },
   {
+    "id": 712,
+    "artist": "Eric Carmen",
+    "title": "Hungry Eyes",
+    "year": 1987
+  },
+  {
     "id": 713,
     "artist": "Culture Beat",
     "title": "Mr. Vain",
     "year": 1993
+  },
+  {
+    "id": 714,
+    "artist": "Bill Medley & Jennifer Warnes",
+    "title": "(I've Had) The Time of My Life",
+    "year": 1987
   },
   {
     "id": 715,
@@ -3793,6 +3943,12 @@ window.songs = [
     "year": 2014
   },
   {
+    "id": 733,
+    "artist": "Katrina and the Waves",
+    "title": "Walking on Sunshine",
+    "year": 1985
+  },
+  {
     "id": 734,
     "artist": "Modern Talking",
     "title": "Brother Louie",
@@ -3859,6 +4015,12 @@ window.songs = [
     "year": 1975
   },
   {
+    "id": 746,
+    "artist": "Midnight Oil",
+    "title": "Beds Are Burning",
+    "year": 1987
+  },
+  {
     "id": 747,
     "artist": "Black Eyed Peas",
     "title": "Where Is The Love?",
@@ -3876,12 +4038,23 @@ window.songs = [
     "title": "Murcielago",
     "year": 2016
   },
-  
+  {
+    "id": 750,
+    "artist": "Taylor Dayne",
+    "title": "Tell It to My Heart",
+    "year": 1987
+  },
   {
     "id": 751,
     "artist": "John Paul Young",
     "title": "Love Is in the Air",
     "year": 1977
+  },
+  {
+    "id": 752,
+    "artist": "Survivor",
+    "title": "Burning Heart",
+    "year": 1985
   },
    {
     "id": 754,
@@ -3931,6 +4104,12 @@ window.songs = [
     "title": "The Boys Are Back in Town",
     "year": 1976
   },
+  {
+    "id": 762,
+    "artist": "Don Henley",
+    "title": "The Boys of Summer",
+    "year": 1984
+  },
    {
     "id": 763,
     "artist": "Alicia Keys",
@@ -3943,7 +4122,12 @@ window.songs = [
     "title": "I Think We're Alone Now",
     "year": 1987
   },
- 
+ {
+    "id": 765,
+    "artist": "Limahl",
+    "title": "Never Ending Story",
+    "year": 1984
+  },
   {
     "id": 766,
     "artist": "Amy Winehouse",
@@ -4407,6 +4591,12 @@ window.songs = [
     "year": 2026
   },
   {
+    "id": 898,
+    "artist": "Carpenters",
+    "title": "(They Long to Be) Close to You",
+    "year": 1970
+  },
+  {
     "id": 899,
     "artist": "Jennifer Lopez",
     "title": "Ain't Your Mama",
@@ -4435,6 +4625,12 @@ window.songs = [
     "artist": "Nelly Furtado",
     "title": "Promiscuous",
     "year": 2006
+  },
+  {
+    "id": 905,
+    "artist": "The Boomtown Rats",
+    "title": "I Don't Like Mondays",
+    "year": 1979
   },
   {
     "id": 908,
