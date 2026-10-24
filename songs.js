@@ -26,6 +26,12 @@ window.songs = [
     "year": 2023
   },
   {
+    "id": 5,
+    "artist": "Nana Mouskouri",
+    "title": "Guten Morgen, Sonnenschein",
+    "year": 1976
+  },
+  {
     "id": 6,
     "artist": "Linkin Park",
     "title": "What I've Done",
@@ -80,6 +86,18 @@ window.songs = [
     "year": 1991
   },
   {
+    "id": 15,
+    "artist": "Gerry and the Pacemakers",
+    "title": "You'll Never Walk Alone",
+    "year": 1963
+  },
+  {
+    "id": 16,
+    "artist": "Brenda Lee",
+    "title": "Rockin' Around the Christmas Tree",
+    "year": 1958
+  },
+  {
     "id": 17,
     "artist": "T-Pain feat. Akon",
     "title": "Bartender",
@@ -98,7 +116,7 @@ window.songs = [
     "year": 1973
   },
   {
-    "id": 214,
+    "id": 20,
     "artist": "Will Smith",
     "title": "Gettin' Jiggy wit It",
     "year": 1997
@@ -134,6 +152,12 @@ window.songs = [
     "year": 2015
   },
   {
+    "id": 26,
+    "artist": "Dusty Springfield",
+    "title": "Son of a Preacher Man",
+    "year": 1968
+  },
+  {
     "id": 27,
     "artist": "Whitney Houston",
     "title": "I Wanna Dance with Somebody (Who Loves Me)",
@@ -156,6 +180,24 @@ window.songs = [
     "artist": "Bill Haley & His Comets",
     "title": "Rock Around the Clock",
     "year": 1954
+  },
+  {
+    "id": 31,
+    "artist": "Nancy Sinatra",
+    "title": "These Boots Are Made for Walkin'",
+    "year": 1966
+  },
+  {
+    "id": 32,
+    "artist": "B.J. Thomas",
+    "title": "Raindrops Keep Fallin' on My Head",
+    "year": 1969
+  },
+  {
+    "id": 33,
+    "artist": "Dion",
+    "title": "Runaround Sue",
+    "year": 1961
   },
   {
     "id": 34,
@@ -362,6 +404,12 @@ window.songs = [
     "year": 1982
   },
   {
+    "id": 68,
+    "artist": "Four Tops",
+    "title": "I Can't Help Myself (Sugar Pie Honey Bunch)",
+    "year": 1965
+  },
+  {
     "id": 69,
     "artist": "The Beatles",
     "title": "Hey Jude",
@@ -402,6 +450,12 @@ window.songs = [
     "artist": "Bon Jovi",
     "title": "Livin' on a Prayer",
     "year": 1986
+  },
+  {
+    "id": 76,
+    "artist": "Drafi Deutscher",
+    "title": "Marmor, Stein und Eisen bricht",
+    "year": 1965
   },
   {
     "id": 77,
@@ -476,6 +530,12 @@ window.songs = [
     "year": 2012
   },
   {
+    "id": 89,
+    "artist": "Gitte Hænning",
+    "title": "Ich will 'nen Cowboy als Mann",
+    "year": 1963
+  },
+  {
     "id": 90,
     "artist": "Billie Eilish",
     "title": "Ocean Eyes",
@@ -518,10 +578,22 @@ window.songs = [
     "year": 1963
   },
   {
+    "id": 97,
+    "artist": "Cliff Richard",
+    "title": "Rote Lippen soll man küssen",
+    "year": 1963
+  },
+  {
     "id": 98,
     "artist": "Rammstein",
     "title": "Du hast",
     "year": 1997
+  },
+  {
+    "id": 99,
+    "artist": "Tom Jones",
+    "title": "It's Not Unusual",
+    "year": 1965
   },
   {
     "id": 100,
@@ -582,6 +654,12 @@ window.songs = [
     "artist": "Ed Sheeran",
     "title": "Perfect",
     "year": 2017
+  },
+  {
+    "id": 110,
+    "artist": "Tom Jones",
+    "title": "She's a Lady",
+    "year": 1971
   },
   {
     "id": 111,
@@ -704,6 +782,12 @@ window.songs = [
     "year": 1964
   },
   {
+    "id": 131,
+    "artist": "Siw Malmkvist",
+    "title": "Liebeskummer lohnt sich nicht",
+    "year": 1964
+  },
+  {
     "id": 132,
     "artist": "Michael Jackson",
     "title": "Smooth Criminal",
@@ -714,6 +798,12 @@ window.songs = [
     "artist": "Depeche Mode",
     "title": "Enjoy the Silence",
     "year": 1990
+  },
+  {
+    "id": 134,
+    "artist": "Alizée",
+    "title": "Moi... Lolita",
+    "year": 2000
   },
   {
     "id": 135,
@@ -779,6 +869,12 @@ window.songs = [
     "id": 145,
     "artist": "Chubby Checker",
     "title": "Let's Twist Again",
+    "year": 1961
+  },
+  {
+    "id": 146,
+    "artist": "Connie Francis",
+    "title": "Schöner fremder Mann",
     "year": 1961
   },
    {
