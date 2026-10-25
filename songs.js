@@ -544,8 +544,8 @@ window.songs = [
   {
     "id": 91,
     "artist": "Michael Jackson",
-    "title": "Beat It",
-    "year": 1982
+    "title": "Black or White",
+    "year": 1991
   },
   {
     "id": 92,
@@ -1579,6 +1579,12 @@ window.songs = [
     "title": "All Night Long (All Night)",
     "year": 1983
   },
+ {
+    "id": 264,
+    "artist": "Rednex",
+    "title": "Spirit of the Hawk",
+    "year": 2000
+  },
    {
     "id": 265,
     "artist": "Andrea Berg",
@@ -1596,6 +1602,12 @@ window.songs = [
     "artist": "Peter Fox",
     "title": "Alles Neu",
     "year": 2008
+  },
+ {
+    "id": 268,
+    "artist": "DJ BoBo",
+    "title": "Everybody",
+    "year": 1994
   },
   {
     "id": 269,
@@ -1627,12 +1639,12 @@ window.songs = [
     "title": "Herzbeben",
     "year": 2017
   },
-  {
+ {
     "id": 275,
-    "artist": "Bob Dylan",
+    "artist": "Guns N' Roses",
     "title": "Knockin' on Heaven's Door",
-    "year": 1973
-  },
+    "year": 1991
+   },
   {
     "id": 276,
     "artist": "Ellie Goulding",
@@ -1656,6 +1668,12 @@ window.songs = [
     "artist": "Shakira",
     "title": "Whenever, Wherever",
     "year": 2001
+  },
+ {
+    "id": 280,
+    "artist": "Roxette",
+    "title": "Joyride",
+    "year": 1991
   },
   {
     "id": 281,
@@ -1855,11 +1873,23 @@ window.songs = [
     "title": "Baby Love",
     "year": 1964
   },
+ {
+    "id": 314,
+    "artist": "Bruce Springsteen",
+    "title": "Streets of Philadelphia",
+    "year": 1993
+  },
   {
     "id": 315,
     "artist": "Crowded House",
     "title": "Don't Dream It's Over",
     "year": 1986
+  },
+ {
+    "id": 316,
+    "artist": "Falco",
+    "title": "Out of the Dark",
+    "year": 1998
   },
   {
     "id": 317,
@@ -1873,6 +1903,18 @@ window.songs = [
     "title": "Roxanne",
     "year": 1978
   },  
+     {
+    "id": 319,
+    "artist": "Torfrock",
+    "title": "Beinhart",
+    "year": 1990
+  },
+ {
+    "id": 320,
+    "artist": "R. Kelly",
+    "title": "I Believe I Can Fly",
+    "year": 1996
+  },
   {
     "id": 321,
     "artist": "Coldplay",
@@ -2005,6 +2047,18 @@ window.songs = [
     "title": "Save the World",
     "year": 2011
   },
+ {
+    "id": 343,
+    "artist": "Lucilectric",
+    "title": "Mädchen",
+    "year": 1994
+  },
+ {
+    "id": 344,
+    "artist": "Wet Wet Wet",
+    "title": "Love Is All Around",
+    "year": 1994
+  },
   {
     "id": 345,
     "artist": "Vance Joy",
@@ -2047,6 +2101,12 @@ window.songs = [
     "title": "Hit the Road Jack",
     "year": 1961
   },
+ {
+    "id": 352,
+    "artist": "LeAnn Rimes",
+    "title": "Can't Fight the Moonlight",
+    "year": 2000
+  },
    {
     "id": 353,
     "artist": "Dion",
@@ -2082,6 +2142,12 @@ window.songs = [
     "artist": "Bob Marley & The Wailers",
     "title": "Could You Be Loved",
     "year": 1980
+  },
+ {
+    "id": 359,
+    "artist": "Eamon",
+    "title": "Fuck It (I Don't Want You Back)",
+    "year": 2003
   },
   {
     "id": 360,
@@ -2143,6 +2209,12 @@ window.songs = [
     "title": "Up Where We Belong",
     "year": 1982
   },
+ {
+    "id": 370,
+    "artist": "Whigfield",
+    "title": "Saturday Night",
+    "year": 1994
+  },
    {
     "id": 371,
     "artist": "Tate McRae",
@@ -2172,6 +2244,12 @@ window.songs = [
     "artist": "Van Morrison",
     "title": "Brown Eyed Girl",
     "year": 1967
+  },
+ {
+    "id": 376,
+    "artist": "Bomfunk MC's",
+    "title": "Freestyler",
+    "year": 1999
   },
    {
     "id": 377,
@@ -2239,7 +2317,12 @@ window.songs = [
     "title": "Teenage Dream",
     "year": 2010
   },
- 
+   {
+    "id": 388,
+    "artist": "Blackstreet feat. Dr. Dre & Queen Pen",
+    "title": "No Diggity",
+    "year": 1996
+  },
   {
     "id": 389,
     "artist": "Tim Berg",
@@ -2250,6 +2333,12 @@ window.songs = [
     "id": 390,
     "artist": "Emilia",
     "title": "Big Big World",
+    "year": 1998
+  },
+ {
+    "id": 391,
+    "artist": "Alice Deejay",
+    "title": "Better Off Alone",
     "year": 1998
   },
   {
@@ -2269,6 +2358,12 @@ window.songs = [
     "artist": "Billy Joel",
     "title": "Piano Man",
     "year": 1973
+  },
+ {
+    "id": 395,
+    "artist": "The Cardigans",
+    "title": "Lovefool",
+    "year": 1996
   },
   {
     "id": 396,
@@ -2354,6 +2449,12 @@ window.songs = [
     "title": "I'm Gonna Be (500 Miles)",
     "year": 1988
   },
+ {
+    "id": 410,
+    "artist": "Smash Mouth",
+    "title": "All Star",
+    "year": 1999
+  },
   {
     "id": 411,
     "artist": "James Brown",
@@ -2365,6 +2466,12 @@ window.songs = [
     "artist": "Kollegah",
     "title": "Du bist Boss",
     "year": 2014
+  },
+ {
+    "id": 413,
+    "artist": "Moloko",
+    "title": "Sing It Back (Boris Musical Mix)",
+    "year": 1998
   },
   {
     "id": 415,
