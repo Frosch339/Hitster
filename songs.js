@@ -1582,7 +1582,7 @@ window.songs = [
  {
     "id": 264,
     "artist": "Rednex",
-    "title": "Spirit of the Hawk",
+    "title": "The Spirit of the Hawk",
     "year": 2000
   },
    {
