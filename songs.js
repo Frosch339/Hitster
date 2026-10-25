@@ -87,7 +87,7 @@ window.songs = [
   },
   {
     "id": 15,
-    "artist": "Gerry and the Pacemakers",
+    "artist": "Gerry & the Pacemakers",
     "title": "You'll Never Walk Alone",
     "year": 1963
   },
@@ -939,8 +939,8 @@ window.songs = [
   },
   {
     "id": 157,
-    "artist": "John Travolta & Olivia Newton-John",
-    "title": "You're the One That I Want",
+    "artist": "Olivia Newton-John, John Travolta",
+    "title": "You're The One That I Want",
     "year": 1978
   },
    {
@@ -1142,10 +1142,10 @@ window.songs = [
     "year": 1969
   },
   {
-    "id": 191,
-    "artist": "OMI",
-    "title": "Cheerleader (Felix Jaehn Remix)",
-    "year": 2014
+    "id": 504,
+    "artist": "Cheryl",
+    "title": "Fight for This Love",
+    "year": 2009
   },
   {
     "id": 192,
@@ -1198,7 +1198,7 @@ window.songs = [
   {
     "id": 200,
     "artist": "Münchener Freiheit",
-    "title": "Ohne dich (schlaf' ich geh'n nicht ein)",
+    "title": "Ohne dich (schlaf' ich heut Nacht nicht ein)",
     "year": 1985
   },
   {
