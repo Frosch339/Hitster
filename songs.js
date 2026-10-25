@@ -877,12 +877,6 @@ window.songs = [
     "title": "Schöner fremder Mann",
     "year": 1961
   },
-   {
-    "id": 147,
-    "artist": "Daft Punk",
-    "title": "Around the World",
-    "year": 1997
-  },
   {
     "id": 148,
     "artist": "Fugees",
@@ -943,6 +937,12 @@ window.songs = [
     "title": "You're the One That I Want",
     "year": 1978
   },
+   {
+    "id": 274,
+    "artist": "Billy Joel",
+    "title": "Uptown Girl",
+    "year": 1983
+  },
   {
     "id": 159,
     "artist": "The Beach Boys",
@@ -991,6 +991,12 @@ window.songs = [
     "title": "Großvater",
     "year": 1984
   },
+ {
+    "id": 167,
+    "artist": "The Pointer Sisters",
+    "title": "Jump (For My Love)",
+    "year": 1983
+  },
    {
     "id": 168,
     "artist": "Rihanna",
@@ -1002,6 +1008,12 @@ window.songs = [
     "artist": "Ben E. King",
     "title": "Stand by Me",
     "year": 1961
+  },
+ {
+    "id": 170,
+    "artist": "Twisted Sister",
+    "title": "We're Not Gonna Take It",
+    "year": 1984
   },
   {
     "id": 171,
@@ -1081,7 +1093,12 @@ window.songs = [
     "title": "Three Little Birds",
     "year": 1977
   },
- 
+ {
+    "id": 282,
+    "artist": "U2",
+    "title": "I Still Haven't Found What I'm Looking For",
+    "year": 1987
+  },
   {
     "id": 186,
     "artist": "Elvis Presley",
@@ -1370,12 +1387,7 @@ window.songs = [
     "title": "Terra Titanic",
     "year": 1984
   },
-  {
-    "id": 239,
-    "artist": "Daft Punk",
-    "title": "Harder, Better, Faster, Stronger",
-    "year": 2001
-  },
+  
   {
     "id": 240,
     "artist": "Blu Cantrell feat. Sean Paul",
@@ -1514,13 +1526,7 @@ window.songs = [
     "title": "All Night Long (All Night)",
     "year": 1983
   },
-  {
-    "id": 264,
-    "artist": "Daft Punk",
-    "title": "Digital Love",
-    "year": 2001
-  },
-  {
+   {
     "id": 265,
     "artist": "Andrea Berg",
     "title": "Ich liebe das Leben",
@@ -1809,12 +1815,6 @@ window.songs = [
     "year": 1978
   },  
   {
-    "id": 320,
-    "artist": "Daryl Hall & John Oates",
-    "title": "Rich Girl",
-    "year": 1976
-  },
-   {
     "id": 321,
     "artist": "Coldplay",
     "title": "Viva La Vida",
@@ -2047,6 +2047,12 @@ window.songs = [
     "artist": "Tiësto",
     "title": "Red Lights",
     "year": 2014
+  },
+ {
+    "id": 364,
+    "artist": "Rick Springfield",
+    "title": "Jessie's Girl",
+    "year": 1981
   },
   {
     "id": 365,
@@ -2739,8 +2745,8 @@ window.songs = [
   {
     "id": 507,
     "artist": "Wolfgang Petry",
-    "title": "Ruhrgebiet",
-    "year": 1993
+    "title": "Der Himmel brennt",
+    "year": 1982
   },
   {
     "id": 508,
@@ -2771,6 +2777,12 @@ window.songs = [
     "artist": "Eagle-Eye Cherry",
     "title": "Save Tonight",
     "year": 1997
+  },
+ {
+    "id": 513,
+    "artist": "Klaus Lage",
+    "title": "1000 und 1 Nacht (Zoom!)",
+    "year": 1984
   },
   {
     "id": 514,
@@ -2837,6 +2849,12 @@ window.songs = [
     "artist": "Eurythmics",
     "title": "There Must Be an Angel (Playing with My Heart)",
     "year": 1985
+  },
+ {
+    "id": 525,
+    "artist": "Toto",
+    "title": "Rosanna",
+    "year": 1982
   },
   {
     "id": 526,
@@ -2933,6 +2951,12 @@ window.songs = [
     "artist": "Walk the Moon",
     "title": "Shut Up and Dance",
     "year": 2014
+  },
+ {
+    "id": 546,
+    "artist": "REO Speedwagon",
+    "title": "Keep On Loving You",
+    "year": 1980
   },
   {
     "id": 548,
@@ -3229,6 +3253,12 @@ window.songs = [
     "year": 2013
   },
    {
+    "id": 600,
+    "artist": "Phil Collins",
+    "title": "You Can't Hurry Love",
+    "year": 1982
+  },
+   {
     "id": 601,
     "artist": "Shindy",
     "title": "Statement",
@@ -3306,6 +3336,12 @@ window.songs = [
     "title": "Temperature",
     "year": 2005
   },
+   {
+    "id": 614,
+    "artist": "Herbert Grönemeyer",
+    "title": "Männer",
+    "year": 1984
+  },
   {
     "id": 615,
     "artist": "Louis Armstrong",
@@ -3317,6 +3353,18 @@ window.songs = [
     "artist": "Creedence Clearwater Revival",
     "title": "Have You Ever Seen the Rain",
     "year": 1971
+  },
+   {
+    "id": 617,
+    "artist": "Nena",
+    "title": "Leuchtturm",
+    "year": 1983
+  },
+   {
+    "id": 618,
+    "artist": "Geier Sturzflug",
+    "title": "Pure Lust am Leben",
+    "year": 1984
   },
   {
     "id": 619,
@@ -3548,7 +3596,7 @@ window.songs = [
   },
   {
     "id": 660,
-    "artist": "The Black Eyed Peas",
+    "artist": "Black Eyed Peas",
     "title": "I Gotta Feeling",
     "year": 2009
   },
@@ -3696,6 +3744,12 @@ window.songs = [
     "title": "Dust in the Wind",
     "year": 1977
   },
+   {
+    "id": 686,
+    "artist": "Status Quo",
+    "title": "In the Army Now",
+    "year": 1986
+  },
   {
     "id": 687,
     "artist": "The Killers",
@@ -3749,6 +3803,12 @@ window.songs = [
     "artist": "Buffalo Springfield",
     "title": "For What It's Worth",
     "year": 1966
+  },
+   {
+    "id": 697,
+    "artist": "Spider Murphy Gang",
+    "title": "Schickeria",
+    "year": 1981
   },
   {
     "id": 700,
@@ -4238,7 +4298,7 @@ window.songs = [
   },
   {
     "id": 790,
-    "artist": "The Black Eyed Peas",
+    "artist": "Black Eyed Peas",
     "title": "Pump It",
     "year": 2005
   },
@@ -4283,12 +4343,6 @@ window.songs = [
     "artist": "Nickelback",
     "title": "Photograph",
     "year": 2005
-  },
-  {
-    "id": 809,
-    "artist": "Maroon 5 feat. Wiz Khalifa",
-    "title": "Payphone",
-    "year": 2012
   },
   {
     "id": 810,
@@ -4652,7 +4706,7 @@ window.songs = [
   },
   {
     "id": 915,
-    "artist": "The Black Eyed Peas",
+    "artist": "Black Eyed Peas",
     "title": "Boom Boom Pow",
     "year": 2009
   },
@@ -4819,6 +4873,12 @@ window.songs = [
     "year": 2001
   },
    {
+    "id": 968,
+    "artist": "Mike Oldfield",
+    "title": "Moonlight Shadow",
+    "year": 1983
+  },
+   {
     "id": 969,
     "artist": "Sweet",
     "title": "Love Is Like Oxygen",
@@ -4829,6 +4889,12 @@ window.songs = [
     "artist": "Aerosmith",
     "title": "Crazy",
     "year": 1993
+  },
+   {
+    "id": 971,
+    "artist": "Nik Kershaw",
+    "title": "The Riddle",
+    "year": 1984
   },
   {
     "id": 972,
@@ -4861,6 +4927,12 @@ window.songs = [
     "year": 1983
   },
    {
+    "id": 978,
+    "artist": "Foreigner",
+    "title": "I Want to Know What Love Is",
+    "year": 1984
+  },
+   {
     "id": 979,
     "artist": "S.T.S.",
     "title": "Irgendwann bleib i dann dort",
@@ -4883,6 +4955,12 @@ window.songs = [
     "artist": "Lana Del Rey",
     "title": "Video Games",
     "year": 2011
+  },
+     {
+    "id": 983,
+    "artist": "Foreigner",
+    "title": "Waiting for a Girl Like You",
+    "year": 1981
   },
   {
     "id": 984,
