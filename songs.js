@@ -549,9 +549,9 @@ window.songs = [
   },
   {
     "id": 92,
-    "artist": "Eminem & Rihanna",
-    "title": "Love the Way You Lie",
-    "year": 2010
+    "artist": "Rihanna",
+    "title": "Pon de Replay",
+    "year": 2005
   },
   {
     "id": 93,
@@ -1243,11 +1243,11 @@ window.songs = [
     "title": "You Shook Me All Night Long",
     "year": 1980
   },
-  {
+ {
     "id": 208,
     "artist": "Rihanna",
-    "title": "We Found Love",
-    "year": 2011
+    "title": "SOS",
+    "year": 2006
   },
   {
     "id": 209,
@@ -3050,10 +3050,10 @@ window.songs = [
     "year": 1984
   },
   {
-    "id": 509,
-    "artist": "Pitbull feat. John Ryan",
-    "title": "Fireball",
-    "year": 2014
+    "id": 395,
+    "artist": "Pitbull",
+    "title": "I Know You Want Me (Calle Ocho)",
+    "year": 2009
   },
   {
     "id": 510,
@@ -3204,6 +3204,12 @@ window.songs = [
     "artist": "t.A.T.u.",
     "title": "All the Things She Said",
     "year": 2002
+  },
+ {
+    "id": 535,
+    "artist": "Kesha",
+    "title": "Take It Off",
+    "year": 2010
   },
   {
     "id": 536,
@@ -3456,6 +3462,12 @@ window.songs = [
     "artist": "Pitbull feat. Ne-Yo, Afrojack & Nayer",
     "title": "Give Me Everything",
     "year": 2011
+  },
+ {
+    "id": 578,
+    "artist": "Kesha",
+    "title": "We R Who We R",
+    "year": 2010
   },
   {
     "id": 579,
@@ -3752,7 +3764,7 @@ window.songs = [
     "year": 1979
   },
  {
-    "id": 328,
+    "id": 628,
     "artist": "Tarkan",
     "title": "Şımarık",
     "year": 1997
@@ -3792,6 +3804,12 @@ window.songs = [
     "artist": "Bonnie Tyler",
     "title": "If You Were a Woman (And I Was a Man)",
     "year": 1986
+  },
+ {
+    "id": 635,
+    "artist": "Snow Patrol",
+    "title": "Chasing Cars",
+    "year": 2006
   },
   {
     "id": 636,
@@ -4495,6 +4513,12 @@ window.songs = [
     "title": "Burning Heart",
     "year": 1985
   },
+ {
+    "id": 753,
+    "artist": "Jay Sean feat. Lil Wayne",
+    "title": "Down",
+    "year": 2009
+  },
    {
     "id": 754,
     "artist": "Earth, Wind & Fire",
@@ -4591,6 +4615,12 @@ window.songs = [
     "title": "SexyBack",
     "year": 2006
   },
+ {
+    "id": 770,
+    "artist": "Jay Sean feat. Sean Paul & Lil Jon",
+    "title": "Do You Remember",
+    "year": 2009
+  },
   {
     "id": 771,
     "artist": "No Doubt",
@@ -4627,11 +4657,29 @@ window.songs = [
     "title": "Waterloo",
     "year": 1974
   },
+ {
+    "id": 777,
+    "artist": "Mike Posner",
+    "title": "Cooler Than Me",
+    "year": 2010
+  },
+ {
+    "id": 778,
+    "artist": "Jason Derulo",
+    "title": "It Girl",
+    "year": 2011
+  },
   {
     "id": 779,
     "artist": "Supertramp",
     "title": "Breakfast in America",
     "year": 1979
+  },
+ {
+    "id": 780,
+    "artist": "Jason Derulo",
+    "title": "Ridin' Solo",
+    "year": 2010
   },
   {
     "id": 781,
@@ -4644,6 +4692,12 @@ window.songs = [
     "artist": "Kansas",
     "title": "Carry On Wayward Son",
     "year": 1976
+  },
+ {
+    "id": 783,
+    "artist": "B.o.B feat. Hayley Williams",
+    "title": "Airplanes",
+    "year": 2010
   },
   {
     "id": 784,
@@ -4663,6 +4717,12 @@ window.songs = [
     "title": "Ready or Not",
     "year": 1996
   },
+ {
+    "id": 787,
+    "artist": "Far East Movement feat. The Cataracs & Dev",
+    "title": "Like a G6",
+    "year": 2010
+  },
    {
     "id": 788,
     "artist": "Blondie",
@@ -4681,7 +4741,43 @@ window.songs = [
     "title": "Pump It",
     "year": 2005
   },
-  {
+ {
+    "id": 791,
+    "artist": "Caesars",
+    "title": "Jerk It Out",
+    "year": 2002
+  },
+ {
+    "id": 792,
+    "artist": "Sophie Ellis-Bextor",
+    "title": "Murder on the Dancefloor",
+    "year": 2001
+  },
+ {
+    "id": 793,
+    "artist": "Dido",
+    "title": "White Flag",
+    "year": 2003
+  },
+     {
+    "id": 794,
+    "artist": "Leona Lewis",
+    "title": "Bleeding Love",
+    "year": 2007
+  },
+ {
+    "id": 795,
+    "artist": "Leona Lewis",
+    "title": "Better in Time",
+    "year": 2008
+  },
+     {
+    "id": 796,
+    "artist": "The Pussycat Dolls feat. Snoop Dogg",
+    "title": "Buttons",
+    "year": 2006
+  },
+   {
     "id": 797,
     "artist": "Smokie",
     "title": "Lay Back in the Arms of Someone",
@@ -4692,6 +4788,36 @@ window.songs = [
     "artist": "Mr. Big",
     "title": "Wild World",
     "year": 1993
+  },
+   {
+    "id": 799,
+    "artist": "The Pussycat Dolls",
+    "title": "When I Grow Up",
+    "year": 2008
+  },
+ {
+    "id": 800,
+    "artist": "Train",
+    "title": "Drops of Jupiter (Tell Me)",
+    "year": 2001
+  },
+ {
+    "id": 801,
+    "artist": "Destiny's Child",
+    "title": "Survivor",
+    "year": 2001
+  },
+ {
+    "id": 802,
+    "artist": "Iyaz",
+    "title": "Replay",
+    "year": 2009
+  },
+     {
+    "id": 803,
+    "artist": "Christina Aguilera, Lil' Kim, Mýa & P!nk",
+    "title": "Lady Marmalade",
+    "year": 2001
   },
   {
     "id": 804,
@@ -4723,11 +4849,29 @@ window.songs = [
     "title": "Photograph",
     "year": 2005
   },
+     {
+    "id": 809,
+    "artist": "Jamelia",
+    "title": "Superstar",
+    "year": 2003
+  },
   {
     "id": 810,
     "artist": "Beyoncé",
     "title": "Irreplaceable",
     "year": 2006
+  },
+     {
+    "id": 811,
+    "artist": "Evanescence",
+    "title": "Bring Me to Life",
+    "year": 2003
+  },
+ {
+    "id": 812,
+    "artist": "Daniel Powter",
+    "title": "Bad Day",
+    "year": 2005
   },
    {
     "id": 813,
@@ -4747,6 +4891,12 @@ window.songs = [
     "title": "I'd Do Anything for Love (But I Won't Do That)",
     "year": 1993
   },
+ {
+    "id": 816,
+    "artist": "Eve feat. Gwen Stefani",
+    "title": "Let Me Blow Ya Mind",
+    "year": 2001
+  },
    {
     "id": 817,
     "artist": "Sonny & Cher",
@@ -4764,6 +4914,18 @@ window.songs = [
     "artist": "Céline Dion",
     "title": "My Heart Will Go On",
     "year": 1997
+  },
+ {
+    "id": 820,
+    "artist": "Colbie Caillat",
+    "title": "Bubbly",
+    "year": 2007
+  },
+ {
+    "id": 821,
+    "artist": "James Blunt",
+    "title": "Goodbye My Lover",
+    "year": 2005
   },
   {
     "id": 824,
@@ -5061,9 +5223,9 @@ window.songs = [
   },
   {
     "id": 899,
-    "artist": "Jennifer Lopez",
-    "title": "Ain't Your Mama",
-    "year": 2016
+    "artist": "Jennifer Lopez feat. Styles P & Jadakiss",
+    "title": "Jenny from the Block",
+    "year": 2002
   },
   {
     "id": 901,
