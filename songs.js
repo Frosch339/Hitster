@@ -1275,9 +1275,9 @@ window.songs = [
   },
   {
     "id": 213,
-    "artist": "Stromae",
-    "title": "Alors on danse",
-    "year": 2009
+    "artist": "Pulsedriver",
+    "title": "One to Make Me Happy",
+    "year": 2004
   },
   {
     "id": 214,
@@ -1371,7 +1371,7 @@ window.songs = [
   },
   {
     "id": 229,
-    "artist": "The Eagles",
+    "artist": "Eagles",
     "title": "Hotel California",
     "year": 1976
   },
