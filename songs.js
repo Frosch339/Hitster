@@ -220,8 +220,8 @@ window.songs = [
   {
     "id": 37,
     "artist": "Taylor Swift",
-    "title": "Shake It Off",
-    "year": 2014
+    "title": "Opalite",
+    "year": 2025
   },
   {
     "id": 38,
@@ -256,8 +256,8 @@ window.songs = [
   {
     "id": 43,
     "artist": "Dua Lipa",
-    "title": "Houdini",
-    "year": 2023
+    "title": "Training Season",
+    "year": 2024
   },
   {
     "id": 44,
@@ -3050,7 +3050,7 @@ window.songs = [
     "year": 1984
   },
   {
-    "id": 395,
+    "id": 509,
     "artist": "Pitbull",
     "title": "I Know You Want Me (Calle Ocho)",
     "year": 2009
@@ -5265,9 +5265,9 @@ window.songs = [
   },
      {
     "id": 878,
-    "artist": "The Chainsmokers feat. Halsey",
-    "title": "Closer",
-    "year": 2016
+    "artist": "Tinashe",
+    "title": "No Broke Boys",
+    "year": 2024
   },
  {
     "id": 879,
@@ -5439,9 +5439,9 @@ window.songs = [
   },
  {
     "id": 907,
-    "artist": "Post Malone",
-    "title": "Circles",
-    "year": 2019
+    "artist": "LA Vision & Gigi D'Agostino",
+    "title": "Hollywood",
+    "year": 2020
   },
   {
     "id": 908,
@@ -5551,6 +5551,12 @@ window.songs = [
     "title": "Vermissen",
     "year": 2019
   },
+   {
+    "id": 926,
+    "artist": "Loreen",
+    "title": "Tattoo",
+    "year": 2023
+  },
   {
     "id": 927,
     "artist": "Kylie Minogue",
@@ -5575,11 +5581,41 @@ window.songs = [
     "title": "Free Bird",
     "year": 1973
   },
+ {
+    "id": 931,
+    "artist": "The Kid LAROI & Justin Bieber",
+    "title": "STAY",
+    "year": 2021
+  },
   {
     "id": 932,
     "artist": "Tic Tac Toe",
     "title": "Ich find' dich scheiße",
     "year": 1995
+  },
+       {
+    "id": 933,
+    "artist": "Miley Cyrus",
+    "title": "End of the World",
+    "year": 2025
+  },
+   {
+    "id": 934,
+    "artist": "Lost Frequencies, Calum Scott",
+    "title": "Where Are You Now",
+    "year": 2021
+  },
+ {
+    "id": 935,
+    "artist": "Shirin David",
+    "title": "Bauch Beine Po",
+    "year": 2024
+  },
+ {
+    "id": 936,
+    "artist": "OneRepublic",
+    "title": "I Ain't Worried",
+    "year": 2022
   },
   {
     "id": 937,
@@ -5593,17 +5629,41 @@ window.songs = [
     "title": "Spaceman",
     "year": 1993
   },
+       {
+    "id": 939,
+    "artist": "BTS",
+    "title": "Dynamite",
+    "year": 2020
+  },
   {
     "id": 940,
     "artist": "Blondie",
     "title": "Maria",
     "year": 1999
   },
+       {
+    "id": 941,
+    "artist": "Lil Nas X",
+    "title": "THATS WHAT I WANT",
+    "year": 2021
+  },
+   {
+    "id": 942,
+    "artist": "LEA",
+    "title": "Wenn du mich lässt",
+    "year": 2021
+  },
   {
     "id": 943,
     "artist": "Avril Lavigne",
     "title": "Girlfriend",
     "year": 2007
+  },
+       {
+    "id": 944,
+    "artist": "Olivia Dean",
+    "title": "Man I Need",
+    "year": 2025
   },
   {
     "id": 945,
@@ -5616,6 +5676,18 @@ window.songs = [
     "artist": "Robbie Williams",
     "title": "Supreme",
     "year": 2000
+  },
+ {
+    "id": 947,
+    "artist": "KitschKrieg, Blumengarten & Shirin David",
+    "title": "Gut genug",
+    "year": 2026
+  },
+ {
+    "id": 948,
+    "artist": "Nina Chuba",
+    "title": "Wildberry Lillet",
+    "year": 2022
   },
   {
     "id": 949,
@@ -5655,9 +5727,9 @@ window.songs = [
   },
  {
     "id": 955,
-    "artist": "Gayle",
-    "title": "abcdefu",
-    "year": 2021
+    "artist": "Bunt.",
+    "title": "Trippin'",
+    "year": 2024
   },
    {
     "id": 956,
