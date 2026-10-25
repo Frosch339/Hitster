@@ -5173,6 +5173,24 @@ window.songs = [
     "title": "Never Forget You",
     "year": 2015
   },
+ {
+    "id": 863,
+    "artist": "Skrillex feat. Sirah",
+    "title": "Bangarang",
+    "year": 2011
+  },
+     {
+    "id": 864,
+    "artist": "G-Eazy x Bebe Rexha",
+    "title": "Me, Myself & I",
+    "year": 2015
+  },
+ {
+    "id": 865,
+    "artist": "Jonas Blue feat. JP Cooper",
+    "title": "Perfect Strangers",
+    "year": 2016
+  },
   {
     "id": 866,
     "artist": "Gli Italiani Di Ieri",
@@ -5184,6 +5202,12 @@ window.songs = [
     "artist": "Europe",
     "title": "Carrie",
     "year": 1987
+  },
+     {
+    "id": 868,
+    "artist": "Fifth Harmony feat. Ty Dolla $ign",
+    "title": "Work from Home",
+    "year": 2016
   },
   {
     "id": 869,
@@ -5239,6 +5263,24 @@ window.songs = [
     "title": "Be My Lover",
     "year": 1995
   },
+     {
+    "id": 878,
+    "artist": "The Chainsmokers feat. Halsey",
+    "title": "Closer",
+    "year": 2016
+  },
+ {
+    "id": 879,
+    "artist": "Drake feat. Wizkid & Kyla",
+    "title": "One Dance",
+    "year": 2016
+  },
+ {
+    "id": 880,
+    "artist": "Alessia Cara",
+    "title": "Scars to Your Beautiful",
+    "year": 2016
+  },
   {
     "id": 881,
     "artist": "Chiddy Bang",
@@ -5262,6 +5304,12 @@ window.songs = [
     "artist": "Whitney Houston",
     "title": "I Have Nothing",
     "year": 1993
+  },
+     {
+    "id": 885,
+    "artist": "Shawn Mendes & Camila Cabello",
+    "title": "Señorita",
+    "year": 2019
   },
   {
     "id": 886,
@@ -5305,7 +5353,7 @@ window.songs = [
     "title": "Big City Life",
     "year": 2005
   },
-  {
+     {
     "id": 893,
     "artist": "Yes",
     "title": "Owner of a Lonely Heart",
@@ -5347,6 +5395,12 @@ window.songs = [
     "title": "Jenny from the Block",
     "year": 2002
   },
+   {
+    "id": 900,
+    "artist": "Halsey",
+    "title": "Without Me",
+    "year": 2018
+  },
   {
     "id": 901,
     "artist": "ABBA",
@@ -5383,11 +5437,35 @@ window.songs = [
     "title": "Let's Get Loud",
     "year": 1999
   },
+ {
+    "id": 907,
+    "artist": "Post Malone",
+    "title": "Circles",
+    "year": 2019
+  },
   {
     "id": 908,
     "artist": "Snap!",
     "title": "Ooops Up",
     "year": 1990
+  },
+ {
+    "id": 909,
+    "artist": "Regard",
+    "title": "Ride It",
+    "year": 2019
+  },
+     {
+    "id": 910,
+    "artist": "Jonas Brothers",
+    "title": "Sucker",
+    "year": 2019
+  },
+ {
+    "id": 911,
+    "artist": "Lil Nas X feat. Billy Ray Cyrus",
+    "title": "Old Town Road",
+    "year": 2019
   },
   {
     "id": 912,
@@ -5400,6 +5478,12 @@ window.songs = [
     "artist": "Boston",
     "title": "Amanda",
     "year": 1986
+  },
+     {
+    "id": 914,
+    "artist": "Sido",
+    "title": "Tausend Tattoos",
+    "year": 2018
   },
   {
     "id": 915,
@@ -5424,6 +5508,12 @@ window.songs = [
     "artist": "Britney Spears",
     "title": "...Baby One More Time",
     "year": 1998
+  },
+     {
+    "id": 919,
+    "artist": "Apache 207",
+    "title": "Roller",
+    "year": 2019
   },
   {
     "id": 920,
@@ -5454,6 +5544,12 @@ window.songs = [
     "artist": "Kanye West",
     "title": "All of the Lights",
     "year": 2010
+  },
+ {
+    "id": 925,
+    "artist": "Juju feat. Henning May",
+    "title": "Vermissen",
+    "year": 2019
   },
   {
     "id": 927,
