@@ -892,8 +892,8 @@ window.songs = [
   {
     "id": 149,
     "artist": "Galantis",
-    "title": "Peanut Butter Jelly",
-    "year": 2015
+    "title": "Runaway (U & I)",
+    "year": 2014
   },
   {
     "id": 150,
@@ -3298,8 +3298,8 @@ window.songs = [
   {
     "id": 550,
     "artist": "Madonna",
-    "title": "Like a Virgin",
-    "year": 1984
+    "title": "Hung Up",
+    "year": 2005
   },
   {
     "id": 551,
@@ -4927,6 +4927,18 @@ window.songs = [
     "title": "Goodbye My Lover",
     "year": 2005
   },
+ {
+    "id": 822,
+    "artist": "will.i.am feat. Britney Spears",
+    "title": "Scream & Shout",
+    "year": 2012
+  },
+     {
+    "id": 823,
+    "artist": "Nicki Minaj",
+    "title": "Starships",
+    "year": 2012
+  },
   {
     "id": 824,
     "artist": "Sweet",
@@ -4939,11 +4951,23 @@ window.songs = [
     "title": "I Don't Want to Miss a Thing",
     "year": 1998
   },
+     {
+    "id": 826,
+    "artist": "Macklemore & Ryan Lewis feat. Ray Dalton",
+    "title": "Can't Hold Us",
+    "year": 2011
+  },
   {
     "id": 827,
     "artist": "Red Hot Chili Peppers",
     "title": "Otherside",
     "year": 1999
+  },
+     {
+    "id": 828,
+    "artist": "Robin Schulz feat. Francesco Yates",
+    "title": "Sugar",
+    "year": 2015
   },
   {
     "id": 829,
@@ -5005,11 +5029,41 @@ window.songs = [
     "title": "The Power of Love",
     "year": 1993
   },
+     {
+    "id": 839,
+    "artist": "CeeLo Green",
+    "title": "Fuck You",
+    "year": 2010
+  },
+ {
+    "id": 840,
+    "artist": "Madcon",
+    "title": "Glow",
+    "year": 2010
+  },
+ {
+    "id": 841,
+    "artist": "Madcon feat. Ameerah",
+    "title": "Freaky Like Me",
+    "year": 2010
+  },
   {
     "id": 842,
     "artist": "The Killers",
     "title": "Human",
     "year": 2008
+  },
+ {
+    "id": 843,
+    "artist": "Enrique Iglesias",
+    "title": "Hero",
+    "year": 2001
+  },
+     {
+    "id": 844,
+    "artist": "Enrique Iglesias feat. Pitbull",
+    "title": "I Like It",
+    "year": 2010
   },
   {
     "id": 845,
@@ -5017,11 +5071,23 @@ window.songs = [
     "title": "Hot in Herre",
     "year": 2002
   },
+      {
+    "id": 846,
+    "artist": "Alexandra Stan",
+    "title": "Mr. Saxobeat",
+    "year": 2011
+  },
   {
     "id": 847,
     "artist": "Cher",
     "title": "If I Could Turn Back Time",
     "year": 1989
+  },
+     {
+    "id": 848,
+    "artist": "Tove Lo",
+    "title": "Talking Body",
+    "year": 2014
   },
   {
     "id": 849,
@@ -5035,23 +5101,77 @@ window.songs = [
     "title": "Halo",
     "year": 2008
   },
+ {
+    "id": 851,
+    "artist": "Tove Lo",
+    "title": "Habits (Stay High)",
+    "year": 2013
+  },
+ {
+    "id": 852,
+    "artist": "Iggy Azalea feat. Rita Ora",
+    "title": "Black Widow",
+    "year": 2014
+  },
   {
     "id": 853,
     "artist": "Loona",
     "title": "Hijo de la Luna",
     "year": 1998
   },
-  {
+       {
     "id": 854,
     "artist": "Anastacia",
     "title": "Left Outside Alone",
     "year": 2004
+  },
+ {
+    "id": 855,
+    "artist": "Rita Ora",
+    "title": "Let You Love Me",
+    "year": 2018
+  },
+ {
+    "id": 856,
+    "artist": "Ariana Grande feat. Nicki Minaj",
+    "title": "Side to Side",
+    "year": 2016
   },
   {
     "id": 857,
     "artist": "Shaggy",
     "title": "Boombastic",
     "year": 1995
+  },
+ {
+    "id": 858,
+    "artist": "Rita Ora",
+    "title": "Your Song",
+    "year": 2017
+  },
+ {
+    "id": 859,
+    "artist": "Ariana Grande",
+    "title": "thank u, next",
+    "year": 2018
+  },
+ {
+    "id": 860,
+    "artist": "Selena Gomez",
+    "title": "Kill Em with Kindness",
+    "year": 2016
+  },
+     {
+    "id": 861,
+    "artist": "Selena Gomez & the Scene",
+    "title": "Love You Like a Love Song",
+    "year": 2011
+  },
+ {
+    "id": 862,
+    "artist": "MNEK & Zara Larsson",
+    "title": "Never Forget You",
+    "year": 2015
   },
   {
     "id": 866,
@@ -5098,7 +5218,7 @@ window.songs = [
   {
     "id": 874,
     "artist": "Kelly Clarkson",
-    "title": "Breakaway",
+    "title": "Since U Been Gone",
     "year": 2004
   },
  {
