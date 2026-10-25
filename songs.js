@@ -1621,6 +1621,12 @@ window.songs = [
     "title": "Old Time Rock & Roll",
     "year": 1978
   },
+ {
+    "id": 271,
+    "artist": "Pur",
+    "title": "Abenteuerland",
+    "year": 1995
+  },
   {
     "id": 272,
     "artist": "50 Cent",
@@ -2473,6 +2479,12 @@ window.songs = [
     "title": "Sing It Back (Boris Musical Mix)",
     "year": 1998
   },
+ {
+    "id": 414,
+    "artist": "Toploader",
+    "title": "Dancing in the Moonlight",
+    "year": 2000
+  },
   {
     "id": 415,
     "artist": "Darude",
@@ -2491,7 +2503,12 @@ window.songs = [
     "title": "Stereo Love",
     "year": 2009
   },
- 
+ {
+    "id": 418,
+    "artist": "Clout",
+    "title": "Save Me",
+    "year": 1979
+  },
   {
     "id": 419,
     "artist": "Tears for Fears",
@@ -2510,17 +2527,41 @@ window.songs = [
     "title": "Dark Horse",
     "year": 2013
   },
+ {
+    "id": 422,
+    "artist": "Natasha Bedingfield",
+    "title": "Unwritten",
+    "year": 2004
+  },
   {
     "id": 423,
     "artist": "Eurythmics",
     "title": "Sweet Dreams (Are Made of This)",
     "year": 1983
   },
+ {
+    "id": 424,
+    "artist": "Natasha Bedingfield",
+    "title": "Pocketful of Sunshine",
+    "year": 2008
+  },
   {
     "id": 425,
     "artist": "Gorillaz",
     "title": "Feel Good Inc.",
     "year": 2005
+  },
+ {
+    "id": 426,
+    "artist": "Mario Winans feat. Enya & P. Diddy",
+    "title": "I Don't Wanna Know",
+    "year": 2004
+  },
+ {
+    "id": 427,
+    "artist": "Sarah McLachlan",
+    "title": "Angel",
+    "year": 1997
   },
   {
     "id": 428,
@@ -2564,11 +2605,23 @@ window.songs = [
     "title": "Little Lies",
     "year": 1987
   },
+ {
+    "id": 435,
+    "artist": "Christina Aguilera",
+    "title": "Hurt",
+    "year": 2006
+  },
   {
     "id": 436,
     "artist": "Aretha Franklin",
     "title": "I Say a Little Prayer",
     "year": 1968
+  },
+     {
+    "id": 437,
+    "artist": "Christina Aguilera",
+    "title": "Beautiful",
+    "year": 2002
   },
    {
     "id": 438,
@@ -2594,11 +2647,23 @@ window.songs = [
     "title": "Paradise",
     "year": 2011
   },
+     {
+    "id": 442,
+    "artist": "Christina Aguilera",
+    "title": "Fighter",
+    "year": 2002
+  },
   {
     "id": 443,
     "artist": "Roy Orbison",
     "title": "Oh, Pretty Woman",
     "year": 1964
+  },
+ {
+    "id": 444,
+    "artist": "Nelly Furtado",
+    "title": "All Good Things (Come to an End)",
+    "year": 2006
   },
   {
     "id": 445,
@@ -2708,6 +2773,12 @@ window.songs = [
     "title": "Greatest Love of All",
     "year": 1985
   },
+   {
+    "id": 463,
+    "artist": "Cascada",
+    "title": "Everytime We Touch",
+    "year": 2005
+  },
   {
     "id": 464,
     "artist": "Bobby McFerrin",
@@ -2732,18 +2803,35 @@ window.songs = [
     "title": "Ich bin wie du",
     "year": 1975
   },
+   {
+    "id": 468,
+    "artist": "Taio Cruz",
+    "title": "Dynamite",
+    "year": 2009
+  },
     {
     "id": 469,
     "artist": "PSY",
     "title": "Gangnam Style",
     "year": 2012
   },
-  
+  {
+    "id": 470,
+    "artist": "Taio Cruz feat. Ludacris",
+    "title": "Break Your Heart",
+    "year": 2009
+  },
   {
     "id": 471,
     "artist": "Oasis",
     "title": "Don't Look Back in Anger",
     "year": 1995
+  },
+   {
+    "id": 472,
+    "artist": "Timbaland feat. Keri Hilson, D.O.E. & Sebastian",
+    "title": "The Way I Are",
+    "year": 2007
   },
   {
     "id": 473,
@@ -2775,6 +2863,12 @@ window.songs = [
     "title": "Rock You Like a Hurricane",
     "year": 1984
   },
+   {
+    "id": 478,
+    "artist": "Timbaland feat. Nelly Furtado & Justin Timberlake",
+    "title": "Give It to Me",
+    "year": 2007
+  },
   {
     "id": 479,
     "artist": "Vanilla Ice",
@@ -2786,6 +2880,12 @@ window.songs = [
     "artist": "Destiny's Child",
     "title": "Say My Name",
     "year": 1999
+  },
+   {
+    "id": 481,
+    "artist": "Timbaland feat. Katy Perry",
+    "title": "If We Ever Meet Again",
+    "year": 2010
   },
  {
     "id": 482,
@@ -2836,6 +2936,12 @@ window.songs = [
     "year": 2001
   },
    {
+    "id": 490,
+    "artist": "Timbaland feat. Nelly Furtado & SoShy",
+    "title": "Morning After Dark",
+    "year": 2009
+  },
+   {
     "id": 491,
     "artist": "Mausio",
     "title": "Krustenf!cker",
@@ -2883,13 +2989,24 @@ window.songs = [
     "title": "She Drives Me Crazy",
     "year": 1989
   },
+   {
+    "id": 499,
+    "artist": "Flo Rida feat. Kesha",
+    "title": "Right Round",
+    "year": 2009
+  },
   {
     "id": 500,
     "artist": "Carly Rae Jepsen",
     "title": "Call Me Maybe",
     "year": 2011
   },
-  
+  {
+    "id": 501,
+    "artist": "Flo Rida feat. Bestie",
+    "title": "Turn Around (5, 4, 3, 2, 1)",
+    "year": 2009
+  },
   {
     "id": 502,
     "artist": "Laura Branigan",
@@ -3070,13 +3187,31 @@ window.songs = [
     "title": "I Ran (So Far Away)",
     "year": 1982
   },
+   {
+    "id": 532,
+    "artist": "Fergie feat. Ludacris",
+    "title": "Glamorous",
+    "year": 2006
+  },
+   {
+    "id": 533,
+    "artist": "Fergie",
+    "title": "Big Girls Don't Cry",
+    "year": 2007
+  },
+   {
+    "id": 534,
+    "artist": "t.A.T.u.",
+    "title": "All the Things She Said",
+    "year": 2002
+  },
   {
     "id": 536,
     "artist": "Uncle Kracker feat. Dobie Gray",
     "title": "Drift Away",
     "year": 2002
   },
-  {
+     {
     "id": 537,
     "artist": "Christina Perri",
     "title": "Jar of Hearts",
