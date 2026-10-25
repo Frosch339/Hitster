@@ -2956,8 +2956,8 @@ window.songs = [
   {
     "id": 493,
     "artist": "Doja Cat",
-    "title": "Woman",
-    "year": 2021
+    "title": "Paint The Town Red",
+    "year": 2023
   },
   {
     "id": 494,
@@ -5635,6 +5635,12 @@ window.songs = [
     "title": "Ma Baker",
     "year": 1977
   },
+ {
+    "id": 952,
+    "artist": "Tyla",
+    "title": "Water",
+    "year": 2023
+  },
   {
     "id": 953,
     "artist": "Nelly",
@@ -5647,6 +5653,12 @@ window.songs = [
     "title": "The Shoop Shoop Song (It's in His Kiss)",
     "year": 1990
   },
+ {
+    "id": 955,
+    "artist": "Gayle",
+    "title": "abcdefu",
+    "year": 2021
+  },
    {
     "id": 956,
     "artist": "Maroon 5 feat. Wiz Khalifa",
@@ -5658,6 +5670,18 @@ window.songs = [
     "artist": "The Animals",
     "title": "House of the Rising Sun",
     "year": 1964
+  },
+   {
+    "id": 958,
+    "artist": "Holly Humberstone",
+    "title": "To Love Somebody",
+    "year": 2026
+  },
+ {
+    "id": 959,
+    "artist": "AURORA",
+    "title": "Runaway",
+    "year": 2015
   },
   {
     "id": 960,
@@ -5682,6 +5706,30 @@ window.songs = [
     "artist": "Shaggy feat. Rayvon",
     "title": "Angel",
     "year": 2001
+  },
+ {
+    "id": 964,
+    "artist": "Tate McRae",
+    "title": "You Broke Me First",
+    "year": 2020
+  },
+ {
+    "id": 965,
+    "artist": "Camila Cabello feat. Ed Sheeran",
+    "title": "Bam Bam",
+    "year": 2022
+  },
+ {
+    "id": 966,
+    "artist": "Adele",
+    "title": "Easy on Me",
+    "year": 2021
+  },
+ {
+    "id": 967,
+    "artist": "Harry Styles",
+    "title": "American Girls",
+    "year": 2026
   },
    {
     "id": 968,
@@ -5730,6 +5778,12 @@ window.songs = [
     "artist": "Mausio",
     "title": "Zwischen Genie und Wahnsinn",
     "year": 2021
+  },
+ {
+    "id": 976,
+    "artist": "Miley Cyrus",
+    "title": "Flowers",
+    "year": 2023
   },
    {
     "id": 977,
