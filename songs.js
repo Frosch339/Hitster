@@ -877,6 +877,12 @@ window.songs = [
     "title": "Schöner fremder Mann",
     "year": 1961
   },
+ {
+    "id": 147,
+    "artist": "Oli.P",
+    "title": "Flugzeuge im Bauch",
+    "year": 1998
+  },
   {
     "id": 148,
     "artist": "Fugees",
@@ -938,7 +944,7 @@ window.songs = [
     "year": 1978
   },
    {
-    "id": 274,
+    "id": 158,
     "artist": "Billy Joel",
     "title": "Uptown Girl",
     "year": 1983
@@ -1027,6 +1033,12 @@ window.songs = [
     "title": "Bang Bang",
     "year": 2014
   },
+ {
+    "id": 173,
+    "artist": "Stefan Raab",
+    "title": "Maschen-draht-zaun",
+    "year": 1999
+  },
   {
     "id": 174,
     "artist": "Juice WRLD",
@@ -1094,7 +1106,7 @@ window.songs = [
     "year": 1977
   },
  {
-    "id": 282,
+    "id": 185,
     "artist": "U2",
     "title": "I Still Haven't Found What I'm Looking For",
     "year": 1987
@@ -1104,6 +1116,12 @@ window.songs = [
     "artist": "Elvis Presley",
     "title": "Jailhouse Rock",
     "year": 1957
+  },
+ {
+    "id": 187,
+    "artist": "Britney Spears",
+    "title": "Gimme More",
+    "year": 2007
   },
   {
     "id": 188,
@@ -1135,6 +1153,12 @@ window.songs = [
     "title": "Smoke on the Water",
     "year": 1972
   },
+ {
+    "id": 193,
+    "artist": "Britney Spears",
+    "title": "Oops!... I Did It Again",
+    "year": 2000
+  },
   {
     "id": 194,
     "artist": "Die Ärzte",
@@ -1147,11 +1171,23 @@ window.songs = [
     "title": "Surfin' U.S.A.",
     "year": 1963
   },
+ {
+    "id": 196,
+    "artist": "Blümchen",
+    "title": "Herz an Herz",
+    "year": 1995
+  },
    {
     "id": 197,
     "artist": "Chuck Berry",
     "title": "Johnny B. Goode",
     "year": 1958
+  },
+ {
+    "id": 198,
+    "artist": "Spin Doctors",
+    "title": "Two Princes",
+    "year": 1991
   },
    {
     "id": 199,
@@ -1357,6 +1393,12 @@ window.songs = [
     "title": "Hungry Heart",
     "year": 1980
   },
+ {
+    "id": 233,
+    "artist": "Wir sind Helden",
+    "title": "Nur ein Wort",
+    "year": 2005
+  },
   {
     "id": 234,
     "artist": "Ray Parker Jr.",
@@ -1387,7 +1429,12 @@ window.songs = [
     "title": "Terra Titanic",
     "year": 1984
   },
-  
+  {
+    "id": 239,
+    "artist": "Matthias Reim",
+    "title": "Verdammt, ich lieb' dich",
+    "year": 1990
+  },
   {
     "id": 240,
     "artist": "Blu Cantrell feat. Sean Paul",
@@ -1447,6 +1494,12 @@ window.songs = [
     "artist": "Olivia Rodrigo",
     "title": "drivers license",
     "year": 2021
+  },
+ {
+    "id": 250,
+    "artist": "Juli",
+    "title": "Geile Zeit",
+    "year": 2004
   },
   {
     "id": 251,
@@ -1729,6 +1782,12 @@ window.songs = [
     "artist": "Peter Fox",
     "title": "Schwarz zu Blau",
     "year": 2008
+  },
+ {
+    "id": 302,
+    "artist": "Vengaboys",
+    "title": "We're Going to Ibiza!",
+    "year": 1999
   },
    {
     "id": 303,
@@ -2518,6 +2577,12 @@ window.songs = [
     "title": "Clint Eastwood",
     "year": 2001
   },
+ {
+    "id": 459,
+    "artist": "Madonna",
+    "title": "Frozen",
+    "year": 1998
+  },
   {
     "id": 460,
     "artist": "Udo Jürgens",
@@ -2608,6 +2673,12 @@ window.songs = [
     "artist": "Vanilla Ice",
     "title": "Ice Ice Baby",
     "year": 1990
+  },
+ {
+    "id": 480,
+    "artist": "Destiny's Child",
+    "title": "Say My Name",
+    "year": 1999
   },
  {
     "id": 482,
@@ -2958,6 +3029,12 @@ window.songs = [
     "title": "Keep On Loving You",
     "year": 1980
   },
+ {
+    "id": 547,
+    "artist": "Elton John",
+    "title": "Can You Feel the Love Tonight",
+    "year": 1994
+  },
   {
     "id": 548,
     "artist": "Coldplay",
@@ -3150,6 +3227,12 @@ window.songs = [
     "title": "My Universe",
     "year": 2021
   },
+ {
+    "id": 581,
+    "artist": "Scooter",
+    "title": "How Much Is the Fish?",
+    "year": 1998
+  },
   {
     "id": 582,
     "artist": "Tobee",
@@ -3203,6 +3286,12 @@ window.songs = [
     "artist": "Glass Animals",
     "title": "Heat Waves",
     "year": 2020
+  },
+ {
+    "id": 591,
+    "artist": "Sheryl Crow",
+    "title": "All I Wanna Do",
+    "year": 1993
   },
   {
     "id": 592,
@@ -3420,6 +3509,12 @@ window.songs = [
     "title": "In the Navy",
     "year": 1979
   },
+ {
+    "id": 328,
+    "artist": "Tarkan",
+    "title": "Şımarık",
+    "year": 1997
+  },
   {
     "id": 629,
     "artist": "Whitney Houston",
@@ -3545,6 +3640,12 @@ window.songs = [
     "artist": "Chicago",
     "title": "If You Leave Me Now",
     "year": 1976
+  },
+ {
+    "id": 651,
+    "artist": "Jennifer Lopez",
+    "title": "If You Had My Love",
+    "year": 1999
   },
    {
     "id": 652,
@@ -3738,6 +3839,12 @@ window.songs = [
     "title": "Mr. Wichtig",
     "year": 1997
   },
+ {
+    "id": 684,
+    "artist": "Will Smith",
+    "title": "Men in Black",
+    "year": 1997
+  },
   {
     "id": 685,
     "artist": "Kansas",
@@ -3766,6 +3873,12 @@ window.songs = [
     "id": 689,
     "artist": "The Prodigy",
     "title": "Firestarter",
+    "year": 1996
+  },
+ {
+    "id": 690,
+    "artist": "Donna Lewis",
+    "title": "I Love You Always Forever",
     "year": 1996
   },
   {
@@ -3809,6 +3922,18 @@ window.songs = [
     "artist": "Spider Murphy Gang",
     "title": "Schickeria",
     "year": 1981
+  },
+ {
+    "id": 698,
+    "artist": "Aqua",
+    "title": "Barbie Girl",
+    "year": 1997
+  },
+ {
+    "id": 699,
+    "artist": "Marc Cohn",
+    "title": "Walking in Memphis",
+    "year": 1991
   },
   {
     "id": 700,
@@ -3905,6 +4030,12 @@ window.songs = [
     "artist": "Supertramp",
     "title": "The Logical Song",
     "year": 1979
+  },
+ {
+    "id": 716,
+    "artist": "Jay-Z",
+    "title": "Hard Knock Life (Ghetto Anthem)",
+    "year": 1998
   },
   {
     "id": 717,
@@ -4055,6 +4186,12 @@ window.songs = [
     "artist": "Anastacia",
     "title": "I'm Outta Love",
     "year": 2000
+  },
+ {
+    "id": 742,
+    "artist": "Mike + The Mechanics",
+    "title": "Over My Shoulder",
+    "year": 1995
   },
   {
     "id": 743,
@@ -4380,6 +4517,12 @@ window.songs = [
     "title": "Everyone's a Winner",
     "year": 1978
   },
+ {
+    "id": 819,
+    "artist": "Céline Dion",
+    "title": "My Heart Will Go On",
+    "year": 1997
+  },
   {
     "id": 824,
     "artist": "Sweet",
@@ -4452,6 +4595,12 @@ window.songs = [
     "title": "Die Da!?!",
     "year": 1992
   },
+ {
+    "id": 838,
+    "artist": "Céline Dion",
+    "title": "The Power of Love",
+    "year": 1993
+  },
   {
     "id": 842,
     "artist": "The Killers",
@@ -4506,6 +4655,12 @@ window.songs = [
     "title": "Tarantella Napoletana",
     "year": 1852
   },
+ {
+    "id": 867,
+    "artist": "Europe",
+    "title": "Carrie",
+    "year": 1987
+  },
   {
     "id": 869,
     "artist": "Justin Timberlake",
@@ -4542,11 +4697,23 @@ window.songs = [
     "title": "Breakaway",
     "year": 2004
   },
+ {
+    "id": 875,
+    "artist": "Corona",
+    "title": "The Rhythm of the Night",
+    "year": 1993
+  },
   {
     "id": 876,
     "artist": "Avril Lavigne",
     "title": "My Happy Ending",
     "year": 2004
+  },
+ {
+    "id": 877,
+    "artist": "La Bouche",
+    "title": "Be My Lover",
+    "year": 1995
   },
   {
     "id": 881,
@@ -4686,6 +4853,12 @@ window.songs = [
     "title": "I Don't Like Mondays",
     "year": 1979
   },
+     {
+    "id": 906,
+    "artist": "Jennifer Lopez",
+    "title": "Let's Get Loud",
+    "year": 1999
+  },
   {
     "id": 908,
     "artist": "Snap!",
@@ -4722,17 +4895,35 @@ window.songs = [
     "title": "Everybody (Backstreet's Back)",
     "year": 1997
   },
+    {
+    "id": 918,
+    "artist": "Britney Spears",
+    "title": "...Baby One More Time",
+    "year": 1998
+  },
   {
     "id": 920,
     "artist": "Spice Girls",
     "title": "Say You'll Be There",
     "year": 1996
   },
+ {
+    "id": 921,
+    "artist": "TLC",
+    "title": "No Scrubs",
+    "year": 1999
+  },
   {
     "id": 922,
     "artist": "Gloria Gaynor",
     "title": "Never Can Say Goodbye",
     "year": 1974
+  },
+ {
+    "id": 923,
+    "artist": "Sixpence None the Richer",
+    "title": "Kiss Me",
+    "year": 1998
   },
   {
     "id": 924,
