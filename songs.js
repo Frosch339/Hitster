@@ -1467,9 +1467,9 @@ window.songs = [
   },
   {
     "id": 245,
-    "artist": "Of Monsters and Men",
-    "title": "Little Talks",
-    "year": 2011
+    "artist": "Klangkarussell",
+    "title": "Sonnentanz",
+    "year": 2012
   },
   {
     "id": 246,
@@ -2295,9 +2295,9 @@ window.songs = [
   },
   {
     "id": 383,
-    "artist": "Foster the People",
-    "title": "Pumped Up Kicks",
-    "year": 2010
+    "artist": "Route 94 feat. Jess Glynne",
+    "title": "My Love",
+    "year": 2014
   },
   {
     "id": 384,
@@ -2787,9 +2787,9 @@ window.songs = [
   },
   {
     "id": 465,
-    "artist": "Kendrick Lamar",
-    "title": "Not Like Us",
-    "year": 2024
+    "artist": "Wolfgang Ambros",
+    "title": "Skifoan",
+    "year": 1976
   },
   {
     "id": 466,
@@ -3267,9 +3267,9 @@ window.songs = [
   },
   {
     "id": 545,
-    "artist": "Walk the Moon",
-    "title": "Shut Up and Dance",
-    "year": 2014
+    "artist": "MØ",
+    "title": "Final Song",
+    "year": 2016
   },
  {
     "id": 546,
@@ -3613,12 +3613,12 @@ window.songs = [
     "title": "Get Busy",
     "year": 2003
   },
-  {
+ {
     "id": 603,
-    "artist": "Bruno Mars",
-    "title": "Just the Way You Are",
-    "year": 2010
-  },
+    "artist": "Aaron Smith feat. Luvli (Krono Remix)",
+    "title": "Dancin",
+    "year": 2014
+     },
   {
     "id": 604,
     "artist": "Farid Bang",
