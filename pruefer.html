@@ -1,253 +1,195 @@
 
+```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hitster – Song-Prüfer</title>
-
 <style>
-  * { box-sizing: border-box; }
-
-  body {
-    margin: 0;
-    padding: 20px;
-    background: #121212;
-    color: #fff;
-    font-family: Arial, sans-serif;
-  }
-
-  main {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 24px;
-    background: #202020;
-    border-radius: 16px;
-  }
-
-  .muted {
-    color: #aaa;
-    font-size: 14px;
-  }
-
-  h1 { font-size: 25px; }
-
-  #songTitle {
-    font-size: 27px;
-    overflow-wrap: anywhere;
-  }
-
-  button {
-    width: 100%;
-    margin-top: 12px;
-    padding: 14px;
-    border: 0;
-    border-radius: 9px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-
-  .spotify { background: #1ed760; color: #000; }
-  .correct { background: #287d46; color: #fff; }
-  .wrong { background: #a93636; color: #fff; }
-  .next { background: #eee; color: #111; }
-  .secondary { background: #383838; color: #fff; }
-
-  #status {
-    margin-top: 18px;
-    padding: 12px;
-    background: #303030;
-    border-radius: 8px;
-  }
-
-  .navigation {
-    display: flex;
-    gap: 10px;
-  }
-
-  .navigation button { flex: 1; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 18px;
+  background: #121212; color: white;
+  font-family: Arial, sans-serif;
+}
+main {
+  max-width: 650px; margin: auto;
+  padding: 22px; background: #202020;
+  border-radius: 14px;
+}
+h1 { font-size: 25px; }
+.muted { color: #aaa; font-size: 14px; }
+button, input {
+  width: 100%; padding: 13px; margin-top: 10px;
+  border: 0; border-radius: 8px; font-size: 16px;
+}
+button { cursor: pointer; font-weight: bold; }
+.spotify { background: #1ed760; color: #111; }
+.secondary { background: #383838; color: white; }
+.correct { background: #287d46; color: white; }
+.wrong { background: #a93636; color: white; }
+iframe {
+  width: 100%; height: 152px;
+  border: 0; border-radius: 12px; margin-top: 15px;
+}
+.navigation { display: flex; gap: 10px; }
+.navigation button { flex: 1; }
+#status {
+  margin-top: 15px; padding: 12px;
+  background: #303030; border-radius: 8px;
+}
 </style>
 </head>
-
 <body>
 <main>
-  <div class="muted">EIGENES HITSTER · MANUELLE PRÜFUNG</div>
+  <div class="muted">EIGENES HITSTER · SONG-PRÜFER</div>
+  <h1 id="card">Song wird geladen ...</h1>
+  <p id="progress" class="muted"></p>
 
-  <h1 id="cardNumber">Karte</h1>
-  <div class="muted" id="progress"></div>
-
-  <h2 id="songTitle">Song wird geladen ...</h2>
+  <h2 id="title"></h2>
   <p id="artist"></p>
-  <p id="year"></p>
+  <p id="year" class="muted"></p>
 
-  <button class="spotify" id="spotify">
-    🎵 In Spotify suchen
+  <button id="search" class="spotify">
+    Spotify-Suche im Browser öffnen
   </button>
 
   <p class="muted">
-    Prüfe in Spotify die Aufnahme, insbesondere Studio-
-    oder Live-Version, Remaster und Erscheinungsjahr.
+    Wähle in Spotify den passenden Treffer. Kopiere anschließend
+    dessen Track-Link in das Feld unten, damit du ihn hier abspielen kannst.
   </p>
 
-  <button class="correct" id="correct">
-    ✓ Richtige Version gefunden
+  <input id="trackUrl"
+    placeholder="Spotify-Track-Link hier einfügen">
+
+  <button id="load" class="secondary">
+    Track hier anzeigen und abspielen
   </button>
 
-  <button class="wrong" id="wrong">
+  <div id="player"></div>
+
+  <button id="correct" class="correct">
+    ✓ Richtige Version
+  </button>
+  <button id="wrong" class="wrong">
     ✗ Falsche Version / Problem
   </button>
 
   <div id="status">Noch nicht geprüft</div>
 
   <div class="navigation">
-    <button class="secondary" id="previous">← Zurück</button>
-    <button class="next" id="next">Nächster Song →</button>
+    <button id="previous" class="secondary">← Zurück</button>
+    <button id="next" class="secondary">Nächster Song →</button>
   </div>
-
-  <button class="secondary" id="unmark">
-    Markierung entfernen
-  </button>
-
-  <button class="secondary" id="showProblems">
-    Nur ungeprüfte / problematische Songs
-  </button>
+  <button id="unmark" class="secondary">Markierung entfernen</button>
 </main>
 
 <script src="./songs.js"></script>
 <script>
 (() => {
   const songs = window.songs || [];
+  const el = id => document.getElementById(id);
 
   if (!songs.length) {
-    document.getElementById("songTitle").textContent =
+    el("card").textContent =
       "Fehler: songs.js wurde nicht geladen.";
     return;
   }
 
-  const storageKey = "hitsterManualCheckStatus";
-  let statusMap = {};
+  const statusKey = "hitsterManualCheckStatus";
+  const trackKey = "hitsterSpotifyTrackLinks";
+  let statuses = {};
+  let trackLinks = {};
 
   try {
-    statusMap = JSON.parse(
-      localStorage.getItem(storageKey) || "{}"
-    );
-  } catch {
-    statusMap = {};
-  }
+    statuses = JSON.parse(localStorage.getItem(statusKey) || "{}");
+    trackLinks = JSON.parse(localStorage.getItem(trackKey) || "{}");
+  } catch {}
 
   const params = new URLSearchParams(location.search);
-  const requestedCard = Number(
-    params.get("karte") || params.get("card") || 1
-  );
-
-  let index = Math.min(
+  let index = Math.max(0, Math.min(
     songs.length - 1,
-    Math.max(0, (Number.isFinite(requestedCard)
-      ? Math.floor(requestedCard) : 1) - 1)
-  );
+    (Number(params.get("karte") || params.get("card")) || 1) - 1
+  ));
 
-  let problemsOnly = false;
-
-  const el = id => document.getElementById(id);
+  const songId = song => String(song.id ?? songs.indexOf(song) + 1);
 
   function save() {
-    localStorage.setItem(storageKey, JSON.stringify(statusMap));
-  }
-
-  function getStatus(song) {
-    return statusMap[String(song.id ?? index + 1)] || "";
-  }
-
-  function findNext(start, direction) {
-    let i = start;
-
-    for (let count = 0; count < songs.length; count++) {
-      i = (i + direction + songs.length) % songs.length;
-
-      if (!problemsOnly || !getStatus(songs[i]) ||
-          getStatus(songs[i]) === "wrong") {
-        return i;
-      }
-    }
-
-    return start;
+    localStorage.setItem(statusKey, JSON.stringify(statuses));
+    localStorage.setItem(trackKey, JSON.stringify(trackLinks));
   }
 
   function render() {
     const song = songs[index];
-    const id = String(song.id ?? index + 1);
-    const status = getStatus(song);
+    const id = songId(song);
 
-    el("cardNumber").textContent =
+    el("card").textContent =
       "Karte #" + String(index + 1).padStart(3, "0");
-
     el("progress").textContent =
-      "Song " + (index + 1) + " von " + songs.length;
+      `Song ${index + 1} von ${songs.length}`;
+    el("title").textContent = song.title || "Unbekannter Titel";
+    el("artist").textContent = "Interpret: " + (song.artist || "Unbekannt");
+    el("year").textContent = "Jahr in deiner Liste: " + (song.year || "Unbekannt");
+    el("trackUrl").value = trackLinks[id] || "";
+    el("player").innerHTML = "";
 
-    el("songTitle").textContent = song.title || "Kein Titel";
-    el("artist").textContent = song.artist || "Kein Interpret";
-    el("year").textContent = "Jahr: " + (song.year || "unbekannt");
-
+    const status = statuses[id];
     el("status").textContent =
       status === "correct" ? "✓ Als richtig markiert" :
       status === "wrong" ? "✗ Als problematisch markiert" :
       "Noch nicht geprüft";
 
-    el("spotify").onclick = () => {
+    el("search").onclick = () => {
       const query = encodeURIComponent(
         (song.artist || "") + " " + (song.title || "")
       );
-
       window.open(
         "https://open.spotify.com/search/" + query,
-        "_blank",
-        "noopener"
+        "_blank"
       );
     };
 
+    el("load").onclick = () => {
+      const value = el("trackUrl").value.trim();
+      const match = value.match(
+        /(?:track\/|spotify:track:)([A-Za-z0-9]+)/
+      );
+
+      if (!match) {
+        alert("Bitte einen gültigen Spotify-Track-Link einfügen.");
+        return;
+      }
+
+      trackLinks[id] = "https://open.spotify.com/track/" + match[1];
+      save();
+
+      el("player").innerHTML =
+        '<iframe title="Spotify-Player" ' +
+        'src="https://open.spotify.com/embed/track/' +
+        match[1] +
+        '?utm_source=generator" ' +
+        'allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" ' +
+        'loading="lazy"></iframe>';
+    };
+
     el("correct").onclick = () => {
-      statusMap[id] = "correct";
-      save();
-      render();
+      statuses[id] = "correct"; save(); render();
     };
-
     el("wrong").onclick = () => {
-      statusMap[id] = "wrong";
-      save();
-      render();
+      statuses[id] = "wrong"; save(); render();
     };
-
     el("unmark").onclick = () => {
-      delete statusMap[id];
-      save();
-      render();
+      delete statuses[id]; save(); render();
     };
-
     el("previous").onclick = () => {
-      index = findNext(index, -1);
+      index = (index - 1 + songs.length) % songs.length;
       render();
     };
-
     el("next").onclick = () => {
-      index = findNext(index, 1);
+      index = (index + 1) % songs.length;
       render();
     };
-
-    el("showProblems").textContent = problemsOnly
-      ? "Alle Songs anzeigen"
-      : "Nur ungeprüfte / problematische Songs";
-
-    el("showProblems").onclick = () => {
-      problemsOnly = !problemsOnly;
-      render();
-    };
-
-    const checked = Object.values(statusMap)
-      .filter(s => s === "correct" || s === "wrong").length;
-
-    el("progress").textContent +=
-      " · " + checked + " geprüft";
   }
 
   render();
