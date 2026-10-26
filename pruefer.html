@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hitster – Song-Prüfer</title>
+
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 20px;
+    background: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 24px;
+    background: #202020;
+    border-radius: 16px;
+  }
+
+  .muted {
+    color: #aaa;
+    font-size: 14px;
+  }
+
+  h1 { font-size: 25px; }
+
+  #songTitle {
+    font-size: 27px;
+    overflow-wrap: anywhere;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 14px;
+    border: 0;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .spotify { background: #1ed760; color: #000; }
+  .correct { background: #287d46; color: #fff; }
+  .wrong { background: #a93636; color: #fff; }
+  .next { background: #eee; color: #111; }
+  .secondary { background: #383838; color: #fff; }
+
+  #status {
+    margin-top: 18px;
+    padding: 12px;
+    background: #303030;
+    border-radius: 8px;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 10px;
+  }
+
+  .navigation button { flex: 1; }
+</style>
+</head>
+
+<body>
+<main>
+  <div class="muted">EIGENES HITSTER · MANUELLE PRÜFUNG</div>
+
+  <h1 id="cardNumber">Karte</h1>
+  <div class="muted" id="progress"></div>
+
+  <h2 id="songTitle">Song wird geladen ...</h2>
+  <p id="artist"></p>
+  <p id="year"></p>
+
+  <button class="spotify" id="spotify">
+    🎵 In Spotify suchen
+  </button>
+
+  <p class="muted">
+    Prüfe in Spotify die Aufnahme, insbesondere Studio-
+    oder Live-Version, Remaster und Erscheinungsjahr.
+  </p>
+
+  <button class="correct" id="correct">
+    ✓ Richtige Version gefunden
+  </button>
+
+  <button class="wrong" id="wrong">
+    ✗ Falsche Version / Problem
+  </button>
+
+  <div id="status">Noch nicht geprüft</div>
+
+  <div class="navigation">
+    <button class="secondary" id="previous">← Zurück</button>
+    <button class="next" id="next">Nächster Song →</button>
+  </div>
+
+  <button class="secondary" id="unmark">
+    Markierung entfernen
+  </button>
+
+  <button class="secondary" id="showProblems">
+    Nur ungeprüfte / problematische Songs
+  </button>
+</main>
+
+<script src="./songs.js"></script>
+<script>
+(() => {
+  const songs = window.songs || [];
+
+  if (!songs.length) {
+    document.getElementById("songTitle").textContent =
+      "Fehler: songs.js wurde nicht geladen.";
+    return;
+  }
+
+  const storageKey = "hitsterManualCheckStatus";
+  let statusMap = {};
+
+  try {
+    statusMap = JSON.parse(
+      localStorage.getItem(storageKey) || "{}"
+    );
+  } catch {
+    statusMap = {};
+  }
+
+  const params = new URLSearchParams(location.search);
+  const requestedCard = Number(
+    params.get("karte") || params.get("card") || 1
+  );
+
+  let index = Math.min(
+    songs.length - 1,
+    Math.max(0, (Number.isFinite(requestedCard)
+      ? Math.floor(requestedCard) : 1) - 1)
+  );
+
+  let problemsOnly = false;
+
+  const el = id => document.getElementById(id);
+
+  function save() {
+    localStorage.setItem(storageKey, JSON.stringify(statusMap));
+  }
+
+  function getStatus(song) {
+    return statusMap[String(song.id ?? index + 1)] || "";
+  }
+
+  function findNext(start, direction) {
+    let i = start;
+
+    for (let count = 0; count < songs.length; count++) {
+      i = (i + direction + songs.length) % songs.length;
+
+      if (!problemsOnly || !getStatus(songs[i]) ||
+          getStatus(songs[i]) === "wrong") {
+        return i;
+      }
+    }
+
+    return start;
+  }
+
+  function render() {
+    const song = songs[index];
+    const id = String(song.id ?? index + 1);
+    const status = getStatus(song);
+
+    el("cardNumber").textContent =
+      "Karte #" + String(index + 1).padStart(3, "0");
+
+    el("progress").textContent =
+      "Song " + (index + 1) + " von " + songs.length;
+
+    el("songTitle").textContent = song.title || "Kein Titel";
+    el("artist").textContent = song.artist || "Kein Interpret";
+    el("year").textContent = "Jahr: " + (song.year || "unbekannt");
+
+    el("status").textContent =
+      status === "correct" ? "✓ Als richtig markiert" :
+      status === "wrong" ? "✗ Als problematisch markiert" :
+      "Noch nicht geprüft";
+
+    el("spotify").onclick = () => {
+      const query = encodeURIComponent(
+        (song.artist || "") + " " + (song.title || "")
+      );
+
+      window.open(
+        "https://open.spotify.com/search/" + query,
+        "_blank",
+        "noopener"
+      );
+    };
+
+    el("correct").onclick = () => {
+      statusMap[id] = "correct";
+      save();
+      render();
+    };
+
+    el("wrong").onclick = () => {
+      statusMap[id] = "wrong";
+      save();
+      render();
+    };
+
+    el("unmark").onclick = () => {
+      delete statusMap[id];
+      save();
+      render();
+    };
+
+    el("previous").onclick = () => {
+      index = findNext(index, -1);
+      render();
+    };
+
+    el("next").onclick = () => {
+      index = findNext(index, 1);
+      render();
+    };
+
+    el("showProblems").textContent = problemsOnly
+      ? "Alle Songs anzeigen"
+      : "Nur ungeprüfte / problematische Songs";
+
+    el("showProblems").onclick = () => {
+      problemsOnly = !problemsOnly;
+      render();
+    };
+
+    const checked = Object.values(statusMap)
+      .filter(s => s === "correct" || s === "wrong").length;
+
+    el("progress").textContent +=
+      " · " + checked + " geprüft";
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>
