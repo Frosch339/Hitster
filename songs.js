@@ -12,7 +12,7 @@ window.songs = [
     "id": 2,
     "artist": "Billie Eilish",
     "title": "Birds of a Feather",
-    "year": 2024
+    "year": 2024,
     "spotifyId": "6dOtVTDdiauQNBQEDOtlAB"
   },
   {
