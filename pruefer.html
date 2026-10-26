@@ -187,9 +187,7 @@ function updateSongEntry() {
       const query = encodeURIComponent(
         (song.artist || "") + " " + (song.title || "")
       );
-      window.open(
-        "https://open.spotify.com/search/" + query,
-        "_blank"
+      window.open("https://open.spotify.com/search/" + query, "spotifySearch");
       );
     };
 
