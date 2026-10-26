@@ -188,8 +188,7 @@ function updateSongEntry() {
         (song.artist || "") + " " + (song.title || "")
       );
       window.open("https://open.spotify.com/search/" + query, "spotifySearch");
-      );
-    };
+      };
 
     el("load").onclick = () => {
       const value = el("trackUrl").value.trim();
