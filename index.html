@@ -612,88 +612,114 @@ async () => {
       `track:${s.title} artist:${leadArtist}`
     );
 
-    const searchResponse = await fetch(
-      "https://api.spotify.com/v1/search" +
-      "?q=" + query +
-      "&type=track&limit=10&market=DE",
-      {
-        headers: {
-          Authorization: "Bearer " + token
-        }
+    
+let track = null;
+
+// Wenn für den Song eine Spotify-ID hinterlegt ist,
+// verwenden wir diese direkt und suchen nicht erneut.
+if (s.spotifyId) {
+  track = {
+    uri: "spotify:track:" + s.spotifyId
+  };
+
+  console.log(
+    "Verwende gespeicherte Spotify-ID:",
+    s.spotifyId
+  );
+
+} else {
+  // Bisherige Suchlogik für alle Songs ohne gespeicherte ID
+  const searchResponse = await fetch(
+    "https://api.spotify.com/v1/search" +
+    "?q=" + query +
+    "&type=track&limit=10&market=DE",
+    {
+      headers: {
+        Authorization: "Bearer " + token
       }
-    );
-
-    const searchData = await searchResponse.json();
-
-    if (!searchResponse.ok) {
-      throw new Error(
-        searchData.error?.message ||
-        "Spotify-Suche fehlgeschlagen."
-      );
     }
+  );
 
-    
-const tracks = searchData.tracks?.items || [];
+  const searchData = await searchResponse.json();
 
-const normalizeSpotifyTitle = value =>
-  normalizeSpotifyText(
-    String(value || "")
-      .replace(
-        /\s*(?:-\s*|\(\s*|\[\s*)remaster(?:ed)?(?:\s+\d{4})?\s*\)?\]?$/i,
-        ""
-      )
-      .replace(/\s*\(\s*Who Loves Me\s*\)\s*$/i, "")
-      .replace(/\s*-\s*(?:Mono|Single Version|Radio Edit)\s*$/i, "")
-  )
-    .replace(/\s+(?:feat|ft|featuring)\.?\s+.*$/, "")
-    .trim();
-
-const wantedTitle = normalizeSpotifyTitle(s.title);
-
-console.log("Song gesucht:", s.artist, "-", s.title);
-console.log("Spotify-Treffer:", tracks.map(t => ({
-  title: t.name,
-  artists: t.artists.map(a => a.name),
-  album: t.album?.name,
-  uri: t.uri
-})));
-
-const exactTitleTracks = tracks.filter(t => {
- const spotifyTitle = normalizeSpotifyTitle(t.name);
-
-const titleMatches =
-  spotifyTitle === wantedTitle ||
-  spotifyTitle.startsWith(wantedTitle + " ");
-
-  const isLiveVersion =
-    /\blive\b/i.test(t.name) ||
-    /\blive\b/i.test(t.album?.name || "");
-
-  return titleMatches && !isLiveVersion;
-});
-
-console.log("DEBUG - Gesuchter Titel:", wantedTitle);
-console.log("DEBUG - Erkannte Interpreten:", creditedArtists);
-console.log("DEBUG - Titeltreffer nach Filter:");
-
-console.table(exactTitleTracks.map(t => ({
-  spotifyTitle: t.name,
-  normalizedTitle: normalizeSpotifyTitle(t.name),
-  spotifyArtist: (t.artists || []).map(a => a.name).join(", "),
-  normalizedArtist: (t.artists || [])
-    .map(a => normalizeSpotifyText(a.name)).join(", "),
-  album: t.album?.name
-})));
-    
-const track = exactTitleTracks.find(t =>
-  (t.artists || []).some(a => {
-    const spotifyArtist = normalizeSpotifyText(a.name);
-
-    return creditedArtists.some(creditedArtist =>
-      spotifyArtist === normalizeSpotifyText(creditedArtist)
+  if (!searchResponse.ok) {
+    throw new Error(
+      searchData.error?.message ||
+      "Spotify-Suche fehlgeschlagen."
     );
-  })
-);
+  }
+
+  const tracks = searchData.tracks?.items || [];
+
+  const normalizeSpotifyTitle = value =>
+    normalizeSpotifyText(
+      String(value || "")
+        .replace(
+          /\s*(?:-\s*|\(\s*|\[\s*)remaster(?:ed)?(?:\s+\d{4})?\s*\)?\]?$/i,
+          ""
+        )
+        .replace(/\s*\(\s*Who Loves Me\s*\)\s*$/i, "")
+        .replace(/\s*-\s*(?:Mono|Single Version|Radio Edit)\s*$/i, "")
+    )
+      .replace(/\s+(?:feat|ft|featuring)\.?\s+.*$/, "")
+      .trim();
+
+  const wantedTitle = normalizeSpotifyTitle(s.title);
+
+  console.log("Song gesucht:", s.artist, "-", s.title);
+  console.log("Spotify-Treffer:", tracks.map(t => ({
+    title: t.name,
+    artists: t.artists.map(a => a.name),
+    album: t.album?.name,
+    uri: t.uri
+  })));
+
+  const exactTitleTracks = tracks.filter(t => {
+    const spotifyTitle = normalizeSpotifyTitle(t.name);
+
+    const titleMatches =
+      spotifyTitle === wantedTitle ||
+      spotifyTitle.startsWith(wantedTitle + " ");
+
+    const isLiveVersion =
+      /\blive\b/i.test(t.name) ||
+      /\blive\b/i.test(t.album?.name || "");
+
+    return titleMatches && !isLiveVersion;
+  });
+
+  console.log("DEBUG - Gesuchter Titel:", wantedTitle);
+  console.log("DEBUG - Erkannte Interpreten:", creditedArtists);
+  console.log("DEBUG - Titeltreffer nach Filter:");
+
+  console.table(exactTitleTracks.map(t => ({
+    spotifyTitle: t.name,
+    normalizedTitle: normalizeSpotifyTitle(t.name),
+    spotifyArtist: (t.artists || []).map(a => a.name).join(", "),
+    normalizedArtist: (t.artists || [])
+      .map(a => normalizeSpotifyText(a.name)).join(", "),
+    album: t.album?.name
+  })));
+
+  track = exactTitleTracks.find(t =>
+    (t.artists || []).some(a => {
+      const spotifyArtist = normalizeSpotifyText(a.name);
+
+      return creditedArtists.some(creditedArtist =>
+        spotifyArtist === normalizeSpotifyText(creditedArtist)
+      );
+    })
+  );
+
+  if (!track) {
+    throw new Error(
+      "Keine passende Studioaufnahme gefunden: " +
+      s.artist + " – " + s.title +
+      ". Bitte manuell prüfen."
+    );
+  }
+}
+
 
 if (!track) {
   throw new Error(
