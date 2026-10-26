@@ -92,6 +92,9 @@ iframe {
     <button id="next" class="secondary">Nächster Song →</button>
   </div>
   <button id="unmark" class="secondary">Markierung entfernen</button>
+  <button id="exportSongs" class="spotify">
+  Geprüfte Songs als songs.js herunterladen
+</button>
 </main>
 
 <script src="./songs.js"></script>
@@ -258,13 +261,66 @@ el("previous").onclick = () => {
   render();
 };
 
-el("next").onclick = () => {
-  index = (index + 1) % songs.length;
-  render();
-};
+el("exportSongs").onclick = () => {
+  let updatedCount = 0;
+
+  const updatedSongs = songs.map(song => {
+    const id = songId(song);
+
+    // Nur bestätigte Songs mit gespeichertem Link übernehmen
+    if (statuses[id] !== "correct") {
+      return song;
+    }
+
+    const url = trackLinks[id] || "";
+    const match = url.match(
+      /(?:track\/|spotify:track:)([A-Za-z0-9]+)/
+    );
+
+    if (!match) {
+      return song;
+    }
+
+    updatedCount++;
+
+    return {
+      ...song,
+      spotifyId: match[1]
+    };
+  });
+
+  if (updatedCount === 0) {
+    alert(
+      "Noch keine bestätigten Songs mit Spotify-Link gefunden."
+    );
+    return;
   }
 
-  render();
+  const fileContent =
+    "// Songliste für dein HITSTER-Spiel.\n" +
+    "window.songs = " +
+    JSON.stringify(updatedSongs, null, 2) +
+    ";\n";
+
+  const blob = new Blob(
+    [fileContent],
+    { type: "text/javascript;charset=utf-8" }
+  );
+
+  const downloadUrl = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+
+  link.href = downloadUrl;
+  link.download = "songs.js";
+  link.click();
+
+  URL.revokeObjectURL(downloadUrl);
+
+  alert(
+    updatedCount +
+    " bestätigte Spotify-IDs wurden in die neue songs.js übernommen."
+  );
+};
 })();
 </script>
 </body>
