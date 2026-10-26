@@ -731,13 +731,14 @@ if (!track) {
 
 
     console.log(
-      "Gefundener Song:",
-      track.name,
-      "-",
-      track.artists
-        .map(a => a.name)
-        .join(", ")
-    );
+  "Gefundener Song:",
+  track.name || s.title,
+  "-",
+  track.artists
+    ? track.artists.map(a => a.name).join(", ")
+    : s.artist,
+  s.spotifyId ? "(gespeicherte Spotify-ID)" : ""
+);
 
 
     const playResponse =
