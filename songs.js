@@ -2,11 +2,12 @@
 // Neue Songs einfach als weiteren Eintrag vor der schliessenden ] ergaenzen.
 window.songs = [
  {
-    "id": 1,
-    "artist": "Michael Jackson",
-    "title": "Billie Jean",
-    "year": 1982
-  },
+  "id": 1,
+  "artist": "Michael Jackson",
+  "title": "Billie Jean",
+  "year": 1982,
+  "spotifyId": "7J1uxwnxfQLu4APicE5Rnj"
+},
   {
     "id": 2,
     "artist": "Billie Eilish",
