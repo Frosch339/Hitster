@@ -78,6 +78,15 @@ iframe {
 
   <div id="status">Noch nicht geprüft</div>
 
+  <h3>Eintrag für songs.js</h3>
+<textarea id="songEntry" rows="7" readonly
+  style="width:100%; padding:10px; border-radius:8px;
+  box-sizing:border-box; background:#303030; color:white;">
+</textarea>
+<button id="copyEntry" class="secondary">
+  Eintrag kopieren
+</button>
+
   <div class="navigation">
     <button id="previous" class="secondary">← Zurück</button>
     <button id="next" class="secondary">Nächster Song →</button>
@@ -115,6 +124,36 @@ iframe {
 
   const songId = song => String(song.id ?? songs.indexOf(song) + 1);
 
+function updateSongEntry() {
+  const song = songs[index];
+  const id = songId(song);
+
+  const url = trackLinks[id] ||
+    (song.spotifyId
+      ? "https://open.spotify.com/track/" + song.spotifyId
+      : "");
+
+  const match = url.match(
+    /(?:track\/|spotify:track:)([A-Za-z0-9]+)/
+  );
+
+  if (!match || statuses[id] !== "correct") {
+    el("songEntry").value =
+      "1. Spotify-Link einfügen und laden.\n" +
+      "2. Song anhören und prüfen.\n" +
+      "3. Auf „Richtige Version“ klicken.";
+    return;
+  }
+
+  const entry = {
+    ...song,
+    spotifyId: match[1]
+  };
+
+  el("songEntry").value =
+    JSON.stringify(entry, null, 2) + ",";
+}
+  
   function save() {
     localStorage.setItem(statusKey, JSON.stringify(statuses));
     localStorage.setItem(trackKey, JSON.stringify(trackLinks));
@@ -132,6 +171,7 @@ iframe {
     el("artist").textContent = "Interpret: " + (song.artist || "Unbekannt");
     el("year").textContent = "Jahr in deiner Liste: " + (song.year || "Unbekannt");
     el("trackUrl").value = trackLinks[id] || "";
+    updateSongEntry();
     el("player").innerHTML = "";
 
     const status = statuses[id];
@@ -163,7 +203,7 @@ iframe {
 
       trackLinks[id] = "https://open.spotify.com/track/" + match[1];
       save();
-
+      updateSongEntry();
       el("player").innerHTML =
         '<iframe title="Spotify-Player" ' +
         'src="https://open.spotify.com/embed/track/' +
@@ -174,22 +214,54 @@ iframe {
     };
 
     el("correct").onclick = () => {
-      statuses[id] = "correct"; save(); render();
-    };
-    el("wrong").onclick = () => {
-      statuses[id] = "wrong"; save(); render();
-    };
-    el("unmark").onclick = () => {
-      delete statuses[id]; save(); render();
-    };
-    el("previous").onclick = () => {
-      index = (index - 1 + songs.length) % songs.length;
-      render();
-    };
-    el("next").onclick = () => {
-      index = (index + 1) % songs.length;
-      render();
-    };
+  statuses[id] = "correct";
+  save();
+  render();
+};
+
+el("wrong").onclick = () => {
+  statuses[id] = "wrong";
+  save();
+  render();
+};
+
+el("unmark").onclick = () => {
+  delete statuses[id];
+  save();
+  render();
+};
+
+el("copyEntry").onclick = async () => {
+  const text = el("songEntry").value;
+
+  if (statuses[songId(songs[index])] !== "correct") {
+    alert("Bitte zuerst den Song prüfen und als richtig markieren.");
+    return;
+  }
+
+  if (!text.includes('"spotifyId"')) {
+    alert("Bitte zuerst einen gültigen Spotify-Link laden.");
+    return;
+  }
+
+  try {
+    await navigator.clipboard.writeText(text);
+    alert("Eintrag wurde kopiert!");
+  } catch {
+    el("songEntry").select();
+    alert("Bitte den markierten Eintrag manuell kopieren.");
+  }
+};
+
+el("previous").onclick = () => {
+  index = (index - 1 + songs.length) % songs.length;
+  render();
+};
+
+el("next").onclick = () => {
+  index = (index + 1) % songs.length;
+  render();
+};
   }
 
   render();
