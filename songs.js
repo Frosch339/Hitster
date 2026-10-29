@@ -2648,7 +2648,7 @@ window.songs = [
     "id": 379,
     "artist": "Pat Benatar",
     "title": "We Belong",
-    "year": 1984
+    "year": 1984,
      "spotifyId": "665Jxlgi1HamPKbW1vwzx4" 
   },
   {
@@ -2683,7 +2683,7 @@ window.songs = [
     "id": 384,
     "artist": "Die Atzen (Frauenarzt & Manny Marc)",
     "title": "Atzin",
-    "year": 2010
+    "year": 2010,
     "spotifyId": "1rs1WOhAS4c4KBpuLHJMOJ"
   },
   {
@@ -3800,7 +3800,7 @@ window.songs = [
     "spotifyId": "62zFEHfAYl5kdHYOivj4BC"
   },
   {
-    "id": 512,
+    "id": 544,
     "artist": "Metro Station",
     "title": "Shake It",
     "year": 2007,
