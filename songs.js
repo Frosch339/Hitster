@@ -2277,7 +2277,7 @@ window.songs = [
     "id": 326,
     "artist": "KC Rebell feat. Farid Bang",
     "title": "Kanax in Tokyo",
-    "year": 2015
+    "year": 2015,
     "spotifyId": "4E6KKBjrsR5lu4mHPCVPfs"
   },
   {
