@@ -541,11 +541,12 @@ window.songs = [
   },
   {
     "id": 78,
-    "artist": "Oliver Cheatham",
-    "title": "Get Down Saturday Night",
-    "year": 1983
+    "artist": "Paula Abdul",
+    "title": "Straight Up",
+    "year": 1988,
+    "spotifyId": "5xl5582IihbEZAnfj0xyso"
   },
-  {
+   {
     "id": 79,
     "artist": "Crazy Town",
     "title": "Butterfly",
@@ -1487,7 +1488,8 @@ window.songs = [
     "id": 213,
     "artist": "Pulsedriver",
     "title": "One to Make Me Happy",
-    "year": 2018
+    "year": 2018,
+    "spotifyId": "3U0qZ6OQl4YbPYa6Ks48oD"
   },
   {
     "id": 214,
