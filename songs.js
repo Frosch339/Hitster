@@ -1330,7 +1330,7 @@ window.songs = [
     "spotifyId": "2EqlS6tkEnglzr7tkKAAYD"
   },
   {
-    "id": 504,
+    "id": 191,
     "artist": "Cheryl",
     "title": "Fight for This Love",
     "year": 2009,
@@ -1777,7 +1777,7 @@ window.songs = [
     "spotifyId": "0HEmnAUT8PHznIAAmVXqFJ"
   },
   {
-    "id": 505,
+    "id": 255,
     "artist": "Chris Brown",
     "title": "Forever",
     "year": 2008,
@@ -6138,7 +6138,7 @@ window.songs = [
     "spotifyId": "3vSn1frPgFcRXrjWOfhMLl"
   },
   {
-    "id": 877,
+    "id": 878,
     "artist": "Asia",
     "title": "Heat of the Moment",
     "year": 1982,
@@ -6215,7 +6215,7 @@ window.songs = [
     "spotifyId": "3HCDGtLZabH3umLgwCBpDB"
   },
   {
-    "id": 519,
+    "id": 889,
     "artist": "Agnes",
     "title": "Release Me",
     "year": 2008,
@@ -6964,14 +6964,14 @@ window.songs = [
     "spotifyId": "1Eb90nmqTrxylKFhcUzW8P"
   },
   {
-    "id": 523,
+    "id": 996,
     "artist": "Loverboy",
     "title": "Turn Me Loose",
     "year": 1980,
     "spotifyId": "2Z81PDDYNMTxZKiU2XIuFx"
   },
   {
-    "id": 521,
+    "id": 997,
     "artist": "Mario",
     "title": "Let Me Love You",
     "year": 2004,
@@ -6985,7 +6985,7 @@ window.songs = [
     "spotifyId": "37Tmv4NnfQeb0ZgUC4fOJj"
   },
   {
-    "id": 522,
+    "id": 999,
     "artist": "Sean Kingston",
     "title": "Take You There",
     "year": 2007,
