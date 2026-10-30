@@ -519,7 +519,6 @@ window.songs = [
     "spotifyId": "4OSBTYWVwsQhGLF9NHvIbR"
   },
   {
-    {
     "id": 75,
     "artist": "Nik Kershaw",
     "title": "Wouldn't It Be Good",
@@ -562,7 +561,6 @@ window.songs = [
     "spotifyId": "52LJ3hyknOijCrE5gCD0rE"
   },
   {
-    {
     "id": 81,
     "artist": "Soulsister",
     "title": "The Way to Your Heart",
