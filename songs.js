@@ -380,10 +380,10 @@ window.songs = [
   },
   {
     "id": 55,
-    "artist": "50 Cent",
-    "title": "In Da Club",
-    "year": 2003,
-    "spotifyId": "7iL6o9tox1zgHpKUfh9vuC"
+    "artist": "The Game feat. 50 Cent",
+    "title": "How We Do",
+    "year": 2004,
+    "spotifyId": "4PmMVdIFpJTB9WQbmILf4p"
   },
   {
     "id": 56,
@@ -519,11 +519,12 @@ window.songs = [
     "spotifyId": "4OSBTYWVwsQhGLF9NHvIbR"
   },
   {
+    {
     "id": 75,
-    "artist": "Bon Jovi",
-    "title": "Livin' on a Prayer",
-    "year": 1986,
-    "spotifyId": "37ZJ0p5Jm13JPevGcx4SkF"
+    "artist": "Nik Kershaw",
+    "title": "Wouldn't It Be Good",
+    "year": 1984,
+    "spotifyId": "00FDHurakzVEiPutdUxXXq"
   },
   {
     "id": 76,
@@ -561,11 +562,12 @@ window.songs = [
     "spotifyId": "52LJ3hyknOijCrE5gCD0rE"
   },
   {
+    {
     "id": 81,
-    "artist": "Guns N' Roses",
-    "title": "Welcome to the Jungle",
-    "year": 1987,
-    "spotifyId": "0G21yYKMZoHa30cYVi1iA8"
+    "artist": "Soulsister",
+    "title": "The Way to Your Heart",
+    "year": 1988,
+    "spotifyId": "0DUtmZD5TK6JwChuMql5ac"
   },
   {
     "id": 82,
@@ -1227,10 +1229,10 @@ window.songs = [
   },
   {
     "id": 176,
-    "artist": "50 Cent",
-    "title": "Candy Shop",
-    "year": 2005,
-    "spotifyId": "5D2mYZuzcgjpchVY1pmTPh"
+    "artist": "Alex C. feat. Yass",
+    "title": "Du hast den schönsten Arsch der Welt",
+    "year": 2007,
+    "spotifyId": "4ltpEffX5XJa8kqH8bqWna"
   },
   {
     "id": 177,
@@ -2690,10 +2692,10 @@ window.songs = [
   },
   {
     "id": 385,
-    "artist": "Alphaville",
-    "title": "Big in Japan",
+    "artist": "George Michael",
+    "title": "Careless Whisper",
     "year": 1984,
-    "spotifyId": "3BZGi1yUqQyCNC868AqUGG"
+    "spotifyId": "5WDLRQ3VCdVrKw0njWe5E5"
   },
   {
     "id": 386,
@@ -2830,10 +2832,10 @@ window.songs = [
   },
   {
     "id": 405,
-    "artist": "50 Cent",
-    "title": "Disco Inferno",
-    "year": 2005,
-    "spotifyId": "69bHJ9qs5FrUJbKP8xU8uZ"
+    "artist": "Titiyo",
+    "title": "Come Along",
+    "year": 2001,
+    "spotifyId": "7GmHOAdriOnI9s5S79GAUr"
   },
   {
     "id": 406,
@@ -4104,10 +4106,10 @@ window.songs = [
   },
   {
     "id": 587,
-    "artist": "Shindy feat. Bushido",
-    "title": "Stress ohne Grund",
-    "year": 2013,
-    "spotifyId": "0XmigPQY1jq9GxHK4kW6uk"
+    "artist": "Marteria, Yasha & Miss Platnum",
+    "title": "Lila Wolken",
+    "year": 2012,
+    "spotifyId": "0c6EzAElZrC62yj80FLmpP"
   },
   {
     "id": 588,
@@ -4201,11 +4203,11 @@ window.songs = [
     "spotifyId": "4YwbSZaYeYja8Umyt222Qf"
   },
   {
-    "id": 601,
-    "artist": "Shindy feat Bushido",
-    "title": "Statements ",
-    "year": 2015,
-    "spotifyId": "2uUwKELvIBtPCnfo8x9zz2"
+    "id": 544,
+    "artist": "Eko Fresh",
+    "title": "Quotentürke",
+    "year": 2013,
+    "spotifyId": "592vJ3Bss91JMtKasDA4aX"
   },
   {
     "id": 602,
@@ -4222,11 +4224,11 @@ window.songs = [
     "spotifyId": "5Cpo7btae5aI6QtOcVzWwB"
   },
   {
-    "id": 604,
-    "artist": "Farid Bang",
-    "title": "Lutsch",
+    "id": 545,
+    "artist": "Cro",
+    "title": "Traum",
     "year": 2014,
-    "spotifyId": "5atYuNxANE8o7u5DiiCUOz"
+    "spotifyId": "6D579iDSk3u8fCokhBl8dQ"
   },
   {
     "id": 605,
@@ -4466,12 +4468,12 @@ window.songs = [
     "year": 2015,
     "spotifyId": "7aXaPtjgQBmgl1fFzhG3hE"
   },
-  {
+ {
     "id": 639,
     "artist": "AC/DC",
-    "title": "Hells Bells",
-    "year": 1980,
-    "spotifyId": "2P884dqfjksDMSzUZksfrS"
+    "title": "Rock ’n’ Roll Train",
+    "year": 2008,
+    "spotifyId": "4feXJ5IC3avXsVW9WNFSag"
   },
   {
     "id": 640,
@@ -4657,10 +4659,10 @@ window.songs = [
   },
   {
     "id": 666,
-    "artist": "Amy Winehouse",
-    "title": "Rehab",
-    "year": 2006,
-    "spotifyId": "1L5tZi0izXsi5Kk5OJf4W0"
+    "artist": "Mark Ronson feat. Amy Winehouse",
+    "title": "Valerie",
+    "year": 2007
+    "spotifyId": "6kopmMZiyLmw7h66uXcXR7"
   },
   {
     "id": 667,
@@ -5945,10 +5947,10 @@ window.songs = [
   },
   {
     "id": 850,
-    "artist": "Beyoncé",
-    "title": "Halo",
-    "year": 2008,
-    "spotifyId": "2MfOcbtgz2yTsiznFmVZUN"
+    "artist": "Sugababes",
+    "title": "About You Now",
+    "year": 2007,
+    "spotifyId": "6qdSs1xMoyE11TjLmxOSgA"
   },
   {
     "id": 851,
@@ -6301,11 +6303,11 @@ window.songs = [
     "spotifyId": "6FZDfxM3a3UCqtzo5pxSLZ"
   },
   {
-    "id": 901,
+    "id": 533,
     "artist": "ABBA",
-    "title": "Chiquitita",
-    "year": 1979,
-    "spotifyId": "762B4bOcXF7I2Y8UlKTyTy"
+    "title": "Slipping Through My Fingers",
+    "year": 1981,
+    "spotifyId": "6TvxPS4fj4LUdjw2es4g21"
   },
   {
     "id": 902,
@@ -6399,11 +6401,11 @@ window.songs = [
     "spotifyId": "1rGZd7EVl4aOClpzDLNPwy"
   },
   {
-    "id": 915,
-    "artist": "Black Eyed Peas",
-    "title": "Boom Boom Pow",
-    "year": 2009,
-    "spotifyId": "3oDFtOhcN08qeDPAK6MEQG"
+    "id": 539,
+    "artist": "Sheryl Crow",
+    "title": "Soak Up the Sun",
+    "year": 2002,
+    "spotifyId": "1v2ECI79z8S4PQv9xYwIfU"
   },
   {
     "id": 916,
@@ -6555,9 +6557,9 @@ window.songs = [
   {
     "id": 937,
     "artist": "Bee Gees",
-    "title": "Night Fever",
-    "year": 1977,
-    "spotifyId": "0qemIQjSxcKyf42VPfZnfa"
+    "title": "Tragedy",
+    "year": 1979
+    "spotifyId": "6UXXeFqMBGiqjkzQzkMT3E"
   },
   {
     "id": 938,
@@ -6652,10 +6654,10 @@ window.songs = [
   },
   {
     "id": 951,
-    "artist": "Boney M.",
-    "title": "Ma Baker",
-    "year": 1977,
-    "spotifyId": "1BqnZOkYJbvYLOhN0qPJDm"
+    "artist": "Patti Smith",
+    "title": "Because the Night",
+    "year": 1978,
+    "spotifyId": "0lIoY4ZQsdn5QzhraM9o9u"
   },
   {
     "id": 952,
