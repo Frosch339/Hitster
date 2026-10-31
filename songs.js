@@ -351,7 +351,7 @@ window.songs = [
     "spotifyId": "777zXDJpBufzttU4AJ2dGO"
   },
   {
-    "id": 51
+    "id": 51,
     "artist": "Frankie Goes to Hollywood",
     "title": "Relax",
     "year": 1983,
