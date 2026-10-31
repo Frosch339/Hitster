@@ -255,19 +255,25 @@ body {
 
 .crop-overlay {
   position: absolute;
-  inset: 18.5mm 7.5mm;
-  display: grid;
-  grid-template-columns: repeat(3, 65mm);
-  grid-template-rows: repeat(4, 65mm);
-  gap: 0;
+  inset: 0;
+  width: 210mm;
+  height: 297mm;
   pointer-events: none;
   z-index: 50;
 }
 
-.crop-cell {
-  position: relative;
+.crop-line {
+  position: absolute;
+  background: #999;
 }
 
+.crop-line.vertical {
+  width: 0.2mm;
+}
+
+.crop-line.horizontal {
+  height: 0.2mm;
+}
 /* Horizontale Schnittlinien */
 
 .crop-cell::before,
@@ -434,20 +440,35 @@ function createCropOverlay(sheet) {
   const overlay = document.createElement("div");
   overlay.className = "crop-overlay";
 
-  for (let i = 0; i < 12; i++) {
-  const cell = document.createElement("div");
-  cell.className = "crop-cell";
+  function addLine(type, left, top, length) {
+    const line = document.createElement("div");
+    line.className = `crop-line ${type}`;
 
-  const left = document.createElement("div");
-  left.className = "crop-mark left";
+    line.style.left = `${left}mm`;
+    line.style.top = `${top}mm`;
 
-  const right = document.createElement("div");
-  right.className = "crop-mark right";
+    if (type === "vertical") {
+      line.style.height = `${length}mm`;
+    } else {
+      line.style.width = `${length}mm`;
+    }
 
-  cell.appendChild(left);
-  cell.appendChild(right);
+    overlay.appendChild(line);
+  }
 
-  overlay.appendChild(cell);
+  // Senkrechte Schnittmarkierungen oben und unten
+  [7.5, 72.5, 137.5, 202.5].forEach(x => {
+    addLine("vertical", x, 0, 18.5);
+    addLine("vertical", x, 278.5, 18.5);
+  });
+
+  // Waagerechte Schnittmarkierungen links und rechts
+  [18.5, 83.5, 148.5, 213.5, 278.5].forEach(y => {
+    addLine("horizontal", 0, y, 7.5);
+    addLine("horizontal", 202.5, y, 7.5);
+  });
+
+  sheet.appendChild(overlay);
 }
 
 
