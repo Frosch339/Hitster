@@ -5,7 +5,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Förschls Hitster – Kartendruck</title>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 <style>
@@ -36,29 +35,38 @@ body {
   cursor: pointer;
 }
 
+#status {
+  margin: 12px;
+  font-weight: bold;
+}
+
 .sheet {
   width: 210mm;
   height: 297mm;
-  padding: 18.5mm 7.5mm;
+  padding: 15.5mm 5.5mm;
   margin: 0 auto 20px;
   background: white;
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
-  gap: 0;
+  column-gap: 2mm;
+  row-gap: 2mm;
+  position: relative;
   page-break-after: always;
   break-after: page;
 }
+
+/* Karten */
 
 .card {
   width: 65mm;
   height: 65mm;
   position: relative;
   overflow: hidden;
-  border-radius: 3mm;
+  border-radius: 0mm;
 }
 
-/* VORDERSEITE */
+/* Vorderseite */
 
 .front {
   background: #FFFFFF;
@@ -168,7 +176,7 @@ body {
   display: block;
 }
 
-/* RÜCKSEITE */
+/* Rückseite */
 
 .back {
   color: #050505;
@@ -232,21 +240,55 @@ body {
   opacity: 0.65;
 }
 
-/* BEDIENUNG */
+/* Schnittmarkierungen */
 
-#status {
-  margin: 12px;
-  font-weight: bold;
+.crop-overlay {
+  position: absolute;
+  inset: 15.5mm 5.5mm;
+  display: grid;
+  grid-template-columns: repeat(3, 65mm);
+  grid-template-rows: repeat(4, 65mm);
+  column-gap: 2mm;
+  row-gap: 2mm;
+  pointer-events: none;
 }
 
-/* DRUCK */
+.crop-cell {
+  position: relative;
+}
+
+/* kurze Schnittstriche an den Kartenecken */
+
+.crop-cell::before,
+.crop-cell::after {
+  content: "";
+  position: absolute;
+  width: 3mm;
+  height: 0;
+  border-top: 0.15mm solid #BDBDBD;
+  top: 0;
+}
+
+.crop-cell::before {
+  left: -3mm;
+}
+
+.crop-cell::after {
+  right: -3mm;
+}
+
+.crop-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  border-bottom: 0.15mm solid #BDBDBD;
+}
+
+/* Druck */
 
 @media print {
-  @page {
-    size: A4 portrait;
-    margin: 0;
-  }
-
   html,
   body {
     width: 210mm;
@@ -263,11 +305,8 @@ body {
     width: 210mm;
     height: 297mm;
     margin: 0 !important;
-    padding: 18.5mm 7.5mm;
-    display: grid;
-    grid-template-columns: repeat(3, 65mm);
-    grid-template-rows: repeat(4, 65mm);
-    gap: 0;
+    padding: 15.5mm 5.5mm;
+    box-shadow: none;
     break-after: page;
     page-break-after: always;
   }
@@ -305,7 +344,7 @@ function createCard(song, side) {
   if (side === "front") {
     card.className = "card front";
 
-    card.innerHTML = `
+    const rings = `
       <div class="ring ring1"></div>
       <div class="ring ring2"></div>
       <div class="ring ring3"></div>
@@ -313,10 +352,10 @@ function createCard(song, side) {
       <div class="open-ring open1"></div>
       <div class="open-ring open2"></div>
       <div class="open-ring open3"></div>
-      <div class="qr-area">
-        <div class="qr"></div>
-      </div>
+      <div class="qr-area"><div class="qr"></div></div>
     `;
+
+    card.innerHTML = rings;
 
     new QRCode(card.querySelector(".qr"), {
       text: BASE_URL + number,
@@ -327,7 +366,6 @@ function createCard(song, side) {
 
   } else {
     const color = (number - 1) % 5;
-
     card.className = `card back color-${color}`;
 
     const artist = document.createElement("div");
@@ -352,13 +390,30 @@ function createCard(song, side) {
   return card;
 }
 
+function createCropOverlay(sheet) {
+  const overlay = document.createElement("div");
+  overlay.className = "crop-overlay";
+
+  for (let i = 0; i < 12; i++) {
+    const cell = document.createElement("div");
+    cell.className = "crop-cell";
+
+    const bottom = document.createElement("div");
+    bottom.className = "crop-bottom";
+
+    cell.appendChild(bottom);
+    overlay.appendChild(cell);
+  }
+
+  sheet.appendChild(overlay);
+}
+
 function createSheets(songs) {
   const sorted = [...songs].sort((a, b) => Number(a.id) - Number(b.id));
 
   for (let start = 0; start < sorted.length; start += 12) {
     const batch = sorted.slice(start, start + 12);
 
-    // Vorderseite
     const frontSheet = document.createElement("div");
     frontSheet.className = "sheet";
 
@@ -366,13 +421,12 @@ function createSheets(songs) {
       frontSheet.appendChild(createCard(song, "front"));
     });
 
+    createCropOverlay(frontSheet);
     output.appendChild(frontSheet);
 
-    // Rückseite: für Duplexdruck an langer Kante
     const backSheet = document.createElement("div");
     backSheet.className = "sheet";
 
-    // Horizontale Spiegelung der Spalten
     for (let row = 0; row < 4; row++) {
       for (let col = 2; col >= 0; col--) {
         const index = row * 3 + col;
@@ -380,57 +434,37 @@ function createSheets(songs) {
         if (batch[index]) {
           backSheet.appendChild(createCard(batch[index], "back"));
         } else {
-          const blank = document.createElement("div");
-          backSheet.appendChild(blank);
+          backSheet.appendChild(document.createElement("div"));
         }
       }
     }
 
+    createCropOverlay(backSheet);
     output.appendChild(backSheet);
   }
 
   status.textContent =
-    `${sorted.length} Songs geladen – ${Math.ceil(sorted.length / 12)} Druckbögen pro Seite`;
+    `${sorted.length} Songs geladen – ${Math.ceil(sorted.length / 12)} Vorder- und Rückseitenpaare erstellt.`;
 }
 
-async function loadSongs() {
-  try {
-    const response = await fetch(SONGS_URL);
+function loadSongs() {
+  const script = document.createElement("script");
+  script.src = SONGS_URL;
 
-    if (!response.ok) {
-      throw new Error("songs.js konnte nicht geladen werden.");
+  script.onload = () => {
+    if (!Array.isArray(window.songs)) {
+      status.textContent = "Fehler: window.songs wurde nicht gefunden.";
+      return;
     }
 
-    const source = await response.text();
+    createSheets(window.songs);
+  };
 
-    // songs.js enthält JavaScript, kein reines JSON.
-    // Die Datei wird als Script geladen und window.songs ausgelesen.
-    const script = document.createElement("script");
-    script.src = SONGS_URL;
+  script.onerror = () => {
+    status.textContent = "Fehler beim Laden der songs.js.";
+  };
 
-    script.onload = () => {
-      if (!Array.isArray(window.songs)) {
-        status.textContent = "Fehler: window.songs wurde nicht gefunden.";
-        return;
-      }
-
-      if (window.songs.length === 0) {
-        status.textContent = "Die Songliste ist leer.";
-        return;
-      }
-
-      createSheets(window.songs);
-    };
-
-    script.onerror = () => {
-      status.textContent = "Fehler beim Laden der songs.js.";
-    };
-
-    document.head.appendChild(script);
-
-  } catch (error) {
-    status.textContent = "Fehler: " + error.message;
-  }
+  document.head.appendChild(script);
 }
 
 loadSongs();
