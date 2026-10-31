@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Förschls Hitster – Kartendruck</title>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 <style>
@@ -40,6 +41,7 @@ body {
   font-weight: bold;
 }
 
+/* DRUCKBOGEN */
 
 .sheet {
   width: 210mm;
@@ -47,24 +49,41 @@ body {
   padding: 18.5mm 7.5mm;
   margin: 0 auto;
   background: white;
+
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
+
   column-gap: 0;
   row-gap: 0;
+
   position: relative;
   page-break-after: always;
   break-after: page;
 }
 
-.crop-overlay {
+/* KARTEN */
+
+.card {
+  width: 65mm;
+  height: 65mm;
+  position: relative;
+  overflow: hidden;
+}
+
+/* VORDERSEITE */
+
+.front {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ring {
   position: absolute;
-  inset: 18.5mm 7.5mm;
-  display: grid;
-  grid-template-columns: repeat(3, 65mm);
-  grid-template-rows: repeat(4, 65mm);
-  gap: 0;
-  pointer-events: none;
+  border-radius: 50%;
+  border-style: solid;
 }
 
 .ring1 {
@@ -87,6 +106,13 @@ body {
   height: 37mm;
 }
 
+.open-ring {
+  position: absolute;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: transparent;
+}
+
 .open1 {
   width: 56mm;
   height: 56mm;
@@ -102,15 +128,16 @@ body {
   height: 41mm;
 }
 
-
 .qr-area {
   position: relative;
   z-index: 10;
   width: 38mm;
   height: 38mm;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   background: white;
   padding: 1mm;
   border-radius: 0.8mm;
@@ -131,7 +158,7 @@ body {
   display: block;
 }
 
-/* Rückseite */
+/* RÜCKSEITE */
 
 .back {
   color: #050505;
@@ -195,57 +222,42 @@ body {
   opacity: 0.65;
 }
 
-/* Schnittmarkierungen */
-
+/* SCHNITTMARKIERUNGEN */
 
 .crop-overlay {
   position: absolute;
   inset: 18.5mm 7.5mm;
+
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
-  column-gap: 0;
-  row-gap: 0;
-  pointer-events: none;
-}
 
+  pointer-events: none;
+  z-index: 50;
+}
 
 .crop-cell {
   position: relative;
-}
-
-/* kurze Schnittstriche an den Kartenecken */
-
-.crop-cell::before,
-.crop-cell::after {
-  content: "";
-  position: absolute;
-  width: 3mm;
-  height: 0;
-  border-top: 0.15mm solid #BDBDBD;
-  top: 0;
-}
-
-.crop-cell::before {
-  left: -3mm;
-}
-
-.crop-cell::after {
-  right: -3mm;
-}
-
-.crop-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 0;
+  border-right: 0.15mm solid #BDBDBD;
   border-bottom: 0.15mm solid #BDBDBD;
 }
 
-/* Druck */
+/* Linke Außenkante */
+
+.crop-cell:nth-child(3n+1) {
+  border-left: 0.15mm solid #BDBDBD;
+}
+
+/* Obere Außenkante */
+
+.crop-cell:nth-child(-n+3) {
+  border-top: 0.15mm solid #BDBDBD;
+}
+
+/* DRUCKEINSTELLUNGEN */
 
 @media print {
+
   html,
   body {
     width: 210mm;
@@ -261,9 +273,12 @@ body {
   .sheet {
     width: 210mm;
     height: 297mm;
+
     margin: 0 !important;
-    padding: 15.5mm 5.5mm;
+    padding: 18.5mm 7.5mm;
+
     box-shadow: none;
+
     break-after: page;
     page-break-after: always;
   }
@@ -273,6 +288,7 @@ body {
     page-break-after: auto;
   }
 }
+
 </style>
 </head>
 
@@ -287,18 +303,25 @@ body {
 <div id="output"></div>
 
 <script>
+
 const SONGS_URL = "./songs.js";
 const BASE_URL = "https://frosch339.github.io/Hitster/?karte=";
 
 const output = document.getElementById("output");
 const status = document.getElementById("status");
 
+
+/* KARTE ERSTELLEN */
+
 function createCard(song, side) {
+
   const card = document.createElement("div");
+
   const number = Number(song.id);
   const padded = String(number).padStart(3, "0");
 
   if (side === "front") {
+
     card.className = "card front";
 
     const rings = `
@@ -306,10 +329,14 @@ function createCard(song, side) {
       <div class="ring ring2"></div>
       <div class="ring ring3"></div>
       <div class="ring ring4"></div>
+
       <div class="open-ring open1"></div>
       <div class="open-ring open2"></div>
       <div class="open-ring open3"></div>
-      <div class="qr-area"><div class="qr"></div></div>
+
+      <div class="qr-area">
+        <div class="qr"></div>
+      </div>
     `;
 
     card.innerHTML = rings;
@@ -322,7 +349,9 @@ function createCard(song, side) {
     });
 
   } else {
+
     const color = (number - 1) % 5;
+
     card.className = `card back color-${color}`;
 
     const artist = document.createElement("div");
@@ -347,29 +376,40 @@ function createCard(song, side) {
   return card;
 }
 
+
+/* SCHNITTOVERLAY ERSTELLEN */
+
 function createCropOverlay(sheet) {
+
   const overlay = document.createElement("div");
   overlay.className = "crop-overlay";
 
   for (let i = 0; i < 12; i++) {
+
     const cell = document.createElement("div");
     cell.className = "crop-cell";
 
-    const bottom = document.createElement("div");
-    bottom.className = "crop-bottom";
-
-    cell.appendChild(bottom);
     overlay.appendChild(cell);
   }
 
   sheet.appendChild(overlay);
 }
 
+
+/* DRUCKBÖGEN ERSTELLEN */
+
 function createSheets(songs) {
-  const sorted = [...songs].sort((a, b) => Number(a.id) - Number(b.id));
+
+  const sorted = [...songs].sort(
+    (a, b) => Number(a.id) - Number(b.id)
+  );
 
   for (let start = 0; start < sorted.length; start += 12) {
+
     const batch = sorted.slice(start, start + 12);
+
+
+    /* VORDERSEITE */
 
     const frontSheet = document.createElement("div");
     frontSheet.className = "sheet";
@@ -377,25 +417,41 @@ function createSheets(songs) {
     batch.forEach(song => {
       frontSheet.appendChild(createCard(song, "front"));
     });
-     createCropOverlay(frontSheet);
+
+    createCropOverlay(frontSheet);
+
     output.appendChild(frontSheet);
+
+
+    /* RÜCKSEITE */
 
     const backSheet = document.createElement("div");
     backSheet.className = "sheet";
 
     for (let row = 0; row < 4; row++) {
+
       for (let col = 2; col >= 0; col--) {
+
         const index = row * 3 + col;
 
         if (batch[index]) {
-          backSheet.appendChild(createCard(batch[index], "back"));
+
+          backSheet.appendChild(
+            createCard(batch[index], "back")
+          );
+
         } else {
-          backSheet.appendChild(document.createElement("div"));
+
+          backSheet.appendChild(
+            document.createElement("div")
+          );
+
         }
       }
     }
 
     createCropOverlay(backSheet);
+
     output.appendChild(backSheet);
   }
 
@@ -403,13 +459,22 @@ function createSheets(songs) {
     `${sorted.length} Songs geladen – ${Math.ceil(sorted.length / 12)} Vorder- und Rückseitenpaare erstellt.`;
 }
 
+
+/* SONGS LADEN */
+
 function loadSongs() {
+
   const script = document.createElement("script");
+
   script.src = SONGS_URL;
 
   script.onload = () => {
+
     if (!Array.isArray(window.songs)) {
-      status.textContent = "Fehler: window.songs wurde nicht gefunden.";
+
+      status.textContent =
+        "Fehler: window.songs wurde nicht gefunden.";
+
       return;
     }
 
@@ -417,13 +482,16 @@ function loadSongs() {
   };
 
   script.onerror = () => {
-    status.textContent = "Fehler beim Laden der songs.js.";
+
+    status.textContent =
+      "Fehler beim Laden der songs.js.";
   };
 
   document.head.appendChild(script);
 }
 
 loadSongs();
+
 </script>
 
 </body>
