@@ -251,15 +251,15 @@ body {
    Keine durchgehenden Linien.
 */
 
+/* SCHNITTLINIEN – NUR RÜCKSEITE */
+
 .crop-overlay {
   position: absolute;
   inset: 18.5mm 7.5mm;
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
-  column-gap: 0mm;
-  row-gap: 0mm;
-  gap: 0mm;
+  gap: 0;
   pointer-events: none;
   z-index: 50;
 }
@@ -268,43 +268,44 @@ body {
   position: relative;
 }
 
-/* Kleine L-förmige Schnittmarkierungen */
+/* Horizontale Schnittlinien */
 
-.crop-tick {
+.crop-cell::before,
+.crop-cell::after {
+  content: "";
   position: absolute;
-  width: 0.9mm;
-  height: 0.9mm;
-  border-color: #BDBDBD;
-  border-style: solid;
-  border-width: 0;
+  width: 3mm;
+  height: 0;
+  border-top: 0.2mm solid #999;
 }
 
-.crop-tick.tl {
-  top: -0.9mm;
-  left: -0.9mm;
-  border-top-width: 0.15mm;
-  border-left-width: 0.15mm;
+.crop-cell::before {
+  top: 0;
+  left: -3mm;
 }
 
-.crop-tick.tr {
-  top: -0.9mm;
-  right: -0.9mm;
-  border-top-width: 0.15mm;
-  border-right-width: 0.15mm;
+.crop-cell::after {
+  top: 0;
+  right: -3mm;
 }
 
-.crop-tick.bl {
-  bottom: -0.9mm;
-  left: -0.9mm;
-  border-bottom-width: 0.15mm;
-  border-left-width: 0.15mm;
+/* Vertikale Schnittlinien */
+
+.crop-mark {
+  position: absolute;
+  width: 0;
+  height: 3mm;
+  border-left: 0.2mm solid #999;
 }
 
-.crop-tick.br {
-  bottom: -0.9mm;
-  right: -0.9mm;
-  border-bottom-width: 0.15mm;
-  border-right-width: 0.15mm;
+.crop-mark.left {
+  top: -3mm;
+  left: 0;
+}
+
+.crop-mark.right {
+  top: -3mm;
+  right: 0;
 }
 
 /* DRUCK */
