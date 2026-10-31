@@ -9,7 +9,7 @@ window.songs = [
   },
   {
     "id": 2,
-    "artist": "Billie Eilish",
+      "artist": "Billie Eilish",
     "title": "Birds of a Feather",
     "year": 2024,
     "spotifyId": "6dOtVTDdiauQNBQEDOtlAB"
@@ -114,10 +114,10 @@ window.songs = [
   },
   {
     "id": 17,
-    "artist": "T-Pain feat. Akon",
-    "title": "Bartender",
-    "year": 2007,
-    "spotifyId": "1RGIjMFMgJxkZHMDXVYzOJ"
+    "artist": "Ying Yang Twins feat. Lil Jon & The East Side Boyz",
+    "title": "Salt Shaker",
+    "year": 2003,
+    "spotifyId": "4Kd0FzFpOgIGxlBl4HXuFn"
   },
   {
     "id": 18,
@@ -169,11 +169,11 @@ window.songs = [
     "spotifyId": "3PR0Y4RokWNXUOxg7qQPi1"
   },
   {
-    "id": 25,
-    "artist": "Justin Bieber",
-    "title": "Sorry",
-    "year": 2015,
-    "spotifyId": "09CtPGIpYB4BrO8qb1RGsF"
+    "id": 562,
+    "artist": "Justin Bieber feat. Big Sean",
+    "title": "As Long As You Love Me",
+    "year": 2012,
+    "spotifyId": "0pwYLVXVknPSGUQb39cePC"
   },
   {
     "id": 26,
@@ -351,11 +351,11 @@ window.songs = [
     "spotifyId": "777zXDJpBufzttU4AJ2dGO"
   },
   {
-    "id": 51,
-    "artist": "Guns N' Roses",
-    "title": "Sweet Child O' Mine",
-    "year": 1987,
-    "spotifyId": "7snQQk1zcKl8gZ92AnueZW"
+    "id": 51
+    "artist": "Frankie Goes to Hollywood",
+    "title": "Relax",
+    "year": 1983,
+    "spotifyId": "2K22nUTdyr48JDwI5t906t"
   },
   {
     "id": 52,
@@ -463,11 +463,11 @@ window.songs = [
     "spotifyId": "3E7dfMvvCLUddWissuqMwr"
   },
   {
-    "id": 67,
+    "id": 571,
     "artist": "Michael Jackson",
-    "title": "Thriller",
-    "year": 1982,
-    "spotifyId": "0wQy2OO7jKjm0OOmA7gv3f"
+    "title": "Don't Stop 'Til You Get Enough",
+    "year": 1979,
+    "spotifyId": "46eu3SBuFCXWsPT39Yg3tJ"
   },
   {
     "id": 68,
@@ -576,10 +576,10 @@ window.songs = [
   },
   {
     "id": 83,
-    "artist": "Peter Fox",
-    "title": "Haus am See",
-    "year": 2008,
-    "spotifyId": "7A4KdLy1DXOOC5fhIdDuHz"
+    "artist": "Enya",
+    "title": "Only Time",
+    "year": 2000,
+    "spotifyId": "6FLwmdmW77N1Pxb1aWsZmO"
   },
   {
     "id": 84,
@@ -682,9 +682,9 @@ window.songs = [
   {
     "id": 98,
     "artist": "Rammstein",
-    "title": "Du hast",
-    "year": 1997,
-    "spotifyId": "5awDvzxWfd53SSrsRZ8pXO"
+    "title": "Deutschland",
+    "year": 2019,
+    "spotifyId": "2bPGTMB5sFfFYQ2YvSmup0"
   },
   {
     "id": 99,
@@ -1129,10 +1129,10 @@ window.songs = [
   },
   {
     "id": 162,
-    "artist": "Kollegah",
-    "title": "Alpha",
-    "year": 2014,
-    "spotifyId": "43F2erd3AAUEVf2BJsDd4o"
+    "artist": "Major Lazer & DJ Snake feat. MØ",
+    "title": "Lean On",
+    "year": 2015,
+    "spotifyId": "2e7s0oEzUoJtDSPtYJuVvD"
   },
   {
     "id": 163,
@@ -1241,10 +1241,10 @@ window.songs = [
   },
   {
     "id": 178,
-    "artist": "Justin Bieber feat. Daniel Caesar & Giveon",
-    "title": "Peaches",
+    "artist": "Basstrologe",
+    "title": "Somebody To Love",
     "year": 2021,
-    "spotifyId": "4iJyoBOLtHqaGxP12qzhQI"
+    "spotifyId": "6uYnM3pZBgvEh95lrsqSJS"
   },
   {
     "id": 179,
@@ -1527,11 +1527,11 @@ window.songs = [
     "spotifyId": "2374M0fQpWi3dLnB54qaLX"
   },
   {
-    "id": 219,
+    "id": 575,
     "artist": "Olivia Rodrigo",
-    "title": "good 4 u",
-    "year": 2021,
-    "spotifyId": "4ZtFanR9U6ndgddUvNcjcG"
+    "title": "drop dead",
+    "year": 2026,
+    "spotifyId": "3fRCAPMMZ8l8P9YKI6OCzD"
   },
   {
     "id": 220,
@@ -1863,11 +1863,11 @@ window.songs = [
     "spotifyId": "5tVA6TkbaAH9QMITTQRrNv"
   },
   {
-    "id": 267,
-    "artist": "Peter Fox",
-    "title": "Alles Neu",
-    "year": 2008,
-    "spotifyId": "5hqxBvQJ3XJDSbxT9vyyqA"
+    "id": 579,
+    "artist": "Wolfsheim",
+    "title": "Kein Zurück",
+    "year": 2003,
+    "spotifyId": "5NGsvd9Wf6fzu3Dux4DQAu"
   },
   {
     "id": 268,
@@ -2332,11 +2332,11 @@ window.songs = [
     "spotifyId": "4QUh9grDSdBnjKtpeQFSL8"
   },
   {
-    "id": 334,
-    "artist": "Peter Fox",
-    "title": "Stadtaffe",
-    "year": 2008,
-    "spotifyId": "1vb6REmvWiCWFkj7zHR8QE"
+    "id": 576,
+    "artist": "Peter Fox feat. K.I.Z.",
+    "title": "Fieber",
+    "year": 2007,
+    "spotifyId": "1kr7tiZt8ZBIxbuo9RD276"
   },
   {
     "id": 335,
@@ -2878,11 +2878,11 @@ window.songs = [
     "spotifyId": "6Bne501HS96nEeNq8Gn87R"
   },
   {
-    "id": 412,
-    "artist": "Kollegah",
-    "title": "Du bist Boss",
-    "year": 2014,
-    "spotifyId": "32IKJthM7ARKvGBTZCE1Et"
+    "id": 568,
+    "artist": "Clean Bandit feat. Zara Larsson",
+    "title": "Symphony",
+    "year": 2017,
+    "spotifyId": "72gv4zhNvRVdQA0eOenCal"
   },
   {
     "id": 413,
@@ -2936,9 +2936,9 @@ window.songs = [
   {
     "id": 420,
     "artist": "Roxette",
-    "title": "The Look",
-    "year": 1989,
-    "spotifyId": "7akWKDSf4k0Q0AHGoG91hu"
+    "title": "It Must Have Been Love",
+    "year": 1990,
+    "spotifyId": "6kvoHl80mfCVTv7XnZkjQn"  
   },
   {
     "id": 421,
@@ -3181,9 +3181,9 @@ window.songs = [
   {
     "id": 455,
     "artist": "Katy Perry",
-    "title": "California Gurls",
-    "year": 2010,
-    "spotifyId": "3f7gYMirBEKuc57218BjOY"
+    "title": "Hot N Cold",
+    "year": 2008,
+    "spotifyId": "0iGckQFyv6svOfAbAY9aWJ"
   },
   {
     "id": 456,
@@ -3263,11 +3263,11 @@ window.songs = [
     "spotifyId": "0gAbf0NL9no1Urk1Wj8Uui"
   },
   {
-    "id": 467,
-    "artist": "Marianne Rosenberg",
-    "title": "Ich bin wie du",
-    "year": 1975,
-    "spotifyId": "51kkKjFRdOKQGUKxGawtck"
+    "id": 571,
+    "artist": "Linda Ronstadt",
+    "title": "It’s So Easy",
+    "year": 1977,
+    "spotifyId": "51sf11OBI2sxOL4Qm0KIk2"
   },
   {
     "id": 468,
@@ -3285,10 +3285,10 @@ window.songs = [
   },
   {
     "id": 470,
-    "artist": "Taio Cruz feat. Ludacris",
-    "title": "Break Your Heart",
-    "year": 2009,
-    "spotifyId": "7mDCg8XTEyDNPzC5Jdt7mu"
+    "artist": "Taio Cruz",
+    "title": "Troublemaker",
+    "year": 2011,
+    "spotifyId": "60Qa4MfNC1dgVfuDF6rgMS"
   },
   {
     "id": 471,
@@ -3377,9 +3377,9 @@ window.songs = [
   {
     "id": 483,
     "artist": "KC Rebell",
-    "title": "Ghetto Aristoteles",
-    "year": 2015,
-    "spotifyId": "0NGst1ttnwZcYtSfpOdOiJ"
+    "title": "Bounce",
+    "year": 2012,
+    "spotifyId": "12R1sZhdnWoixTOZ4twaQN"
   },
   {
     "id": 484,
@@ -3537,10 +3537,10 @@ window.songs = [
   },
   {
     "id": 506,
-    "artist": "Justin Bieber",
-    "title": "Love Yourself",
-    "year": 2015,
-    "spotifyId": "50kpGaPAhYJ3sGmk6vplg0"
+    "artist": "Becky G",
+    "title": "Shower",
+    "year": 2014,
+    "spotifyId": "3DmW6y7wTEYHJZlLo1r6XJ"
   },
   {
     "id": 507,
@@ -3551,10 +3551,10 @@ window.songs = [
   },
   {
     "id": 508,
-    "artist": "Scorpions",
-    "title": "Still Loving You",
-    "year": 1984,
-    "spotifyId": "0RdUX4WE0fO30VnlUbDVL6"
+    "artist": "Dschinghis Khan",
+    "title": "Moskau",
+    "year": 1979,
+    "spotifyId": "5t77UGzgSBRDDnaxJvE9R3"
   },
   {
     "id": 509,
@@ -3607,10 +3607,10 @@ window.songs = [
   },
   {
     "id": 516,
-    "artist": "Lady Gaga",
-    "title": "Telephone",
+    "artist": "Hannah Montana (Miley Cyrus)",
+    "title": "You'll Always Find Your Way Back Home",
     "year": 2009,
-    "spotifyId": "6DvgsZ0NiEPV9qYM931T1F"
+    "spotifyId": "3pLXRflcwNSfCYEZbs0rf9"
   },
   {
     "id": 517,
@@ -3740,10 +3740,10 @@ window.songs = [
   },
   {
     "id": 535,
-    "artist": "Kesha",
-    "title": "Take It Off",
-    "year": 2010,
-    "spotifyId": "0WCiI0ddWiu5F2kSHgfw5S"
+    "artist": "Kurt Nilsen",
+    "title": "She's So High",
+    "year": 2003,
+    "spotifyId": "3Yi21KBstONWGrdjuWszlt"
   },
   {
     "id": 536,
@@ -4034,17 +4034,17 @@ window.songs = [
   },
   {
     "id": 577,
-    "artist": "Pitbull feat. Ne-Yo, Afrojack & Nayer",
-    "title": "Give Me Everything",
-    "year": 2011,
-    "spotifyId": "4QNpBfC0zvjKqPJcyqBy9W"
+    "artist": "Pitbull & Ne-Yo",
+    "title": "Time of Our Lives",
+    "year": 2014,
+    "spotifyId": "2bJvI42r8EF3wxjOuDav4r"
   },
   {
     "id": 578,
-    "artist": "Kesha",
-    "title": "We R Who We R",
-    "year": 2010,
-    "spotifyId": "3LUWWox8YYykohBbHUrrxd"
+    "artist": "DJ Antoine feat. The Beat Shakers",
+    "title": "Ma Chérie",
+    "year": 2011,
+    "spotifyId": "5kw78SJw2iL3tr3yo5nIHn"
   },
   {
     "id": 579,
@@ -4180,11 +4180,11 @@ window.songs = [
     "spotifyId": "5EGPf0nqO7vEIwsOX6Er98"
   },
   {
-    "id": 598,
+    "id": 573,
     "artist": "Nena",
-    "title": "99 Luftballons",
-    "year": 1983,
-    "spotifyId": "6jdhEJvstaoKKpxCHgIbUo"
+    "title": "Irgendwie, irgendwo, irgendwann",
+    "year": 1984,
+    "spotifyId": "5Qpne0QRW1j22cdzrMTsHB"
   },
   {
     "id": 599,
@@ -4208,11 +4208,11 @@ window.songs = [
     "spotifyId": "592vJ3Bss91JMtKasDA4aX"
   },
   {
-    "id": 602,
-    "artist": "Sean Paul",
-    "title": "Get Busy",
-    "year": 2003,
-    "spotifyId": "6bK9BH9Ts8Gj5JFvnQkzak"
+    "id": 590,
+    "artist": "Madness",
+    "title": "Our House",
+    "year": 1982,
+     "spotifyId": "1EXrFPfVNVsyb32yapebbM"
   },
   {
     "id": 603,
@@ -4376,11 +4376,11 @@ window.songs = [
     "spotifyId": "0dOg1ySSI7NkpAe89Zo0b9"
   },
   {
-    "id": 626,
-    "artist": "Rihanna",
-    "title": "Rude Boy",
-    "year": 2010,
-    "spotifyId": "60jzFy6Nn4M0iD1d94oteF"
+    "id": 587,
+    "artist": "Toni Braxton",
+    "title": "Un-Break My Heart",
+    "year": 1996,
+    "spotifyId": "5Ihd9HrPvOADyVoonH9ZjB"
   },
   {
     "id": 627,
@@ -5076,11 +5076,11 @@ window.songs = [
     "spotifyId": "0Dmao2oWlAZzIBX2Q1B5AH"
   },
   {
-    "id": 726,
-    "artist": "Nelly ft. Kelly Rowland",
-    "title": "Dilemma",
-    "year": 2002,
-    "spotifyId": "0ARK753YaiJbpLUk7z5yIM"
+    "id": 572,
+    "artist": "Tokio Hotel",
+    "title": "Durch den Monsun",
+    "year": 2005,
+    "spotifyId": "41YOS7VuxHEEwYHLfa7VWM"
   },
   {
     "id": 727,
@@ -5238,10 +5238,10 @@ window.songs = [
   },
   {
     "id": 749,
-    "artist": "KC Rebell feat Summer Cem",
-    "title": "Murcielago",
-    "year": 2016,
-    "spotifyId": "39qlqpwVzRkQP6WsILfIB5"
+    "artist": "Fun.",
+    "title": "Some Nights",
+    "year": 2012,
+    "spotifyId": "6t6oULCRS6hnI7rm0h5gwl"
   },
   {
     "id": 750,
@@ -5398,11 +5398,11 @@ window.songs = [
     "spotifyId": "5lWRaa0fBxDE5yU91npPq7"
   },
   {
-    "id": 772,
-    "artist": "Pink",
-    "title": "Just Like a Pill",
-    "year": 2001,
-    "spotifyId": "1BpV8IGf4XsRRJf4Xuui9q"
+    "id": 580,
+    "artist": "Unheilig",
+    "title": "Geboren um zu leben",
+    "year": 2010,
+    "spotifyId": "1VU8t2MpJRLG5iFEIxqq7z"
   },
   {
     "id": 773,
@@ -5783,11 +5783,11 @@ window.songs = [
     "spotifyId": "3bidbhpOYeV4knp8AIu8Xn"
   },
   {
-    "id": 827,
+    "id": 585,
     "artist": "Red Hot Chili Peppers",
-    "title": "Otherside",
-    "year": 1999,
-    "spotifyId": "64BbK9SFKH2jk86U3dGj2P"
+    "title": "Dani California",
+    "year": 2006,
+    "spotifyId": "10Nmj3JCNoMeBQ87uw5j8k"
   },
   {
     "id": 828,
@@ -5841,9 +5841,9 @@ window.songs = [
   {
     "id": 835,
     "artist": "Robbie Williams",
-    "title": "Rock DJ",
-    "year": 2000,
-    "spotifyId": "4pbyDPjFgfPqFTcIMC8xpK"
+    "title": "She's the One",
+    "year": 1999,
+    "spotifyId": "4lO57zZGFcj7vSY4QhfVDq"
   },
   {
     "id": 836,
@@ -5902,11 +5902,11 @@ window.songs = [
     "spotifyId": "1PAgmT6YqGhd6zT9kN9gIo"
   },
   {
-    "id": 844,
-    "artist": "Enrique Iglesias feat. Pitbull",
-    "title": "I Like It",
-    "year": 2010,
-    "spotifyId": "7HacCTm33hZYYN8DXpCYuG"
+    "id": 581,
+    "artist": "Enrique Iglesias",
+    "title": "Do You Know? (The Ping Pong Song)",
+    "year": 2007,
+    "spotifyId": "4MloswMM3eu7dHZ7MOzW3i"
   },
   {
     "id": 845,
@@ -6106,17 +6106,17 @@ window.songs = [
   },
   {
     "id": 873,
-    "artist": "Kanye West",
-    "title": "Heartless",
-    "year": 2008,
-    "spotifyId": "4EWCNWgDS8707fNSZ1oaA5"
+    "artist": "Jordin Sparks & Chris Brown",
+    "title": "No Air",
+    "year": 2007,
+    "spotifyId": "1jUA4rb6ZCv4gby4YU53xq"
   },
   {
-    "id": 874,
+    "id": 566,
     "artist": "Kelly Clarkson",
-    "title": "Since U Been Gone",
-    "year": 2004,
-    "spotifyId": "6JY1IdkZGeIcPegKxjSKeb"
+    "title": "Stronger (What Doesn't Kill You)",
+    "year": 2011,
+    "spotifyId": "1nInOsHbtotAmEOQhtvnzP"
   },
   {
     "id": 875,
@@ -6336,11 +6336,11 @@ window.songs = [
     "spotifyId": "7JFoeg0arawADjGcz9gBnq"
   },
   {
-    "id": 906,
+    "id": 559,
     "artist": "Jennifer Lopez",
-    "title": "Let's Get Loud",
-    "year": 1999,
-    "spotifyId": "42nSaPdT6g3ZIMHmKLlP2p"
+    "title": "Ain't It Funny",
+    "year": 2001,
+    "spotifyId": "6J8vBmsokURohC3UygqYOH"
   },
   {
     "id": 907,
@@ -6798,11 +6798,11 @@ window.songs = [
     "spotifyId": "6sn3FHCq2csvNkq2h9Au8V"
   },
   {
-    "id": 972,
+    "id": 584,
     "artist": "Red Hot Chili Peppers",
-    "title": "By the Way",
+    "title": "Can't Stop",
     "year": 2002,
-    "spotifyId": "1f2V8U1BiWaC9aJWmpOARe"
+    "spotifyId": "3ZOEytgrvLwQaqXreDs2Jx"
   },
   {
     "id": 973,
