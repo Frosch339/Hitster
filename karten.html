@@ -377,7 +377,7 @@ function createSheets(songs) {
     batch.forEach(song => {
       frontSheet.appendChild(createCard(song, "front"));
     });
-
+     createCropOverlay(frontSheet);
     output.appendChild(frontSheet);
 
     const backSheet = document.createElement("div");
