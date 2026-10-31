@@ -40,113 +40,68 @@ body {
   font-weight: bold;
 }
 
+
 .sheet {
   width: 210mm;
   height: 297mm;
-  padding: 15.5mm 5.5mm;
-  margin: 0 auto 20px;
+  padding: 18.5mm 7.5mm;
+  margin: 0 auto;
   background: white;
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
-  column-gap: 2mm;
-  row-gap: 2mm;
+  column-gap: 0;
+  row-gap: 0;
   position: relative;
   page-break-after: always;
   break-after: page;
 }
 
-/* Karten */
-
-.card {
-  width: 65mm;
-  height: 65mm;
-  position: relative;
-  overflow: hidden;
-  border-radius: 0mm;
-}
-
-/* Vorderseite */
-
-.front {
-  background: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ring,
-.open-ring {
+.crop-overlay {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  border-style: solid;
+  inset: 18.5mm 7.5mm;
+  display: grid;
+  grid-template-columns: repeat(3, 65mm);
+  grid-template-rows: repeat(4, 65mm);
+  gap: 0;
   pointer-events: none;
 }
 
 .ring1 {
-  width: 60mm;
-  height: 60mm;
-  border-width: 1.2mm;
-  border-color: #00b8a9;
-  opacity: 0.85;
+  width: 58mm;
+  height: 58mm;
 }
 
 .ring2 {
-  width: 52mm;
-  height: 52mm;
-  border-width: 1.3mm;
-  border-color: #ff5c5c;
-  opacity: 0.85;
+  width: 51mm;
+  height: 51mm;
 }
 
 .ring3 {
   width: 44mm;
   height: 44mm;
-  border-width: 1.2mm;
-  border-color: #ffc857;
-  opacity: 0.9;
 }
 
 .ring4 {
-  width: 36mm;
-  height: 36mm;
-  border-width: 1.3mm;
-  border-color: #8b6cff;
-  opacity: 0.9;
+  width: 37mm;
+  height: 37mm;
 }
 
 .open1 {
-  width: 58mm;
-  height: 58mm;
-  border-width: 1.3mm;
-  border-color: #ff8a3d;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  transform: translate(-50%, -50%) rotate(25deg);
+  width: 56mm;
+  height: 56mm;
 }
 
 .open2 {
   width: 49mm;
   height: 49mm;
-  border-width: 1.4mm;
-  border-color: #00d4ff;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  transform: translate(-50%, -50%) rotate(-20deg);
 }
 
 .open3 {
-  width: 40mm;
-  height: 40mm;
-  border-width: 1.3mm;
-  border-color: #ff4fa3;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  transform: translate(-50%, -50%) rotate(45deg);
+  width: 41mm;
+  height: 41mm;
 }
+
 
 .qr-area {
   position: relative;
@@ -242,16 +197,18 @@ body {
 
 /* Schnittmarkierungen */
 
+
 .crop-overlay {
   position: absolute;
-  inset: 15.5mm 5.5mm;
+  inset: 18.5mm 7.5mm;
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
-  column-gap: 2mm;
-  row-gap: 2mm;
+  column-gap: 0;
+  row-gap: 0;
   pointer-events: none;
 }
+
 
 .crop-cell {
   position: relative;
@@ -421,7 +378,6 @@ function createSheets(songs) {
       frontSheet.appendChild(createCard(song, "front"));
     });
 
-    createCropOverlay(frontSheet);
     output.appendChild(frontSheet);
 
     const backSheet = document.createElement("div");
