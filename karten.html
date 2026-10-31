@@ -78,6 +78,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: visible;
+}
+
+.front .ring,
+.front .open-ring {
+  transform-origin: center center;
 }
 
 .ring,
@@ -333,13 +339,12 @@ body {
   width: 210mm;
   height: 297mm;
   padding: 18.5mm 7.5mm;
-  margin: 0 auto 20px;
+  margin: 0;
   background: white;
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
-  column-gap: 0;
-  row-gap: 0;
+  gap: 0;
   position: relative;
   page-break-after: always;
   break-after: page;
