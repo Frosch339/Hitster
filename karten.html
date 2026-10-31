@@ -1,18 +1,16 @@
-```html
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Hitster Karten</title>
+<title>Förschls Hitster – Kartendruck</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 <style>
-
 @page {
-  size: 65mm 65mm;
+  size: A4 portrait;
   margin: 0;
 }
 
@@ -27,226 +25,157 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.controls {
+  text-align: center;
+  margin: 0 auto 20px;
+}
 
-/* =========================================
-   ALLGEMEINE KARTE
-========================================= */
+.controls button {
+  padding: 12px 22px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sheet {
+  width: 210mm;
+  height: 297mm;
+  padding: 18.5mm 7.5mm;
+  margin: 0 auto 20px;
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(3, 65mm);
+  grid-template-rows: repeat(4, 65mm);
+  gap: 0;
+  page-break-after: always;
+  break-after: page;
+}
 
 .card {
   width: 65mm;
   height: 65mm;
-  margin: 20px auto;
-
   position: relative;
   overflow: hidden;
-
   border-radius: 3mm;
-
-  page-break-after: always;
 }
 
-
-/* =========================================
-   VORDERSEITE
-   SCHWARZ + QR + VINYL-RILLEN
-========================================= */
+/* VORDERSEITE */
 
 .front {
   background: #FFFFFF;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-/* =========================================
-   VINYL-RILLEN
-========================================= */
-
-.ring {
+.ring,
+.open-ring {
   position: absolute;
-
   left: 50%;
   top: 50%;
-
   transform: translate(-50%, -50%);
-
   border-radius: 50%;
-
   border-style: solid;
-
   pointer-events: none;
 }
-
-
-/* große Ringe */
 
 .ring1 {
   width: 70mm;
   height: 70mm;
-
   border-width: 1.2mm;
   border-color: #00b8a9;
-
   opacity: 0.85;
 }
 
 .ring2 {
   width: 60mm;
   height: 60mm;
-
   border-width: 1.3mm;
   border-color: #ff5c5c;
-
   opacity: 0.85;
 }
 
 .ring3 {
   width: 50mm;
   height: 50mm;
-
   border-width: 1.2mm;
   border-color: #ffc857;
-
   opacity: 0.9;
 }
 
 .ring4 {
   width: 40mm;
   height: 40mm;
-
   border-width: 1.3mm;
   border-color: #8b6cff;
-
   opacity: 0.9;
-}
-
-
-/* =========================================
-   OFFENE RINGE
-========================================= */
-
-.open-ring {
-  position: absolute;
-
-  left: 50%;
-  top: 50%;
-
-  transform: translate(-50%, -50%);
-
-  border-radius: 50%;
-
-  border-style: solid;
-
-  pointer-events: none;
 }
 
 .open1 {
   width: 65mm;
   height: 65mm;
-
   border-width: 1.3mm;
-
   border-color: #ff8a3d;
-
   border-left-color: transparent;
   border-bottom-color: transparent;
-
-  transform:
-    translate(-50%, -50%)
-    rotate(25deg);
+  transform: translate(-50%, -50%) rotate(25deg);
 }
 
 .open2 {
   width: 55mm;
   height: 55mm;
-
   border-width: 1.4mm;
-
   border-color: #00d4ff;
-
   border-right-color: transparent;
   border-top-color: transparent;
-
-  transform:
-    translate(-50%, -50%)
-    rotate(-20deg);
+  transform: translate(-50%, -50%) rotate(-20deg);
 }
 
 .open3 {
   width: 45mm;
   height: 45mm;
-
   border-width: 1.3mm;
-
   border-color: #ff4fa3;
-
   border-left-color: transparent;
   border-top-color: transparent;
-
-  transform:
-    translate(-50%, -50%)
-    rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
-
-/* =========================================
-   QR-CODE
-========================================= */
-
 .qr-area {
-
   position: relative;
-
   z-index: 10;
-
   width: 38mm;
   height: 38mm;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   background: white;
-
-  /*
-    Kleiner weißer Bereich für zuverlässiges
-    Scannen des QR-Codes.
-  */
   padding: 1mm;
-
   border-radius: 0.8mm;
 }
 
-#qrcode {
-
+.qr {
   width: 100%;
   height: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#qrcode img,
-#qrcode canvas {
-
+.qr img,
+.qr canvas {
   width: 100% !important;
   height: 100% !important;
-
   display: block;
 }
 
-
-/* =========================================
-   RÜCKSEITE
-   SALBEIGRÜN
-========================================= */
+/* RÜCKSEITE */
 
 .back {
-
-  background: #EEF3E9;
+  color: #050505;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
 .back.color-0 { background: #F5F0E5; }
 .back.color-1 { background: #EEF3E9; }
@@ -254,265 +183,238 @@ body {
 .back.color-3 { background: #F6EBE5; }
 .back.color-4 { background: #F0ECF5; }
 
-  display: flex;
-  flex-direction: column;
-
-  position: relative;
-}
-
-
-/* =========================================
-   INTERPRET
-========================================= */
-
 .artist {
-
   position: relative;
-
   z-index: 5;
-
   text-align: center;
-
   margin-top: 7mm;
-
   padding: 0 5mm;
-
   font-size: 5mm;
-
   font-weight: 700;
-
   line-height: 1.1;
+  overflow-wrap: anywhere;
 }
-
-
-/* =========================================
-   JAHR
-========================================= */
 
 .year {
-
   position: absolute;
-
   z-index: 5;
-
   top: 50%;
   left: 0;
   right: 0;
-
   transform: translateY(-50%);
-
   text-align: center;
-
   font-size: 17mm;
-
   font-weight: 900;
-
   letter-spacing: -0.5mm;
 }
 
-
-/* =========================================
-   TITEL
-========================================= */
-
 .title {
-
   position: absolute;
-
   z-index: 5;
-
   left: 4mm;
   right: 4mm;
-
   bottom: 6mm;
-
   text-align: center;
-
   font-size: 4.5mm;
-
   font-weight: 700;
-
   line-height: 1.15;
+  overflow-wrap: anywhere;
 }
 
-
-/* =========================================
-   KARTENNUMMER
-========================================= */
-
 .card-number {
-
   position: absolute;
-
   z-index: 10;
-
   left: 2.5mm;
   bottom: 2mm;
-
   font-size: 2.4mm;
-
   font-weight: 600;
-
   color: #050505;
-
   opacity: 0.65;
 }
 
+/* BEDIENUNG */
 
-/* =========================================
-   VORSCHAU
-========================================= */
-
-@media screen {
-
-  .card {
-
-    box-shadow:
-      0 5px 15px rgba(0,0,0,0.25);
-
-  }
-
+#status {
+  margin: 12px;
+  font-weight: bold;
 }
 
-
-/* =========================================
-   DRUCK
-========================================= */
+/* DRUCK */
 
 @media print {
-
   body {
-
     margin: 0;
     padding: 0;
-
     background: white;
-
   }
 
-  .card {
+  .controls {
+    display: none;
+  }
 
+  .sheet {
     margin: 0;
-
     box-shadow: none;
-
   }
-
 }
-
 </style>
 </head>
 
-
 <body>
 
-
-<!-- =========================================
-     VORDERSEITE
-========================================= -->
-
-<div class="card front">
-
-
-  <!-- Vinyl-Rillen -->
-
-  <div class="ring ring1"></div>
-  <div class="ring ring2"></div>
-  <div class="ring ring3"></div>
-  <div class="ring ring4"></div>
-
-
-  <!-- offene Ringe -->
-
-  <div class="open-ring open1"></div>
-  <div class="open-ring open2"></div>
-  <div class="open-ring open3"></div>
-
-
-  <!-- QR-Code -->
-
-  <div class="qr-area">
-
-    <div id="qrcode"></div>
-
-  </div>
-
-
+<div class="controls">
+  <h1>Förschls Hitster – Kartendruck</h1>
+  <div id="status">Songliste wird geladen ...</div>
+  <button onclick="window.print()">Drucken</button>
 </div>
 
-
-
-<!-- =========================================
-     RÜCKSEITE
-========================================= -->
-
-<div class="card back">
-
-
-  <div class="artist">
-    Elvis Presley
-  </div>
-
-
-  <div class="year">
-    1959
-  </div>
-
-
-  <div class="title">
-    A Big Hunk o' Love
-  </div>
-
-
-  <div class="card-number">
-    #001
-  </div>
-
-
-</div>
-
-
+<div id="output"></div>
 
 <script>
+const SONGS_URL = "./songs.js";
+const BASE_URL = "https://frosch339.github.io/Hitster/?karte=";
 
+const output = document.getElementById("output");
+const status = document.getElementById("status");
 
-/* =========================================
-   KARTENNUMMER
-========================================= */
+function createCard(song, side) {
+  const card = document.createElement("div");
+  const number = Number(song.id);
+  const padded = String(number).padStart(3, "0");
 
-const cardNumber = 1;
+  if (side === "front") {
+    card.className = "card front";
 
+    card.innerHTML = `
+      <div class="ring ring1"></div>
+      <div class="ring ring2"></div>
+      <div class="ring ring3"></div>
+      <div class="ring ring4"></div>
+      <div class="open-ring open1"></div>
+      <div class="open-ring open2"></div>
+      <div class="open-ring open3"></div>
+      <div class="qr-area">
+        <div class="qr"></div>
+      </div>
+    `;
 
-/* =========================================
-   QR-CODE
-========================================= */
+    new QRCode(card.querySelector(".qr"), {
+      text: BASE_URL + number,
+      width: 150,
+      height: 150,
+      correctLevel: QRCode.CorrectLevel.M
+    });
 
-const baseURL =
-  "https://frosch339.github.io/Hitster/?karte=";
+  } else {
+    const color = (number - 1) % 5;
 
+    card.className = `card back color-${color}`;
 
-new QRCode(
+    const artist = document.createElement("div");
+    artist.className = "artist";
+    artist.textContent = song.artist || "";
 
-  document.getElementById("qrcode"),
+    const year = document.createElement("div");
+    year.className = "year";
+    year.textContent = song.year || "";
 
-  {
+    const title = document.createElement("div");
+    title.className = "title";
+    title.textContent = song.title || "";
 
-    text: baseURL + cardNumber,
+    const cardNumber = document.createElement("div");
+    cardNumber.className = "card-number";
+    cardNumber.textContent = "#" + padded;
 
-    width: 150,
-
-    height: 150,
-
-    correctLevel:
-      QRCode.CorrectLevel.M
-
+    card.append(artist, year, title, cardNumber);
   }
 
-);
+  return card;
+}
 
+function createSheets(songs) {
+  const sorted = [...songs].sort((a, b) => Number(a.id) - Number(b.id));
+
+  for (let start = 0; start < sorted.length; start += 12) {
+    const batch = sorted.slice(start, start + 12);
+
+    // Vorderseite
+    const frontSheet = document.createElement("div");
+    frontSheet.className = "sheet";
+
+    batch.forEach(song => {
+      frontSheet.appendChild(createCard(song, "front"));
+    });
+
+    output.appendChild(frontSheet);
+
+    // Rückseite: für Duplexdruck an langer Kante
+    const backSheet = document.createElement("div");
+    backSheet.className = "sheet";
+
+    // Horizontale Spiegelung der Spalten
+    for (let row = 0; row < 4; row++) {
+      for (let col = 2; col >= 0; col--) {
+        const index = row * 3 + col;
+
+        if (batch[index]) {
+          backSheet.appendChild(createCard(batch[index], "back"));
+        } else {
+          const blank = document.createElement("div");
+          backSheet.appendChild(blank);
+        }
+      }
+    }
+
+    output.appendChild(backSheet);
+  }
+
+  status.textContent =
+    `${sorted.length} Songs geladen – ${Math.ceil(sorted.length / 12)} Druckbögen pro Seite`;
+}
+
+async function loadSongs() {
+  try {
+    const response = await fetch(SONGS_URL);
+
+    if (!response.ok) {
+      throw new Error("songs.js konnte nicht geladen werden.");
+    }
+
+    const source = await response.text();
+
+    // songs.js enthält JavaScript, kein reines JSON.
+    // Die Datei wird als Script geladen und window.songs ausgelesen.
+    const script = document.createElement("script");
+    script.src = SONGS_URL;
+
+    script.onload = () => {
+      if (!Array.isArray(window.songs)) {
+        status.textContent = "Fehler: window.songs wurde nicht gefunden.";
+        return;
+      }
+
+      if (window.songs.length === 0) {
+        status.textContent = "Die Songliste ist leer.";
+        return;
+      }
+
+      createSheets(window.songs);
+    };
+
+    script.onerror = () => {
+      status.textContent = "Fehler beim Laden der songs.js.";
+    };
+
+    document.head.appendChild(script);
+
+  } catch (error) {
+    status.textContent = "Fehler: " + error.message;
+  }
+}
+
+loadSongs();
 </script>
-
 
 </body>
 </html>
-```
