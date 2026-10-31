@@ -435,19 +435,19 @@ function createCropOverlay(sheet) {
   overlay.className = "crop-overlay";
 
   for (let i = 0; i < 12; i++) {
-    const cell = document.createElement("div");
-    cell.className = "crop-cell";
+  const cell = document.createElement("div");
+  cell.className = "crop-cell";
 
-    ["tl", "tr", "bl", "br"].forEach(position => {
-      const tick = document.createElement("div");
-      tick.className = `crop-tick ${position}`;
-      cell.appendChild(tick);
-    });
+  const left = document.createElement("div");
+  left.className = "crop-mark left";
 
-    overlay.appendChild(cell);
-  }
+  const right = document.createElement("div");
+  right.className = "crop-mark right";
 
-  sheet.appendChild(overlay);
+  cell.appendChild(left);
+  cell.appendChild(right);
+
+  overlay.appendChild(cell);
 }
 
 
