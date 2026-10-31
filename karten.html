@@ -5,7 +5,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Förschls Hitster – Kartendruck</title>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 <style>
@@ -46,17 +45,14 @@ body {
 .sheet {
   width: 210mm;
   height: 297mm;
-  padding: 18.5mm 7.5mm;
-  margin: 0 auto;
+  padding: 15.5mm 5.5mm;
+  margin: 0 auto 20px;
   background: white;
-
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
-
-  column-gap: 0;
-  row-gap: 0;
-
+  column-gap: 2mm;
+  row-gap: 2mm;
   position: relative;
   page-break-after: always;
   break-after: page;
@@ -69,63 +65,89 @@ body {
   height: 65mm;
   position: relative;
   overflow: hidden;
+  border-radius: 3mm;
 }
 
 /* VORDERSEITE */
 
 .front {
-  background: white;
+  background: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.ring {
+.ring,
+.open-ring {
   position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 50%;
   border-style: solid;
+  pointer-events: none;
 }
 
 .ring1 {
-  width: 58mm;
-  height: 58mm;
+  width: 70mm;
+  height: 70mm;
+  border-width: 1.2mm;
+  border-color: #00b8a9;
+  opacity: 0.85;
 }
 
 .ring2 {
-  width: 51mm;
-  height: 51mm;
+  width: 60mm;
+  height: 60mm;
+  border-width: 1.3mm;
+  border-color: #ff5c5c;
+  opacity: 0.85;
 }
 
 .ring3 {
-  width: 44mm;
-  height: 44mm;
+  width: 50mm;
+  height: 50mm;
+  border-width: 1.2mm;
+  border-color: #ffc857;
+  opacity: 0.9;
 }
 
 .ring4 {
-  width: 37mm;
-  height: 37mm;
-}
-
-.open-ring {
-  position: absolute;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: transparent;
+  width: 40mm;
+  height: 40mm;
+  border-width: 1.3mm;
+  border-color: #8b6cff;
+  opacity: 0.9;
 }
 
 .open1 {
-  width: 56mm;
-  height: 56mm;
+  width: 65mm;
+  height: 65mm;
+  border-width: 1.3mm;
+  border-color: #ff8a3d;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: translate(-50%, -50%) rotate(25deg);
 }
 
 .open2 {
-  width: 49mm;
-  height: 49mm;
+  width: 55mm;
+  height: 55mm;
+  border-width: 1.4mm;
+  border-color: #00d4ff;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  transform: translate(-50%, -50%) rotate(-20deg);
 }
 
 .open3 {
-  width: 41mm;
-  height: 41mm;
+  width: 45mm;
+  height: 45mm;
+  border-width: 1.3mm;
+  border-color: #ff4fa3;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .qr-area {
@@ -133,11 +155,9 @@ body {
   z-index: 10;
   width: 38mm;
   height: 38mm;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   background: white;
   padding: 1mm;
   border-radius: 0.8mm;
@@ -222,42 +242,70 @@ body {
   opacity: 0.65;
 }
 
-/* SCHNITTMARKIERUNGEN */
+/* SCHNITTMARKIERUNGEN
+   Nur auf der Rückseite.
+   Kurze Markierungen außerhalb der Karten.
+   Keine durchgehenden Linien.
+*/
 
 .crop-overlay {
   position: absolute;
-  inset: 18.5mm 7.5mm;
-
+  inset: 15.5mm 5.5mm;
   display: grid;
   grid-template-columns: repeat(3, 65mm);
   grid-template-rows: repeat(4, 65mm);
-
+  column-gap: 2mm;
+  row-gap: 2mm;
   pointer-events: none;
   z-index: 50;
 }
 
 .crop-cell {
   position: relative;
-  border-right: 0.15mm solid #BDBDBD;
-  border-bottom: 0.15mm solid #BDBDBD;
 }
 
-/* Linke Außenkante */
+/* Kleine L-förmige Schnittmarkierungen */
 
-.crop-cell:nth-child(3n+1) {
-  border-left: 0.15mm solid #BDBDBD;
+.crop-tick {
+  position: absolute;
+  width: 0.9mm;
+  height: 0.9mm;
+  border-color: #BDBDBD;
+  border-style: solid;
+  border-width: 0;
 }
 
-/* Obere Außenkante */
-
-.crop-cell:nth-child(-n+3) {
-  border-top: 0.15mm solid #BDBDBD;
+.crop-tick.tl {
+  top: -0.9mm;
+  left: -0.9mm;
+  border-top-width: 0.15mm;
+  border-left-width: 0.15mm;
 }
 
-/* DRUCKEINSTELLUNGEN */
+.crop-tick.tr {
+  top: -0.9mm;
+  right: -0.9mm;
+  border-top-width: 0.15mm;
+  border-right-width: 0.15mm;
+}
+
+.crop-tick.bl {
+  bottom: -0.9mm;
+  left: -0.9mm;
+  border-bottom-width: 0.15mm;
+  border-left-width: 0.15mm;
+}
+
+.crop-tick.br {
+  bottom: -0.9mm;
+  right: -0.9mm;
+  border-bottom-width: 0.15mm;
+  border-right-width: 0.15mm;
+}
+
+/* DRUCK */
 
 @media print {
-
   html,
   body {
     width: 210mm;
@@ -273,12 +321,9 @@ body {
   .sheet {
     width: 210mm;
     height: 297mm;
-
     margin: 0 !important;
-    padding: 18.5mm 7.5mm;
-
+    padding: 15.5mm 5.5mm;
     box-shadow: none;
-
     break-after: page;
     page-break-after: always;
   }
@@ -288,7 +333,6 @@ body {
     page-break-after: auto;
   }
 }
-
 </style>
 </head>
 
@@ -303,7 +347,6 @@ body {
 <div id="output"></div>
 
 <script>
-
 const SONGS_URL = "./songs.js";
 const BASE_URL = "https://frosch339.github.io/Hitster/?karte=";
 
@@ -314,9 +357,7 @@ const status = document.getElementById("status");
 /* KARTE ERSTELLEN */
 
 function createCard(song, side) {
-
   const card = document.createElement("div");
-
   const number = Number(song.id);
   const padded = String(number).padStart(3, "0");
 
@@ -351,7 +392,6 @@ function createCard(song, side) {
   } else {
 
     const color = (number - 1) % 5;
-
     card.className = `card back color-${color}`;
 
     const artist = document.createElement("div");
@@ -377,17 +417,21 @@ function createCard(song, side) {
 }
 
 
-/* SCHNITTOVERLAY ERSTELLEN */
+/* SCHNITTMARKIERUNGEN ERSTELLEN */
 
 function createCropOverlay(sheet) {
-
   const overlay = document.createElement("div");
   overlay.className = "crop-overlay";
 
   for (let i = 0; i < 12; i++) {
-
     const cell = document.createElement("div");
     cell.className = "crop-cell";
+
+    ["tl", "tr", "bl", "br"].forEach(position => {
+      const tick = document.createElement("div");
+      tick.className = `crop-tick ${position}`;
+      cell.appendChild(tick);
+    });
 
     overlay.appendChild(cell);
   }
@@ -399,15 +443,12 @@ function createCropOverlay(sheet) {
 /* DRUCKBÖGEN ERSTELLEN */
 
 function createSheets(songs) {
-
   const sorted = [...songs].sort(
     (a, b) => Number(a.id) - Number(b.id)
   );
 
   for (let start = 0; start < sorted.length; start += 12) {
-
     const batch = sorted.slice(start, start + 12);
-
 
     /* VORDERSEITE */
 
@@ -418,8 +459,7 @@ function createSheets(songs) {
       frontSheet.appendChild(createCard(song, "front"));
     });
 
-    createCropOverlay(frontSheet);
-
+    // Vorderseite bewusst OHNE Schnittmarkierungen
     output.appendChild(frontSheet);
 
 
@@ -429,27 +469,22 @@ function createSheets(songs) {
     backSheet.className = "sheet";
 
     for (let row = 0; row < 4; row++) {
-
       for (let col = 2; col >= 0; col--) {
-
         const index = row * 3 + col;
 
         if (batch[index]) {
-
           backSheet.appendChild(
             createCard(batch[index], "back")
           );
-
         } else {
-
           backSheet.appendChild(
             document.createElement("div")
           );
-
         }
       }
     }
 
+    // Schnittmarkierungen NUR auf der Rückseite
     createCropOverlay(backSheet);
 
     output.appendChild(backSheet);
@@ -463,18 +498,13 @@ function createSheets(songs) {
 /* SONGS LADEN */
 
 function loadSongs() {
-
   const script = document.createElement("script");
-
   script.src = SONGS_URL;
 
   script.onload = () => {
-
     if (!Array.isArray(window.songs)) {
-
       status.textContent =
         "Fehler: window.songs wurde nicht gefunden.";
-
       return;
     }
 
@@ -482,7 +512,6 @@ function loadSongs() {
   };
 
   script.onerror = () => {
-
     status.textContent =
       "Fehler beim Laden der songs.js.";
   };
@@ -491,7 +520,6 @@ function loadSongs() {
 }
 
 loadSongs();
-
 </script>
 
 </body>
